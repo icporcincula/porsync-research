@@ -21,3 +21,7 @@ An explicit file allowlist was exported from a fixed source revision, without pr
 ## Rights and provenance
 
 This release does not grant rights to excluded datasets, third-party implementations or model weights. No blanket open-source license is asserted over historical artifacts. Consult upstream terms when obtaining inputs independently. Public availability permits inspection; obtain permission before redistribution or reuse where required. Author-created aggregate measurements are distinguished from source datasets by the file inventory and study reports.
+
+## Added 2026-11-16: Patchsmith/Aider exploratory comparison
+
+Reviewed and approved for publication on 2026-11-16. Five curated files add a report, 159 source-hashed trial rows, summary, retrospective configuration and offline analyzer. These summarize completed runs; no new inference occurred. The duplicate Aider result is excluded. Original result hashes are retained per row; patches, prompts, private paths, full logs and task sources are withheld. Counts can be recomputed, but code cannot be independently re-scored from this package. Exact model/server identities and run-time Patchsmith revision are incomplete. This is not B2 or daily-use validation and does not close E39 follow-up. The initial source_revision remains provenance for the original release; new entries explicitly identify uncommitted local sources. Publication includes only these selected artifacts; private logs and code remain excluded.

@@ -564,6 +564,54 @@
       "transformations": [
         "UTF-8 without BOM; LF line endings"
       ]
+    },
+    {
+      "path": "docs/patchsmith/comparison-2026-11-16/README.md",
+      "source_sha256": "3443ba6a9329eec8c14efa8a94a0f24f818382bf640d9a2e9e949309f6b0896f",
+      "source_revision": null,
+      "source_state": "uncommitted local consolidation, 2026-11-16",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches or local paths",
+        "Private archive-manifest link replaced with explicit availability note",
+        "Publication status updated after explicit user authorization"
+      ],
+      "original_consolidation_sha256": "bfad8ed4501dd24b8ffbaec3ae2c46f50fe36eee609c1314d8406e7278af8935"
+    },
+    {
+      "path": "docs/patchsmith/comparison-2026-11-16/trials.json",
+      "source_sha256": "45d736b1d4d2449ae64328f587ef5b296771199cddc2a2cccd051b4433ca6c75",
+      "source_revision": null,
+      "source_state": "uncommitted local consolidation, 2026-11-16",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches or local paths"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/comparison-2026-11-16/summary.json",
+      "source_sha256": "e233bcbd45175f1b0c1828cdd85f33555cea9678ec9330232d07954bfeb9c5a5",
+      "source_revision": null,
+      "source_state": "uncommitted local consolidation, 2026-11-16",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches or local paths"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/comparison-2026-11-16/configuration.json",
+      "source_sha256": "28268a97dd5b8f1e1cdfeee9be6fca581163886ded599e469833294254f8c81e",
+      "source_revision": null,
+      "source_state": "uncommitted local consolidation, 2026-11-16",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches or local paths"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/comparison-2026-11-16/analyze.py",
+      "source_sha256": "b3f7d5a86f0ff69952702a38e8c21a4e1a9722e76185763c745c6410e1342bee",
+      "source_revision": null,
+      "source_state": "uncommitted local consolidation, 2026-11-16",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches or local paths"
+      ]
     }
   ],
   "files": [
@@ -577,11 +625,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "f5ce26ccdc9603825fc4313bd9c2f3b52ca69737a8cf71d7e2114d7901df9c94"
+      "sha256": "d79f57174f23b58458e97738de6effaaadbb53323430fe7d5b347c20a41d7903"
     },
     {
       "path": "RELEASE.md",
-      "sha256": "cef1d450d055e6571726fdd35bc32ffcc2a5085d2dc88a8bc1145dc2fcff2682"
+      "sha256": "e710a2d2f8dd3fb145263bf9d2e6c14829ee56003e38d60b4f0f9aef0a43f8da"
     },
     {
       "path": "docs/small-evals/e07-results.md",
@@ -898,6 +946,42 @@
     {
       "path": "verify.py",
       "sha256": "63a424ebb2f14112aa8c3ff61e5a256c6ae21152c58706eb42ba2532e91f27b2"
+    },
+    {
+      "path": "docs/patchsmith/comparison-2026-11-16/README.md",
+      "sha256": "81dfb343c824abffb8e56aa8becaa4f95535b9aafee29f1393663f9be9b13432"
+    },
+    {
+      "path": "docs/patchsmith/comparison-2026-11-16/trials.json",
+      "sha256": "45d736b1d4d2449ae64328f587ef5b296771199cddc2a2cccd051b4433ca6c75"
+    },
+    {
+      "path": "docs/patchsmith/comparison-2026-11-16/summary.json",
+      "sha256": "e233bcbd45175f1b0c1828cdd85f33555cea9678ec9330232d07954bfeb9c5a5"
+    },
+    {
+      "path": "docs/patchsmith/comparison-2026-11-16/configuration.json",
+      "sha256": "28268a97dd5b8f1e1cdfeee9be6fca581163886ded599e469833294254f8c81e"
+    },
+    {
+      "path": "docs/patchsmith/comparison-2026-11-16/analyze.py",
+      "sha256": "b3f7d5a86f0ff69952702a38e8c21a4e1a9722e76185763c745c6410e1342bee"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-16",
+      "study": "Patchsmith/Aider exploratory comparison",
+      "publication": "reviewed and authorized for publication, 2026-11-16",
+      "files": [
+        "docs/patchsmith/comparison-2026-11-16/README.md",
+        "docs/patchsmith/comparison-2026-11-16/trials.json",
+        "docs/patchsmith/comparison-2026-11-16/summary.json",
+        "docs/patchsmith/comparison-2026-11-16/configuration.json",
+        "docs/patchsmith/comparison-2026-11-16/analyze.py",
+        "README.md",
+        "RELEASE.md"
+      ]
     }
   ]
 }

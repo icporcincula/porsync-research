@@ -1,0 +1,62 @@
+[
+  {
+    "arm": "Aider one shot",
+    "set": "easy",
+    "trials": 21,
+    "passed": 21,
+    "median_secs": 5.9,
+    "total_secs": 120.9,
+    "min_secs": 4.3,
+    "max_secs": 6.5
+  },
+  {
+    "arm": "Aider one shot",
+    "set": "harder",
+    "trials": 30,
+    "passed": 18,
+    "median_secs": 11.25,
+    "total_secs": 432.0,
+    "min_secs": 8.3,
+    "max_secs": 54.6
+  },
+  {
+    "arm": "Aider test loop",
+    "set": "easy",
+    "trials": 7,
+    "passed": 7,
+    "median_secs": 5.6,
+    "total_secs": 38.7,
+    "min_secs": 4.7,
+    "max_secs": 6.3
+  },
+  {
+    "arm": "Aider test loop",
+    "set": "harder",
+    "trials": 30,
+    "passed": 30,
+    "median_secs": 19.25,
+    "total_secs": 907.5,
+    "min_secs": 7.9,
+    "max_secs": 158.6
+  },
+  {
+    "arm": "Patchsmith loop",
+    "set": "easy",
+    "trials": 21,
+    "passed": 21,
+    "median_secs": 6.296,
+    "total_secs": 154.201,
+    "min_secs": 3.187,
+    "max_secs": 15.219
+  },
+  {
+    "arm": "Patchsmith loop",
+    "set": "harder",
+    "trials": 50,
+    "passed": 47,
+    "median_secs": 22.148,
+    "total_secs": 1395.612,
+    "min_secs": 8.141,
+    "max_secs": 87.625
+  }
+]
