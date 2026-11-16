@@ -1,0 +1,15 @@
+{
+  "profile": "gemma4-12b",
+  "model": "gemma-4-12b-it-Q4_K_M.gguf",
+  "model_sha256": "0a270ec9fe6b34f4a0d33992b6135117b484ebc4766ab76b51d4ae8c457e4c42",
+  "server_sha256": "0c4e85bc42c99f1383d94cdeedb51ff88ebfc378b80169c01fd2025ae40d577e",
+  "runner_sha256": "f2bc23145d916d61b8e799d79fae8aae6a23d99c372eb3f26d189ead490717ef",
+  "inputs": {
+    "sample.jsonl": "6bd09843878d91d3ea3cff57cf380d0b022a3352f4c4b5203d4ca3894336aa9d",
+    "chunks_1k_test.jsonl": "2637e4a3608d7de2ec0d4a6f9210794e6c7a5fac8d08d6f4f23229737ccb2f19",
+    "prompts.py": "074ed561667dbe3b95fe1c8117bb523334d653672c3988ebd1bff739344716a2",
+    "score.py": "ece2fb9bb463a547df43cc9d4b8147547b42221d97db80fc091f67bf4899c1ad"
+  },
+  "ctx": 2048,
+  "max_tokens": 200
+}

@@ -1,0 +1,7 @@
+{
+  "runner_sha256": "ab9bdd1c5853b8c8bc8cce78b282822ec5cd068847e0bca13286e1ef6db6be97",
+  "original_freeze_sha256": "8bf8c5db5b570ec06f6947faa6d10ab095288b2f734c799dd551cfe6a47af57c",
+  "report_sha256": "276e812b27a601a3ce7a19e7d0136a5b30c0bafba8f153fc17915e1fab73d8aa",
+  "profile": "gemma4-12b",
+  "model": "C:\\Users\\REDACTED\\e19\\models\\gemma-4-12b-it-Q4_K_M.gguf"
+}

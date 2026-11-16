@@ -1,0 +1,7 @@
+{
+  "runner_sha256": "ab9bdd1c5853b8c8bc8cce78b282822ec5cd068847e0bca13286e1ef6db6be97",
+  "original_freeze_sha256": "ec96c66bb1597d4085b00e0a1b7e4ad191dcf0bd0de5e3d22420fa6077e41136",
+  "report_sha256": "ebb8a35bdedea565358f705f1ee67471f75cca2c3974e8907f8294876cae257f",
+  "profile": "qwen35-9b",
+  "model": "C:\\Users\\REDACTED\\e19\\models\\Qwen3.5-9B-Q4_K_M.gguf"
+}

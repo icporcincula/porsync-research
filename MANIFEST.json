@@ -1,0 +1,903 @@
+{
+  "release": "2026-11-16",
+  "source_revision": "b8089e63a33a22515c73c2f7d8144c87b8489c80",
+  "sources": [
+    {
+      "path": "docs/small-evals/e07-results.md",
+      "source_sha256": "16f6f53da43910b1cddab8f8ecbf79850229feaccef1830d4456bd8cde38dba4",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e08-results.md",
+      "source_sha256": "23335a78a018c657d6eec16872f13ce2826ebbd9c7b003d9c6c27b440df2ede9",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e09-results.md",
+      "source_sha256": "2e7cfc72fafceb950a376e18317564c958ab8dc736ad5e00b684bf50d4b7938b",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/README.md",
+      "source_sha256": "6213f90a9509c92a1d59020a7262c6eed2b6c7ebc047c218bb0e0a2eecb863e3",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/load.json",
+      "source_sha256": "a8f9a47cbc672114b3e1875f5399f29bd12b9b2c026368a6af624e8356421f9a",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/long-context-prompt.txt",
+      "source_sha256": "f370159ea325c2c23c4b8ecb29894103b0bd32cb6bc7596e5c8762f4b898a1ea",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/partial-mbpp-manifest.json",
+      "source_sha256": "4ddafbfa18988194e49d941f362d355fa1de2556fc1eaaf41664b98b041e3a3b",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/partial-mbpp-summary.json",
+      "source_sha256": "888ca6df2aceb3dd2e6518f224131fd9be3bfe014d0775fd954c6219287e4556",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/results.jsonl",
+      "source_sha256": "08c07a0f188d795f04b92ae0c381f214da4fc2bae8bd4ee9785680f57b5ec213",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/run.py",
+      "source_sha256": "abc0d388d938955623cfbd5bc265bf9de9062f0856fcc4bf2764c032ac5c5371",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/score_partial_mbpp.py",
+      "source_sha256": "0f8b88e3055f7fd20b9825b428b79b531aa660371a82f9a08aa162a38de5d366",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-results.md",
+      "source_sha256": "3c7d509dce15a225ea247d9419f867cf890cd2d23e32bd18481e80353393f1e9",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-router-design.md",
+      "source_sha256": "40908c5522e24fcd5ebf5d5893e46b67589196e13a47d593825d38eff92963ea",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e40-data/scripts/paired.py",
+      "source_sha256": "eda21fe36e8af97dfb3be53c5037d735d253fa3ea4df8cb6316e382805154530",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "input path made relative to public package"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e40-data/scripts/timing_sum.py",
+      "source_sha256": "dcea82821004cc13705c0a8ea7a7488f921c5d32adf35cb042b3f97dbc1c58e3",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "relative input path; first/later label corrects unproven cold-cache terminology"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e40-data/soak/s1_A.vram.csv",
+      "source_sha256": "ad51b916b46366abec555c054a04acae8b52335c884deeb8a34130b30d5a7daf",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e40-data/soak/s1_B.vram.csv",
+      "source_sha256": "660953997d3a0f2e0a4ea0a0f90b588cd09b097075e9944e353a2ca625980f23",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e40-data/soak/s2_A.vram.csv",
+      "source_sha256": "9570fbe9d907e49ed2c8a308a44c933e3bcc0554da797e68b85b405594529c24",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e40-data/soak/s2_B.vram.csv",
+      "source_sha256": "df41124c55f9c633f7acbb0a03484d000d95963edc4e80d6ee99d492d8184822",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e40-data/timing/timing.jsonl",
+      "source_sha256": "b80246136a81f59b8cb629e5ce52edc30350ab887b4b6df6694ec0e747f3042f",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e40-data/trials/manifest.json",
+      "source_sha256": "46148a58ba03afb6ea07fd27221b25700d97c2600dba9554276369d87a6e94be",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e40-data/trials/trials.csv",
+      "source_sha256": "57acc294499e41c57bc6bc1cb5c51472a307f59c31c359f82b2cf5468d2a24bb",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e40-expert-cache.md",
+      "source_sha256": "e47460f1f9801140a6283e409b4f77600b9ca665e6a7aec96a25ca1d1269e24b",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e40-results.md",
+      "source_sha256": "d4c5e3b732f04ec8b5e385404952d403669b4e73d1cbe87e9fdc80f761e3d8f5",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e03_replication_report.py",
+      "source_sha256": "3168bf3c235bb4d69e1e9c6521e50795286ecb6ca38f343abeb35a587f556c62",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e07_report.py",
+      "source_sha256": "276e812b27a601a3ce7a19e7d0136a5b30c0bafba8f153fc17915e1fab73d8aa",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e08_report.py",
+      "source_sha256": "ebb8a35bdedea565358f705f1ee67471f75cca2c3974e8907f8294876cae257f",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e09_report.py",
+      "source_sha256": "5ce56614068bb136e6b70ac5d56f40c3b0635dee6402cc5912646d9123612680",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e03-replication/README.md",
+      "source_sha256": "da03f6798214626b203f1ebfb6432936f23b3015d23d4d7f2445f940c0986e3d",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e03-replication/gemma4-12b/freeze.json",
+      "source_sha256": "ac260b9d334f7542ae81c05bfcf39a6bd244b5c3e6935d3dac4d2b394185e803",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e03-replication/gemma4-12b/summary.json",
+      "source_sha256": "d1d0589c521e69a19c14cacdcd762d0deda369ea8d675ac19c275080af7c45c9",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e03-replication/qwen36-27b/freeze.json",
+      "source_sha256": "4a5bc578c6662e92fe642db4bec034ae0e360d940ce7472735c3e72b0278d3a3",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e03-replication/qwen36-27b/summary.json",
+      "source_sha256": "8cacc75b877c76c042a32d5a5cd91fbf31939d72751ddbda35f134588112bc75",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e07/README.md",
+      "source_sha256": "11e26db0d55cad3a55e70f98d21d843cafce24d8cefd92b57d1444121befc933",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e07/run-v1/freeze.json",
+      "source_sha256": "8bf8c5db5b570ec06f6947faa6d10ab095288b2f734c799dd551cfe6a47af57c",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e07/run-v1/source/protocol/README.md",
+      "source_sha256": "f25c3672d87cf5d1e883397b2b0022a08d899e522fe9afdc25c930e18d156e93",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e07/summary.json",
+      "source_sha256": "13c02e183e8cdc9ba676a9654f21e9524a235410c1c9f1b89d9433d89e0aa9e6",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/README.md",
+      "source_sha256": "bb4a3cbb488a2cc000c8027c331d9d23c6c891b678892d95c2640bcf3e928595",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e07/replication.json",
+      "source_sha256": "abc9abeb877188d5ceed1c07a36499e7472ba7dfa62ae733f0f258fa21842e48",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e07/results/e07/run-v1/freeze.json",
+      "source_sha256": "d138d9e0e5f9a6b3d36c0067c4575549dd3acd2726307d7fda4544ba2538ae24",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e07/results/e07/summary.json",
+      "source_sha256": "9e3f1ed470b475dff5f8a4a145f06b2563295d82ec0eb17e57d161ec97854b97",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e08/replication.json",
+      "source_sha256": "5d262fcfd5e1677de3da3c9661c3912ce421e918722fcc85d41988f71e6b9f18",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e08/results/e08/run-v1/freeze.json",
+      "source_sha256": "5fdd6a9ff4ba4abde8b12a81f92c340889550dd38d6e174a76495e7a52c3f55f",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e08/results/e08/summary.json",
+      "source_sha256": "bd092d55fc2332ab087b2ce3f34ea2312a732693f320f1ab49c0f4613ed7ad3b",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e07/replication.json",
+      "source_sha256": "1bd48612f76765eefe68a0d5d472d3c63de81a51f6ae41c46ab9778632ffba41",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e07/results/e07/run-v1/freeze.json",
+      "source_sha256": "83f2617c9dfe6857e92acfd7de3741f614565384ada81d15da928cadbc6eab6d",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e07/results/e07/summary.json",
+      "source_sha256": "7e48f3be01e3453f1eb6ff1c23fba4e3b9e957435d6a26738cf94a1883baba64",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e08/replication.json",
+      "source_sha256": "dc625f22255af257ab3cd3373f88a6e449e6bc8ac05599b0620fc6475399de91",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e08/results/e08/run-v1/freeze.json",
+      "source_sha256": "0c757dbf1b325b95a68950c2b56b1c752bbfc2716b7556d248849b2d2b073e14",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e08/results/e08/summary.json",
+      "source_sha256": "5f44416391dd92b4546875b17b616b82d5ff854dc4306be74f1d8bf47433fe2c",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e07/replication.json",
+      "source_sha256": "4706c14f1a169b7533e7ddc8b0eeab68076353e098b468535a0e3d1897eb1333",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e07/results/e07/run-v1/freeze.json",
+      "source_sha256": "b405bc3abbdbe9393a4d82f1b96a4d86d6df5760d8c14082aa4ab38be28ed72b",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e07/results/e07/summary.json",
+      "source_sha256": "36a57185d537b2ca646f9cfab9ac78d57a577c936e98185072a982f9f37dd246",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e08/replication.json",
+      "source_sha256": "0a01e350bd73e1f76075aa01ddb2ef19303d6f5a6dbe6a8d877be585952449a5",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e08/results/e08/run-v1/freeze.json",
+      "source_sha256": "bef9fabff9ffb9ec465c8daca7c121a9a06eca60c521467ef42b0f074cc9986a",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e08/results/e08/summary.json",
+      "source_sha256": "2373696fa42b80b7a09431d834d5c46080e44611a959983a4832c71af8682bb5",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e08/README.md",
+      "source_sha256": "3cca8d42b1188ed86a2e917b4c6b0cfeee1d57383343ca766d99500e2068e93f",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e08/run-v1/freeze.json",
+      "source_sha256": "ec96c66bb1597d4085b00e0a1b7e4ad191dcf0bd0de5e3d22420fa6077e41136",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e08/run-v1/source/protocol/README.md",
+      "source_sha256": "d11b33e24cdb06357fddcf5677074a8e5156dee4ce8c2ecefa2d0ce261508ac9",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e08/summary.json",
+      "source_sha256": "eefb6ba9dbaf80d90f3ef588af3bd53a8e8046300d4b9cc060fe734c034778be",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/README.md",
+      "source_sha256": "fb4da74d8f55c4d8bd74f4ae9d9848d56242c340a3e0099ce0779540ad2544ee",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gemma4-12b/replication.json",
+      "source_sha256": "3d075affd695439655c7d8221be3667393300166b68ffe5c0a7f6724782f7e7e",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gemma4-12b/results/e09/replication/README.md",
+      "source_sha256": "3de3613d729396e32dc3c0dc31e6fc4dc4ce81277ad2c0eaeb8e5d9a8f0d2bcc",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "release availability banner; unavailable relative links converted to explicit notes; social draft section omitted"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gemma4-12b/results/e09/replication/dev/freeze.json",
+      "source_sha256": "fa40c78005e949d1fd9497b13c516134f1935f1f8ef9a46e2b21789de96981b3",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gemma4-12b/results/e09/replication/summary.json",
+      "source_sha256": "09a4b79f703833c856b78aa259177641e38e951fa0d423d90dbe781b13f921cd",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gemma4-12b/results/e09/replication/test/freeze.json",
+      "source_sha256": "fa40c78005e949d1fd9497b13c516134f1935f1f8ef9a46e2b21789de96981b3",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gpt-oss-20b/replication.json",
+      "source_sha256": "3f6c949c8aa1222bbea167507bab0fe7078a5363ab87c946d66c535bf7cc65d6",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gpt-oss-20b/results/e09/replication/dev/freeze.json",
+      "source_sha256": "98dac4f5ca8d95ca6e6f4429d5a643a766b3f7370e825bf1f4de283b7bef3380",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gpt-oss-20b/results/e09/replication/test/freeze.json",
+      "source_sha256": "98dac4f5ca8d95ca6e6f4429d5a643a766b3f7370e825bf1f4de283b7bef3380",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings",
+        "machine-local home/workspace path generalized"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e13-replication/freeze-gemma4-12b.json",
+      "source_sha256": "4c5b0f5d9b76f158e070665e1ff69b8f6f93cf8759ab09f20762e4f6eed35d5a",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e13-replication/freeze-qwen36-27b.json",
+      "source_sha256": "08c148913a590672a8f9648cafd15c56a08692cac7483332aeffcb79ae52e98f",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e13-replication/summary.json",
+      "source_sha256": "158ccd0234f18f112a662baf2c381e12cefc1fc50ca7d967ca4f05dff33f0d0c",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e14-replication/freeze-gemma4-12b.json",
+      "source_sha256": "e4dcc463374703916c5bba6815097959a09b938d05f1c83299b2e8465809a766",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e14-replication/freeze-qwen35-9b.json",
+      "source_sha256": "25add3d49dd8573bec7baa4d63dbf1ce31e291b0081dda329bcec16de359620e",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e14-replication/freeze-qwen36-27b.json",
+      "source_sha256": "08c148913a590672a8f9648cafd15c56a08692cac7483332aeffcb79ae52e98f",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e14-replication/summary.json",
+      "source_sha256": "069e2a5d97fbe788f14e461583eb1f98e8c9f4d000f658a597274aabe5fc89cf",
+      "transformations": [
+        "UTF-8 without BOM; LF line endings"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f5ce26ccdc9603825fc4313bd9c2f3b52ca69737a8cf71d7e2114d7901df9c94"
+    },
+    {
+      "path": "RELEASE.md",
+      "sha256": "cef1d450d055e6571726fdd35bc32ffcc2a5085d2dc88a8bc1145dc2fcff2682"
+    },
+    {
+      "path": "docs/small-evals/e07-results.md",
+      "sha256": "5ccf3addd050692e405f886c46c24a8b156f655415aca44236cb3aeb962c2dd0"
+    },
+    {
+      "path": "docs/small-evals/e08-results.md",
+      "sha256": "2b6008709b3a2ba2fadcd772215b3b01aead3b5fd3e398319ecb08c634b76d90"
+    },
+    {
+      "path": "docs/small-evals/e09-results.md",
+      "sha256": "2d285a080308417102bdb3cf233641f0f7c7d40f6b48f2b603bc3fee362514db"
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/README.md",
+      "sha256": "107e32d2acd59d597bda8f34f7f20fd7ac2721acfbd03c9e1445113d3782d944"
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/load.json",
+      "sha256": "a8f9a47cbc672114b3e1875f5399f29bd12b9b2c026368a6af624e8356421f9a"
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/long-context-prompt.txt",
+      "sha256": "f370159ea325c2c23c4b8ecb29894103b0bd32cb6bc7596e5c8762f4b898a1ea"
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/partial-mbpp-manifest.json",
+      "sha256": "4ddafbfa18988194e49d941f362d355fa1de2556fc1eaaf41664b98b041e3a3b"
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/partial-mbpp-summary.json",
+      "sha256": "888ca6df2aceb3dd2e6518f224131fd9be3bfe014d0775fd954c6219287e4556"
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/results.jsonl",
+      "sha256": "365bbabc4d67ed74df72c55cbf2b568986f05c29bc9a57dfe00121befb6c0f66"
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/run.py",
+      "sha256": "abc0d388d938955623cfbd5bc265bf9de9062f0856fcc4bf2764c032ac5c5371"
+    },
+    {
+      "path": "docs/small-evals/e39-local-validation/score_partial_mbpp.py",
+      "sha256": "0f8b88e3055f7fd20b9825b428b79b531aa660371a82f9a08aa162a38de5d366"
+    },
+    {
+      "path": "docs/small-evals/e39-results.md",
+      "sha256": "7bef37a5c54d27ef3e73d02d275146ed79d24bcf684b767a66af3f7a9c6e32d9"
+    },
+    {
+      "path": "docs/small-evals/e39-router-design.md",
+      "sha256": "8c2278b697a073493839a74fc41f4facae0ee95dd17657f2c2c71a6cf91d8381"
+    },
+    {
+      "path": "docs/small-evals/e40-data/scripts/paired.py",
+      "sha256": "c9090e29b89b8b124ebde0edcd2cd4aa2e252c009d0fa0255a046462b41e462e"
+    },
+    {
+      "path": "docs/small-evals/e40-data/scripts/timing_sum.py",
+      "sha256": "eec3a010c07bab9e6c3c2e5d27156121b4a3dcf1f1e3c8d456e641fc6352d1bb"
+    },
+    {
+      "path": "docs/small-evals/e40-data/soak/s1_A.vram.csv",
+      "sha256": "ad51b916b46366abec555c054a04acae8b52335c884deeb8a34130b30d5a7daf"
+    },
+    {
+      "path": "docs/small-evals/e40-data/soak/s1_B.vram.csv",
+      "sha256": "660953997d3a0f2e0a4ea0a0f90b588cd09b097075e9944e353a2ca625980f23"
+    },
+    {
+      "path": "docs/small-evals/e40-data/soak/s2_A.vram.csv",
+      "sha256": "9570fbe9d907e49ed2c8a308a44c933e3bcc0554da797e68b85b405594529c24"
+    },
+    {
+      "path": "docs/small-evals/e40-data/soak/s2_B.vram.csv",
+      "sha256": "df41124c55f9c633f7acbb0a03484d000d95963edc4e80d6ee99d492d8184822"
+    },
+    {
+      "path": "docs/small-evals/e40-data/timing/timing.jsonl",
+      "sha256": "6ab9392fe772f77d6aa6d587aad355361b6b968bd8cdf386b3c5861b52467490"
+    },
+    {
+      "path": "docs/small-evals/e40-data/trials/manifest.json",
+      "sha256": "7c0f0f991b7ec754a2c224e6e97ea611949c90e31000d05a63ca1b347484003b"
+    },
+    {
+      "path": "docs/small-evals/e40-data/trials/trials.csv",
+      "sha256": "57acc294499e41c57bc6bc1cb5c51472a307f59c31c359f82b2cf5468d2a24bb"
+    },
+    {
+      "path": "docs/small-evals/e40-expert-cache.md",
+      "sha256": "54c5e166375637f8d032eb7ef8fb639e44c3dcb43dd5ab9527a3e51cd5e86aa8"
+    },
+    {
+      "path": "docs/small-evals/e40-results.md",
+      "sha256": "f8cc5f51638b5b603ea54201d5e69b0d3883d49a946daaa67a2bb951968edfb3"
+    },
+    {
+      "path": "portfolio/small-evals/e03_replication_report.py",
+      "sha256": "3168bf3c235bb4d69e1e9c6521e50795286ecb6ca38f343abeb35a587f556c62"
+    },
+    {
+      "path": "portfolio/small-evals/e07_report.py",
+      "sha256": "276e812b27a601a3ce7a19e7d0136a5b30c0bafba8f153fc17915e1fab73d8aa"
+    },
+    {
+      "path": "portfolio/small-evals/e08_report.py",
+      "sha256": "ebb8a35bdedea565358f705f1ee67471f75cca2c3974e8907f8294876cae257f"
+    },
+    {
+      "path": "portfolio/small-evals/e09_report.py",
+      "sha256": "5ce56614068bb136e6b70ac5d56f40c3b0635dee6402cc5912646d9123612680"
+    },
+    {
+      "path": "portfolio/small-evals/results/e03-replication/README.md",
+      "sha256": "bf4fda7674e067568338415a2e9e4346a8c3cced0b19a45ab30df226fffea3c8"
+    },
+    {
+      "path": "portfolio/small-evals/results/e03-replication/gemma4-12b/freeze.json",
+      "sha256": "ac260b9d334f7542ae81c05bfcf39a6bd244b5c3e6935d3dac4d2b394185e803"
+    },
+    {
+      "path": "portfolio/small-evals/results/e03-replication/gemma4-12b/summary.json",
+      "sha256": "d1d0589c521e69a19c14cacdcd762d0deda369ea8d675ac19c275080af7c45c9"
+    },
+    {
+      "path": "portfolio/small-evals/results/e03-replication/qwen36-27b/freeze.json",
+      "sha256": "4a5bc578c6662e92fe642db4bec034ae0e360d940ce7472735c3e72b0278d3a3"
+    },
+    {
+      "path": "portfolio/small-evals/results/e03-replication/qwen36-27b/summary.json",
+      "sha256": "8cacc75b877c76c042a32d5a5cd91fbf31939d72751ddbda35f134588112bc75"
+    },
+    {
+      "path": "portfolio/small-evals/results/e07/README.md",
+      "sha256": "7eec87b360edba6d933abf3f283e5691c1609a50b65a03f9d136a3d78f513b22"
+    },
+    {
+      "path": "portfolio/small-evals/results/e07/run-v1/freeze.json",
+      "sha256": "83f2617c9dfe6857e92acfd7de3741f614565384ada81d15da928cadbc6eab6d"
+    },
+    {
+      "path": "portfolio/small-evals/results/e07/run-v1/source/protocol/README.md",
+      "sha256": "2ed333650d7e51e8cc25f4f0c08e90c231d803707e7c0f3990e622d9e2448352"
+    },
+    {
+      "path": "portfolio/small-evals/results/e07/summary.json",
+      "sha256": "375a87df0055e224089f51e5ac98aa3ca9653a6760d604b0bccdf3917b3874a2"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/README.md",
+      "sha256": "e18aa78c904a5fea90cec51e1ab07119f34aeb1968c5770ed7810c22a2aaf087"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e07/replication.json",
+      "sha256": "444eddf4c72df017089adb5f0699e6c2710ae2fd08b0facdfdc5735af57e5da2"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e07/results/e07/run-v1/freeze.json",
+      "sha256": "d138d9e0e5f9a6b3d36c0067c4575549dd3acd2726307d7fda4544ba2538ae24"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e07/results/e07/summary.json",
+      "sha256": "9e3f1ed470b475dff5f8a4a145f06b2563295d82ec0eb17e57d161ec97854b97"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e08/replication.json",
+      "sha256": "2ea3d5c6eb277c807bfeaa2310a020bac0f07bd39bd779039dc0336b409e1c96"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e08/results/e08/run-v1/freeze.json",
+      "sha256": "5fdd6a9ff4ba4abde8b12a81f92c340889550dd38d6e174a76495e7a52c3f55f"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/gemma4-12b/e08/results/e08/summary.json",
+      "sha256": "bd092d55fc2332ab087b2ce3f34ea2312a732693f320f1ab49c0f4613ed7ad3b"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e07/replication.json",
+      "sha256": "2ff9942dc34fdd186b8d5dce5974e06ea935adf4aed2b3001e6c76590b155bf9"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e07/results/e07/run-v1/freeze.json",
+      "sha256": "83f2617c9dfe6857e92acfd7de3741f614565384ada81d15da928cadbc6eab6d"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e07/results/e07/summary.json",
+      "sha256": "7e48f3be01e3453f1eb6ff1c23fba4e3b9e957435d6a26738cf94a1883baba64"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e08/replication.json",
+      "sha256": "a88325c168e6fd6361256de05e7418e8118aa1a7741c6d57177cf25ba2a16ce7"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e08/results/e08/run-v1/freeze.json",
+      "sha256": "0c757dbf1b325b95a68950c2b56b1c752bbfc2716b7556d248849b2d2b073e14"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen35-9b/e08/results/e08/summary.json",
+      "sha256": "5f44416391dd92b4546875b17b616b82d5ff854dc4306be74f1d8bf47433fe2c"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e07/replication.json",
+      "sha256": "acbff30c50d91d1707a33899d6fe3a00cac999ecffec5df032a5e103d905e62b"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e07/results/e07/run-v1/freeze.json",
+      "sha256": "b405bc3abbdbe9393a4d82f1b96a4d86d6df5760d8c14082aa4ab38be28ed72b"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e07/results/e07/summary.json",
+      "sha256": "36a57185d537b2ca646f9cfab9ac78d57a577c936e98185072a982f9f37dd246"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e08/replication.json",
+      "sha256": "42b516f3ca03fa1cf4d6b517ad4e36f58e1cf2be8e67c2b8833e3c65a8d09466"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e08/results/e08/run-v1/freeze.json",
+      "sha256": "bef9fabff9ffb9ec465c8daca7c121a9a06eca60c521467ef42b0f074cc9986a"
+    },
+    {
+      "path": "portfolio/small-evals/results/e0708-replication/qwen36-27b/e08/results/e08/summary.json",
+      "sha256": "2373696fa42b80b7a09431d834d5c46080e44611a959983a4832c71af8682bb5"
+    },
+    {
+      "path": "portfolio/small-evals/results/e08/README.md",
+      "sha256": "2659d9285872d6c0680732a1c110f2fd62e2bf2d849478bc0bc457fee0075519"
+    },
+    {
+      "path": "portfolio/small-evals/results/e08/run-v1/freeze.json",
+      "sha256": "0c757dbf1b325b95a68950c2b56b1c752bbfc2716b7556d248849b2d2b073e14"
+    },
+    {
+      "path": "portfolio/small-evals/results/e08/run-v1/source/protocol/README.md",
+      "sha256": "a1d730779551d619faf07b5a2e8e3e5de8b1ec92b736b761ad9342dc7d2ee7d3"
+    },
+    {
+      "path": "portfolio/small-evals/results/e08/summary.json",
+      "sha256": "5562e8478773ffe47cdf21a6870e30faebcadc75e3d0e09c3679f8eb324dc042"
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/README.md",
+      "sha256": "b68fa5f03f45389cfc3a9f58a53fd8f10d0a53a6930f4da68389e462c2ae428c"
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gemma4-12b/replication.json",
+      "sha256": "d7113052c1f24ed559c8dadc571ae528b9284b022fe5b805d2b115bbc9cb505c"
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gemma4-12b/results/e09/replication/README.md",
+      "sha256": "0feacb9f52f56421dbbf08cc230ae6859b3c9fd452a7e91afe47b9c5c132a285"
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gemma4-12b/results/e09/replication/dev/freeze.json",
+      "sha256": "866ae0363d69370ea6c381ae71c999522c9537ba94e2a43ec928566045df5fa3"
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gemma4-12b/results/e09/replication/summary.json",
+      "sha256": "09a4b79f703833c856b78aa259177641e38e951fa0d423d90dbe781b13f921cd"
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gemma4-12b/results/e09/replication/test/freeze.json",
+      "sha256": "866ae0363d69370ea6c381ae71c999522c9537ba94e2a43ec928566045df5fa3"
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gpt-oss-20b/replication.json",
+      "sha256": "1d29b5471dba457b599b03f98a058d8caece8dfc7f6bc6e95fd04f40f2052e97"
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gpt-oss-20b/results/e09/replication/dev/freeze.json",
+      "sha256": "354ec5d19d283398e3f0241b1052c176b63145c6317dc9d72f42fca3cf987a11"
+    },
+    {
+      "path": "portfolio/small-evals/results/e09-replication/gpt-oss-20b/results/e09/replication/test/freeze.json",
+      "sha256": "354ec5d19d283398e3f0241b1052c176b63145c6317dc9d72f42fca3cf987a11"
+    },
+    {
+      "path": "portfolio/small-evals/results/e13-replication/README.md",
+      "sha256": "b0f004aaebbad285dc1cdb29b454a631c34cbf109c2ee1a84399ded32d63ac03"
+    },
+    {
+      "path": "portfolio/small-evals/results/e13-replication/freeze-gemma4-12b.json",
+      "sha256": "4c5b0f5d9b76f158e070665e1ff69b8f6f93cf8759ab09f20762e4f6eed35d5a"
+    },
+    {
+      "path": "portfolio/small-evals/results/e13-replication/freeze-qwen36-27b.json",
+      "sha256": "08c148913a590672a8f9648cafd15c56a08692cac7483332aeffcb79ae52e98f"
+    },
+    {
+      "path": "portfolio/small-evals/results/e13-replication/summary.json",
+      "sha256": "158ccd0234f18f112a662baf2c381e12cefc1fc50ca7d967ca4f05dff33f0d0c"
+    },
+    {
+      "path": "portfolio/small-evals/results/e14-replication/README.md",
+      "sha256": "c5c2400e5d4a8b49f1133b006a6e06101f704a7e61c7579e10e1ee596138c590"
+    },
+    {
+      "path": "portfolio/small-evals/results/e14-replication/freeze-gemma4-12b.json",
+      "sha256": "e4dcc463374703916c5bba6815097959a09b938d05f1c83299b2e8465809a766"
+    },
+    {
+      "path": "portfolio/small-evals/results/e14-replication/freeze-qwen35-9b.json",
+      "sha256": "25add3d49dd8573bec7baa4d63dbf1ce31e291b0081dda329bcec16de359620e"
+    },
+    {
+      "path": "portfolio/small-evals/results/e14-replication/freeze-qwen36-27b.json",
+      "sha256": "08c148913a590672a8f9648cafd15c56a08692cac7483332aeffcb79ae52e98f"
+    },
+    {
+      "path": "portfolio/small-evals/results/e14-replication/summary.json",
+      "sha256": "069e2a5d97fbe788f14e461583eb1f98e8c9f4d000f658a597274aabe5fc89cf"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "63a424ebb2f14112aa8c3ff61e5a256c6ae21152c58706eb42ba2532e91f27b2"
+    }
+  ]
+}

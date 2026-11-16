@@ -1,0 +1,1616 @@
+{
+  "arms": {
+    "T0": {
+      "all": {
+        "n": 150,
+        "valid_n": 74,
+        "counts": {
+          "valid_final": 74,
+          "invented_parameter": 0,
+          "false_claim": 3,
+          "silent_drop": 2,
+          "claim_or_drop": 3,
+          "claim_drop_or_protocol": 79,
+          "postfilter_correct": 32,
+          "task_success": 63,
+          "protocol_failure": 76
+        },
+        "wilson95": {
+          "valid_final": [
+            0.41449676994631895,
+            0.572502833311922
+          ],
+          "invented_parameter": [
+            0.0,
+            0.024970244368075257
+          ],
+          "false_claim": [
+            0.006824751322967643,
+            0.05714668327038461
+          ],
+          "silent_drop": [
+            0.0036641291512271613,
+            0.04730690870036609
+          ],
+          "claim_or_drop": [
+            0.006824751322967643,
+            0.05714668327038461
+          ],
+          "claim_drop_or_protocol": [
+            0.44710055355424044,
+            0.6049010334127954
+          ],
+          "postfilter_correct": [
+            0.15536236119471264,
+            0.28562057890965054
+          ],
+          "task_success": [
+            0.3439800445299194,
+            0.5000151945689726
+          ],
+          "protocol_failure": [
+            0.4274971666880781,
+            0.5855032300536811
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 3,
+            "n": 74
+          },
+          "silent_drop": {
+            "k": 2,
+            "n": 74
+          },
+          "claim_or_drop": {
+            "k": 3,
+            "n": 74
+          }
+        }
+      },
+      "supported": {
+        "n": 50,
+        "valid_n": 33,
+        "counts": {
+          "valid_final": 33,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "claim_or_drop": 0,
+          "claim_drop_or_protocol": 17,
+          "postfilter_correct": 0,
+          "task_success": 31,
+          "protocol_failure": 17
+        },
+        "wilson95": {
+          "valid_final": [
+            0.52153826050233,
+            0.7756305077749965
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.0,
+            0.07134759913335506
+          ],
+          "silent_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_or_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_drop_or_protocol": [
+            0.22436949222500358,
+            0.4784617394976701
+          ],
+          "postfilter_correct": [
+            0.0,
+            0.07134759913335506
+          ],
+          "task_success": [
+            0.48150446930993357,
+            0.7413721068980612
+          ],
+          "protocol_failure": [
+            0.22436949222500358,
+            0.4784617394976701
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 0,
+            "n": 33
+          },
+          "silent_drop": {
+            "k": 0,
+            "n": 33
+          },
+          "claim_or_drop": {
+            "k": 0,
+            "n": 33
+          }
+        }
+      },
+      "unobservable": {
+        "n": 50,
+        "valid_n": 7,
+        "counts": {
+          "valid_final": 7,
+          "invented_parameter": 0,
+          "false_claim": 1,
+          "silent_drop": 0,
+          "claim_or_drop": 1,
+          "claim_drop_or_protocol": 44,
+          "postfilter_correct": 0,
+          "task_success": 5,
+          "protocol_failure": 43
+        },
+        "wilson95": {
+          "valid_final": [
+            0.06950833427016426,
+            0.2618619371058515
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.003539259271646375,
+            0.1049544358963745
+          ],
+          "silent_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_or_drop": [
+            0.003539259271646375,
+            0.1049544358963745
+          ],
+          "claim_drop_or_protocol": [
+            0.7619518261679741,
+            0.9438239984906762
+          ],
+          "postfilter_correct": [
+            0.0,
+            0.07134759913335506
+          ],
+          "task_success": [
+            0.043475764931891384,
+            0.2136023143747927
+          ],
+          "protocol_failure": [
+            0.7381380628941486,
+            0.9304916657298358
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 1,
+            "n": 7
+          },
+          "silent_drop": {
+            "k": 0,
+            "n": 7
+          },
+          "claim_or_drop": {
+            "k": 1,
+            "n": 7
+          }
+        }
+      },
+      "postfilter": {
+        "n": 50,
+        "valid_n": 34,
+        "counts": {
+          "valid_final": 34,
+          "invented_parameter": 0,
+          "false_claim": 2,
+          "silent_drop": 2,
+          "claim_or_drop": 2,
+          "claim_drop_or_protocol": 18,
+          "postfilter_correct": 32,
+          "task_success": 27,
+          "protocol_failure": 16
+        },
+        "wilson95": {
+          "valid_final": [
+            0.5418970269185632,
+            0.792417837393429
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.011038884327620152,
+            0.1346009068750665
+          ],
+          "silent_drop": [
+            0.011038884327620152,
+            0.1346009068750665
+          ],
+          "claim_or_drop": [
+            0.011038884327620152,
+            0.1346009068750665
+          ],
+          "claim_drop_or_protocol": [
+            0.24138749651847016,
+            0.49858983123886924
+          ],
+          "postfilter_correct": [
+            0.5014101687611308,
+            0.7586125034815299
+          ],
+          "task_success": [
+            0.4039887139915783,
+            0.6703034780777533
+          ],
+          "protocol_failure": [
+            0.20758216260657106,
+            0.4581029730814369
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 2,
+            "n": 34
+          },
+          "silent_drop": {
+            "k": 2,
+            "n": 34
+          },
+          "claim_or_drop": {
+            "k": 2,
+            "n": 34
+          }
+        }
+      },
+      "unsupported": {
+        "n": 100,
+        "valid_n": 41,
+        "counts": {
+          "valid_final": 41,
+          "invented_parameter": 0,
+          "false_claim": 3,
+          "silent_drop": 2,
+          "claim_or_drop": 3,
+          "claim_drop_or_protocol": 62,
+          "postfilter_correct": 32,
+          "task_success": 32,
+          "protocol_failure": 59
+        },
+        "wilson95": {
+          "valid_final": [
+            0.31867313021136756,
+            0.5079856994658895
+          ],
+          "invented_parameter": [
+            0.0,
+            0.036993498206983715
+          ],
+          "false_claim": [
+            0.010254524024039209,
+            0.08451936429052548
+          ],
+          "silent_drop": [
+            0.005501967550162523,
+            0.07001179072854186
+          ],
+          "claim_or_drop": [
+            0.010254524024039209,
+            0.08451936429052548
+          ],
+          "claim_drop_or_protocol": [
+            0.5220975529551135,
+            0.7090240074752103
+          ],
+          "postfilter_correct": [
+            0.23669147324999298,
+            0.4166261861045212
+          ],
+          "task_success": [
+            0.23669147324999298,
+            0.4166261861045212
+          ],
+          "protocol_failure": [
+            0.49201430053411044,
+            0.6813268697886323
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 3,
+            "n": 41
+          },
+          "silent_drop": {
+            "k": 2,
+            "n": 41
+          },
+          "claim_or_drop": {
+            "k": 3,
+            "n": 41
+          }
+        }
+      },
+      "calls": {
+        "total": 255,
+        "invented": 0,
+        "accepted_unknown": 0
+      },
+      "seconds": 588.3409999999858,
+      "protocol_failure_formats": {
+        "other": 43,
+        "json_with_extra_text": 33
+      }
+    },
+    "T1": {
+      "all": {
+        "n": 150,
+        "valid_n": 73,
+        "counts": {
+          "valid_final": 73,
+          "invented_parameter": 0,
+          "false_claim": 2,
+          "silent_drop": 1,
+          "claim_or_drop": 2,
+          "claim_drop_or_protocol": 79,
+          "postfilter_correct": 32,
+          "task_success": 57,
+          "protocol_failure": 77
+        },
+        "wilson95": {
+          "valid_final": [
+            0.40801711922387746,
+            0.5659820872926047
+          ],
+          "invented_parameter": [
+            0.0,
+            0.024970244368075257
+          ],
+          "false_claim": [
+            0.0036641291512271613,
+            0.04730690870036609
+          ],
+          "silent_drop": [
+            0.0011778013350174782,
+            0.036792839774816774
+          ],
+          "claim_or_drop": [
+            0.0036641291512271613,
+            0.04730690870036609
+          ],
+          "claim_drop_or_protocol": [
+            0.44710055355424044,
+            0.6049010334127954
+          ],
+          "postfilter_correct": [
+            0.15536236119471264,
+            0.28562057890965054
+          ],
+          "task_success": [
+            0.306237272464461,
+            0.45975558618387713
+          ],
+          "protocol_failure": [
+            0.4340179127073954,
+            0.5919828807761226
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 2,
+            "n": 73
+          },
+          "silent_drop": {
+            "k": 1,
+            "n": 73
+          },
+          "claim_or_drop": {
+            "k": 2,
+            "n": 73
+          }
+        }
+      },
+      "supported": {
+        "n": 50,
+        "valid_n": 33,
+        "counts": {
+          "valid_final": 33,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "claim_or_drop": 0,
+          "claim_drop_or_protocol": 17,
+          "postfilter_correct": 0,
+          "task_success": 29,
+          "protocol_failure": 17
+        },
+        "wilson95": {
+          "valid_final": [
+            0.52153826050233,
+            0.7756305077749965
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.0,
+            0.07134759913335506
+          ],
+          "silent_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_or_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_drop_or_protocol": [
+            0.22436949222500358,
+            0.4784617394976701
+          ],
+          "postfilter_correct": [
+            0.0,
+            0.07134759913335506
+          ],
+          "task_success": [
+            0.4423344176857861,
+            0.7062499664528771
+          ],
+          "protocol_failure": [
+            0.22436949222500358,
+            0.4784617394976701
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 0,
+            "n": 33
+          },
+          "silent_drop": {
+            "k": 0,
+            "n": 33
+          },
+          "claim_or_drop": {
+            "k": 0,
+            "n": 33
+          }
+        }
+      },
+      "unobservable": {
+        "n": 50,
+        "valid_n": 6,
+        "counts": {
+          "valid_final": 6,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "claim_or_drop": 0,
+          "claim_drop_or_protocol": 44,
+          "postfilter_correct": 0,
+          "task_success": 3,
+          "protocol_failure": 44
+        },
+        "wilson95": {
+          "valid_final": [
+            0.056176001509323906,
+            0.23804817383202598
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.0,
+            0.07134759913335506
+          ],
+          "silent_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_or_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_drop_or_protocol": [
+            0.7619518261679741,
+            0.9438239984906762
+          ],
+          "postfilter_correct": [
+            0.0,
+            0.07134759913335506
+          ],
+          "task_success": [
+            0.020614970348974512,
+            0.16217091688837793
+          ],
+          "protocol_failure": [
+            0.7619518261679741,
+            0.9438239984906762
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 0,
+            "n": 6
+          },
+          "silent_drop": {
+            "k": 0,
+            "n": 6
+          },
+          "claim_or_drop": {
+            "k": 0,
+            "n": 6
+          }
+        }
+      },
+      "postfilter": {
+        "n": 50,
+        "valid_n": 34,
+        "counts": {
+          "valid_final": 34,
+          "invented_parameter": 0,
+          "false_claim": 2,
+          "silent_drop": 1,
+          "claim_or_drop": 2,
+          "claim_drop_or_protocol": 18,
+          "postfilter_correct": 32,
+          "task_success": 25,
+          "protocol_failure": 16
+        },
+        "wilson95": {
+          "valid_final": [
+            0.5418970269185632,
+            0.792417837393429
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.011038884327620152,
+            0.1346009068750665
+          ],
+          "silent_drop": [
+            0.003539259271646375,
+            0.1049544358963745
+          ],
+          "claim_or_drop": [
+            0.011038884327620152,
+            0.1346009068750665
+          ],
+          "claim_drop_or_protocol": [
+            0.24138749651847016,
+            0.49858983123886924
+          ],
+          "postfilter_correct": [
+            0.5014101687611308,
+            0.7586125034815299
+          ],
+          "task_success": [
+            0.36644514316828924,
+            0.6335548568317108
+          ],
+          "protocol_failure": [
+            0.20758216260657106,
+            0.4581029730814369
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 2,
+            "n": 34
+          },
+          "silent_drop": {
+            "k": 1,
+            "n": 34
+          },
+          "claim_or_drop": {
+            "k": 2,
+            "n": 34
+          }
+        }
+      },
+      "unsupported": {
+        "n": 100,
+        "valid_n": 40,
+        "counts": {
+          "valid_final": 40,
+          "invented_parameter": 0,
+          "false_claim": 2,
+          "silent_drop": 1,
+          "claim_or_drop": 2,
+          "claim_drop_or_protocol": 62,
+          "postfilter_correct": 32,
+          "task_success": 28,
+          "protocol_failure": 60
+        },
+        "wilson95": {
+          "valid_final": [
+            0.30940128643246123,
+            0.49799741320893554
+          ],
+          "invented_parameter": [
+            0.0,
+            0.036993498206983715
+          ],
+          "false_claim": [
+            0.005501967550162523,
+            0.07001179072854186
+          ],
+          "silent_drop": [
+            0.0017674320641407164,
+            0.05448619617870333
+          ],
+          "claim_or_drop": [
+            0.005501967550162523,
+            0.07001179072854186
+          ],
+          "claim_drop_or_protocol": [
+            0.5220975529551135,
+            0.7090240074752103
+          ],
+          "postfilter_correct": [
+            0.23669147324999298,
+            0.4166261861045212
+          ],
+          "task_success": [
+            0.20139685211186398,
+            0.37488028709920884
+          ],
+          "protocol_failure": [
+            0.5020025867910644,
+            0.6905987135675388
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 2,
+            "n": 40
+          },
+          "silent_drop": {
+            "k": 1,
+            "n": 40
+          },
+          "claim_or_drop": {
+            "k": 2,
+            "n": 40
+          }
+        }
+      },
+      "calls": {
+        "total": 226,
+        "invented": 0,
+        "accepted_unknown": 0
+      },
+      "seconds": 583.5480000000098,
+      "protocol_failure_formats": {
+        "other": 41,
+        "json_with_extra_text": 36
+      }
+    },
+    "T2": {
+      "all": {
+        "n": 150,
+        "valid_n": 73,
+        "counts": {
+          "valid_final": 73,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "claim_or_drop": 0,
+          "claim_drop_or_protocol": 77,
+          "postfilter_correct": 35,
+          "task_success": 60,
+          "protocol_failure": 77
+        },
+        "wilson95": {
+          "valid_final": [
+            0.40801711922387746,
+            0.5659820872926047
+          ],
+          "invented_parameter": [
+            0.0,
+            0.024970244368075257
+          ],
+          "false_claim": [
+            0.0,
+            0.024970244368075257
+          ],
+          "silent_drop": [
+            0.0,
+            0.024970244368075257
+          ],
+          "claim_or_drop": [
+            0.0,
+            0.024970244368075257
+          ],
+          "claim_drop_or_protocol": [
+            0.4340179127073954,
+            0.5919828807761226
+          ],
+          "postfilter_correct": [
+            0.1728263151139744,
+            0.3071578152156657
+          ],
+          "task_success": [
+            0.3250432073625273,
+            0.47995084151108786
+          ],
+          "protocol_failure": [
+            0.4340179127073954,
+            0.5919828807761226
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 0,
+            "n": 73
+          },
+          "silent_drop": {
+            "k": 0,
+            "n": 73
+          },
+          "claim_or_drop": {
+            "k": 0,
+            "n": 73
+          }
+        }
+      },
+      "supported": {
+        "n": 50,
+        "valid_n": 33,
+        "counts": {
+          "valid_final": 33,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "claim_or_drop": 0,
+          "claim_drop_or_protocol": 17,
+          "postfilter_correct": 0,
+          "task_success": 32,
+          "protocol_failure": 17
+        },
+        "wilson95": {
+          "valid_final": [
+            0.52153826050233,
+            0.7756305077749965
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.0,
+            0.07134759913335506
+          ],
+          "silent_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_or_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_drop_or_protocol": [
+            0.22436949222500358,
+            0.4784617394976701
+          ],
+          "postfilter_correct": [
+            0.0,
+            0.07134759913335506
+          ],
+          "task_success": [
+            0.5014101687611308,
+            0.7586125034815299
+          ],
+          "protocol_failure": [
+            0.22436949222500358,
+            0.4784617394976701
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 0,
+            "n": 33
+          },
+          "silent_drop": {
+            "k": 0,
+            "n": 33
+          },
+          "claim_or_drop": {
+            "k": 0,
+            "n": 33
+          }
+        }
+      },
+      "unobservable": {
+        "n": 50,
+        "valid_n": 5,
+        "counts": {
+          "valid_final": 5,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "claim_or_drop": 0,
+          "claim_drop_or_protocol": 45,
+          "postfilter_correct": 0,
+          "task_success": 3,
+          "protocol_failure": 45
+        },
+        "wilson95": {
+          "valid_final": [
+            0.043475764931891384,
+            0.2136023143747927
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.0,
+            0.07134759913335506
+          ],
+          "silent_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_or_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_drop_or_protocol": [
+            0.7863976856252073,
+            0.9565242350681087
+          ],
+          "postfilter_correct": [
+            0.0,
+            0.07134759913335506
+          ],
+          "task_success": [
+            0.020614970348974512,
+            0.16217091688837793
+          ],
+          "protocol_failure": [
+            0.7863976856252073,
+            0.9565242350681087
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 0,
+            "n": 5
+          },
+          "silent_drop": {
+            "k": 0,
+            "n": 5
+          },
+          "claim_or_drop": {
+            "k": 0,
+            "n": 5
+          }
+        }
+      },
+      "postfilter": {
+        "n": 50,
+        "valid_n": 35,
+        "counts": {
+          "valid_final": 35,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "claim_or_drop": 0,
+          "claim_drop_or_protocol": 15,
+          "postfilter_correct": 35,
+          "task_success": 25,
+          "protocol_failure": 15
+        },
+        "wilson95": {
+          "valid_final": [
+            0.5624964953554699,
+            0.808964464991188
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.0,
+            0.07134759913335506
+          ],
+          "silent_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_or_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_drop_or_protocol": [
+            0.19103553500881199,
+            0.43750350464453014
+          ],
+          "postfilter_correct": [
+            0.5624964953554699,
+            0.808964464991188
+          ],
+          "task_success": [
+            0.36644514316828924,
+            0.6335548568317108
+          ],
+          "protocol_failure": [
+            0.19103553500881199,
+            0.43750350464453014
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 0,
+            "n": 35
+          },
+          "silent_drop": {
+            "k": 0,
+            "n": 35
+          },
+          "claim_or_drop": {
+            "k": 0,
+            "n": 35
+          }
+        }
+      },
+      "unsupported": {
+        "n": 100,
+        "valid_n": 40,
+        "counts": {
+          "valid_final": 40,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "claim_or_drop": 0,
+          "claim_drop_or_protocol": 60,
+          "postfilter_correct": 35,
+          "task_success": 28,
+          "protocol_failure": 60
+        },
+        "wilson95": {
+          "valid_final": [
+            0.30940128643246123,
+            0.49799741320893554
+          ],
+          "invented_parameter": [
+            0.0,
+            0.036993498206983715
+          ],
+          "false_claim": [
+            0.0,
+            0.036993498206983715
+          ],
+          "silent_drop": [
+            0.0,
+            0.036993498206983715
+          ],
+          "claim_or_drop": [
+            0.0,
+            0.036993498206983715
+          ],
+          "claim_drop_or_protocol": [
+            0.5020025867910644,
+            0.6905987135675388
+          ],
+          "postfilter_correct": [
+            0.26364248243097743,
+            0.44745556703111766
+          ],
+          "task_success": [
+            0.20139685211186398,
+            0.37488028709920884
+          ],
+          "protocol_failure": [
+            0.5020025867910644,
+            0.6905987135675388
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 0,
+            "n": 40
+          },
+          "silent_drop": {
+            "k": 0,
+            "n": 40
+          },
+          "claim_or_drop": {
+            "k": 0,
+            "n": 40
+          }
+        }
+      },
+      "calls": {
+        "total": 199,
+        "invented": 0,
+        "accepted_unknown": 0
+      },
+      "seconds": 557.8030000000872,
+      "protocol_failure_formats": {
+        "other": 27,
+        "json_with_extra_text": 50
+      }
+    },
+    "T3": {
+      "all": {
+        "n": 150,
+        "valid_n": 73,
+        "counts": {
+          "valid_final": 73,
+          "invented_parameter": 0,
+          "false_claim": 1,
+          "silent_drop": 1,
+          "claim_or_drop": 1,
+          "claim_drop_or_protocol": 78,
+          "postfilter_correct": 34,
+          "task_success": 61,
+          "protocol_failure": 77
+        },
+        "wilson95": {
+          "valid_final": [
+            0.40801711922387746,
+            0.5659820872926047
+          ],
+          "invented_parameter": [
+            0.0,
+            0.024970244368075257
+          ],
+          "false_claim": [
+            0.0011778013350174782,
+            0.036792839774816774
+          ],
+          "silent_drop": [
+            0.0011778013350174782,
+            0.036792839774816774
+          ],
+          "claim_or_drop": [
+            0.0011778013350174782,
+            0.036792839774816774
+          ],
+          "claim_drop_or_protocol": [
+            0.44055236904318773,
+            0.5984488211820892
+          ],
+          "postfilter_correct": [
+            0.16698179426848553,
+            0.30000193931939556
+          ],
+          "task_success": [
+            0.3313410961286969,
+            0.48665334948667716
+          ],
+          "protocol_failure": [
+            0.4340179127073954,
+            0.5919828807761226
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 1,
+            "n": 73
+          },
+          "silent_drop": {
+            "k": 1,
+            "n": 73
+          },
+          "claim_or_drop": {
+            "k": 1,
+            "n": 73
+          }
+        }
+      },
+      "supported": {
+        "n": 50,
+        "valid_n": 33,
+        "counts": {
+          "valid_final": 33,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "claim_or_drop": 0,
+          "claim_drop_or_protocol": 17,
+          "postfilter_correct": 0,
+          "task_success": 31,
+          "protocol_failure": 17
+        },
+        "wilson95": {
+          "valid_final": [
+            0.52153826050233,
+            0.7756305077749965
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.0,
+            0.07134759913335506
+          ],
+          "silent_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_or_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_drop_or_protocol": [
+            0.22436949222500358,
+            0.4784617394976701
+          ],
+          "postfilter_correct": [
+            0.0,
+            0.07134759913335506
+          ],
+          "task_success": [
+            0.48150446930993357,
+            0.7413721068980612
+          ],
+          "protocol_failure": [
+            0.22436949222500358,
+            0.4784617394976701
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 0,
+            "n": 33
+          },
+          "silent_drop": {
+            "k": 0,
+            "n": 33
+          },
+          "claim_or_drop": {
+            "k": 0,
+            "n": 33
+          }
+        }
+      },
+      "unobservable": {
+        "n": 50,
+        "valid_n": 5,
+        "counts": {
+          "valid_final": 5,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "claim_or_drop": 0,
+          "claim_drop_or_protocol": 45,
+          "postfilter_correct": 0,
+          "task_success": 5,
+          "protocol_failure": 45
+        },
+        "wilson95": {
+          "valid_final": [
+            0.043475764931891384,
+            0.2136023143747927
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.0,
+            0.07134759913335506
+          ],
+          "silent_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_or_drop": [
+            0.0,
+            0.07134759913335506
+          ],
+          "claim_drop_or_protocol": [
+            0.7863976856252073,
+            0.9565242350681087
+          ],
+          "postfilter_correct": [
+            0.0,
+            0.07134759913335506
+          ],
+          "task_success": [
+            0.043475764931891384,
+            0.2136023143747927
+          ],
+          "protocol_failure": [
+            0.7863976856252073,
+            0.9565242350681087
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 0,
+            "n": 5
+          },
+          "silent_drop": {
+            "k": 0,
+            "n": 5
+          },
+          "claim_or_drop": {
+            "k": 0,
+            "n": 5
+          }
+        }
+      },
+      "postfilter": {
+        "n": 50,
+        "valid_n": 35,
+        "counts": {
+          "valid_final": 35,
+          "invented_parameter": 0,
+          "false_claim": 1,
+          "silent_drop": 1,
+          "claim_or_drop": 1,
+          "claim_drop_or_protocol": 16,
+          "postfilter_correct": 34,
+          "task_success": 25,
+          "protocol_failure": 15
+        },
+        "wilson95": {
+          "valid_final": [
+            0.5624964953554699,
+            0.808964464991188
+          ],
+          "invented_parameter": [
+            0.0,
+            0.07134759913335506
+          ],
+          "false_claim": [
+            0.003539259271646375,
+            0.1049544358963745
+          ],
+          "silent_drop": [
+            0.003539259271646375,
+            0.1049544358963745
+          ],
+          "claim_or_drop": [
+            0.003539259271646375,
+            0.1049544358963745
+          ],
+          "claim_drop_or_protocol": [
+            0.20758216260657106,
+            0.4581029730814369
+          ],
+          "postfilter_correct": [
+            0.5418970269185632,
+            0.792417837393429
+          ],
+          "task_success": [
+            0.36644514316828924,
+            0.6335548568317108
+          ],
+          "protocol_failure": [
+            0.19103553500881199,
+            0.43750350464453014
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 1,
+            "n": 35
+          },
+          "silent_drop": {
+            "k": 1,
+            "n": 35
+          },
+          "claim_or_drop": {
+            "k": 1,
+            "n": 35
+          }
+        }
+      },
+      "unsupported": {
+        "n": 100,
+        "valid_n": 40,
+        "counts": {
+          "valid_final": 40,
+          "invented_parameter": 0,
+          "false_claim": 1,
+          "silent_drop": 1,
+          "claim_or_drop": 1,
+          "claim_drop_or_protocol": 61,
+          "postfilter_correct": 34,
+          "task_success": 30,
+          "protocol_failure": 60
+        },
+        "wilson95": {
+          "valid_final": [
+            0.30940128643246123,
+            0.49799741320893554
+          ],
+          "invented_parameter": [
+            0.0,
+            0.036993498206983715
+          ],
+          "false_claim": [
+            0.0017674320641407164,
+            0.05448619617870333
+          ],
+          "silent_drop": [
+            0.0017674320641407164,
+            0.05448619617870333
+          ],
+          "claim_or_drop": [
+            0.0017674320641407164,
+            0.05448619617870333
+          ],
+          "claim_drop_or_protocol": [
+            0.5120301704584099,
+            0.6998312599360536
+          ],
+          "postfilter_correct": [
+            0.2546152079734838,
+            0.43722271145275104
+          ],
+          "task_success": [
+            0.21894885294932953,
+            0.3958485463334639
+          ],
+          "protocol_failure": [
+            0.5020025867910644,
+            0.6905987135675388
+          ]
+        },
+        "valid_only": {
+          "false_claim": {
+            "k": 1,
+            "n": 40
+          },
+          "silent_drop": {
+            "k": 1,
+            "n": 40
+          },
+          "claim_or_drop": {
+            "k": 1,
+            "n": 40
+          }
+        }
+      },
+      "calls": {
+        "total": 205,
+        "invented": 0,
+        "accepted_unknown": 0
+      },
+      "seconds": 551.0599999999249,
+      "protocol_failure_formats": {
+        "other": 33,
+        "json_with_extra_text": 44
+      }
+    }
+  },
+  "comparisons": {
+    "T0-T1": {
+      "invented_parameter": {
+        "left_only": 0,
+        "right_only": 0,
+        "p": 1
+      },
+      "silent_drop": {
+        "left_only": 1,
+        "right_only": 0,
+        "p": 1
+      },
+      "false_claim": {
+        "left_only": 1,
+        "right_only": 0,
+        "p": 1
+      },
+      "task_success": {
+        "left_only": 3,
+        "right_only": 1,
+        "p": 0.625
+      }
+    },
+    "T0-T2": {
+      "invented_parameter": {
+        "left_only": 0,
+        "right_only": 0,
+        "p": 1
+      },
+      "silent_drop": {
+        "left_only": 2,
+        "right_only": 0,
+        "p": 0.5
+      },
+      "false_claim": {
+        "left_only": 3,
+        "right_only": 0,
+        "p": 0.25
+      },
+      "task_success": {
+        "left_only": 1,
+        "right_only": 2,
+        "p": 1
+      }
+    },
+    "T0-T3": {
+      "invented_parameter": {
+        "left_only": 0,
+        "right_only": 0,
+        "p": 1
+      },
+      "silent_drop": {
+        "left_only": 1,
+        "right_only": 0,
+        "p": 1
+      },
+      "false_claim": {
+        "left_only": 2,
+        "right_only": 0,
+        "p": 0.5
+      },
+      "task_success": {
+        "left_only": 2,
+        "right_only": 2,
+        "p": 1
+      }
+    },
+    "T1-T2": {
+      "invented_parameter": {
+        "left_only": 0,
+        "right_only": 0,
+        "p": 1
+      },
+      "silent_drop": {
+        "left_only": 1,
+        "right_only": 0,
+        "p": 1
+      },
+      "false_claim": {
+        "left_only": 2,
+        "right_only": 0,
+        "p": 0.5
+      },
+      "task_success": {
+        "left_only": 0,
+        "right_only": 3,
+        "p": 0.25
+      }
+    },
+    "T1-T3": {
+      "invented_parameter": {
+        "left_only": 0,
+        "right_only": 0,
+        "p": 1
+      },
+      "silent_drop": {
+        "left_only": 1,
+        "right_only": 1,
+        "p": 1
+      },
+      "false_claim": {
+        "left_only": 1,
+        "right_only": 0,
+        "p": 1
+      },
+      "task_success": {
+        "left_only": 1,
+        "right_only": 3,
+        "p": 0.625
+      }
+    },
+    "T2-T3": {
+      "invented_parameter": {
+        "left_only": 0,
+        "right_only": 0,
+        "p": 1
+      },
+      "silent_drop": {
+        "left_only": 0,
+        "right_only": 1,
+        "p": 1
+      },
+      "false_claim": {
+        "left_only": 0,
+        "right_only": 1,
+        "p": 1
+      },
+      "task_success": {
+        "left_only": 1,
+        "right_only": 0,
+        "p": 1
+      }
+    }
+  },
+  "posthoc_format_comparisons_all_150": {
+    "T0-T1": {
+      "left_only": 6,
+      "right_only": 7,
+      "p": 1
+    },
+    "T0-T2": {
+      "left_only": 5,
+      "right_only": 6,
+      "p": 1
+    },
+    "T0-T3": {
+      "left_only": 6,
+      "right_only": 7,
+      "p": 1
+    },
+    "T1-T2": {
+      "left_only": 5,
+      "right_only": 5,
+      "p": 1
+    },
+    "T1-T3": {
+      "left_only": 5,
+      "right_only": 5,
+      "p": 1
+    },
+    "T2-T3": {
+      "left_only": 1,
+      "right_only": 1,
+      "p": 1
+    }
+  },
+  "hypotheses": {
+    "H1": {
+      "prediction": "T0 claim/drop union >=25/100",
+      "observed": 3,
+      "status": "refuted in this study"
+    },
+    "H2": {
+      "prediction": "T1 reduces invention without reducing drops",
+      "status": "uninformative at zero baseline invention"
+    },
+    "H3": {
+      "prediction": "T2 halves silent drops",
+      "status": "met"
+    },
+    "H4": {
+      "prediction": "T3 eliminates invention without changing claims",
+      "status": "report attempted and accepted separately; no equivalence inference",
+      "comparison": {
+        "invented_parameter": {
+          "left_only": 0,
+          "right_only": 0,
+          "p": 1
+        },
+        "silent_drop": {
+          "left_only": 0,
+          "right_only": 1,
+          "p": 1
+        },
+        "false_claim": {
+          "left_only": 0,
+          "right_only": 1,
+          "p": 1
+        },
+        "task_success": {
+          "left_only": 1,
+          "right_only": 0,
+          "p": 1
+        }
+      }
+    },
+    "H5": {
+      "prediction": "supported success equivalent across arms",
+      "status": "not an equivalence design; report Wilson intervals and all six paired comparisons"
+    }
+  },
+  "traces": 600,
+  "legacy_false_claim": {
+    "T0": 7,
+    "T1": 5,
+    "T2": 3,
+    "T3": 6
+  },
+  "audit_sha256": "29d8fadbab5cd2da9f65a3792d505a26e1075e8d3509305e377ee1f1e08b3edd",
+  "reporter_sha256": "5ce56614068bb136e6b70ac5d56f40c3b0635dee6402cc5912646d9123612680",
+  "stop_reasons": {
+    "normal": 293,
+    "invalid final JSON": 307
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "files": {
+    "results\\e09\\catalogue.json": "dc23a964d4d44d3230ff3a2b6e652f8f95220c3a4d0c1d461d9efb5af91b74ba",
+    "results\\e09\\requests.json": "6bd503f4f74952a84944f9d8be6ba43913f26523c5fe8d63d477d6100ed3ecd6",
+    "results\\e09\\development.json": "6548b1bce2160ed66b9863626d82da10b995a33d5171f3e74baf89ce5bd6c735",
+    "e09_tools\\__init__.py": "a319ac9a12ead93dd2d5e907997a90ed61891537e69755949ce7e9985cad73fd",
+    "e09_tools\\catalogue.py": "dbe8455a210fb5eb5c87379669c5f5db631df61f260eb47994de0fc0644f1a0f",
+    "e09_tools\\loop.py": "955913591ad68c0e25ee81533a5dd679c46b69125313a87ade49a621c82ffe11",
+    "e09_tools\\score.py": "317bfddfa5c09127468afc7c337f1f3e9dd886914d0027a4f566eda1ef094abd",
+    "e09_tools\\test_score.py": "b409a3273fe5f129c1d69d108728bf240ee6d59d61a5b23ab4dd78b89da58d25"
+  },
+  "model": "C:\\Users\\REDACTED\\e19\\models\\gemma-4-12b-it-Q4_K_M.gguf",
+  "model_sha256": "0a270ec9fe6b34f4a0d33992b6135117b484ebc4766ab76b51d4ae8c457e4c42",
+  "server": "C:\\Users\\REDACTED\\nemotron-bolt-test\\llama-b11753\\llama-server.exe",
+  "server_sha256": "0c4e85bc42c99f1383d94cdeedb51ff88ebfc378b80169c01fd2025ae40d577e",
+  "system": "You help users find products using the provided tools. Return a single JSON object, without markdown, with exactly these fields:\n{\"answer\":\"short explanation\", \"items\":[integer product IDs], \"filters_applied\":[constraint field names], \"constraints_not_applied\":[constraint field names]}.\nUse at most 4 tool calls. Return up to 3 products satisfying the request. If you cannot verify a required property, return no products and explain the limitation. Only return IDs observed in tool results.\nFor reporting constraints use these canonical names: category, brand, max_price, min_price, in_stock, colour, size, min_rating, waterproof, organic, machine_washable. filters_applied means constraints actually satisfied by your returned products (including filtering results yourself). constraints_not_applied means requested constraints you could not verify or satisfy.",
+  "tools": {
+    "T0": [
+      {
+        "type": "function",
+        "function": {
+          "name": "search_products",
+          "description": "Search by category, inclusive max_price/min_price, brand and in_stock. Omitted parameters are unconstrained. Results contain id, category, brand, price, in_stock, colour, size, rating. Up to 50 results; total/truncated indicate coverage.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "category": {
+                "type": "string"
+              },
+              "max_price": {
+                "type": "number"
+              },
+              "min_price": {
+                "type": "number"
+              },
+              "brand": {
+                "type": "string"
+              },
+              "in_stock": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "get_product",
+          "description": "Read one product by integer id. Returns the same product fields as search_products.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id"
+            ]
+          }
+        }
+      }
+    ],
+    "T1": [
+      {
+        "type": "function",
+        "function": {
+          "name": "search_products",
+          "description": "Search by category, inclusive max_price/min_price, brand and in_stock. Omitted parameters are unconstrained. Results contain id, category, brand, price, in_stock, colour, size, rating. Up to 50 results; total/truncated indicate coverage. These are the only filters this tool supports.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "category": {
+                "type": "string"
+              },
+              "max_price": {
+                "type": "number"
+              },
+              "min_price": {
+                "type": "number"
+              },
+              "brand": {
+                "type": "string"
+              },
+              "in_stock": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "get_product",
+          "description": "Read one product by integer id. Returns the same product fields as search_products.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id"
+            ]
+          }
+        }
+      }
+    ],
+    "T2": [
+      {
+        "type": "function",
+        "function": {
+          "name": "search_products",
+          "description": "Search by category, inclusive max_price/min_price, brand and in_stock. Omitted parameters are unconstrained. Results contain id, category, brand, price, in_stock, colour, size, rating. Up to 50 results; total/truncated indicate coverage. These are the only filters this tool supports. If a request needs another filter, say so in constraints_not_applied.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "category": {
+                "type": "string"
+              },
+              "max_price": {
+                "type": "number"
+              },
+              "min_price": {
+                "type": "number"
+              },
+              "brand": {
+                "type": "string"
+              },
+              "in_stock": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "get_product",
+          "description": "Read one product by integer id. Returns the same product fields as search_products.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id"
+            ]
+          }
+        }
+      }
+    ],
+    "T3": [
+      {
+        "type": "function",
+        "function": {
+          "name": "search_products",
+          "description": "Search by category, inclusive max_price/min_price, brand and in_stock. Omitted parameters are unconstrained. Results contain id, category, brand, price, in_stock, colour, size, rating. Up to 50 results; total/truncated indicate coverage. These are the only filters this tool supports. If a request needs another filter, say so in constraints_not_applied.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "category": {
+                "type": "string"
+              },
+              "max_price": {
+                "type": "number"
+              },
+              "min_price": {
+                "type": "number"
+              },
+              "brand": {
+                "type": "string"
+              },
+              "in_stock": {
+                "type": "boolean"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "get_product",
+          "description": "Read one product by integer id. Returns the same product fields as search_products.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    ]
+  },
+  "temperature": 0,
+  "seed": 9009,
+  "max_tokens": 1024,
+  "tool_budget": 4,
+  "context": 16384,
+  "parallel": 1,
+  "reasoning": "off"
+}

@@ -1,0 +1,18 @@
+{
+  "model": "gemma-4-12b-it-Q4_K_M.gguf",
+  "model_sha256": "0a270ec9fe6b34f4a0d33992b6135117b484ebc4766ab76b51d4ae8c457e4c42",
+  "server_sha256": "0c4e85bc42c99f1383d94cdeedb51ff88ebfc378b80169c01fd2025ae40d577e",
+  "inputs": {
+    "e1314_replicate.py": "e548dd25fa5bc2523b9c0a3cff9c14f96da7f1282d5e54e381b3b60c4b7ab48b",
+    "e13_implied\\run.py": "174e1a4361a28523fb98df7b38639e46bbc8d51e0025f00cc128f78210e3355e",
+    "e12_context_use\\build.py": "e0010fe1e8d0fcfd73537f89aa0a498c623eab189a2cf891a43763608266e772",
+    "e12_context_use\\tasks.py": "d488f899f882c1edea9518e8eee7c41666c557b6c7ff9304e8c49de1780a155a",
+    "e14_compaction\\compress.py": "60e02573cf7d7e4e7967bcc8c3548a19d8b7857fbd66ae3c1f69830c9112a26e",
+    "e14_compaction\\details.py": "8fb6dcf8eb84562b777314905e380900028a531aa1f23b0f6564d3ce76348d71",
+    "e14_compaction\\run.py": "e0e6c5c4f2a6019856488fca7280974df7292c9b38a79498689234a588e1760b"
+  },
+  "context": 40960,
+  "kv": "q8_0",
+  "reasoning": "off",
+  "parallel": 1
+}

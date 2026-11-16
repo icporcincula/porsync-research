@@ -1,0 +1,12 @@
+{
+  "thinking": {
+    "n": 106,
+    "base": 98,
+    "plus_including_base": 87
+  },
+  "off_matched": {
+    "n": 106,
+    "base": 95,
+    "plus_including_base": 84
+  }
+}

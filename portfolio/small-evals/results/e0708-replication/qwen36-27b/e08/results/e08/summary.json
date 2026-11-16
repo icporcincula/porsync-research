@@ -1,0 +1,43 @@
+{
+  "n": 200,
+  "countries": 113,
+  "arms": {
+    "N0": {
+      "flagged_summaries": 6,
+      "numbers": 1174,
+      "unsupported_numbers": 7,
+      "fallbacks": 0
+    },
+    "N1": {
+      "flagged_summaries": 5,
+      "numbers": 1315,
+      "unsupported_numbers": 8,
+      "fallbacks": 0
+    },
+    "N2": {
+      "flagged_summaries": 0,
+      "numbers": 1307,
+      "unsupported_numbers": 0,
+      "fallbacks": 5
+    },
+    "N3": {
+      "flagged_summaries": 0,
+      "numbers": 1312,
+      "unsupported_numbers": 0,
+      "fallbacks": 1
+    }
+  },
+  "finish_reasons": {
+    "stop": 405
+  },
+  "generation_seconds": 2010.051999999967,
+  "model_calls": 405,
+  "N1_minus_N0_flag_rate": {
+    "difference": -0.005,
+    "ci95": [
+      -0.03482587064676617,
+      0.024875621890547265
+    ],
+    "method": "paired country-cluster bootstrap, 10000 draws, seed 0"
+  }
+}

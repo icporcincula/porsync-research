@@ -1,0 +1,18 @@
+{
+    "frozen":  "2026-11-15T15:10:13.4394012+08:00",
+    "backend_commit":  "6d3568e31d4e4b1e4db4acb8f6ceaad0084932f3",
+    "model":  "Qwen3-30B-A3B-Q4_K_M.gguf",
+    "model_sha256":  "9F1A24700A339B09C06009B729B5C809E0B64C213B8AF5B711B3DBDFD0C5BA48",
+    "gpu":  "NVIDIA GeForce RTX 5060 Ti, 610.88, 16311 MiB",
+    "server_args_common":  "-ngl 99 -cmoe -fa on -c 32768 -np 1 -lv 4 (prompt cache default on, speculative off, single model)",
+    "arms":  {
+                 "C":  "--moe-cache-mib 12000 (exploratory)",
+                 "B":  "--moe-cache-mib 6000",
+                 "A":  "no --moe-cache-mib"
+             },
+    "harness":  "patchsmith eval/run_eval.py --harder --runs 1 per round",
+    "budget_mode":  "context 30000",
+    "max_turns":  30,
+    "order":  "rounds 1-5: odd A then B, even B then A; then C rounds 1-5",
+    "pilot_note":  "pilot timings (pilot.jsonl, pilot2.jsonl) excluded from headline; used only to choose budgets"
+}
