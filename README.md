@@ -34,3 +34,13 @@ The manifest records hashes and publication transformations. It establishes file
 Read [RELEASE.md](RELEASE.md) before interpreting reproducibility or reusing files. Questions and methodological corrections are welcome as GitHub issues; identify the study, file and claim involved.
 
 **E39 follow-up is planned:** frontier comparisons on harder and real-fix tasks, plugin token accounting, host/shadow checks, controlled RAM-health calibration, natural-fault recovery and held-out routing evaluation. The router remains frontier-only; successful local routed coding and promotion are not established. E40 does not close those gaps.
+
+## CPU-only eval evidence — November 17 release
+
+User-authorized release of selected CPU-only follow-ups:
+
+- [E10 fault triggers](docs/small-evals/e10-triggers-2026-11-17.md) and [cached replay](docs/small-evals/e10-cached-replay-2026-11-17.md): six injected faults detected, 12 summaries and 6,315 answer/metric checks match. Independent gold validation and equivalent-mutant classification remain.
+- [E21 partial Stage B](docs/small-evals/e21-results.md): 13/108 planned trials recorded, all code-containment checks pass; no dtype comparison. Selected synthetic trials and source hashes included.
+- [E36 review preparation](docs/small-evals/e36-review-package-2026-11-17.md): blinded review tooling prepared for 200 frozen items; independent human labels remain pending. Website excerpts and predictions are excluded.
+
+Method scripts require excluded private modules or data; they are not turnkey public reproductions. No model calls or GPU/service actions. Only selected reports, synthetic/aggregate observations and method scripts are released; private traces, source datasets and full private input manifests remain excluded. This authorization does not publish the separate E39 or Sprocket drafts. Historical hold wording in the reports is superseded by their dated authorization notes.

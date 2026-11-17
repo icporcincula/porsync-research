@@ -1,0 +1,225 @@
+{
+  "date": "2026-11-17",
+  "publication": "selected release authorized 2026-11-17",
+  "private_report_sha256": {
+    "report.json": "fc9467d1653c13057c292c5260eebc6c5039628bce0e958e1f119af6b874fb9b",
+    "regrade.json": "48167bcad6e2e420a615fc8b4570580b0a8d59c88eece2891aecf195112b85f1"
+  },
+  "summary_replay": {
+    "e01": {
+      "status": "matched",
+      "summaries": [
+        "summary.json"
+      ]
+    },
+    "e02": {
+      "status": "matched",
+      "summaries": [
+        "summary.json"
+      ]
+    },
+    "e03": {
+      "status": "matched",
+      "summaries": [
+        "summary.json"
+      ]
+    },
+    "e04": {
+      "status": "matched",
+      "summaries": [
+        "summary.json"
+      ]
+    },
+    "e05": {
+      "status": "matched",
+      "summaries": [
+        "summary.json"
+      ]
+    },
+    "e06": {
+      "status": "matched",
+      "summaries": [
+        "summary.json"
+      ]
+    },
+    "e11": {
+      "status": "matched",
+      "summaries": [
+        "summary.27b.json",
+        "summary.9b.json"
+      ]
+    },
+    "e12": {
+      "status": "matched",
+      "summaries": [
+        "summary.json"
+      ]
+    },
+    "e13": {
+      "status": "matched",
+      "summaries": [
+        "summary.json"
+      ]
+    },
+    "e14": {
+      "status": "matched",
+      "summaries": [
+        "summary.json"
+      ]
+    },
+    "e15": {
+      "status": "matched",
+      "summaries": [
+        "summary.json"
+      ]
+    }
+  },
+  "answer_regrade": {
+    "e07": {
+      "checks": 252,
+      "mismatches": []
+    },
+    "e08": {
+      "checks": 800,
+      "mismatches": []
+    },
+    "e09": {
+      "checks": 600,
+      "mismatches": [],
+      "corrected_counts": {
+        "T0": {
+          "valid_final": 131,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "postfilter_correct": 44,
+          "task_success": 131,
+          "protocol_failure": 19
+        },
+        "T1": {
+          "valid_final": 143,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "postfilter_correct": 47,
+          "task_success": 142,
+          "protocol_failure": 7
+        },
+        "T2": {
+          "valid_final": 122,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "postfilter_correct": 42,
+          "task_success": 122,
+          "protocol_failure": 28
+        },
+        "T3": {
+          "valid_final": 132,
+          "invented_parameter": 0,
+          "false_claim": 0,
+          "silent_drop": 0,
+          "postfilter_correct": 46,
+          "task_success": 132,
+          "protocol_failure": 18
+        }
+      },
+      "corrected_count_mismatches": []
+    },
+    "e12": {
+      "checks": 840,
+      "mismatches": []
+    },
+    "e13": {
+      "checks": 378,
+      "mismatches": []
+    },
+    "e14": {
+      "checks": 1440,
+      "mismatches": []
+    },
+    "e15": {
+      "checks": 1200,
+      "mismatches": []
+    },
+    "e16": {
+      "checks": 805,
+      "mismatches": [],
+      "function_at_5": {
+        "local-core-overnight-retry-20261110/G": [
+          29,
+          50
+        ],
+        "local-core-overnight-retry-20261110/S": [
+          24,
+          50
+        ],
+        "local-core-overnight-retry-20261110/D": [
+          27,
+          50
+        ],
+        "local-core-overnight-retry-20261110/DS": [
+          28,
+          50
+        ],
+        "local-seven-full-20261111/B": [
+          31,
+          50
+        ],
+        "local-seven-full-20261111/X": [
+          26,
+          50
+        ],
+        "local-seven-full-20261111/M": [
+          26,
+          50
+        ],
+        "local-seven-full-20261111/K": [
+          30,
+          50
+        ],
+        "local-seven-full-20261111/J": [
+          27,
+          50
+        ],
+        "local-seven-full-20261111/DQ": [
+          28,
+          50
+        ],
+        "local-seven-full-20261111/ORA": [
+          20,
+          50
+        ],
+        "frontier/full-g/G": [
+          47,
+          50
+        ],
+        "frontier/full-d/D": [
+          46,
+          50
+        ],
+        "frontier/full-ds/DS": [
+          48,
+          50
+        ],
+        "frontier/full-s/S": [
+          48,
+          50
+        ],
+        "frontier/rep-g/G": [
+          16,
+          19
+        ],
+        "frontier/rep-d/D": [
+          17,
+          19
+        ]
+      }
+    }
+  },
+  "limits": [
+    "Original studies only, not all replication cohorts",
+    "No independent human gold validation",
+    "Raw inputs and full private manifests excluded"
+  ]
+}

@@ -25,3 +25,13 @@ This release does not grant rights to excluded datasets, third-party implementat
 ## Added 2026-11-16: Patchsmith/Aider exploratory comparison
 
 Reviewed and approved for publication on 2026-11-16. Five curated files add a report, 159 source-hashed trial rows, summary, retrospective configuration and offline analyzer. These summarize completed runs; no new inference occurred. The duplicate Aider result is excluded. Original result hashes are retained per row; patches, prompts, private paths, full logs and task sources are withheld. Counts can be recomputed, but code cannot be independently re-scored from this package. Exact model/server identities and run-time Patchsmith revision are incomplete. This is not B2 or daily-use validation and does not close E39 follow-up. The initial source_revision remains provenance for the original release; new entries explicitly identify uncommitted local sources. Publication includes only these selected artifacts; private logs and code remain excluded.
+
+## CPU-only eval evidence — November 17 release
+
+User-authorized release of selected CPU-only follow-ups:
+
+- [E10 fault triggers](docs/small-evals/e10-triggers-2026-11-17.md) and [cached replay](docs/small-evals/e10-cached-replay-2026-11-17.md): six injected faults detected, 12 summaries and 6,315 answer/metric checks match. Independent gold validation and equivalent-mutant classification remain.
+- [E21 partial Stage B](docs/small-evals/e21-results.md): 13/108 planned trials recorded, all code-containment checks pass; no dtype comparison. Selected synthetic trials and source hashes included.
+- [E36 review preparation](docs/small-evals/e36-review-package-2026-11-17.md): blinded review tooling prepared for 200 frozen items; independent human labels remain pending. Website excerpts and predictions are excluded.
+
+Method scripts require excluded private modules or data; they are not turnkey public reproductions. No model calls or GPU/service actions. Only selected reports, synthetic/aggregate observations and method scripts are released; private traces, source datasets and full private input manifests remain excluded. This authorization does not publish the separate E39 or Sprocket drafts. Historical hold wording in the reports is superseded by their dated authorization notes.

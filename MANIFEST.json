@@ -612,6 +612,90 @@
       "transformations": [
         "UTF-8/LF curated consolidation; no raw traces, patches or local paths"
       ]
+    },
+    {
+      "path": "docs/small-evals/e10-triggers-2026-11-17.md",
+      "source_sha256": "f354132ec80fd22159d7dba68351b816cdbb3ace668e8debb84a95e6d11e2c77",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e10/triggers-2026-11-17.json",
+      "source_sha256": "5718474c7a381c8373deabe1e7878963402048fe9a753f58a739abceaf6eeaf8",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/validate_triggers.py",
+      "source_sha256": "5915550212d956934e40a82549fc22a0a53c9f677d60214ef2b991aaceab192a",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e10-cached-replay-2026-11-17.md",
+      "source_sha256": "e000aafcdb65ffb70358753ebbd88b0103c53a038be131036597c621f7821caf",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e21-results.md",
+      "source_sha256": "74d919273c34ac68144130e7a7fb72546ae38a4ade789868c28a84f5dd4b51af",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e36-review-package-2026-11-17.md",
+      "source_sha256": "6010050862a91a592b8041f612f653f66b1e78b5dd0fb6ee20c310f5df72a921",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e10/cached-replay-2026-11-17/public-summary.json",
+      "source_sha256": "763e2c8be0e4947897f1fe0074d343473c842803780882e5186e0dd3dd8cbd60",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e21/stage-b-reconciled-2026-11-17.json",
+      "source_sha256": "28e638d59b1d62b3871820bee6b6486c42e42fb042075106c8e1bbe675da1d9c",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/replay_cached.py",
+      "source_sha256": "213d62be6adef0b73218f6112524cf79f3aa7c6ab645332bbdc8e1ebb90cf82a",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/regrade_cached.py",
+      "source_sha256": "33b73e66c905f491b9442e08ea0f4748f372384f5fd1fdb1c803fd0f30778050",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/reconcile_e21.py",
+      "source_sha256": "c116217902f823b61a1d053e2199d55ff5fccb18de226f060db5dd45304e03af",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e36_public/review.py",
+      "source_sha256": "b362822917dd3a376680a4c65fcf0bb01bc7ef2e4f6aac42854364292a7b2cb7",
+      "transformations": [
+        "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
+      ]
     }
   ],
   "files": [
@@ -625,11 +709,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "d79f57174f23b58458e97738de6effaaadbb53323430fe7d5b347c20a41d7903"
+      "sha256": "9821d2ee41a213f82d3c4c615a1120e7525c82efe19a8ee7277801f2443da195"
     },
     {
       "path": "RELEASE.md",
-      "sha256": "e710a2d2f8dd3fb145263bf9d2e6c14829ee56003e38d60b4f0f9aef0a43f8da"
+      "sha256": "42c3312cdbb34dc3d2cfca7ccb89e822ccc3a1ea2240932de466d66a302ccfed"
     },
     {
       "path": "docs/small-evals/e07-results.md",
@@ -966,6 +1050,54 @@
     {
       "path": "docs/patchsmith/comparison-2026-11-16/analyze.py",
       "sha256": "b3f7d5a86f0ff69952702a38e8c21a4e1a9722e76185763c745c6410e1342bee"
+    },
+    {
+      "path": "docs/small-evals/e10-triggers-2026-11-17.md",
+      "sha256": "f354132ec80fd22159d7dba68351b816cdbb3ace668e8debb84a95e6d11e2c77"
+    },
+    {
+      "path": "portfolio/small-evals/results/e10/triggers-2026-11-17.json",
+      "sha256": "a45eaf29eb1c24fb06b528940cb73e7bb983e54d3c5327576dc901aedba2f2d4"
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/validate_triggers.py",
+      "sha256": "5915550212d956934e40a82549fc22a0a53c9f677d60214ef2b991aaceab192a"
+    },
+    {
+      "path": "docs/small-evals/e10-cached-replay-2026-11-17.md",
+      "sha256": "e000aafcdb65ffb70358753ebbd88b0103c53a038be131036597c621f7821caf"
+    },
+    {
+      "path": "docs/small-evals/e21-results.md",
+      "sha256": "74d919273c34ac68144130e7a7fb72546ae38a4ade789868c28a84f5dd4b51af"
+    },
+    {
+      "path": "docs/small-evals/e36-review-package-2026-11-17.md",
+      "sha256": "6010050862a91a592b8041f612f653f66b1e78b5dd0fb6ee20c310f5df72a921"
+    },
+    {
+      "path": "portfolio/small-evals/results/e10/cached-replay-2026-11-17/public-summary.json",
+      "sha256": "763e2c8be0e4947897f1fe0074d343473c842803780882e5186e0dd3dd8cbd60"
+    },
+    {
+      "path": "portfolio/small-evals/results/e21/stage-b-reconciled-2026-11-17.json",
+      "sha256": "a31b7bb0abbd145ebf965bab8afeb36bb711b42d9a0c58302bf15730b738623f"
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/replay_cached.py",
+      "sha256": "213d62be6adef0b73218f6112524cf79f3aa7c6ab645332bbdc8e1ebb90cf82a"
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/regrade_cached.py",
+      "sha256": "33b73e66c905f491b9442e08ea0f4748f372384f5fd1fdb1c803fd0f30778050"
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/reconcile_e21.py",
+      "sha256": "c116217902f823b61a1d053e2199d55ff5fccb18de226f060db5dd45304e03af"
+    },
+    {
+      "path": "portfolio/small-evals/e36_public/review.py",
+      "sha256": "b362822917dd3a376680a4c65fcf0bb01bc7ef2e4f6aac42854364292a7b2cb7"
     }
   ],
   "updates": [
@@ -979,6 +1111,27 @@
         "docs/patchsmith/comparison-2026-11-16/summary.json",
         "docs/patchsmith/comparison-2026-11-16/configuration.json",
         "docs/patchsmith/comparison-2026-11-16/analyze.py",
+        "README.md",
+        "RELEASE.md"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "study": "CPU-only E10/E21/E36 selected publication",
+      "publication": "authorized release",
+      "files": [
+        "docs/small-evals/e10-triggers-2026-11-17.md",
+        "portfolio/small-evals/results/e10/triggers-2026-11-17.json",
+        "portfolio/small-evals/e10_audit/validate_triggers.py",
+        "docs/small-evals/e10-cached-replay-2026-11-17.md",
+        "docs/small-evals/e21-results.md",
+        "docs/small-evals/e36-review-package-2026-11-17.md",
+        "portfolio/small-evals/results/e10/cached-replay-2026-11-17/public-summary.json",
+        "portfolio/small-evals/results/e21/stage-b-reconciled-2026-11-17.json",
+        "portfolio/small-evals/e10_audit/replay_cached.py",
+        "portfolio/small-evals/e10_audit/regrade_cached.py",
+        "portfolio/small-evals/e10_audit/reconcile_e21.py",
+        "portfolio/small-evals/e36_public/review.py",
         "README.md",
         "RELEASE.md"
       ]
