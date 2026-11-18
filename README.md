@@ -16,6 +16,7 @@ These are small, hardware-constrained studies, with negative results, uncertain 
 | Context-summary replication | [Results](portfolio/small-evals/results/e14-replication/README.md) |
 | 120B model on 16 GB / coding reliability (E39) | [Interim report](docs/small-evals/e39-results.md) · [Local validation](docs/small-evals/e39-local-validation/README.md) |
 | Patchsmith/Aider exploratory fixtures | [Report](docs/patchsmith/comparison-2026-11-16/README.md) · [159 trials](docs/patchsmith/comparison-2026-11-16/trials.json) |
+| Patchsmith v5b vs Aider on four local models (E41) | [Report](docs/patchsmith/harness-comparison-2026-11-19/README.md) · [216 trials](docs/patchsmith/harness-comparison-2026-11-19/trials.json) |
 | Expert-cache comparison (E40) | [Report](docs/small-evals/e40-results.md) · [150 trials](docs/small-evals/e40-data/trials/trials.csv) |
 
 ## Check the evidence
@@ -25,6 +26,7 @@ Python 3, standard library only; no model calls or GPU required:
 ```sh
 python verify.py
 python docs/patchsmith/comparison-2026-11-16/analyze.py
+python docs/patchsmith/harness-comparison-2026-11-19/analyze.py
 python docs/small-evals/e40-data/scripts/paired.py
 python docs/small-evals/e40-data/scripts/timing_sum.py
 ```

@@ -1,0 +1,2162 @@
+[
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n01_bucket",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 12.8
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n01_bucket",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 10.0
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n01_bucket",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 9.8
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n02_semver",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 20,
+  "secs": 98.1
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n02_semver",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 8,
+  "secs": 52.8
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n02_semver",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 9,
+  "secs": 53.2
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n03_wrap",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 15.3
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n03_wrap",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 5,
+  "secs": 16.9
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n03_wrap",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 6,
+  "secs": 20.8
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n04_ledger",
+  "run": 1,
+  "passed": false,
+  "termination": "blocked/max_turns",
+  "turns": 30,
+  "secs": 112.6
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n04_ledger",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 7,
+  "secs": 28.1
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n04_ledger",
+  "run": 3,
+  "passed": false,
+  "termination": "blocked/loop_detected",
+  "turns": 22,
+  "secs": 66.9
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n05_bizdays",
+  "run": 1,
+  "passed": false,
+  "termination": "blocked/max_turns",
+  "turns": 30,
+  "secs": 120.6
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n05_bizdays",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 15,
+  "secs": 121.1
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n05_bizdays",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 13,
+  "secs": 74.7
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n06_lru",
+  "run": 1,
+  "passed": false,
+  "termination": "blocked/loop_detected",
+  "turns": 20,
+  "secs": 86.2
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n06_lru",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 5,
+  "secs": 15.8
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n06_lru",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 8,
+  "secs": 35.3
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n07_template",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 10,
+  "secs": 32.1
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n07_template",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 8,
+  "secs": 38.7
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n07_template",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 8,
+  "secs": 34.1
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n08_topo",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 7,
+  "secs": 31.4
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n08_topo",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 6,
+  "secs": 24.8
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "fixture": "n08_topo",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 6,
+  "secs": 25.9
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n01_bucket",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 7,
+  "secs": 19.9
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n01_bucket",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 7,
+  "secs": 16.2
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n01_bucket",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 7,
+  "secs": 17.0
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n02_semver",
+  "run": 1,
+  "passed": false,
+  "termination": "blocked/model_blocked",
+  "turns": 25,
+  "secs": 198.6
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n02_semver",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 7,
+  "secs": 22.1
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n02_semver",
+  "run": 3,
+  "passed": false,
+  "termination": "blocked/max_turns",
+  "turns": 30,
+  "secs": 155.0
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n03_wrap",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 6,
+  "secs": 15.5
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n03_wrap",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 6,
+  "secs": 17.0
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n03_wrap",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 6,
+  "secs": 14.7
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n04_ledger",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 7,
+  "secs": 21.3
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n04_ledger",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 7,
+  "secs": 21.5
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n04_ledger",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 7,
+  "secs": 20.6
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n05_bizdays",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 11,
+  "secs": 26.0
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n05_bizdays",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 13,
+  "secs": 30.8
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n05_bizdays",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 11,
+  "secs": 20.3
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n06_lru",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 7,
+  "secs": 21.0
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n06_lru",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 8,
+  "secs": 24.5
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n06_lru",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 7,
+  "secs": 20.3
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n07_template",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 18,
+  "secs": 112.6
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n07_template",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 11,
+  "secs": 45.9
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n07_template",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 9,
+  "secs": 32.8
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n08_topo",
+  "run": 1,
+  "passed": false,
+  "termination": "blocked/model_blocked",
+  "turns": 30,
+  "secs": 177.3
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n08_topo",
+  "run": 2,
+  "passed": false,
+  "termination": "blocked/model_blocked",
+  "turns": 16,
+  "secs": 52.7
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "fixture": "n08_topo",
+  "run": 3,
+  "passed": false,
+  "termination": "blocked/max_turns",
+  "turns": 30,
+  "secs": 165.9
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n01_bucket",
+  "run": 1,
+  "passed": false,
+  "termination": "blocked/loop_detected",
+  "turns": 15,
+  "secs": 85.7
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n01_bucket",
+  "run": 2,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 14,
+  "secs": 70.8
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n01_bucket",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 14.7
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n02_semver",
+  "run": 1,
+  "passed": false,
+  "termination": "blocked/loop_detected",
+  "turns": 19,
+  "secs": 85.2
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n02_semver",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 22,
+  "secs": 88.4
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n02_semver",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 12,
+  "secs": 47.8
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n03_wrap",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 17.5
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n03_wrap",
+  "run": 2,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 2,
+  "secs": 17.5
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n03_wrap",
+  "run": 3,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 3,
+  "secs": 18.3
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n04_ledger",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 6,
+  "secs": 19.0
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n04_ledger",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 6,
+  "secs": 18.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n04_ledger",
+  "run": 3,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 6,
+  "secs": 14.8
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n05_bizdays",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 9.0
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n05_bizdays",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 14,
+  "secs": 49.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n05_bizdays",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 19,
+  "secs": 65.4
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n06_lru",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 14.4
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n06_lru",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 15.3
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n06_lru",
+  "run": 3,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 11,
+  "secs": 48.4
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n07_template",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 11,
+  "secs": 75.2
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n07_template",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 8,
+  "secs": 68.2
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n07_template",
+  "run": 3,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 5,
+  "secs": 34.9
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n08_topo",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 40.9
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n08_topo",
+  "run": 2,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 3,
+  "secs": 34.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "fixture": "n08_topo",
+  "run": 3,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 3,
+  "secs": 35.0
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n01_bucket",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 12.1
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n01_bucket",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 8,
+  "secs": 30.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n01_bucket",
+  "run": 3,
+  "passed": false,
+  "termination": "blocked/loop_detected",
+  "turns": 27,
+  "secs": 90.9
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n02_semver",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 10,
+  "secs": 64.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n02_semver",
+  "run": 2,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 3,
+  "secs": 30.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n02_semver",
+  "run": 3,
+  "passed": false,
+  "termination": "blocked/loop_detected",
+  "turns": 15,
+  "secs": 43.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n03_wrap",
+  "run": 1,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 4,
+  "secs": 19.0
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n03_wrap",
+  "run": 2,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 2,
+  "secs": 17.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n03_wrap",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 7,
+  "secs": 33.2
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n04_ledger",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 11,
+  "secs": 48.5
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n04_ledger",
+  "run": 2,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 5,
+  "secs": 35.9
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n04_ledger",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 8,
+  "secs": 21.7
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n05_bizdays",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 8.8
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n05_bizdays",
+  "run": 2,
+  "passed": false,
+  "termination": "blocked/model_blocked",
+  "turns": 8,
+  "secs": 64.9
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n05_bizdays",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 8,
+  "secs": 32.5
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n06_lru",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 14.1
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n06_lru",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 10.2
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n06_lru",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 14,
+  "secs": 75.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n07_template",
+  "run": 1,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 9,
+  "secs": 39.2
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n07_template",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 36.4
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n07_template",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 10,
+  "secs": 64.8
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n08_topo",
+  "run": 1,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 4,
+  "secs": 18.4
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n08_topo",
+  "run": 2,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 6,
+  "secs": 39.8
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "fixture": "n08_topo",
+  "run": 3,
+  "passed": false,
+  "termination": "error/execution_error",
+  "turns": 3,
+  "secs": 34.7
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n01_bucket",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 4,
+  "secs": 15.0
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n01_bucket",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 5,
+  "secs": 11.3
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n01_bucket",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 5,
+  "secs": 14.9
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n02_semver",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 8,
+  "secs": 39.5
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n02_semver",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 5,
+  "secs": 21.4
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n02_semver",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 5,
+  "secs": 19.8
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n03_wrap",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 5,
+  "secs": 19.2
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n03_wrap",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 4,
+  "secs": 13.4
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n03_wrap",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 6,
+  "secs": 27.1
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n04_ledger",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 4,
+  "secs": 18.3
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n04_ledger",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 4,
+  "secs": 20.9
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n04_ledger",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 4,
+  "secs": 21.5
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n05_bizdays",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 5,
+  "secs": 17.8
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n05_bizdays",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 5,
+  "secs": 14.6
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n05_bizdays",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 5,
+  "secs": 16.2
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n06_lru",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 5,
+  "secs": 19.1
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n06_lru",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 4,
+  "secs": 18.8
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n06_lru",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 5,
+  "secs": 19.2
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n07_template",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 7,
+  "secs": 34.3
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n07_template",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 7,
+  "secs": 25.6
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n07_template",
+  "run": 3,
+  "passed": true,
+  "termination": "done/auto_finish",
+  "turns": 21,
+  "secs": 105.7
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n08_topo",
+  "run": 1,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 5,
+  "secs": 18.3
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n08_topo",
+  "run": 2,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 6,
+  "secs": 23.1
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "fixture": "n08_topo",
+  "run": 3,
+  "passed": true,
+  "termination": "done/None",
+  "turns": 6,
+  "secs": 24.0
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 166.0
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 167.5
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 141.9
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 294.5
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 375.0
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 407.9
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 259.1
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 114.6
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 302.8
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 474.5
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 2,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 544.3
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 3,
+  "passed": false,
+  "termination": "rc=timeout",
+  "turns": null,
+  "secs": 600.1
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 130.1
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 192.2
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 202.4
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 264.1
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 251.1
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 417.0
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 480.4
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 489.5
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 543.7
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 1,
+  "passed": false,
+  "termination": "rc=timeout",
+  "turns": null,
+  "secs": 600.2
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 2,
+  "passed": false,
+  "termination": "rc=timeout",
+  "turns": null,
+  "secs": 600.2
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 553.9
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 11.9
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 7.4
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 8.6
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 1,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 76.9
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 2,
+  "passed": false,
+  "termination": "rc=timeout",
+  "turns": null,
+  "secs": 600.0
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 3,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 80.7
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 10.1
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 8.9
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 9.3
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 10.2
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 29.1
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 27.5
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 1,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 98.4
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 22.7
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 21.7
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 9.3
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 8.6
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 8.5
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 1,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 60.7
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 2,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 74.3
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 3,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 59.0
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 1,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 59.7
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 2,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 60.7
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 3,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 85.8
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 15.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 14.9
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 20.4
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 60.9
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 37.7
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 48.5
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 32.0
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 11.8
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 31.8
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 133.4
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 44.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 52.7
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 105.8
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 2,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 140.9
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 3,
+  "passed": false,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 141.0
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 19.4
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 25.6
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 24.1
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 57.8
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 77.1
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 48.9
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 23.1
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 19.3
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 22.3
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 72.8
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 103.0
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n01_bucket",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 95.6
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 138.2
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 134.9
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n02_semver",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 315.5
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 99.8
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 98.7
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n03_wrap",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 107.9
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 209.0
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 206.0
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n04_ledger",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 206.8
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 84.2
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 82.2
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n05_bizdays",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 82.4
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 1,
+  "passed": false,
+  "termination": "rc=timeout",
+  "turns": null,
+  "secs": 600.0
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 131.2
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n06_lru",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 129.0
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 140.7
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 139.2
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n07_template",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 139.0
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 1,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 154.7
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 2,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 155.9
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "fixture": "n08_topo",
+  "run": 3,
+  "passed": true,
+  "termination": "rc=0",
+  "turns": null,
+  "secs": 154.4
+ }
+]

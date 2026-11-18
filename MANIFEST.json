@@ -696,6 +696,51 @@
       "transformations": [
         "Selected uncommitted CPU-only artifact; UTF-8/LF; private inputs excluded; publication authorized 2026-11-17"
       ]
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/README.md",
+      "source_sha256": "9077ed9d1c546611151e406df64922466257bd068751e81b251ef0ee3a6b2a61",
+      "source_revision": "",
+      "source_state": "generated 2026-11-19 from completed run outputs",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches, logs or local paths"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/trials.json",
+      "source_sha256": "94b56db80eb5003eae3cca6a0b2bfcd98354c75c18c0c7e59e59675398fda06a",
+      "source_revision": "",
+      "source_state": "generated 2026-11-19 from completed run outputs",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches, logs or local paths"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/summary.json",
+      "source_sha256": "27a723f51ccb9e241ce6cc5aefe4d608b8162287b9f507c2211f61d30b0148db",
+      "source_revision": "",
+      "source_state": "generated 2026-11-19 from completed run outputs",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches, logs or local paths"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/configuration.json",
+      "source_sha256": "a2b51f458f64eee35799b6f98eec124f1e7dde9cba9f1782daa33c9983398acb",
+      "source_revision": "",
+      "source_state": "generated 2026-11-19 from completed run outputs",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches, logs or local paths"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/analyze.py",
+      "source_sha256": "5ae7849664c21c4a0be6efb4698ea039bb3831f0c2bdba801e4bdf50f4f9a6f3",
+      "source_revision": "",
+      "source_state": "generated 2026-11-19 from completed run outputs",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches, logs or local paths"
+      ]
     }
   ],
   "files": [
@@ -709,11 +754,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "9821d2ee41a213f82d3c4c615a1120e7525c82efe19a8ee7277801f2443da195"
+      "sha256": "8600cc472ec008fff847edd8b3d4927cd29141a08a74df9000aec2404d3cc3c6"
     },
     {
       "path": "RELEASE.md",
-      "sha256": "42c3312cdbb34dc3d2cfca7ccb89e822ccc3a1ea2240932de466d66a302ccfed"
+      "sha256": "f43893f46a4fc562d6370a35383374566e95004bb4a0fea8407969b53c0ae858"
     },
     {
       "path": "docs/small-evals/e07-results.md",
@@ -1098,6 +1143,26 @@
     {
       "path": "portfolio/small-evals/e36_public/review.py",
       "sha256": "b362822917dd3a376680a4c65fcf0bb01bc7ef2e4f6aac42854364292a7b2cb7"
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/README.md",
+      "sha256": "9077ed9d1c546611151e406df64922466257bd068751e81b251ef0ee3a6b2a61"
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/trials.json",
+      "sha256": "94b56db80eb5003eae3cca6a0b2bfcd98354c75c18c0c7e59e59675398fda06a"
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/summary.json",
+      "sha256": "27a723f51ccb9e241ce6cc5aefe4d608b8162287b9f507c2211f61d30b0148db"
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/configuration.json",
+      "sha256": "a2b51f458f64eee35799b6f98eec124f1e7dde9cba9f1782daa33c9983398acb"
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/analyze.py",
+      "sha256": "5ae7849664c21c4a0be6efb4698ea039bb3831f0c2bdba801e4bdf50f4f9a6f3"
     }
   ],
   "updates": [
@@ -1132,6 +1197,20 @@
         "portfolio/small-evals/e10_audit/regrade_cached.py",
         "portfolio/small-evals/e10_audit/reconcile_e21.py",
         "portfolio/small-evals/e36_public/review.py",
+        "README.md",
+        "RELEASE.md"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "study": "E41 Patchsmith v5b vs Aider cross-model comparison",
+      "publication": "published",
+      "files": [
+        "docs/patchsmith/harness-comparison-2026-11-19/README.md",
+        "docs/patchsmith/harness-comparison-2026-11-19/trials.json",
+        "docs/patchsmith/harness-comparison-2026-11-19/summary.json",
+        "docs/patchsmith/harness-comparison-2026-11-19/configuration.json",
+        "docs/patchsmith/harness-comparison-2026-11-19/analyze.py",
         "README.md",
         "RELEASE.md"
       ]

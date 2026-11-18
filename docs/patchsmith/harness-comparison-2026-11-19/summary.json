@@ -1,0 +1,146 @@
+[
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "aider",
+  "trials": 24,
+  "passed": 20,
+  "per_fixture": {
+   "n01": 3,
+   "n02": 3,
+   "n03": 3,
+   "n04": 1,
+   "n05": 3,
+   "n06": 3,
+   "n07": 3,
+   "n08": 1
+  }
+ },
+ {
+  "model": "Edge0-120B-q3k",
+  "harness": "patchsmith-v5b",
+  "trials": 24,
+  "passed": 20,
+  "per_fixture": {
+   "n01": 3,
+   "n02": 3,
+   "n03": 3,
+   "n04": 1,
+   "n05": 2,
+   "n06": 2,
+   "n07": 3,
+   "n08": 3
+  }
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "aider",
+  "trials": 24,
+  "passed": 14,
+  "per_fixture": {
+   "n01": 3,
+   "n02": 0,
+   "n03": 3,
+   "n04": 3,
+   "n05": 2,
+   "n06": 3,
+   "n07": 0,
+   "n08": 0
+  }
+ },
+ {
+  "model": "Qwen3-Coder-30B-A3B-Q3_K_M",
+  "harness": "patchsmith-v5b",
+  "trials": 24,
+  "passed": 19,
+  "per_fixture": {
+   "n01": 3,
+   "n02": 1,
+   "n03": 3,
+   "n04": 3,
+   "n05": 3,
+   "n06": 3,
+   "n07": 3,
+   "n08": 0
+  }
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "aider",
+  "trials": 24,
+  "passed": 23,
+  "per_fixture": {
+   "n01": 3,
+   "n02": 3,
+   "n03": 3,
+   "n04": 3,
+   "n05": 3,
+   "n06": 2,
+   "n07": 3,
+   "n08": 3
+  }
+ },
+ {
+  "model": "Qwen3.6-35B-A3B-UD-IQ3_XXS",
+  "harness": "patchsmith-v5b",
+  "trials": 24,
+  "passed": 24,
+  "per_fixture": {
+   "n01": 3,
+   "n02": 3,
+   "n03": 3,
+   "n04": 3,
+   "n05": 3,
+   "n06": 3,
+   "n07": 3,
+   "n08": 3
+  }
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "aider",
+  "trials": 24,
+  "passed": 22,
+  "per_fixture": {
+   "n01": 3,
+   "n02": 3,
+   "n03": 3,
+   "n04": 3,
+   "n05": 1,
+   "n06": 3,
+   "n07": 3,
+   "n08": 3
+  }
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-before-gptoss-fix",
+  "trials": 24,
+  "passed": 14,
+  "per_fixture": {
+   "n01": 1,
+   "n02": 2,
+   "n03": 1,
+   "n04": 2,
+   "n05": 3,
+   "n06": 2,
+   "n07": 2,
+   "n08": 1
+  }
+ },
+ {
+  "model": "gpt-oss-20b-MXFP4",
+  "harness": "patchsmith-v5b-with-gptoss-fix",
+  "trials": 24,
+  "passed": 15,
+  "per_fixture": {
+   "n01": 2,
+   "n02": 1,
+   "n03": 1,
+   "n04": 2,
+   "n05": 2,
+   "n06": 3,
+   "n07": 2,
+   "n08": 2
+  }
+ }
+]

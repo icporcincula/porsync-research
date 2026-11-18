@@ -1,0 +1,34 @@
+{
+  "status": "retrospective configuration of completed runs; not a frozen or preregistered protocol",
+  "fixtures": "eight held-out fixtures n01-n08, 3 runs each, 24 runs per cell",
+  "scoring": "independent fixture tests exit zero (Patchsmith tests=green; Aider green)",
+  "patchsmith": {
+    "harness": "Patchsmith v5b, selected with PS_HARNESS=v5",
+    "source_revision": "75ec82a in the private patchsmith-audit repository (not published); the runs themselves used the same uncommitted working tree",
+    "max_turns": 30,
+    "budget_mode": "context",
+    "context_budget_tokens": 30000,
+    "request_timeout_seconds": 420,
+    "temperature": 0,
+    "thinking": "disabled via request flags",
+    "gptoss_fix": "recover_harmony_finish: rebuilds a finish tool call from an HTTP 500 body when gpt-oss sends it on the harmony final channel; applied only in the 'with-gptoss-fix' cell"
+  },
+  "aider": {
+    "edit_format": "whole",
+    "git": false,
+    "repo_map_tokens": 0,
+    "auto_lint": false,
+    "auto_test": true,
+    "subprocess_timeout_seconds": 600,
+    "final_test_timeout_seconds": 300
+  },
+  "models": {
+    "Edge0-120B-q3k": {"server": "edge0-infer", "context": 32768, "note": "different server from the other three"},
+    "Qwen3-Coder-30B-A3B-Q3_K_M": {"server": "llama.cpp Vulkan llama-server", "context": 32768, "flags": "-fa on --jinja -ngl 99 --cache-type-k q8_0 --cache-type-v q8_0 --n-cpu-moe 6", "gguf": "unsloth Q3_K_M, 14.71 GB"},
+    "gpt-oss-20b-MXFP4": {"server": "llama.cpp Vulkan llama-server", "context": 32768, "flags": "-fa on --jinja -ngl 99", "gguf": "ggml-org MXFP4, 12.11 GB"},
+    "Qwen3.6-35B-A3B-UD-IQ3_XXS": {"server": "llama.cpp Vulkan llama-server", "context": 32768, "flags": "-fa on --jinja -ngl 99 --cache-type-k q8_0 --cache-type-v q8_0 --n-cpu-moe 8", "gguf": "UD-IQ3_XXS, 13.21 GB"}
+  },
+  "unknown": ["llama-server build number", "exact GGUF file hashes"],
+  "excluded": ["opencode arm: broken run (shell=True with an argument list); 0/50 is a launcher fault, not a result", "earlier h01-h10 tuning-set and replay runs: reported only in the private report"],
+  "gptoss_aider_not_rerun": "the Aider arm was not rerun after the gpt-oss fix; the fix touches only Patchsmith"
+}
