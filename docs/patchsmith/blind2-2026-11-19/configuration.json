@@ -1,0 +1,87 @@
+{
+  "status": "completed saved-row analysis; selected evidence release authorized",
+  "cohort": "n09-n16 only",
+  "patchsmith_current_head": "0e4f1424de66e60ad0e9189a6bada789a081ba71",
+  "fixture_commit": "b30f29ce1e708761c162b9dd5be501052402d300",
+  "arm_order": [
+    "v5",
+    "v6",
+    "aider"
+  ],
+  "models": {
+    "gptoss": "gpt-oss-20b MXFP4",
+    "qwen3coder": "Qwen3-Coder-30B-A3B-Instruct Q3_K_M; q8_0 KV; n-cpu-moe 6",
+    "qwen36": "Qwen3.6-35B-A3B UD-IQ3_XXS; q8_0 KV; n-cpu-moe 8",
+    "edge0": "Edge0-120B q3k; edge0-infer; context 32768"
+  },
+  "v5_completion_cap": 2048,
+  "v6_completion_cap": 4096,
+  "v6_read_limit": 5,
+  "max_turns": 30,
+  "live_context_budget": 30000,
+  "patchsmith_request_timeout_seconds": 420,
+  "aider_process_timeout_seconds": 600,
+  "sampling_limit": "Aider wrapper does not explicitly pin temperature",
+  "exclusions": [
+    "all n01-n08, tuning, replay and frontier results"
+  ],
+  "transformations": [
+    "Select synthetic fixture/model/arm/repeat/outcome/stopping category/turns/seconds only",
+    "Normalize Aider repeat 0-2 to 1-3",
+    "Exclude notes, paths, test output, patches, code, credentials and transcripts",
+    "Retain original input hashes separately from curated output hashes"
+  ],
+  "method_source_hashes": {
+    "blind2.ps1": "e0090df99233d96978c05463352f88b03b3b950d3d4492f3333c59ff43df8cd5",
+    "blind2b.ps1": "dfd17a08ffb2fe00e0e83efc8317083cf1eeea15dbe5c2a04c3e90e0437cfa77",
+    "blind2c.ps1": "f18571392bcbf720d6f37e98a2018c26fda285e505e4de19d98a6521cea980e4",
+    "aider_edge0.py": "a0501dc1f5e6f6259ad0cbf1f9a4c3fff40e370607e2afe192a1de94df211efa",
+    "patchsmith-current/loop.py": "ab6bc3150f0ffd1ab96d0ef309cec8dc1d4abf14c48e77cce13c1751c9dac901",
+    "patchsmith-current/llm.py": "cb5f146ea58cec7ee0d3d9975a6f0a5afe7373d15ed599e4deb04c5b4a28a727",
+    "patchsmith-current/eval/run_eval.py": "f28720d6caf0938678b603ca94eee7f423c9c879017d683abb2c57c5d0300a82",
+    "patchsmith-current/eval/heldout2_tasks.json": "a82300e370477dae1d10121da8bd8925ee0a3d43f4fe1f1290cb4b78863a57f6",
+    "run.log": "902584867634e0c672ef26217e5732bc441799a973625ecc5d326b2f05e023da",
+    "serve.ps1": "f33124db13ef5cd01fd08f860d7553873d255de3ce1202bc9c0705fe73355254"
+  },
+  "diagnostics": {
+    "gptoss": {
+      "server_log_sha256": "ba00c5877e3071e6626a5e3289b3b5cb5308f51dfab8acb40809bbc0e8bb9b8f",
+      "parser_exceptions": 8,
+      "json_argument_errors": 2,
+      "input_parse_errors": 6
+    },
+    "qwen3coder": {
+      "server_log_sha256": "ef2fd2b445ec0a9490d8a649ae5225091ebbf1c77316caa606c5284f2c3fb7ac",
+      "parser_exceptions": 1,
+      "json_argument_errors": 1,
+      "input_parse_errors": 0
+    },
+    "qwen36": {
+      "server_log_sha256": "db72e2e03821b6aaa8ccbdfc0ab8e43b789ccb4acb7c4b3df5b6670599c5747e",
+      "parser_exceptions": 0,
+      "json_argument_errors": 0,
+      "input_parse_errors": 0
+    },
+    "edge0": {
+      "server_log_sha256": "eccd68f4342c58b4794e3d337fe42da9d8f8cfb945d9598f6ba475a681cfadc2",
+      "observed_error_or_exception_lines": 0,
+      "terminal_execution_errors": 0,
+      "terminal_timeouts": 0,
+      "source_hashes": "edge0-audit.json"
+    }
+  },
+  "prior_observation_hashes": {
+    "run.log_before_edge0_completion": "0160ca1fbea205ba3ba8a16c83219d2c22d2ff2b7683f3bf9581928363a5ac74"
+  },
+  "edge0_rerun": {
+    "completed_at": "2026-11-19T16:32:59+08:00",
+    "context": 32768,
+    "earlier_1243_start_failures": 2,
+    "earlier_morning_start_failure": true,
+    "ram_spike_and_reboot": "User-reported; surviving logs establish start outcomes and unchanged context, not RAM cause/reboot",
+    "same_context_all_arms": true,
+    "no_analysis_service_actions": true
+  },
+  "blindness_caveat": "Edge0 v5b and gpt-oss recovery tuned on earlier failures, not blind; n09-n16 is a separate held-out-from-observed-tuning cohort, not pooled with n01-n08 or frontier.",
+  "publication": "User-authorized selected evidence release, 2026-11-19; no new inference"
+}

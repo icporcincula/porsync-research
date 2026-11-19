@@ -1,0 +1,24 @@
+{
+  "patchsmith_head": "0e4f1424de66e60ad0e9189a6bada789a081ba71",
+  "fixture_sha256": {
+    "bug1": "6ceb19a93d9442e26cd10b0c873e88020d6338fccc72eab70473b2df94a12167",
+    "feature": "f0ecf30cb53fb05f76691b7f218fb9bc07eca261b48651c3b50cd7746b92cfa5",
+    "multifile": "34a80ab278c6b3ed00546d8c9de2c37a0fbf9f81900c798e7735809980a2e91d",
+    "offbyone": "1d5b6672799027ed921310f640ad471de5129d96c82f6dbc372a53bff7686779",
+    "javascript": "40c55d7fee82639e2cdec4fcfe695a8b3293fb8dea6ec5023a8fafe4d58e6fde"
+  },
+  "cli_version": "2.1.328 (Claude Code)",
+  "runner_sha256": "7464a176541f995d440bc667b5d27d8aabe88800f9c784018c730323b655a74b",
+  "warmup_launcher_sha256": "2085d932b4b8189e73db1d53e6da35622e35a420454130788b90f176f3daa793",
+  "router_categories_sha256": "315ba20f0e3aaaaeabb87bf6b5af1f38f79a3358bea0b138f38e3fb34a3038c5",
+  "cli_timeout_seconds": 600,
+  "ram_floor_bytes": 0,
+  "router_mode": "route",
+  "local_model": "edge0_120b",
+  "cooldown_method": "Observe original 300 s cooldown and 120 s clean window in the actual per-trial MCP process; no gate overrides",
+  "source_plan_sha256": "12cb719dc08a8e0084dc72239400f6ac724f49998ba09167c1a84d6d04813338",
+  "prompt_sha256": "1157cf702ad8760075598cdf8207c24b4105490abb7f44046b4b2800574c5681",
+  "cohort": "B2-retry",
+  "context": 32768,
+  "publication": "User-authorized selected evidence release, 2026-11-19; no new inference"
+}

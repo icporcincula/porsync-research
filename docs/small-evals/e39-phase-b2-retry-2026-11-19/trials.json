@@ -1,0 +1,1007 @@
+[
+  {
+    "key": "B2-bug1-sonnet-0",
+    "name": "bug1",
+    "repeat": 0,
+    "model": "sonnet",
+    "green": true,
+    "secs": 327.093,
+    "turns": 4,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 19446,
+      "cache_read_input_tokens": 114664,
+      "output_tokens": 664,
+      "output_tokens_details": {
+        "thinking_tokens": 92
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 19446,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 76,
+          "cache_read_input_tokens": 34039,
+          "cache_creation_input_tokens": 435,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 435
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "bfa6fb2dd7a87f2b82f87d055da8b131ef75a81d27bb88d733f370eac3e4fcd7",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 8,
+        "seconds": 11.90599999999904,
+        "tokens_est": 11149
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-bug1-sonnet-0",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-feature-sonnet-0",
+    "name": "feature",
+    "repeat": 0,
+    "model": "sonnet",
+    "green": true,
+    "secs": 336.515,
+    "turns": 4,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 19600,
+      "cache_read_input_tokens": 114959,
+      "output_tokens": 717,
+      "output_tokens_details": {
+        "thinking_tokens": 97
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 19600,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 57,
+          "cache_read_input_tokens": 34214,
+          "cache_creation_input_tokens": 414,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 414
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "2c022a84da6459e4d6678827c2561a1b8bf36f48ad9733f945d07ab36b8513d7",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 7,
+        "seconds": 21.875,
+        "tokens_est": 14027
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-feature-sonnet-0",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-multifile-sonnet-0",
+    "name": "multifile",
+    "repeat": 0,
+    "model": "sonnet",
+    "green": true,
+    "secs": 333.969,
+    "turns": 4,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 19675,
+      "cache_read_input_tokens": 115032,
+      "output_tokens": 719,
+      "output_tokens_details": {
+        "thinking_tokens": 76
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 19675,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 73,
+          "cache_read_input_tokens": 34285,
+          "cache_creation_input_tokens": 418,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 418
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "17a50de2c958ca53d059e76b84d1d81c5eef8ac79459dea7f444e9ee07db6f9f",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 6,
+        "seconds": 20.64100000000326,
+        "tokens_est": 12469
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-multifile-sonnet-0",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-offbyone-sonnet-0",
+    "name": "offbyone",
+    "repeat": 0,
+    "model": "sonnet",
+    "green": true,
+    "secs": 336.125,
+    "turns": 5,
+    "usage": {
+      "input_tokens": 12,
+      "cache_creation_input_tokens": 19767,
+      "cache_read_input_tokens": 149357,
+      "output_tokens": 862,
+      "output_tokens_details": {
+        "thinking_tokens": 86
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 19767,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 76,
+          "cache_read_input_tokens": 34485,
+          "cache_creation_input_tokens": 310,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 310
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "64d21943f8f9c4e84fb7bc5e37aa872f3703deb357da730e6f7f1ec2360ce6fe",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 7,
+        "seconds": 17.65700000000288,
+        "tokens_est": 10584
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-offbyone-sonnet-0",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-javascript-sonnet-0",
+    "name": "javascript",
+    "repeat": 0,
+    "model": "sonnet",
+    "green": true,
+    "secs": 329.828,
+    "turns": 4,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 19836,
+      "cache_read_input_tokens": 115000,
+      "output_tokens": 709,
+      "output_tokens_details": {
+        "thinking_tokens": 87
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 19836,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 68,
+          "cache_read_input_tokens": 34339,
+          "cache_creation_input_tokens": 525,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 525
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "5e8bcf0351f4609d5c9fe81d9ea2a4e60d046e86bbf52303888314cea52c0295",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 6,
+        "seconds": 14.640999999999622,
+        "tokens_est": 11342
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-javascript-sonnet-0",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-bug1-sonnet-1",
+    "name": "bug1",
+    "repeat": 1,
+    "model": "sonnet",
+    "green": true,
+    "secs": 328.75,
+    "turns": 4,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 19413,
+      "cache_read_input_tokens": 114665,
+      "output_tokens": 696,
+      "output_tokens_details": {
+        "thinking_tokens": 92
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 19413,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 93,
+          "cache_read_input_tokens": 34030,
+          "cache_creation_input_tokens": 411,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 411
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "20aa53216fbade858bd9992ed087b2a748813b1b6e16e5b2a81cbd10b2389f01",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 6,
+        "seconds": 13.546999999998661,
+        "tokens_est": 8575
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-bug1-sonnet-1",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-feature-sonnet-1",
+    "name": "feature",
+    "repeat": 1,
+    "model": "sonnet",
+    "green": true,
+    "secs": 341.235,
+    "turns": 6,
+    "usage": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 22636,
+      "cache_read_input_tokens": 152412,
+      "output_tokens": 1119,
+      "output_tokens_details": {
+        "thinking_tokens": 249
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 22636,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 172,
+          "cache_read_input_tokens": 37193,
+          "cache_creation_input_tokens": 471,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 471
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "5fcf2652afa880af55441fcbb5db172dfcf50a4ba36b3acd25f327c349828b34",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 7,
+        "seconds": 21.01599999999962,
+        "tokens_est": 13739
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-feature-sonnet-1",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-multifile-sonnet-1",
+    "name": "multifile",
+    "repeat": 1,
+    "model": "sonnet",
+    "green": true,
+    "secs": 346.297,
+    "turns": 8,
+    "usage": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 23055,
+      "cache_read_input_tokens": 225249,
+      "output_tokens": 1394,
+      "output_tokens_details": {
+        "thinking_tokens": 164
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 23055,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 138,
+          "cache_read_input_tokens": 37825,
+          "cache_creation_input_tokens": 258,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 258
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "fb0ba35a9f9f3e6aa0f72f611322e95cb108a33456aaad9d06356e35ce7f4e34",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 6,
+        "seconds": 19.43699999999808,
+        "tokens_est": 10642
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-multifile-sonnet-1",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-offbyone-sonnet-1",
+    "name": "offbyone",
+    "repeat": 1,
+    "model": "sonnet",
+    "green": true,
+    "secs": 329.844,
+    "turns": 4,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 19682,
+      "cache_read_input_tokens": 114858,
+      "output_tokens": 814,
+      "output_tokens_details": {
+        "thinking_tokens": 128
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 19682,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 71,
+          "cache_read_input_tokens": 34129,
+          "cache_creation_input_tokens": 581,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 581
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "5148ce9ed02f59139f3b16356e7d964cba433264710a8ad0f598f3cf18824961",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 6,
+        "seconds": 15.0,
+        "tokens_est": 9585
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-offbyone-sonnet-1",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-javascript-sonnet-1",
+    "name": "javascript",
+    "repeat": 1,
+    "model": "sonnet",
+    "green": true,
+    "secs": 338.11,
+    "turns": 4,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 20009,
+      "cache_read_input_tokens": 114987,
+      "output_tokens": 852,
+      "output_tokens_details": {
+        "thinking_tokens": 111
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 20009,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 84,
+          "cache_read_input_tokens": 34336,
+          "cache_creation_input_tokens": 701,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 701
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "160b2b1f73b2249008afeb7bc5ddad4f082ea6f70eff88e60667558d90386efd",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 7,
+        "seconds": 22.39099999999962,
+        "tokens_est": 14118
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-javascript-sonnet-1",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-bug1-sonnet-2",
+    "name": "bug1",
+    "repeat": 2,
+    "model": "sonnet",
+    "green": true,
+    "secs": 326.422,
+    "turns": 4,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 19398,
+      "cache_read_input_tokens": 114681,
+      "output_tokens": 657,
+      "output_tokens_details": {
+        "thinking_tokens": 78
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 19398,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 75,
+          "cache_read_input_tokens": 34036,
+          "cache_creation_input_tokens": 390,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 390
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "c9a197f63cee9a25c277e424b512588c8c124316e3f5007fedb0d510fc294d18",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 6,
+        "seconds": 11.578000000001339,
+        "tokens_est": 7908
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-bug1-sonnet-2",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-feature-sonnet-2",
+    "name": "feature",
+    "repeat": 2,
+    "model": "sonnet",
+    "green": true,
+    "secs": 348.516,
+    "turns": 8,
+    "usage": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 26329,
+      "cache_read_input_tokens": 241135,
+      "output_tokens": 1168,
+      "output_tokens_details": {
+        "thinking_tokens": 47
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 26329,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 182,
+          "cache_read_input_tokens": 41134,
+          "cache_creation_input_tokens": 223,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 223
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "298a263bc0cf4edef61cf66cadf0374bfc8734c49266290d6499e83913bcfbca",
+    "local_runs": [
+      {
+        "status": "error",
+        "reason": "execution_error",
+        "turns": 6,
+        "seconds": 21.06300000000192,
+        "tokens_est": 12327
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-feature-sonnet-2",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "failed"
+      ],
+      "local_verification_disagreement": true
+    }
+  },
+  {
+    "key": "B2-multifile-sonnet-2",
+    "name": "multifile",
+    "repeat": 2,
+    "model": "sonnet",
+    "green": true,
+    "secs": 338.781,
+    "turns": 4,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 19698,
+      "cache_read_input_tokens": 115013,
+      "output_tokens": 725,
+      "output_tokens_details": {
+        "thinking_tokens": 86
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 19698,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 85,
+          "cache_read_input_tokens": 34278,
+          "cache_creation_input_tokens": 448,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 448
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "daf14603d0e6e5e704d1204e933f0ab42f2ef83c9c02e261b41407c7bd769fae",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 7,
+        "seconds": 23.875,
+        "tokens_est": 12807
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-multifile-sonnet-2",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  },
+  {
+    "key": "B2-offbyone-sonnet-2",
+    "name": "offbyone",
+    "repeat": 2,
+    "model": "sonnet",
+    "green": true,
+    "secs": 353.75,
+    "turns": 8,
+    "usage": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 24129,
+      "cache_read_input_tokens": 232555,
+      "output_tokens": 995,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 24129,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 91,
+          "cache_read_input_tokens": 38967,
+          "cache_creation_input_tokens": 190,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 190
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "8f58b5a058040950122c18e56e8621763aa73666ccc006d9b13401ca308e9c9a",
+    "local_runs": [
+      {
+        "status": "error",
+        "reason": "execution_error",
+        "turns": 7,
+        "seconds": 23.68800000000192,
+        "tokens_est": 10053
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-offbyone-sonnet-2",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "failed"
+      ],
+      "local_verification_disagreement": true
+    }
+  },
+  {
+    "key": "B2-javascript-sonnet-2",
+    "name": "javascript",
+    "repeat": 2,
+    "model": "sonnet",
+    "green": true,
+    "secs": 335.047,
+    "turns": 4,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 19889,
+      "cache_read_input_tokens": 114995,
+      "output_tokens": 761,
+      "output_tokens_details": {
+        "thinking_tokens": 90
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 19889,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 117,
+          "cache_read_input_tokens": 34340,
+          "cache_creation_input_tokens": 577,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 577
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "local_attempt_ran": true,
+    "timed_out": false,
+    "test_rc": 0,
+    "arm": "B2-retry",
+    "source_row_sha256": "e9c65c0db27a6e72c231e63929736027dfe876a8d370200d2a77dcd4434a96f8",
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 6,
+        "seconds": 19.70300000000134,
+        "tokens_est": 12381
+      }
+    ],
+    "outcome_agreement": {
+      "key": "B2-javascript-sonnet-2",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  }
+]

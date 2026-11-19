@@ -1,0 +1,29 @@
+{
+  "arm": "B0",
+  "patchsmith_head": "0e4f1424de66e60ad0e9189a6bada789a081ba71",
+  "fixture_sha256": {
+    "bug1": "6ceb19a93d9442e26cd10b0c873e88020d6338fccc72eab70473b2df94a12167",
+    "bug2": "640c86f7374eae139ea2628e56ae1d90903119e1f655396bf14eb99d20310e69",
+    "feature": "f0ecf30cb53fb05f76691b7f218fb9bc07eca261b48651c3b50cd7746b92cfa5",
+    "multifile": "34a80ab278c6b3ed00546d8c9de2c37a0fbf9f81900c798e7735809980a2e91d",
+    "refactor": "e3e51ea6992fce43b53836d6a5b1ef5dded80de50e01ce06e71fd0d124b69137",
+    "offbyone": "1d5b6672799027ed921310f640ad471de5129d96c82f6dbc372a53bff7686779",
+    "javascript": "40c55d7fee82639e2cdec4fcfe695a8b3293fb8dea6ec5023a8fafe4d58e6fde"
+  },
+  "fixture_hash_method": "sorted relative paths and bytes, each length-prefixed uint64 big endian; cache/git excluded",
+  "cli_version": "2.1.328 (Claude Code)",
+  "runner_sha256": "6ea454887888470753f08f685a3a8e514194d409c1900a3d0628a7b1c28f546e",
+  "router_categories_sha256": "315ba20f0e3aaaaeabb87bf6b5af1f38f79a3358bea0b138f38e3fb34a3038c5",
+  "cli_timeout_seconds": 600,
+  "prompt_template": "You are fixing a small repo in the current directory. Task: {task}\nRun the project's tests to verify ({test_command}). Do not edit test files. Reply with one line when done.",
+  "planned": 21,
+  "repeats": 3,
+  "host": "sonnet",
+  "fixture_sources": "withheld; cannot independently re-score",
+  "test_commands": [
+    "python -B -m unittest discover -q",
+    "node --test"
+  ],
+  "ram_floor_override": null,
+  "plugins": "no added plugin config; Phase A CLI template"
+}

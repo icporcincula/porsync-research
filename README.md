@@ -46,3 +46,30 @@ User-authorized release of selected CPU-only follow-ups:
 - [E36 review preparation](docs/small-evals/e36-review-package-2026-11-17.md): blinded review tooling prepared for 200 frozen items; independent human labels remain pending. Website excerpts and predictions are excluded.
 
 Method scripts require excluded private modules or data; they are not turnkey public reproductions. No model calls or GPU/service actions. Only selected reports, synthetic/aggregate observations and method scripts are released; private traces, source datasets and full private input manifests remain excluded. This authorization does not publish the separate E39 or Sprocket drafts. Historical hold wording in the reports is superseded by their dated authorization notes.
+
+
+## E39/E41 selected update - November 19, 2026
+
+- [E39 direct CLI baseline B0](docs/small-evals/e39-phase-b0-2026-11-19/README.md): 21/21 independently accepted.
+- [E39 B0/B1/original B2 accounting](docs/small-evals/e39-phase-b-2026-11-19/README.md): B1 36/36; original B2 reached no local attempt.
+- [E39 separate B2 retry](docs/small-evals/e39-phase-b2-retry-2026-11-19/README.md): 15/15 final passes, 13 local successes and two frontier repairs; one archived quota-interrupted attempt excluded. No speed win or routing promotion; items 1 and 2 remain open.
+- [E41 separate n09-n16 blind2 cohort](docs/patchsmith/blind2-2026-11-19/README.md): v5b/v6/Aider passes out of 24: gpt-oss 13/19/23, Qwen3-Coder 14/15/17, Qwen3.6 24/24/23, Edge0 18/17/23. Edge0 v5b is not blind; cohorts are never pooled.
+
+Earlier planned-work/hold wording above is historical; the linked reports give the current measured scope and remaining gaps. This release does not include the separate frontier/Phase A or Sprocket local drafts.
+
+E39 items 1 and 2 remain open: broader plugin-path accounting and actual subscription quota impact, and sufficient host/shadow integration evidence on local-table decisions. Default remains frontier-only; no routing promotion is supported. RAM floor 0 was an authorized accounting deviation, not a recommended threshold or controlled RAM calibration. The cold-start `recent_http400` label came from a synthetic in-memory cooldown initialized at process start, not a real HTTP 400. The retry observed the original five-minute cooldown in the same MCP process.
+
+B0 passed 21/21; B1 passed 36/36 with no local attempts. B1-minus-B0 fixture-balanced mean median overhead was +99,410.5 cache-read tokens, -4,040.9 cache-write tokens, +547.8 output tokens and +13.094 seconds. B2 retry passed 15/15 final independent checks: 13 local successes and two local failures repaired by frontier. One earlier quota-interrupted attempt is archived and excluded, including after its key was rerun. Original B2 smoke/skip and the retry are separate cohorts.
+
+B2-retry-minus-B1 fixture-balanced mean median deltas were -67,376.1 cache-read, -1,186.8 cache-write and -129.3 output tokens, but +306.625 seconds including cooldown and +6.113 seconds after subtracting observed waits. There is no speed win and no promotion conclusion. Fixed CLI context (~25k cache-write and ~92-135k cache-read versus 250-500 task output tokens) can dominate apparent savings. Unweighted token arithmetic is not subscription quota weighting, billed spend or a causal estimate.
+
+E41 blind2 contains 288 saved attempts, separate from n01-n08, tuning, replay and frontier cohorts. Edge0 v5b is not blind; it and the gpt-oss recovery were tuned after earlier failures. The new tasks were held out from that observed tuning, which does not make the intervention blind. Cohorts are never pooled. v6 changes both the completion cap and read-tool policy; unequal budgets and cross-model quant/backend differences prevent a general harness ranking.
+
+Only curated aggregates, outcome/usage rows, configuration, source hashes and offline analysis are released. Private implementation, fixture source, reference solutions (including heldout2_references.json), prompts, patches, transcripts, raw test output and personal paths remain withheld. Counts can be recomputed; generated code cannot be independently rescored from this release. No model runs or API spend were performed for publication.
+
+Run the three E39 package `analyze.py` scripts and the first-set E41 analyzer directly. For blind2:
+
+```sh
+python -B docs/patchsmith/blind2-2026-11-19/analyze.py --trials docs/patchsmith/blind2-2026-11-19/trials.json --out recomputed/blind2
+python -B verify.py
+```

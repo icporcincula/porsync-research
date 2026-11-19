@@ -1,0 +1,664 @@
+{
+  "cohort": "B2-retry",
+  "planned": 15,
+  "completed": 15,
+  "accepted": 15,
+  "local_attempts": 15,
+  "failures": [],
+  "timeouts": 0,
+  "protected_violations": 0,
+  "missing_usage": 0,
+  "local_seconds": {
+    "n": 15,
+    "values": [
+      11.90599999999904,
+      21.875,
+      20.64100000000326,
+      17.65700000000288,
+      14.640999999999622,
+      13.546999999998661,
+      21.01599999999962,
+      19.43699999999808,
+      15.0,
+      22.39099999999962,
+      11.578000000001339,
+      21.06300000000192,
+      23.875,
+      23.68800000000192,
+      19.70300000000134
+    ],
+    "median": 19.70300000000134
+  },
+  "local_status_counts": {
+    "done": 13,
+    "error": 2
+  },
+  "timing_correction": "Saved run ledgers deduplicate repeated serialized tool results; raw runner local_seconds retained unchanged.",
+  "warmup_seconds": {
+    "n": 15,
+    "values": [
+      300.4032390117645,
+      300.4259030818939,
+      300.233628988266,
+      300.84986639022827,
+      300.97361731529236,
+      300.2636339664459,
+      300.1139245033264,
+      300.3277630805969,
+      300.9682230949402,
+      300.50956177711487,
+      300.9853732585907,
+      300.8417160511017,
+      300.85998797416687,
+      300.8436987400055,
+      300.3337948322296
+    ],
+    "median": 300.50956177711487
+  },
+  "wall_minus_observed_warmup": {
+    "B2-bug1-sonnet-0": 26.68976098823549,
+    "B2-feature-sonnet-0": 36.089096918106065,
+    "B2-multifile-sonnet-0": 33.735371011734,
+    "B2-offbyone-sonnet-0": 35.27513360977173,
+    "B2-javascript-sonnet-0": 28.854382684707616,
+    "B2-bug1-sonnet-1": 28.486366033554077,
+    "B2-feature-sonnet-1": 41.1210754966736,
+    "B2-multifile-sonnet-1": 45.9692369194031,
+    "B2-offbyone-sonnet-1": 28.87577690505981,
+    "B2-javascript-sonnet-1": 37.600438222885145,
+    "B2-bug1-sonnet-2": 25.436626741409327,
+    "B2-feature-sonnet-2": 47.674283948898335,
+    "B2-multifile-sonnet-2": 37.921012025833136,
+    "B2-offbyone-sonnet-2": 52.90630125999451,
+    "B2-javascript-sonnet-2": 34.71320516777041
+  },
+  "groups": [
+    {
+      "fixture": "bug1",
+      "completed": 3,
+      "accepted": 3,
+      "metrics": {
+        "input_tokens": {
+          "n": 3,
+          "median": 10,
+          "q1": 10.0,
+          "q3": 10.0,
+          "iqr": 0.0
+        },
+        "cache_creation_input_tokens": {
+          "n": 3,
+          "median": 19413,
+          "q1": 19405.5,
+          "q3": 19429.5,
+          "iqr": 24.0
+        },
+        "cache_read_input_tokens": {
+          "n": 3,
+          "median": 114665,
+          "q1": 114664.5,
+          "q3": 114673.0,
+          "iqr": 8.5
+        },
+        "output_tokens": {
+          "n": 3,
+          "median": 664,
+          "q1": 660.5,
+          "q3": 680.0,
+          "iqr": 19.5
+        },
+        "turns": {
+          "n": 3,
+          "median": 4,
+          "q1": 4.0,
+          "q3": 4.0,
+          "iqr": 0.0
+        },
+        "secs": {
+          "n": 3,
+          "median": 327.093,
+          "q1": 326.75750000000005,
+          "q3": 327.92150000000004,
+          "iqr": 1.1639999999999873
+        }
+      }
+    },
+    {
+      "fixture": "bug2",
+      "completed": 0,
+      "accepted": 0,
+      "metrics": {
+        "input_tokens": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        },
+        "cache_creation_input_tokens": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        },
+        "cache_read_input_tokens": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        },
+        "output_tokens": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        },
+        "turns": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        },
+        "secs": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        }
+      }
+    },
+    {
+      "fixture": "feature",
+      "completed": 3,
+      "accepted": 3,
+      "metrics": {
+        "input_tokens": {
+          "n": 3,
+          "median": 14,
+          "q1": 12.0,
+          "q3": 16.0,
+          "iqr": 4.0
+        },
+        "cache_creation_input_tokens": {
+          "n": 3,
+          "median": 22636,
+          "q1": 21118.0,
+          "q3": 24482.5,
+          "iqr": 3364.5
+        },
+        "cache_read_input_tokens": {
+          "n": 3,
+          "median": 152412,
+          "q1": 133685.5,
+          "q3": 196773.5,
+          "iqr": 63088.0
+        },
+        "output_tokens": {
+          "n": 3,
+          "median": 1119,
+          "q1": 918.0,
+          "q3": 1143.5,
+          "iqr": 225.5
+        },
+        "turns": {
+          "n": 3,
+          "median": 6,
+          "q1": 5.0,
+          "q3": 7.0,
+          "iqr": 2.0
+        },
+        "secs": {
+          "n": 3,
+          "median": 341.235,
+          "q1": 338.875,
+          "q3": 344.8755,
+          "iqr": 6.000499999999988
+        }
+      }
+    },
+    {
+      "fixture": "multifile",
+      "completed": 3,
+      "accepted": 3,
+      "metrics": {
+        "input_tokens": {
+          "n": 3,
+          "median": 10,
+          "q1": 10.0,
+          "q3": 14.0,
+          "iqr": 4.0
+        },
+        "cache_creation_input_tokens": {
+          "n": 3,
+          "median": 19698,
+          "q1": 19686.5,
+          "q3": 21376.5,
+          "iqr": 1690.0
+        },
+        "cache_read_input_tokens": {
+          "n": 3,
+          "median": 115032,
+          "q1": 115022.5,
+          "q3": 170140.5,
+          "iqr": 55118.0
+        },
+        "output_tokens": {
+          "n": 3,
+          "median": 725,
+          "q1": 722.0,
+          "q3": 1059.5,
+          "iqr": 337.5
+        },
+        "turns": {
+          "n": 3,
+          "median": 4,
+          "q1": 4.0,
+          "q3": 6.0,
+          "iqr": 2.0
+        },
+        "secs": {
+          "n": 3,
+          "median": 338.781,
+          "q1": 336.375,
+          "q3": 342.539,
+          "iqr": 6.163999999999987
+        }
+      }
+    },
+    {
+      "fixture": "refactor",
+      "completed": 0,
+      "accepted": 0,
+      "metrics": {
+        "input_tokens": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        },
+        "cache_creation_input_tokens": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        },
+        "cache_read_input_tokens": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        },
+        "output_tokens": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        },
+        "turns": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        },
+        "secs": {
+          "n": 0,
+          "median": null,
+          "q1": null,
+          "q3": null,
+          "iqr": null
+        }
+      }
+    },
+    {
+      "fixture": "offbyone",
+      "completed": 3,
+      "accepted": 3,
+      "metrics": {
+        "input_tokens": {
+          "n": 3,
+          "median": 12,
+          "q1": 11.0,
+          "q3": 15.0,
+          "iqr": 4.0
+        },
+        "cache_creation_input_tokens": {
+          "n": 3,
+          "median": 19767,
+          "q1": 19724.5,
+          "q3": 21948.0,
+          "iqr": 2223.5
+        },
+        "cache_read_input_tokens": {
+          "n": 3,
+          "median": 149357,
+          "q1": 132107.5,
+          "q3": 190956.0,
+          "iqr": 58848.5
+        },
+        "output_tokens": {
+          "n": 3,
+          "median": 862,
+          "q1": 838.0,
+          "q3": 928.5,
+          "iqr": 90.5
+        },
+        "turns": {
+          "n": 3,
+          "median": 5,
+          "q1": 4.5,
+          "q3": 6.5,
+          "iqr": 2.0
+        },
+        "secs": {
+          "n": 3,
+          "median": 336.125,
+          "q1": 332.9845,
+          "q3": 344.9375,
+          "iqr": 11.952999999999975
+        }
+      }
+    },
+    {
+      "fixture": "javascript",
+      "completed": 3,
+      "accepted": 3,
+      "metrics": {
+        "input_tokens": {
+          "n": 3,
+          "median": 10,
+          "q1": 10.0,
+          "q3": 10.0,
+          "iqr": 0.0
+        },
+        "cache_creation_input_tokens": {
+          "n": 3,
+          "median": 19889,
+          "q1": 19862.5,
+          "q3": 19949.0,
+          "iqr": 86.5
+        },
+        "cache_read_input_tokens": {
+          "n": 3,
+          "median": 114995,
+          "q1": 114991.0,
+          "q3": 114997.5,
+          "iqr": 6.5
+        },
+        "output_tokens": {
+          "n": 3,
+          "median": 761,
+          "q1": 735.0,
+          "q3": 806.5,
+          "iqr": 71.5
+        },
+        "turns": {
+          "n": 3,
+          "median": 4,
+          "q1": 4.0,
+          "q3": 4.0,
+          "iqr": 0.0
+        },
+        "secs": {
+          "n": 3,
+          "median": 335.047,
+          "q1": 332.4375,
+          "q3": 336.5785,
+          "iqr": 4.1410000000000196
+        }
+      }
+    }
+  ],
+  "comparisons_vs_original_B1": [
+    {
+      "fixture": "bug1",
+      "delta": {
+        "input_tokens": -6.0,
+        "cache_creation_input_tokens": -2269.0,
+        "cache_read_input_tokens": -72015.5,
+        "output_tokens": -174.5,
+        "turns": -3.0,
+        "secs": 299.038
+      }
+    },
+    {
+      "fixture": "feature",
+      "delta": {
+        "input_tokens": -2.0,
+        "cache_creation_input_tokens": 748.5,
+        "cache_read_input_tokens": -32594.0,
+        "output_tokens": 189.0,
+        "turns": -1.0,
+        "secs": 313.641
+      }
+    },
+    {
+      "fixture": "multifile",
+      "delta": {
+        "input_tokens": -8.0,
+        "cache_creation_input_tokens": -2553.0,
+        "cache_read_input_tokens": -109619.0,
+        "output_tokens": -425.0,
+        "turns": -5.0,
+        "secs": 307.2735
+      }
+    },
+    {
+      "fixture": "offbyone",
+      "delta": {
+        "input_tokens": -5.0,
+        "cache_creation_input_tokens": -2191.5,
+        "cache_read_input_tokens": -55202.0,
+        "output_tokens": -100.5,
+        "turns": -3.0,
+        "secs": 305.82
+      }
+    },
+    {
+      "fixture": "javascript",
+      "delta": {
+        "input_tokens": -4.0,
+        "cache_creation_input_tokens": 331.0,
+        "cache_read_input_tokens": -67450.0,
+        "output_tokens": -135.5,
+        "turns": -3.0,
+        "secs": 307.35150000000004
+      }
+    }
+  ],
+  "note": "Original B0/B1/B2 preserved. Unpaired fixture medians; no quota weights or promotion inference.",
+  "outcome_agreement": [
+    {
+      "key": "B2-bug1-sonnet-0",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-feature-sonnet-0",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-multifile-sonnet-0",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-offbyone-sonnet-0",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-javascript-sonnet-0",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-bug1-sonnet-1",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-feature-sonnet-1",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-multifile-sonnet-1",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-offbyone-sonnet-1",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-javascript-sonnet-1",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-bug1-sonnet-2",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-feature-sonnet-2",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "failed"
+      ],
+      "local_verification_disagreement": true
+    },
+    {
+      "key": "B2-multifile-sonnet-2",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    },
+    {
+      "key": "B2-offbyone-sonnet-2",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "failed"
+      ],
+      "local_verification_disagreement": true
+    },
+    {
+      "key": "B2-javascript-sonnet-2",
+      "host_declared_pass": true,
+      "independently_accepted": true,
+      "host_disagreement": false,
+      "local_verification": [
+        "passed"
+      ],
+      "local_verification_disagreement": false
+    }
+  ],
+  "incomplete_usage_trial": {
+    "key": "B2-offbyone-sonnet-2",
+    "host_completed": false,
+    "runner_verified": null,
+    "local_verification": [
+      "passed"
+    ],
+    "routing": [
+      {
+        "mode": "route",
+        "category": "offbyone",
+        "prompt_tokens": 1140,
+        "decision": "local_with_cap",
+        "reason": "category_table"
+      }
+    ],
+    "local_runs": [
+      {
+        "status": "done",
+        "reason": "auto_finish",
+        "turns": 7,
+        "seconds": 16.360000000000582,
+        "tokens_est": 11538
+      }
+    ]
+  },
+  "all_local_attempts_including_incomplete": 16,
+  "stops": [
+    {
+      "kind": "stop",
+      "key": "B2-offbyone-sonnet-2",
+      "reason": "usage_limit"
+    }
+  ]
+}

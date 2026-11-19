@@ -741,6 +741,526 @@
       "transformations": [
         "UTF-8/LF curated consolidation; no raw traces, patches, logs or local paths"
       ]
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/README.md",
+      "source_sha256": "6f32b00e4dcc02557312ab357ff5614e5475419147714bb1f98139ed6faf4bc3",
+      "source_revision": "",
+      "source_state": "generated 2026-11-19 from completed run outputs (local, unpublished)",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches, logs or local paths"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/analyze.py",
+      "source_sha256": "a742521f00fd8a78ca42b5aa542c92057636838b38aed3ddc38402d096da8df0",
+      "source_state": "uncommitted local CPU-only analysis; unpublished",
+      "transformations": [
+        "Selected synthetic saved-row metadata only; no raw traces/code/paths",
+        "UTF-8/LF; original raw result hashes retained in sources.json"
+      ],
+      "prior_source_sha256": [
+        "fb6d070106c76ac4da8e70ba22329b9f6573fb6864e369a0a1050573844f2db9",
+        "7a1260fdf01ea6e4d0bf86c1f54ef07c363923784a3cc3c60beada6066811f96"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/configuration.json",
+      "source_sha256": "67f772abfd22383f98c7c8c0652e9e7786c03737ccfacc6e39cce8c11db07784",
+      "source_state": "uncommitted local CPU-only analysis; unpublished",
+      "transformations": [
+        "Selected synthetic saved-row metadata only; no raw traces/code/paths",
+        "UTF-8/LF; original raw result hashes retained in sources.json"
+      ],
+      "prior_source_sha256": [
+        "e8376cc9204e028f2968f7604ed57919f180f55aee101c32b9d2700dfda979e2",
+        "058811c46bfcdc07aefaacf75820171bea8f6cfcf4a51b1e3a638017324e0e91"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/README.md",
+      "source_sha256": "b67b6b076a255670f0e2cdbd9f6dc8887ac05955d9703b92117c6b713ed1d7fe",
+      "source_state": "uncommitted local CPU-only analysis; unpublished",
+      "transformations": [
+        "Selected synthetic saved-row metadata only; no raw traces/code/paths",
+        "Report adapted for portable package links and commands"
+      ],
+      "prior_source_sha256": [
+        "5ff5d04bdc03bae56d77f887d6a78058512da03aaea8a004b8923d07b292ad2b",
+        "08496e75308d9b0e6bc9ccf7ccc710f725eb451eb5cd71dea85b5e4d05f29794"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/sources.json",
+      "source_sha256": "b929e7edb1ef33c8b00771afcf7e6c087d5f6353ccedd9468ad0390d4c35f4cb",
+      "source_state": "uncommitted local CPU-only analysis; unpublished",
+      "transformations": [
+        "Selected synthetic saved-row metadata only; no raw traces/code/paths",
+        "UTF-8/LF; original raw result hashes retained in sources.json"
+      ],
+      "prior_source_sha256": [
+        "43f4360b725e294f7e72128769713fc27306e151d1e82e4f707555377a3dfdd2",
+        "7091c3d33fa52f1ee0a1766318f79816cdbe59b5d627df1f522e7b37bb0c6212"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/summary.json",
+      "source_sha256": "df6a539c2a939db2e7d2041c0a8b0e5f41557d531959e90f227af60d7fa62d5f",
+      "source_state": "uncommitted local CPU-only analysis; unpublished",
+      "transformations": [
+        "Selected synthetic saved-row metadata only; no raw traces/code/paths",
+        "UTF-8/LF; original raw result hashes retained in sources.json"
+      ],
+      "prior_source_sha256": [
+        "ae586ee0c37cd6d5a971dd53777e778f18d944cd9410920ac6f15253393a881a",
+        "db0c987bf18a390c737ad63fb929f987cafde41359ed4931115278b85cfc77b6"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/trials.json",
+      "source_sha256": "b601828d7795e148db1c3cc93bb89142b6197080a3a08ca50ecbca49f9a181e2",
+      "source_state": "uncommitted local CPU-only analysis; unpublished",
+      "transformations": [
+        "Selected synthetic saved-row metadata only; no raw traces/code/paths",
+        "UTF-8/LF; original raw result hashes retained in sources.json"
+      ],
+      "prior_source_sha256": [
+        "0032ffebf5878a1b4a6cf6e818a299726ecf5094045d0c606251b3d59e30b92b",
+        "f010a295d85d5f6e041d892f80ba9406004e3e622f46e47cb2ed1f8f5f6087b8"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/CHANGELOG.md",
+      "source_sha256": "2dcb94898e555daf2e3bf4db1ff81b15865686d4e50c3e6b2fbb7d4a3fca91f0",
+      "source_state": "uncommitted local CPU-only analysis; unpublished",
+      "transformations": [
+        "Selected saved-evidence metadata and relative source hashes only; no raw content",
+        "UTF-8/LF"
+      ],
+      "prior_source_sha256": [
+        "4e475f8e87b554998c3eacdbb0c114ab8a86dc91bde9dca8f04bd980c86161c6"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/edge0-audit.json",
+      "source_sha256": "58b2ffc71cd4560ffe83b60dfeba6184de3ac41ce33e64f1db96db9eac7ce40e",
+      "source_state": "uncommitted local CPU-only analysis; unpublished",
+      "transformations": [
+        "Selected saved-evidence metadata and relative source hashes only; no raw content",
+        "UTF-8/LF"
+      ],
+      "prior_source_sha256": [
+        "daa3e1c0be705713ae154a258fc7c8d2f6e9392f504e56ae7bb54104328679c9"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/CHANGELOG.md",
+      "source_sha256": "2dcb94898e555daf2e3bf4db1ff81b15865686d4e50c3e6b2fbb7d4a3fca91f0",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/README.md",
+      "source_sha256": "644bcf614e69a6456aa39a56455159e8017151a7943ff0c0ae7b3e7ecf7ee252",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/analyze.py",
+      "source_sha256": "a742521f00fd8a78ca42b5aa542c92057636838b38aed3ddc38402d096da8df0",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/configuration.json",
+      "source_sha256": "67f772abfd22383f98c7c8c0652e9e7786c03737ccfacc6e39cce8c11db07784",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/edge0-audit.json",
+      "source_sha256": "58b2ffc71cd4560ffe83b60dfeba6184de3ac41ce33e64f1db96db9eac7ce40e",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/sources.json",
+      "source_sha256": "b929e7edb1ef33c8b00771afcf7e6c087d5f6353ccedd9468ad0390d4c35f4cb",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/summary.json",
+      "source_sha256": "df6a539c2a939db2e7d2041c0a8b0e5f41557d531959e90f227af60d7fa62d5f",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/trials.json",
+      "source_sha256": "b601828d7795e148db1c3cc93bb89142b6197080a3a08ca50ecbca49f9a181e2",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/README.md",
+      "source_sha256": "7906bd0108b8c51beea3b24f3eebccf7a134d426551d6d05f87448274816482b",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/analyze.py",
+      "source_sha256": "9ee743213c24285e49a2d3f8588b68996f938497e4e8553f759a34fe7edd7232",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/config.json",
+      "source_sha256": "d30dbd1bc63f6f482cc74c6b94d3cd440b9f00fe95bb9c44abd5770d36a09b1f",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/summary.json",
+      "source_sha256": "262b8e33203288605d88bed375b40103cd3bce85f6dd30be0893f2d7c0e9f3ea",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/trials.json",
+      "source_sha256": "6d3ed5cb0f290e31bd6e76a3c2b3a9730c5d6ac668e770089e90589a1c8677f8",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/README.md",
+      "source_sha256": "4913742016e2ec393d8a1a3f49c6d4533bb7d8f37bca73575824bba5bac69829",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/analyze.py",
+      "source_sha256": "4436c455b8b8db34a1b464ae9c5aba83dccd4d207537b3ba18e39e9ece7c681a",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/config.json",
+      "source_sha256": "9e9970ab27b8c2161186d498fa69840ac169bfc406a499aaff05e1c8a04b3173",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/summary.json",
+      "source_sha256": "e1a379543652dd7ca1daa44c73f289eb3db3ec3eb60f6362bf5edbaab06b5749",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/trials.json",
+      "source_sha256": "78ec578c060b5cdc0acab0b6613304466e7d0464c37be8d548bc11505f195226",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/README.md",
+      "source_sha256": "537ce61daa6fd62b3b4ccef1ca7080ea711f7919881ed9668f476bcac06dea2f",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/analyze.py",
+      "source_sha256": "764b011e357c918f2a06e53a1147d846f677698cf75dae057dcde66488f4a94d",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/config.json",
+      "source_sha256": "bfcf8c8a8bfe02059dbd350ec829145c81ae4ae0df66b08f60f9144f955f40ee",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/route-derived-shadow-report.json",
+      "source_sha256": "c68ad844a02169a8e2ed10ed70af37c222ce837910ad88411e20e32aa39ce5eb",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/summary.json",
+      "source_sha256": "77d46bc977411bc4915de0ebb55a81ba8da8292e5bee8b305860e02833dd87ee",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/trials.json",
+      "source_sha256": "df686fc2ab505c9747cee0cafa444448c73d0464b52daa1165ad51295de47e0e",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/README.md",
+      "source_sha256": "a031341780bc9793aebfe707f405bf104c0b5706c5a178ff892c40a9b8db5698",
+      "source_state": "selected pre-publication local draft, 2026-11-19",
+      "transformations": [
+        "Authorization/status banners and follow-up pointers added where applicable; configuration publication labels refreshed; no numerical result changes",
+        "Curated aggregates/metadata only; private implementation, fixtures, references, prompts, patches, transcripts and personal paths excluded; original-source hashes retained"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e10-triggers-2026-11-17.md",
+      "source_sha256": "05acd6a46297f7b5fc1e915a30cf605180ef3d3169a12ac38a9b869d33699160",
+      "transformations": [
+        "Selected local artifact normalized to LF; unpublished draft; dependent private sources excluded"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e10/triggers-2026-11-17.json",
+      "source_sha256": "5718474c7a381c8373deabe1e7878963402048fe9a753f58a739abceaf6eeaf8",
+      "transformations": [
+        "Selected local artifact normalized to LF; unpublished draft; dependent private sources excluded"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/validate_triggers.py",
+      "source_sha256": "5915550212d956934e40a82549fc22a0a53c9f677d60214ef2b991aaceab192a",
+      "transformations": [
+        "Selected local artifact normalized to LF; unpublished draft; dependent private sources excluded"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e10-cached-replay-2026-11-17.md",
+      "source_sha256": "0c5705168a5bfd7725e9ed34494412c54651a41297357ea64373c4b7a3b0679d",
+      "transformations": [
+        "Selected uncommitted local artifact, UTF-8/LF; unpublished draft; raw private inputs excluded"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e21-results.md",
+      "source_sha256": "6a1dac49c9c50abfb47a9530676c15829584e0249cbc7d739e33c02d6994a316",
+      "transformations": [
+        "Selected uncommitted local artifact, UTF-8/LF; unpublished draft; raw private inputs excluded"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e36-review-package-2026-11-17.md",
+      "source_sha256": "13348d035acc6c83ebe9be00a2c2c4ea1e969e6cafa58c6346ab486c548f0d43",
+      "transformations": [
+        "Selected uncommitted local artifact, UTF-8/LF; unpublished draft; raw private inputs excluded"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e10/cached-replay-2026-11-17/public-summary.json",
+      "source_sha256": "413aae7f96c2b918219fae4bf23129b9b52c82ad69bb915192820d0a178be269",
+      "transformations": [
+        "Selected uncommitted local artifact, UTF-8/LF; unpublished draft; raw private inputs excluded"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/results/e21/stage-b-reconciled-2026-11-17.json",
+      "source_sha256": "28e638d59b1d62b3871820bee6b6486c42e42fb042075106c8e1bbe675da1d9c",
+      "transformations": [
+        "Selected uncommitted local artifact, UTF-8/LF; unpublished draft; raw private inputs excluded"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/replay_cached.py",
+      "source_sha256": "213d62be6adef0b73218f6112524cf79f3aa7c6ab645332bbdc8e1ebb90cf82a",
+      "transformations": [
+        "Selected uncommitted local artifact, UTF-8/LF; unpublished draft; raw private inputs excluded"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/regrade_cached.py",
+      "source_sha256": "33b73e66c905f491b9442e08ea0f4748f372384f5fd1fdb1c803fd0f30778050",
+      "transformations": [
+        "Selected uncommitted local artifact, UTF-8/LF; unpublished draft; raw private inputs excluded"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e10_audit/reconcile_e21.py",
+      "source_sha256": "c116217902f823b61a1d053e2199d55ff5fccb18de226f060db5dd45304e03af",
+      "transformations": [
+        "Selected uncommitted local artifact, UTF-8/LF; unpublished draft; raw private inputs excluded"
+      ]
+    },
+    {
+      "path": "portfolio/small-evals/e36_public/review.py",
+      "source_sha256": "b362822917dd3a376680a4c65fcf0bb01bc7ef2e4f6aac42854364292a7b2cb7",
+      "transformations": [
+        "Selected uncommitted local artifact, UTF-8/LF; unpublished draft; raw private inputs excluded"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/trials.json",
+      "source_sha256": "94b56db80eb5003eae3cca6a0b2bfcd98354c75c18c0c7e59e59675398fda06a",
+      "source_revision": "",
+      "source_state": "generated 2026-11-19 from completed run outputs (local, unpublished)",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches, logs or local paths"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/summary.json",
+      "source_sha256": "27a723f51ccb9e241ce6cc5aefe4d608b8162287b9f507c2211f61d30b0148db",
+      "source_revision": "",
+      "source_state": "generated 2026-11-19 from completed run outputs (local, unpublished)",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches, logs or local paths"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/configuration.json",
+      "source_sha256": "a2b51f458f64eee35799b6f98eec124f1e7dde9cba9f1782daa33c9983398acb",
+      "source_revision": "",
+      "source_state": "generated 2026-11-19 from completed run outputs (local, unpublished)",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches, logs or local paths"
+      ]
+    },
+    {
+      "path": "docs/patchsmith/harness-comparison-2026-11-19/analyze.py",
+      "source_sha256": "5ae7849664c21c4a0be6efb4698ea039bb3831f0c2bdba801e4bdf50f4f9a6f3",
+      "source_revision": "",
+      "source_state": "generated 2026-11-19 from completed run outputs (local, unpublished)",
+      "transformations": [
+        "UTF-8/LF curated consolidation; no raw traces, patches, logs or local paths"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/analyze.py",
+      "source_sha256": "9ee743213c24285e49a2d3f8588b68996f938497e4e8553f759a34fe7edd7232",
+      "source_state": "pre-normalization selected release, 2026-11-19",
+      "transformations": [
+        "UTF-8 text normalized to LF; trailing line whitespace removed; result values unchanged"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/config.json",
+      "source_sha256": "d30dbd1bc63f6f482cc74c6b94d3cd440b9f00fe95bb9c44abd5770d36a09b1f",
+      "source_state": "pre-normalization selected release, 2026-11-19",
+      "transformations": [
+        "UTF-8 text normalized to LF; trailing line whitespace removed; result values unchanged"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/summary.json",
+      "source_sha256": "262b8e33203288605d88bed375b40103cd3bce85f6dd30be0893f2d7c0e9f3ea",
+      "source_state": "pre-normalization selected release, 2026-11-19",
+      "transformations": [
+        "UTF-8 text normalized to LF; trailing line whitespace removed; result values unchanged"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/trials.json",
+      "source_sha256": "6d3ed5cb0f290e31bd6e76a3c2b3a9730c5d6ac668e770089e90589a1c8677f8",
+      "source_state": "pre-normalization selected release, 2026-11-19",
+      "transformations": [
+        "UTF-8 text normalized to LF; trailing line whitespace removed; result values unchanged"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/analyze.py",
+      "source_sha256": "4436c455b8b8db34a1b464ae9c5aba83dccd4d207537b3ba18e39e9ece7c681a",
+      "source_state": "pre-normalization selected release, 2026-11-19",
+      "transformations": [
+        "UTF-8 text normalized to LF; trailing line whitespace removed; result values unchanged"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/config.json",
+      "source_sha256": "9e9970ab27b8c2161186d498fa69840ac169bfc406a499aaff05e1c8a04b3173",
+      "source_state": "pre-normalization selected release, 2026-11-19",
+      "transformations": [
+        "UTF-8 text normalized to LF; trailing line whitespace removed; result values unchanged"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/summary.json",
+      "source_sha256": "e1a379543652dd7ca1daa44c73f289eb3db3ec3eb60f6362bf5edbaab06b5749",
+      "source_state": "pre-normalization selected release, 2026-11-19",
+      "transformations": [
+        "UTF-8 text normalized to LF; trailing line whitespace removed; result values unchanged"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/trials.json",
+      "source_sha256": "78ec578c060b5cdc0acab0b6613304466e7d0464c37be8d548bc11505f195226",
+      "source_state": "pre-normalization selected release, 2026-11-19",
+      "transformations": [
+        "UTF-8 text normalized to LF; trailing line whitespace removed; result values unchanged"
+      ]
     }
   ],
   "files": [
@@ -754,11 +1274,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "8600cc472ec008fff847edd8b3d4927cd29141a08a74df9000aec2404d3cc3c6"
+      "sha256": "707615eae9b2d9666d14780dd87aff640d29a99a4ae423c57cef4a4add44f630"
     },
     {
       "path": "RELEASE.md",
-      "sha256": "f43893f46a4fc562d6370a35383374566e95004bb4a0fea8407969b53c0ae858"
+      "sha256": "82cd8b12b5b57e0bc9f2b4ebc6142c39389daafe9685030f3b90d3c94bf38c26"
     },
     {
       "path": "docs/small-evals/e07-results.md",
@@ -1146,7 +1666,7 @@
     },
     {
       "path": "docs/patchsmith/harness-comparison-2026-11-19/README.md",
-      "sha256": "9077ed9d1c546611151e406df64922466257bd068751e81b251ef0ee3a6b2a61"
+      "sha256": "562bc35c22630a0ca682dcf361e9dd2be19d2c9391dcf1128106912656b2f3d5"
     },
     {
       "path": "docs/patchsmith/harness-comparison-2026-11-19/trials.json",
@@ -1163,6 +1683,102 @@
     {
       "path": "docs/patchsmith/harness-comparison-2026-11-19/analyze.py",
       "sha256": "5ae7849664c21c4a0be6efb4698ea039bb3831f0c2bdba801e4bdf50f4f9a6f3"
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/CHANGELOG.md",
+      "sha256": "2dcb94898e555daf2e3bf4db1ff81b15865686d4e50c3e6b2fbb7d4a3fca91f0"
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/README.md",
+      "sha256": "aa92ccd2695e4a1b7c1afdec732cf6c80bc7603f957670ae5cafe5b3843a81dd"
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/analyze.py",
+      "sha256": "a742521f00fd8a78ca42b5aa542c92057636838b38aed3ddc38402d096da8df0"
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/configuration.json",
+      "sha256": "49e1a9230112bad667cb88dd5d9eaf97e56c1ec058cc53f8166de8802e173ef0"
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/edge0-audit.json",
+      "sha256": "58b2ffc71cd4560ffe83b60dfeba6184de3ac41ce33e64f1db96db9eac7ce40e"
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/sources.json",
+      "sha256": "b929e7edb1ef33c8b00771afcf7e6c087d5f6353ccedd9468ad0390d4c35f4cb"
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/summary.json",
+      "sha256": "df6a539c2a939db2e7d2041c0a8b0e5f41557d531959e90f227af60d7fa62d5f"
+    },
+    {
+      "path": "docs/patchsmith/blind2-2026-11-19/trials.json",
+      "sha256": "b601828d7795e148db1c3cc93bb89142b6197080a3a08ca50ecbca49f9a181e2"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/README.md",
+      "sha256": "d5b4a05d95b91968c8cd1e1a4dd9ac1a6054c8a525c282a822eaddf671da4e5c"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/analyze.py",
+      "sha256": "684086db3fc14341173108958915109b87866c3245ca7d54a03e210d667abacf"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/config.json",
+      "sha256": "5fa92922834882323ab822770657f1b1f59d5e2616d72561b95a40a16697bb53"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/summary.json",
+      "sha256": "0c561a27815be67360c8085cb35b6d55f8ebdca6b3bca2663bf1c0b51eb9eebf"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b-2026-11-19/trials.json",
+      "sha256": "341c2036f5a48155d606ac20ebf4deb11cae137a393e85845846370a2f9cabb3"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/README.md",
+      "sha256": "0bd041c887ebac9ee27661aecfa82cce9c9b517245f0c985fa5e966004ca8f06"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/analyze.py",
+      "sha256": "90bbb03bf62bad58f18724dd17dcb382ed6546a1f76d1b9ead54ce31e353c6f2"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/config.json",
+      "sha256": "3494c5cea35ee39c4d4b3d684f1d8c257a1d12c691e53b6f51d15e7b19ff0f01"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/summary.json",
+      "sha256": "16fffbd15705f9445e4b4ecdf67b9c1e2fabdde70e0de2fc306394b270aaaa46"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b0-2026-11-19/trials.json",
+      "sha256": "9c8fa81dfe4a467fd65a64a8c9ca7f9d9a8601c76183fd92f2ca754de1428428"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/README.md",
+      "sha256": "1e9ad6baa95edb07a5a2a5b75f4b54f02490aedeb0324d2cc8591e81ddda0bec"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/analyze.py",
+      "sha256": "764b011e357c918f2a06e53a1147d846f677698cf75dae057dcde66488f4a94d"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/config.json",
+      "sha256": "8985dfddd2756180f0abcb97dcf69454b458e9ae16052cd7d8182a720b097b36"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/route-derived-shadow-report.json",
+      "sha256": "c68ad844a02169a8e2ed10ed70af37c222ce837910ad88411e20e32aa39ce5eb"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/summary.json",
+      "sha256": "77d46bc977411bc4915de0ebb55a81ba8da8292e5bee8b305860e02833dd87ee"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/trials.json",
+      "sha256": "df686fc2ab505c9747cee0cafa444448c73d0464b52daa1165ad51295de47e0e"
     }
   ],
   "updates": [
@@ -1214,6 +1830,152 @@
         "README.md",
         "RELEASE.md"
       ]
+    },
+    {
+      "date": "2026-11-19",
+      "study": "E41 Patchsmith v5b vs Aider cross-model comparison",
+      "publication": "local unpublished draft; publication hold remains",
+      "files": [
+        "docs/patchsmith/harness-comparison-2026-11-19/README.md",
+        "README.md",
+        "RELEASE.md"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "study": "E41 blind set 2 n09-n16",
+      "publication": "local unpublished draft; no push",
+      "files": [
+        "docs/patchsmith/blind2-2026-11-19/analyze.py",
+        "docs/patchsmith/blind2-2026-11-19/configuration.json",
+        "docs/patchsmith/blind2-2026-11-19/README.md",
+        "docs/patchsmith/blind2-2026-11-19/sources.json",
+        "docs/patchsmith/blind2-2026-11-19/summary.json",
+        "docs/patchsmith/blind2-2026-11-19/trials.json"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "study": "E41 blind2 Edge0 completion",
+      "publication": "local unpublished draft; user will handle publication and commit IDs",
+      "results": "Edge0 v5b/v6/Aider 18/17/23 of 24; 288 total selected rows; no missing/duplicate attempts",
+      "files": [
+        "docs/patchsmith/blind2-2026-11-19/analyze.py",
+        "docs/patchsmith/blind2-2026-11-19/CHANGELOG.md",
+        "docs/patchsmith/blind2-2026-11-19/configuration.json",
+        "docs/patchsmith/blind2-2026-11-19/edge0-audit.json",
+        "docs/patchsmith/blind2-2026-11-19/README.md",
+        "docs/patchsmith/blind2-2026-11-19/sources.json",
+        "docs/patchsmith/blind2-2026-11-19/summary.json",
+        "docs/patchsmith/blind2-2026-11-19/trials.json"
+      ],
+      "limits": "Post-reboot rerun, context 32768 unchanged; earlier nonblind tuning retained; no cohort pooling"
+    },
+    {
+      "date": "2026-11-19",
+      "study": "E39 B2 retry completion and E39/E41 offline cleanup",
+      "publication": "local only; no commit/push/publication",
+      "files": [
+        "README.md",
+        "RELEASE.md",
+        "docs/patchsmith/harness-comparison-2026-11-19/README.md",
+        "docs/small-evals/e39-phase-b-2026-11-19/README.md",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/analyze.py",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/config.json",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/README.md",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/route-derived-shadow-report.json",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/summary.json",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/trials.json"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "study": "E39 B0/B1/B2 retry and E41 blind2 selected release",
+      "publication": "explicitly authorized by user; Patchsmith push deferred",
+      "files": [
+        "README.md",
+        "RELEASE.md",
+        "docs/patchsmith/blind2-2026-11-19/CHANGELOG.md",
+        "docs/patchsmith/blind2-2026-11-19/README.md",
+        "docs/patchsmith/blind2-2026-11-19/analyze.py",
+        "docs/patchsmith/blind2-2026-11-19/configuration.json",
+        "docs/patchsmith/blind2-2026-11-19/edge0-audit.json",
+        "docs/patchsmith/blind2-2026-11-19/sources.json",
+        "docs/patchsmith/blind2-2026-11-19/summary.json",
+        "docs/patchsmith/blind2-2026-11-19/trials.json",
+        "docs/patchsmith/harness-comparison-2026-11-19/README.md",
+        "docs/small-evals/e39-phase-b-2026-11-19/README.md",
+        "docs/small-evals/e39-phase-b-2026-11-19/analyze.py",
+        "docs/small-evals/e39-phase-b-2026-11-19/config.json",
+        "docs/small-evals/e39-phase-b-2026-11-19/summary.json",
+        "docs/small-evals/e39-phase-b-2026-11-19/trials.json",
+        "docs/small-evals/e39-phase-b0-2026-11-19/README.md",
+        "docs/small-evals/e39-phase-b0-2026-11-19/analyze.py",
+        "docs/small-evals/e39-phase-b0-2026-11-19/config.json",
+        "docs/small-evals/e39-phase-b0-2026-11-19/summary.json",
+        "docs/small-evals/e39-phase-b0-2026-11-19/trials.json",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/README.md",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/analyze.py",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/config.json",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/route-derived-shadow-report.json",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/summary.json",
+        "docs/small-evals/e39-phase-b2-retry-2026-11-19/trials.json"
+      ],
+      "limits": "E39 items 1 and 2 remain open: broader plugin-path accounting and actual subscription quota impact, and sufficient host/shadow integration evidence on local-table decisions. Default remains frontier-only; no routing promotion is supported. RAM floor 0 was an authorized accounting deviation, not a recommended threshold or controlled RAM calibration. The cold-start `recent_http400` label came from a synthetic in-memory cooldown initialized at process start, not a real HTTP 400. The retry observed the original five-minute cooldown in the same MCP process.\n\nB0 passed 21/21; B1 passed 36/36 with no local attempts. B1-minus-B0 fixture-balanced mean median overhead was +99,410.5 cache-read tokens, -4,040.9 cache-write tokens, +547.8 output tokens and +13.094 seconds. B2 retry passed 15/15 final independent checks: 13 local successes and two local failures repaired by frontier. One earlier quota-interrupted attempt is archived and excluded, including after its key was rerun. Original B2 smoke/skip and the retry are separate cohorts.\n\nB2-retry-minus-B1 fixture-balanced mean median deltas were -67,376.1 cache-read, -1,186.8 cache-write and -129.3 output tokens, but +306.625 seconds including cooldown and +6.113 seconds after subtracting observed waits. There is no speed win and no promotion conclusion. Fixed CLI context (~25k cache-write and ~92-135k cache-read versus 250-500 task output tokens) can dominate apparent savings. Unweighted token arithmetic is not subscription quota weighting, billed spend or a causal estimate.\n\nE41 blind2 contains 288 saved attempts, separate from n01-n08, tuning, replay and frontier cohorts. Edge0 v5b is not blind; it and the gpt-oss recovery were tuned after earlier failures. The new tasks were held out from that observed tuning, which does not make the intervention blind. Cohorts are never pooled. v6 changes both the completion cap and read-tool policy; unequal budgets and cross-model quant/backend differences prevent a general harness ranking.\n\nOnly curated aggregates, outcome/usage rows, configuration, source hashes and offline analysis are released. Private implementation, fixture source, reference solutions (including heldout2_references.json), prompts, patches, transcripts, raw test output and personal paths remain withheld. Counts can be recomputed; generated code cannot be independently rescored from this release. No model runs or API spend were performed for publication.",
+      "excluded_local_drafts": [
+        "E39 frontier follow-up",
+        "E39 Phase A heldout",
+        "Sprocket diagnostic status"
+      ]
     }
-  ]
+  ],
+  "e39_b0_local_draft": {
+    "path": "docs/small-evals/e39-phase-b0-2026-11-19",
+    "source_report_sha256": "7f1515e1ef4cb3dce9aee995d85d7e97fea382126a1cfa3785fa143cd16027f9",
+    "source_plan_sha256": "edbf34dde70d1d76d943b8fe07431537c5d5aa34dbc4e1c304c40a8fac80a180",
+    "source_analyzer_sha256": "797fd3101383f462ba93721cc570bb5a2dac20b0e8c627d40076a82ef9d50af0",
+    "source_results_sha256": "b90e7c8bc30842cc560aa4de7484e766e7f07325de93a3563081ad0d1ad9fcac",
+    "transformations": [
+      "Selected aggregate outcomes/usage only; private prompts, patches, paths, transcripts and fixture source excluded"
+    ],
+    "publication": "local unpublished draft"
+  },
+  "e39_phase_b_local_draft": {
+    "b0_readme_original_released_sha256": "9123d7c28008841fec5d9c9a4b26e03e171043403bba706d301a24cbace2b828",
+    "publication": "local unpublished draft; no commit or push",
+    "source_report_sha256": "08c33edd147fc1374dfcc5819a7ea7bc933d455a9e764e34e0368d28c4d059ee",
+    "source_analyzer_sha256": "20f4c1dd3127222b7b5504f9c7c5e039ec693f4e17a3ac0c55b415940338646a",
+    "source_results_sha256": {
+      "B0": "b90e7c8bc30842cc560aa4de7484e766e7f07325de93a3563081ad0d1ad9fcac",
+      "B1": "3c5780a85e07bbd9c6c331b27915ee526ad2ffee5eb58292cf08a000d15e460d",
+      "B2": "9390d53943f9348209313ef2bb4e844b083d2abc82525b0c6b317ecc3b1936d2"
+    },
+    "transformations": [
+      "B0 baseline README retains historical text with a dated combined-draft pointer appended. Selected usage/outcome aggregates only; private paths, transcripts, patches, task text, frozen prompt wording, probe task ID, server process IDs and machine launch path, fixture and implementation source withheld; source row and plan hashes preserved"
+    ]
+  },
+  "e39_b2_retry_local_draft": {
+    "publication": "completed local draft; uncommitted, unpushed, unpublished",
+    "source_report_sha256": "584fd1a74cc7a9cd7072b2933e755f00672d7fc0d02337984789ebb0002160a5",
+    "source_results_sha256": "0fcf25c3059a0d3f2fb0a3a20c050b31e73e7491e03ab66f9a5b0dcadda9dcce",
+    "source_analyzer_sha256": "6f655410743a003dac79f8c860b4e9d4a523cfe8e837470c40d8de0c38eaa194",
+    "original_combined_report_released_sha256": "a9ce52b001aef9c7a7b7a0c64a909c097f69075369d38227d723a1672849dbdf",
+    "transformations": [
+      "Separate completed retry cohort; quota-interrupted attempt archived and excluded even after fresh rerun of its key",
+      "Only selected usage/outcome/timing aggregates; raw prompts, private paths/task IDs, traces, patches, fixtures, references and implementation withheld",
+      "Original source hashes retained; appended original-cohort pointer disclosed",
+      "Route-derived shadow diagnostic is explicitly transformed and not a B1 rerun"
+    ],
+    "remaining": "Publication deferred; items 1/2 remain open. No further B2 trials pending.",
+    "previous_partial_source_report_sha256": "026c22c57690248684b8a07af7aa666d6d433e443ad592488b7e1cc9a9ea188a",
+    "previous_partial_source_results_sha256": "fa2ef176cb9381794b830e0e7c3afe3fca0ecb0745da680889f9c83315a781e3",
+    "source_record_generator_sha256": "aa28c68c21e73d875207f2a855ffd517a69923b34426c6e2be7799274059be14"
+  },
+  "e41_readme_manifest_correction": {
+    "date": "2026-11-19",
+    "previous_manifest_sha256": "6f32b00e4dcc02557312ab357ff5614e5475419147714bb1f98139ed6faf4bc3",
+    "before_cleanup_file_sha256": "9077ed9d1c546611151e406df64922466257bd068751e81b251ef0ee3a6b2a61",
+    "reason": "Stale hash entry for generated first-set README; updated completion pointer only. Original source hashes retained; no numerical first-set changes or model runs.",
+    "publication": "local only"
+  }
 }

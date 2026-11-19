@@ -1,0 +1,1331 @@
+{
+  "balanced_b1_minus_b0": {
+    "input_tokens": 8.714285714285714,
+    "cache_creation_input_tokens": -4040.8571428571427,
+    "cache_read_input_tokens": 99410.5,
+    "output_tokens": 547.7857142857143,
+    "turns": 3.4285714285714284,
+    "secs": 13.093714285714286
+  },
+  "arms": {
+    "B0": {
+      "arm": "B0",
+      "status": "complete",
+      "completed": 21,
+      "planned": 21,
+      "accepted": 21,
+      "groups": [
+        {
+          "fixture": "bug1",
+          "completed": 3,
+          "accepted": 3,
+          "metrics": {
+            "input_tokens": {
+              "n": 3,
+              "median": 8,
+              "q1": 8.0,
+              "q3": 8.0,
+              "iqr": 0.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 3,
+              "median": 26204,
+              "q1": 26201.5,
+              "q3": 26207.5,
+              "iqr": 6.0
+            },
+            "cache_read_input_tokens": {
+              "n": 3,
+              "median": 94065,
+              "q1": 94061.5,
+              "q3": 94068.0,
+              "iqr": 6.5
+            },
+            "output_tokens": {
+              "n": 3,
+              "median": 409,
+              "q1": 407.0,
+              "q3": 410.0,
+              "iqr": 3.0
+            },
+            "turns": {
+              "n": 3,
+              "median": 4,
+              "q1": 4.0,
+              "q3": 4.0,
+              "iqr": 0.0
+            },
+            "secs": {
+              "n": 3,
+              "median": 16.422,
+              "q1": 15.547,
+              "q3": 20.4295,
+              "iqr": 4.8825
+            }
+          }
+        },
+        {
+          "fixture": "bug2",
+          "completed": 3,
+          "accepted": 3,
+          "metrics": {
+            "input_tokens": {
+              "n": 3,
+              "median": 10,
+              "q1": 10.0,
+              "q3": 10.0,
+              "iqr": 0.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 3,
+              "median": 26356,
+              "q1": 26355.0,
+              "q3": 26377.0,
+              "iqr": 22.0
+            },
+            "cache_read_input_tokens": {
+              "n": 3,
+              "median": 134972,
+              "q1": 134970.5,
+              "q3": 134984.0,
+              "iqr": 13.5
+            },
+            "output_tokens": {
+              "n": 3,
+              "median": 508,
+              "q1": 502.0,
+              "q3": 524.0,
+              "iqr": 22.0
+            },
+            "turns": {
+              "n": 3,
+              "median": 5,
+              "q1": 5.0,
+              "q3": 5.0,
+              "iqr": 0.0
+            },
+            "secs": {
+              "n": 3,
+              "median": 18.281,
+              "q1": 18.258,
+              "q3": 19.491999999999997,
+              "iqr": 1.2339999999999982
+            }
+          }
+        },
+        {
+          "fixture": "feature",
+          "completed": 3,
+          "accepted": 3,
+          "metrics": {
+            "input_tokens": {
+              "n": 3,
+              "median": 8,
+              "q1": 8.0,
+              "q3": 10.0,
+              "iqr": 2.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 3,
+              "median": 26255,
+              "q1": 26251.0,
+              "q3": 26422.0,
+              "iqr": 171.0
+            },
+            "cache_read_input_tokens": {
+              "n": 3,
+              "median": 94165,
+              "q1": 94160.5,
+              "q3": 135519.5,
+              "iqr": 41359.0
+            },
+            "output_tokens": {
+              "n": 3,
+              "median": 398,
+              "q1": 397.5,
+              "q3": 476.5,
+              "iqr": 79.0
+            },
+            "turns": {
+              "n": 3,
+              "median": 4,
+              "q1": 4.0,
+              "q3": 5.0,
+              "iqr": 1.0
+            },
+            "secs": {
+              "n": 3,
+              "median": 16.719,
+              "q1": 15.7735,
+              "q3": 17.586,
+              "iqr": 1.8124999999999982
+            }
+          }
+        },
+        {
+          "fixture": "multifile",
+          "completed": 3,
+          "accepted": 3,
+          "metrics": {
+            "input_tokens": {
+              "n": 3,
+              "median": 6,
+              "q1": 6.0,
+              "q3": 6.0,
+              "iqr": 0.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 3,
+              "median": 23979,
+              "q1": 23904.5,
+              "q3": 23979.5,
+              "iqr": 75.0
+            },
+            "cache_read_input_tokens": {
+              "n": 3,
+              "median": 91901,
+              "q1": 91885.0,
+              "q3": 91902.5,
+              "iqr": 17.5
+            },
+            "output_tokens": {
+              "n": 3,
+              "median": 294,
+              "q1": 293.5,
+              "q3": 294.5,
+              "iqr": 1.0
+            },
+            "turns": {
+              "n": 3,
+              "median": 3,
+              "q1": 3.0,
+              "q3": 3.0,
+              "iqr": 0.0
+            },
+            "secs": {
+              "n": 3,
+              "median": 13.172,
+              "q1": 12.945,
+              "q3": 13.4375,
+              "iqr": 0.4924999999999997
+            }
+          }
+        },
+        {
+          "fixture": "refactor",
+          "completed": 3,
+          "accepted": 3,
+          "metrics": {
+            "input_tokens": {
+              "n": 3,
+              "median": 6,
+              "q1": 6.0,
+              "q3": 6.0,
+              "iqr": 0.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 3,
+              "median": 23690,
+              "q1": 23688.0,
+              "q3": 23696.5,
+              "iqr": 8.5
+            },
+            "cache_read_input_tokens": {
+              "n": 3,
+              "median": 91876,
+              "q1": 91873.0,
+              "q3": 91878.0,
+              "iqr": 5.0
+            },
+            "output_tokens": {
+              "n": 3,
+              "median": 244,
+              "q1": 239.0,
+              "q3": 244.5,
+              "iqr": 5.5
+            },
+            "turns": {
+              "n": 3,
+              "median": 3,
+              "q1": 3.0,
+              "q3": 3.0,
+              "iqr": 0.0
+            },
+            "secs": {
+              "n": 3,
+              "median": 12.219,
+              "q1": 12.210999999999999,
+              "q3": 12.523499999999999,
+              "iqr": 0.3125
+            }
+          }
+        },
+        {
+          "fixture": "offbyone",
+          "completed": 3,
+          "accepted": 3,
+          "metrics": {
+            "input_tokens": {
+              "n": 3,
+              "median": 8,
+              "q1": 7.0,
+              "q3": 10.0,
+              "iqr": 3.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 3,
+              "median": 26348,
+              "q1": 25035.5,
+              "q3": 26507.0,
+              "iqr": 1471.5
+            },
+            "cache_read_input_tokens": {
+              "n": 3,
+              "median": 94250,
+              "q1": 93070.5,
+              "q3": 134497.5,
+              "iqr": 41427.0
+            },
+            "output_tokens": {
+              "n": 3,
+              "median": 475,
+              "q1": 372.0,
+              "q3": 528.5,
+              "iqr": 156.5
+            },
+            "turns": {
+              "n": 3,
+              "median": 5,
+              "q1": 4.0,
+              "q3": 5.5,
+              "iqr": 1.5
+            },
+            "secs": {
+              "n": 3,
+              "median": 14.953,
+              "q1": 13.7265,
+              "q3": 16.258,
+              "iqr": 2.5314999999999994
+            }
+          }
+        },
+        {
+          "fixture": "javascript",
+          "completed": 3,
+          "accepted": 3,
+          "metrics": {
+            "input_tokens": {
+              "n": 3,
+              "median": 6,
+              "q1": 6.0,
+              "q3": 6.0,
+              "iqr": 0.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 3,
+              "median": 23947,
+              "q1": 23940.5,
+              "q3": 23957.0,
+              "iqr": 16.5
+            },
+            "cache_read_input_tokens": {
+              "n": 3,
+              "median": 91740,
+              "q1": 91739.0,
+              "q3": 91745.0,
+              "iqr": 6.0
+            },
+            "output_tokens": {
+              "n": 3,
+              "median": 373,
+              "q1": 371.0,
+              "q3": 382.0,
+              "iqr": 11.0
+            },
+            "turns": {
+              "n": 3,
+              "median": 4,
+              "q1": 4.0,
+              "q3": 4.0,
+              "iqr": 0.0
+            },
+            "secs": {
+              "n": 3,
+              "median": 14.797,
+              "q1": 14.7185,
+              "q3": 14.922,
+              "iqr": 0.20350000000000001
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "stops": [],
+      "timeouts": 0,
+      "cli_errors": 0,
+      "protected_violations": 0,
+      "missing_usage": 0,
+      "permission_denials": 0,
+      "local_attempts": 0,
+      "reasons": {}
+    },
+    "B1": {
+      "arm": "B1",
+      "status": "complete",
+      "completed": 36,
+      "planned": 36,
+      "accepted": 36,
+      "groups": [
+        {
+          "fixture": "bug1",
+          "completed": 6,
+          "accepted": 6,
+          "metrics": {
+            "input_tokens": {
+              "n": 6,
+              "median": 16.0,
+              "q1": 16.0,
+              "q3": 16.0,
+              "iqr": 0.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 6,
+              "median": 21682.0,
+              "q1": 21678.0,
+              "q3": 21691.25,
+              "iqr": 13.25
+            },
+            "cache_read_input_tokens": {
+              "n": 6,
+              "median": 186680.5,
+              "q1": 186662.0,
+              "q3": 186701.25,
+              "iqr": 39.25
+            },
+            "output_tokens": {
+              "n": 6,
+              "median": 838.5,
+              "q1": 833.0,
+              "q3": 848.5,
+              "iqr": 15.5
+            },
+            "turns": {
+              "n": 6,
+              "median": 7.0,
+              "q1": 7.0,
+              "q3": 7.0,
+              "iqr": 0.0
+            },
+            "secs": {
+              "n": 6,
+              "median": 28.055,
+              "q1": 26.83175,
+              "q3": 31.117250000000002,
+              "iqr": 4.2855000000000025
+            }
+          }
+        },
+        {
+          "fixture": "bug2",
+          "completed": 3,
+          "accepted": 3,
+          "metrics": {
+            "input_tokens": {
+              "n": 3,
+              "median": 18,
+              "q1": 17.0,
+              "q3": 18.0,
+              "iqr": 1.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 3,
+              "median": 21847,
+              "q1": 21843.5,
+              "q3": 21958.0,
+              "iqr": 114.5
+            },
+            "cache_read_input_tokens": {
+              "n": 3,
+              "median": 223071,
+              "q1": 220945.0,
+              "q3": 223075.5,
+              "iqr": 2130.5
+            },
+            "output_tokens": {
+              "n": 3,
+              "median": 1001,
+              "q1": 994.5,
+              "q3": 1071.5,
+              "iqr": 77.0
+            },
+            "turns": {
+              "n": 3,
+              "median": 8,
+              "q1": 8.0,
+              "q3": 8.0,
+              "iqr": 0.0
+            },
+            "secs": {
+              "n": 3,
+              "median": 28.265,
+              "q1": 28.0155,
+              "q3": 30.609,
+              "iqr": 2.5935000000000024
+            }
+          }
+        },
+        {
+          "fixture": "feature",
+          "completed": 6,
+          "accepted": 6,
+          "metrics": {
+            "input_tokens": {
+              "n": 6,
+              "median": 16.0,
+              "q1": 16.0,
+              "q3": 16.0,
+              "iqr": 0.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 6,
+              "median": 21887.5,
+              "q1": 21843.0,
+              "q3": 21894.5,
+              "iqr": 51.5
+            },
+            "cache_read_input_tokens": {
+              "n": 6,
+              "median": 185006.0,
+              "q1": 184954.0,
+              "q3": 185014.5,
+              "iqr": 60.5
+            },
+            "output_tokens": {
+              "n": 6,
+              "median": 930.0,
+              "q1": 910.5,
+              "q3": 954.0,
+              "iqr": 43.5
+            },
+            "turns": {
+              "n": 6,
+              "median": 7.0,
+              "q1": 7.0,
+              "q3": 7.0,
+              "iqr": 0.0
+            },
+            "secs": {
+              "n": 6,
+              "median": 27.594,
+              "q1": 26.14825,
+              "q3": 29.366750000000003,
+              "iqr": 3.2185000000000024
+            }
+          }
+        },
+        {
+          "fixture": "multifile",
+          "completed": 6,
+          "accepted": 6,
+          "metrics": {
+            "input_tokens": {
+              "n": 6,
+              "median": 18.0,
+              "q1": 16.5,
+              "q3": 18.0,
+              "iqr": 1.5
+            },
+            "cache_creation_input_tokens": {
+              "n": 6,
+              "median": 22251.0,
+              "q1": 22224.5,
+              "q3": 22267.0,
+              "iqr": 42.5
+            },
+            "cache_read_input_tokens": {
+              "n": 6,
+              "median": 224651.0,
+              "q1": 197047.75,
+              "q3": 224712.75,
+              "iqr": 27665.0
+            },
+            "output_tokens": {
+              "n": 6,
+              "median": 1150.0,
+              "q1": 1144.25,
+              "q3": 1200.0,
+              "iqr": 55.75
+            },
+            "turns": {
+              "n": 6,
+              "median": 9.0,
+              "q1": 9.0,
+              "q3": 9.0,
+              "iqr": 0.0
+            },
+            "secs": {
+              "n": 6,
+              "median": 31.5075,
+              "q1": 30.559,
+              "q3": 31.648249999999997,
+              "iqr": 1.0892499999999963
+            }
+          }
+        },
+        {
+          "fixture": "refactor",
+          "completed": 3,
+          "accepted": 3,
+          "metrics": {
+            "input_tokens": {
+              "n": 3,
+              "median": 14,
+              "q1": 14.0,
+              "q3": 16.0,
+              "iqr": 2.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 3,
+              "median": 19309,
+              "q1": 19288.0,
+              "q3": 20783.5,
+              "iqr": 1495.5
+            },
+            "cache_read_input_tokens": {
+              "n": 3,
+              "median": 182430,
+              "q1": 182383.5,
+              "q3": 202272.5,
+              "iqr": 19889.0
+            },
+            "output_tokens": {
+              "n": 3,
+              "median": 757,
+              "q1": 752.5,
+              "q3": 1001.0,
+              "iqr": 248.5
+            },
+            "turns": {
+              "n": 3,
+              "median": 6,
+              "q1": 6.0,
+              "q3": 7.5,
+              "iqr": 1.5
+            },
+            "secs": {
+              "n": 3,
+              "median": 24.797,
+              "q1": 24.0395,
+              "q3": 28.836,
+              "iqr": 4.796499999999998
+            }
+          }
+        },
+        {
+          "fixture": "offbyone",
+          "completed": 6,
+          "accepted": 6,
+          "metrics": {
+            "input_tokens": {
+              "n": 6,
+              "median": 17.0,
+              "q1": 16.0,
+              "q3": 18.0,
+              "iqr": 2.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 6,
+              "median": 21958.5,
+              "q1": 21842.0,
+              "q3": 22150.0,
+              "iqr": 308.0
+            },
+            "cache_read_input_tokens": {
+              "n": 6,
+              "median": 204559.0,
+              "q1": 184916.25,
+              "q3": 224474.75,
+              "iqr": 39558.5
+            },
+            "output_tokens": {
+              "n": 6,
+              "median": 962.5,
+              "q1": 875.25,
+              "q3": 1089.5,
+              "iqr": 214.25
+            },
+            "turns": {
+              "n": 6,
+              "median": 8.0,
+              "q1": 7.0,
+              "q3": 9.0,
+              "iqr": 2.0
+            },
+            "secs": {
+              "n": 6,
+              "median": 30.305,
+              "q1": 26.570500000000003,
+              "q3": 39.008250000000004,
+              "iqr": 12.437750000000001
+            }
+          }
+        },
+        {
+          "fixture": "javascript",
+          "completed": 6,
+          "accepted": 6,
+          "metrics": {
+            "input_tokens": {
+              "n": 6,
+              "median": 14.0,
+              "q1": 14.0,
+              "q3": 14.0,
+              "iqr": 0.0
+            },
+            "cache_creation_input_tokens": {
+              "n": 6,
+              "median": 19558.0,
+              "q1": 19555.5,
+              "q3": 19561.25,
+              "iqr": 5.75
+            },
+            "cache_read_input_tokens": {
+              "n": 6,
+              "median": 182445.0,
+              "q1": 182435.25,
+              "q3": 182478.0,
+              "iqr": 42.75
+            },
+            "output_tokens": {
+              "n": 6,
+              "median": 896.5,
+              "q1": 887.75,
+              "q3": 936.0,
+              "iqr": 48.25
+            },
+            "turns": {
+              "n": 6,
+              "median": 7.0,
+              "q1": 7.0,
+              "q3": 7.0,
+              "iqr": 0.0
+            },
+            "secs": {
+              "n": 6,
+              "median": 27.6955,
+              "q1": 26.551000000000002,
+              "q3": 28.23025,
+              "iqr": 1.6792499999999997
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "stops": [],
+      "timeouts": 0,
+      "cli_errors": 0,
+      "protected_violations": 0,
+      "missing_usage": 0,
+      "permission_denials": 5,
+      "local_attempts": 0,
+      "reasons": {
+        "recent_http400": 36
+      }
+    },
+    "B2": {
+      "arm": "B2",
+      "status": "skipped: B2 smoke never reached a local attempt: recent_http400",
+      "completed": 1,
+      "planned": 15,
+      "accepted": 1,
+      "groups": [
+        {
+          "fixture": "bug1",
+          "completed": 1,
+          "accepted": 1,
+          "metrics": {
+            "input_tokens": {
+              "n": 1,
+              "median": 20,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_creation_input_tokens": {
+              "n": 1,
+              "median": 22018,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_read_input_tokens": {
+              "n": 1,
+              "median": 260121,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "output_tokens": {
+              "n": 1,
+              "median": 1106,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "turns": {
+              "n": 1,
+              "median": 9,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "secs": {
+              "n": 1,
+              "median": 34.437,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            }
+          }
+        },
+        {
+          "fixture": "bug2",
+          "completed": 0,
+          "accepted": 0,
+          "metrics": {
+            "input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_creation_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_read_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "output_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "turns": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "secs": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            }
+          }
+        },
+        {
+          "fixture": "feature",
+          "completed": 0,
+          "accepted": 0,
+          "metrics": {
+            "input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_creation_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_read_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "output_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "turns": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "secs": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            }
+          }
+        },
+        {
+          "fixture": "multifile",
+          "completed": 0,
+          "accepted": 0,
+          "metrics": {
+            "input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_creation_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_read_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "output_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "turns": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "secs": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            }
+          }
+        },
+        {
+          "fixture": "refactor",
+          "completed": 0,
+          "accepted": 0,
+          "metrics": {
+            "input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_creation_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_read_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "output_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "turns": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "secs": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            }
+          }
+        },
+        {
+          "fixture": "offbyone",
+          "completed": 0,
+          "accepted": 0,
+          "metrics": {
+            "input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_creation_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_read_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "output_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "turns": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "secs": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            }
+          }
+        },
+        {
+          "fixture": "javascript",
+          "completed": 0,
+          "accepted": 0,
+          "metrics": {
+            "input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_creation_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "cache_read_input_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "output_tokens": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "turns": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            },
+            "secs": {
+              "n": 0,
+              "median": null,
+              "q1": null,
+              "q3": null,
+              "iqr": null
+            }
+          }
+        }
+      ],
+      "failures": [],
+      "stops": [],
+      "timeouts": 0,
+      "cli_errors": 0,
+      "protected_violations": 0,
+      "missing_usage": 0,
+      "permission_denials": 2,
+      "local_attempts": 0,
+      "reasons": {
+        "recent_http400": 1
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "arm": "B1",
+      "baseline": "B0",
+      "fixture": "bug1",
+      "delta": {
+        "input_tokens": 8.0,
+        "cache_creation_input_tokens": -4522.0,
+        "cache_read_input_tokens": 92615.5,
+        "output_tokens": 429.5,
+        "turns": 3.0,
+        "secs": 11.633
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B1",
+      "baseline": "B0",
+      "fixture": "bug2",
+      "delta": {
+        "input_tokens": 8,
+        "cache_creation_input_tokens": -4509,
+        "cache_read_input_tokens": 88099,
+        "output_tokens": 493,
+        "turns": 3,
+        "secs": 9.984000000000002
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B1",
+      "baseline": "B0",
+      "fixture": "feature",
+      "delta": {
+        "input_tokens": 8.0,
+        "cache_creation_input_tokens": -4367.5,
+        "cache_read_input_tokens": 90841.0,
+        "output_tokens": 532.0,
+        "turns": 3.0,
+        "secs": 10.875
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B1",
+      "baseline": "B0",
+      "fixture": "multifile",
+      "delta": {
+        "input_tokens": 12.0,
+        "cache_creation_input_tokens": -1728.0,
+        "cache_read_input_tokens": 132750.0,
+        "output_tokens": 856.0,
+        "turns": 6.0,
+        "secs": 18.3355
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B1",
+      "baseline": "B0",
+      "fixture": "refactor",
+      "delta": {
+        "input_tokens": 8,
+        "cache_creation_input_tokens": -4381,
+        "cache_read_input_tokens": 90554,
+        "output_tokens": 513,
+        "turns": 3,
+        "secs": 12.578000000000001
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B1",
+      "baseline": "B0",
+      "fixture": "offbyone",
+      "delta": {
+        "input_tokens": 9.0,
+        "cache_creation_input_tokens": -4389.5,
+        "cache_read_input_tokens": 110309.0,
+        "output_tokens": 487.5,
+        "turns": 3.0,
+        "secs": 15.352
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B1",
+      "baseline": "B0",
+      "fixture": "javascript",
+      "delta": {
+        "input_tokens": 8.0,
+        "cache_creation_input_tokens": -4389.0,
+        "cache_read_input_tokens": 90705.0,
+        "output_tokens": 523.5,
+        "turns": 3.0,
+        "secs": 12.898499999999999
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B2",
+      "baseline": "B1",
+      "fixture": "bug1",
+      "delta": {
+        "input_tokens": 4.0,
+        "cache_creation_input_tokens": 336.0,
+        "cache_read_input_tokens": 73440.5,
+        "output_tokens": 267.5,
+        "turns": 2.0,
+        "secs": 6.381999999999998
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B2",
+      "baseline": "B1",
+      "fixture": "bug2",
+      "delta": {
+        "input_tokens": null,
+        "cache_creation_input_tokens": null,
+        "cache_read_input_tokens": null,
+        "output_tokens": null,
+        "turns": null,
+        "secs": null
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B2",
+      "baseline": "B1",
+      "fixture": "feature",
+      "delta": {
+        "input_tokens": null,
+        "cache_creation_input_tokens": null,
+        "cache_read_input_tokens": null,
+        "output_tokens": null,
+        "turns": null,
+        "secs": null
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B2",
+      "baseline": "B1",
+      "fixture": "multifile",
+      "delta": {
+        "input_tokens": null,
+        "cache_creation_input_tokens": null,
+        "cache_read_input_tokens": null,
+        "output_tokens": null,
+        "turns": null,
+        "secs": null
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B2",
+      "baseline": "B1",
+      "fixture": "refactor",
+      "delta": {
+        "input_tokens": null,
+        "cache_creation_input_tokens": null,
+        "cache_read_input_tokens": null,
+        "output_tokens": null,
+        "turns": null,
+        "secs": null
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B2",
+      "baseline": "B1",
+      "fixture": "offbyone",
+      "delta": {
+        "input_tokens": null,
+        "cache_creation_input_tokens": null,
+        "cache_read_input_tokens": null,
+        "output_tokens": null,
+        "turns": null,
+        "secs": null
+      },
+      "local_attempts": 0
+    },
+    {
+      "arm": "B2",
+      "baseline": "B1",
+      "fixture": "javascript",
+      "delta": {
+        "input_tokens": null,
+        "cache_creation_input_tokens": null,
+        "cache_read_input_tokens": null,
+        "output_tokens": null,
+        "turns": null,
+        "secs": null
+      },
+      "local_attempts": 0
+    }
+  ],
+  "shadow": {
+    "host": {
+      "local_completed": 0,
+      "local_pending": 0,
+      "local_disagreements": 0,
+      "local_disagreement_rate": null,
+      "frontier_completed": 36,
+      "frontier_easy": 36,
+      "frontier_easy_rate": 1.0,
+      "orphan_outcomes": 0,
+      "promotion_bar": 0.1,
+      "struggle_turns": 10,
+      "below_bar": false,
+      "note": "Descriptive proxy only: frontier success does not establish local correctness. No automatic promotion."
+    },
+    "verified": {
+      "local_completed": 0,
+      "local_pending": 0,
+      "local_disagreements": 0,
+      "local_disagreement_rate": null,
+      "frontier_completed": 36,
+      "frontier_easy": 36,
+      "frontier_easy_rate": 1.0,
+      "orphan_outcomes": 0,
+      "promotion_bar": 0.1,
+      "struggle_turns": 10,
+      "below_bar": false,
+      "note": "Descriptive proxy only: frontier success does not establish local correctness. No automatic promotion."
+    }
+  },
+  "host_outcomes": 36,
+  "host_pass_disagreements": 0,
+  "host_turn_disagreements": 36,
+  "host_seconds_exceed_total_wall": 36
+}

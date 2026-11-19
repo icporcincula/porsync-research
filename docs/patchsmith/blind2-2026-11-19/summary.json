@@ -1,0 +1,624 @@
+{
+  "cohort": "E41 blind set 2, n09-n16 only",
+  "trials": 288,
+  "cells": {
+    "gptoss/v5": {
+      "passed": 13,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 3,
+        "n10_ranges": 0,
+        "n11_csv": 0,
+        "n12_pager": 3,
+        "n13_roman": 1,
+        "n14_window": 3,
+        "n15_suggest": 1,
+        "n16_dictdiff": 2
+      },
+      "failed_reasons": {
+        "execution_error": 4,
+        "loop_detected": 2,
+        "max_turns": 1,
+        "model_blocked": 4
+      },
+      "median_attempt_seconds": 49.304,
+      "total_attempt_seconds": 1305.253,
+      "failed_trials": [
+        {
+          "fixture": "n10_ranges",
+          "repeat": 1,
+          "reason": "execution_error",
+          "turns": 8
+        },
+        {
+          "fixture": "n10_ranges",
+          "repeat": 2,
+          "reason": "model_blocked",
+          "turns": 5
+        },
+        {
+          "fixture": "n10_ranges",
+          "repeat": 3,
+          "reason": "model_blocked",
+          "turns": 17
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 1,
+          "reason": "max_turns",
+          "turns": 30
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 2,
+          "reason": "execution_error",
+          "turns": 6
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 3,
+          "reason": "loop_detected",
+          "turns": 21
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 2,
+          "reason": "model_blocked",
+          "turns": 23
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 3,
+          "reason": "execution_error",
+          "turns": 8
+        },
+        {
+          "fixture": "n15_suggest",
+          "repeat": 2,
+          "reason": "model_blocked",
+          "turns": 17
+        },
+        {
+          "fixture": "n15_suggest",
+          "repeat": 3,
+          "reason": "execution_error",
+          "turns": 6
+        },
+        {
+          "fixture": "n16_dictdiff",
+          "repeat": 2,
+          "reason": "loop_detected",
+          "turns": 18
+        }
+      ]
+    },
+    "gptoss/v6": {
+      "passed": 19,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 2,
+        "n10_ranges": 3,
+        "n11_csv": 2,
+        "n12_pager": 2,
+        "n13_roman": 2,
+        "n14_window": 2,
+        "n15_suggest": 3,
+        "n16_dictdiff": 3
+      },
+      "failed_reasons": {
+        "execution_error": 2,
+        "loop_detected": 1,
+        "max_turns": 1,
+        "model_blocked": 1
+      },
+      "median_attempt_seconds": 45.757,
+      "total_attempt_seconds": 1267.592,
+      "failed_trials": [
+        {
+          "fixture": "n09_rle",
+          "repeat": 1,
+          "reason": "execution_error",
+          "turns": 5
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 1,
+          "reason": "model_blocked",
+          "turns": 7
+        },
+        {
+          "fixture": "n12_pager",
+          "repeat": 2,
+          "reason": "execution_error",
+          "turns": 13
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 2,
+          "reason": "max_turns",
+          "turns": 30
+        },
+        {
+          "fixture": "n14_window",
+          "repeat": 3,
+          "reason": "loop_detected",
+          "turns": 23
+        }
+      ]
+    },
+    "gptoss/aider": {
+      "passed": 23,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 3,
+        "n10_ranges": 3,
+        "n11_csv": 2,
+        "n12_pager": 3,
+        "n13_roman": 3,
+        "n14_window": 3,
+        "n15_suggest": 3,
+        "n16_dictdiff": 3
+      },
+      "failed_reasons": {
+        "unsuccessful_edit": 1
+      },
+      "median_attempt_seconds": 26.55,
+      "total_attempt_seconds": 1450.9,
+      "failed_trials": [
+        {
+          "fixture": "n11_csv",
+          "repeat": 1,
+          "reason": "unsuccessful_edit",
+          "turns": null
+        }
+      ]
+    },
+    "qwen3coder/v5": {
+      "passed": 14,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 1,
+        "n10_ranges": 3,
+        "n11_csv": 1,
+        "n12_pager": 1,
+        "n13_roman": 0,
+        "n14_window": 3,
+        "n15_suggest": 3,
+        "n16_dictdiff": 2
+      },
+      "failed_reasons": {
+        "execution_error": 1,
+        "max_turns": 2,
+        "model_blocked": 5,
+        "tests_failed": 2
+      },
+      "median_attempt_seconds": 50.204,
+      "total_attempt_seconds": 1958.987,
+      "failed_trials": [
+        {
+          "fixture": "n09_rle",
+          "repeat": 2,
+          "reason": "model_blocked",
+          "turns": 28
+        },
+        {
+          "fixture": "n09_rle",
+          "repeat": 3,
+          "reason": "execution_error",
+          "turns": 11
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 2,
+          "reason": "model_blocked",
+          "turns": 25
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 3,
+          "reason": "max_turns",
+          "turns": 30
+        },
+        {
+          "fixture": "n12_pager",
+          "repeat": 1,
+          "reason": "model_blocked",
+          "turns": 25
+        },
+        {
+          "fixture": "n12_pager",
+          "repeat": 3,
+          "reason": "max_turns",
+          "turns": 30
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 1,
+          "reason": "tests_failed",
+          "turns": 20
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 2,
+          "reason": "tests_failed",
+          "turns": 21
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 3,
+          "reason": "model_blocked",
+          "turns": 22
+        },
+        {
+          "fixture": "n16_dictdiff",
+          "repeat": 2,
+          "reason": "model_blocked",
+          "turns": 24
+        }
+      ]
+    },
+    "qwen3coder/v6": {
+      "passed": 15,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 2,
+        "n10_ranges": 3,
+        "n11_csv": 1,
+        "n12_pager": 1,
+        "n13_roman": 0,
+        "n14_window": 3,
+        "n15_suggest": 2,
+        "n16_dictdiff": 3
+      },
+      "failed_reasons": {
+        "model_blocked": 9
+      },
+      "median_attempt_seconds": 74.406,
+      "total_attempt_seconds": 2277.261,
+      "failed_trials": [
+        {
+          "fixture": "n09_rle",
+          "repeat": 3,
+          "reason": "model_blocked",
+          "turns": 21
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 1,
+          "reason": "model_blocked",
+          "turns": 30
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 2,
+          "reason": "model_blocked",
+          "turns": 29
+        },
+        {
+          "fixture": "n12_pager",
+          "repeat": 1,
+          "reason": "model_blocked",
+          "turns": 26
+        },
+        {
+          "fixture": "n12_pager",
+          "repeat": 3,
+          "reason": "model_blocked",
+          "turns": 28
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 1,
+          "reason": "model_blocked",
+          "turns": 29
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 2,
+          "reason": "model_blocked",
+          "turns": 26
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 3,
+          "reason": "model_blocked",
+          "turns": 22
+        },
+        {
+          "fixture": "n15_suggest",
+          "repeat": 2,
+          "reason": "model_blocked",
+          "turns": 16
+        }
+      ]
+    },
+    "qwen3coder/aider": {
+      "passed": 17,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 3,
+        "n10_ranges": 3,
+        "n11_csv": 1,
+        "n12_pager": 1,
+        "n13_roman": 0,
+        "n14_window": 3,
+        "n15_suggest": 3,
+        "n16_dictdiff": 3
+      },
+      "failed_reasons": {
+        "timeout": 1,
+        "unsuccessful_edit": 6
+      },
+      "median_attempt_seconds": 61.3,
+      "total_attempt_seconds": 3678.9,
+      "failed_trials": [
+        {
+          "fixture": "n11_csv",
+          "repeat": 1,
+          "reason": "unsuccessful_edit",
+          "turns": null
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 3,
+          "reason": "unsuccessful_edit",
+          "turns": null
+        },
+        {
+          "fixture": "n12_pager",
+          "repeat": 1,
+          "reason": "timeout",
+          "turns": null
+        },
+        {
+          "fixture": "n12_pager",
+          "repeat": 2,
+          "reason": "unsuccessful_edit",
+          "turns": null
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 1,
+          "reason": "unsuccessful_edit",
+          "turns": null
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 2,
+          "reason": "unsuccessful_edit",
+          "turns": null
+        },
+        {
+          "fixture": "n13_roman",
+          "repeat": 3,
+          "reason": "unsuccessful_edit",
+          "turns": null
+        }
+      ]
+    },
+    "qwen36/v5": {
+      "passed": 24,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 3,
+        "n10_ranges": 3,
+        "n11_csv": 3,
+        "n12_pager": 3,
+        "n13_roman": 3,
+        "n14_window": 3,
+        "n15_suggest": 3,
+        "n16_dictdiff": 3
+      },
+      "failed_reasons": {},
+      "median_attempt_seconds": 30.078,
+      "total_attempt_seconds": 1245.513,
+      "failed_trials": []
+    },
+    "qwen36/v6": {
+      "passed": 24,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 3,
+        "n10_ranges": 3,
+        "n11_csv": 3,
+        "n12_pager": 3,
+        "n13_roman": 3,
+        "n14_window": 3,
+        "n15_suggest": 3,
+        "n16_dictdiff": 3
+      },
+      "failed_reasons": {},
+      "median_attempt_seconds": 26.711,
+      "total_attempt_seconds": 751.002,
+      "failed_trials": []
+    },
+    "qwen36/aider": {
+      "passed": 23,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 3,
+        "n10_ranges": 3,
+        "n11_csv": 2,
+        "n12_pager": 3,
+        "n13_roman": 3,
+        "n14_window": 3,
+        "n15_suggest": 3,
+        "n16_dictdiff": 3
+      },
+      "failed_reasons": {
+        "timeout": 1
+      },
+      "median_attempt_seconds": 128.9,
+      "total_attempt_seconds": 4208.5,
+      "failed_trials": [
+        {
+          "fixture": "n11_csv",
+          "repeat": 3,
+          "reason": "timeout",
+          "turns": null
+        }
+      ]
+    },
+    "edge0/v5": {
+      "passed": 18,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 3,
+        "n10_ranges": 1,
+        "n11_csv": 0,
+        "n12_pager": 3,
+        "n13_roman": 3,
+        "n14_window": 3,
+        "n15_suggest": 2,
+        "n16_dictdiff": 3
+      },
+      "failed_reasons": {
+        "loop_detected": 1,
+        "max_turns": 4,
+        "model_blocked": 1
+      },
+      "median_attempt_seconds": 29.32,
+      "total_attempt_seconds": 1149.14,
+      "failed_trials": [
+        {
+          "fixture": "n10_ranges",
+          "repeat": 2,
+          "reason": "max_turns",
+          "turns": 30
+        },
+        {
+          "fixture": "n10_ranges",
+          "repeat": 3,
+          "reason": "max_turns",
+          "turns": 30
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 1,
+          "reason": "max_turns",
+          "turns": 30
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 2,
+          "reason": "max_turns",
+          "turns": 30
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 3,
+          "reason": "model_blocked",
+          "turns": 17
+        },
+        {
+          "fixture": "n15_suggest",
+          "repeat": 3,
+          "reason": "loop_detected",
+          "turns": 28
+        }
+      ]
+    },
+    "edge0/v6": {
+      "passed": 17,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 2,
+        "n10_ranges": 1,
+        "n11_csv": 1,
+        "n12_pager": 3,
+        "n13_roman": 3,
+        "n14_window": 3,
+        "n15_suggest": 1,
+        "n16_dictdiff": 3
+      },
+      "failed_reasons": {
+        "loop_detected": 3,
+        "max_turns": 3,
+        "no_tool_calls": 1
+      },
+      "median_attempt_seconds": 35.093,
+      "total_attempt_seconds": 1422.752,
+      "failed_trials": [
+        {
+          "fixture": "n09_rle",
+          "repeat": 1,
+          "reason": "max_turns",
+          "turns": 30
+        },
+        {
+          "fixture": "n10_ranges",
+          "repeat": 1,
+          "reason": "no_tool_calls",
+          "turns": 23
+        },
+        {
+          "fixture": "n10_ranges",
+          "repeat": 3,
+          "reason": "loop_detected",
+          "turns": 21
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 1,
+          "reason": "max_turns",
+          "turns": 30
+        },
+        {
+          "fixture": "n11_csv",
+          "repeat": 2,
+          "reason": "max_turns",
+          "turns": 30
+        },
+        {
+          "fixture": "n15_suggest",
+          "repeat": 1,
+          "reason": "loop_detected",
+          "turns": 28
+        },
+        {
+          "fixture": "n15_suggest",
+          "repeat": 2,
+          "reason": "loop_detected",
+          "turns": 27
+        }
+      ]
+    },
+    "edge0/aider": {
+      "passed": 23,
+      "total": 24,
+      "per_fixture": {
+        "n09_rle": 3,
+        "n10_ranges": 3,
+        "n11_csv": 3,
+        "n12_pager": 3,
+        "n13_roman": 3,
+        "n14_window": 2,
+        "n15_suggest": 3,
+        "n16_dictdiff": 3
+      },
+      "failed_reasons": {
+        "unsuccessful_edit": 1
+      },
+      "median_attempt_seconds": 310.75,
+      "total_attempt_seconds": 6477.9,
+      "failed_trials": [
+        {
+          "fixture": "n14_window",
+          "repeat": 2,
+          "reason": "unsuccessful_edit",
+          "turns": null
+        }
+      ]
+    }
+  },
+  "excluded": {},
+  "limits": [
+    "Eight distinct synthetic tasks, three attempts each",
+    "Repeated attempts are not independent task samples",
+    "Fixed v5 then v6 then Aider order, no counterbalancing",
+    "Whole harness comparison, unequal budgets, no causal format ablation",
+    "No model ranking or router promotion; no pooling with n01-n08",
+    "Edge0 v5b and gpt-oss recovery were tuned on earlier evidence, not blind",
+    "Edge0 completed in a separate post-reboot rerun at unchanged 32768 context"
+  ]
+}

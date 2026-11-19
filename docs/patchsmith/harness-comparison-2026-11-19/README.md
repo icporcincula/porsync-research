@@ -1,6 +1,6 @@
 # Patchsmith v5b vs Aider across four local models, 2026-11-19
 
-Status: completed-run consolidation of the held-out fixtures n01-n08 only. A second, blind fixture set (n09-n16) with a new harness variant (v6) is running and is not included; its results will be added separately, including any null result.
+Status: completed-run consolidation of the held-out fixtures n01-n08 only. A separate second fixture cohort (n09-n16) is complete and is not pooled here; see [the blind2 package](../blind2-2026-11-19/README.md). Edge0 v5b/v6/Aider passed 18/17/23 of 24 there. Edge0 v5b remains nonblind, having been tuned on earlier failures.
 No new inference was performed to produce this package. This is exploratory
 evidence, not a preregistered comparison. It does not close the E39 follow-ups.
 
@@ -82,3 +82,8 @@ included. Counts can be recomputed from the trial rows; the runs cannot be
 re-scored from this package. The Patchsmith source is private; the revision that
 contains the harness and the gpt-oss fix is recorded in the configuration file
 only as an identifier.
+
+
+## November 19 follow-up publication
+
+The [separate n09-n16 cohort](../blind2-2026-11-19/README.md) is now selected for authorized publication. Edge0 v5b remains nonblind; cohorts are never pooled. Earlier first-set numerical results are unchanged. Fixtures, reference solutions, private implementation and raw traces remain withheld.

@@ -1,4 +1,4 @@
-# Public evidence release — 2026-11-16
+# Public evidence release â€” 2026-11-16
 
 ## Included
 
@@ -26,11 +26,11 @@ This release does not grant rights to excluded datasets, third-party implementat
 
 Reviewed and approved for publication on 2026-11-16. Five curated files add a report, 159 source-hashed trial rows, summary, retrospective configuration and offline analyzer. These summarize completed runs; no new inference occurred. The duplicate Aider result is excluded. Original result hashes are retained per row; patches, prompts, private paths, full logs and task sources are withheld. Counts can be recomputed, but code cannot be independently re-scored from this package. Exact model/server identities and run-time Patchsmith revision are incomplete. This is not B2 or daily-use validation and does not close E39 follow-up. The initial source_revision remains provenance for the original release; new entries explicitly identify uncommitted local sources. Publication includes only these selected artifacts; private logs and code remain excluded.
 
-## E41 Patchsmith v5b vs Aider cross-model comparison — 2026-11-19
+## E41 Patchsmith v5b vs Aider cross-model comparison â€” 2026-11-19
 
 Five curated files in `docs/patchsmith/harness-comparison-2026-11-19/`: report, 216 trial rows (Patchsmith v5b and Aider, four local models, 8 held-out fixtures x 3 runs), summary, retrospective configuration and an offline analyzer. Completed runs only; no new inference. Not blind: v5b and the gpt-oss harmony-finish fix were written after seeing failures on these fixtures. Quant and serving flags differ per model. The opencode arm is excluded as a launcher fault. Transcripts, server logs, patches, fixture sources, reference solutions and the private Patchsmith source stay withheld; counts are recomputable, runs are not re-scorable. A blind follow-up on new fixtures (n09-n16) is running and is not part of this release.
 
-## CPU-only eval evidence — November 17 release
+## CPU-only eval evidence â€” November 17 release
 
 User-authorized release of selected CPU-only follow-ups:
 
@@ -39,3 +39,22 @@ User-authorized release of selected CPU-only follow-ups:
 - [E36 review preparation](docs/small-evals/e36-review-package-2026-11-17.md): blinded review tooling prepared for 200 frozen items; independent human labels remain pending. Website excerpts and predictions are excluded.
 
 Method scripts require excluded private modules or data; they are not turnkey public reproductions. No model calls or GPU/service actions. Only selected reports, synthetic/aggregate observations and method scripts are released; private traces, source datasets and full private input manifests remain excluded. This authorization does not publish the separate E39 or Sprocket drafts. Historical hold wording in the reports is superseded by their dated authorization notes.
+
+
+## E39/E41 selected publication - 2026-11-19
+
+User authorized publication of the E39 B0/B1/original B2 and separate B2-retry packages, and E41 blind2. Only those selected packages and the first-set report follow-up pointer are added; unrelated local drafts are excluded.
+
+E39 items 1 and 2 remain open: broader plugin-path accounting and actual subscription quota impact, and sufficient host/shadow integration evidence on local-table decisions. Default remains frontier-only; no routing promotion is supported. RAM floor 0 was an authorized accounting deviation, not a recommended threshold or controlled RAM calibration. The cold-start `recent_http400` label came from a synthetic in-memory cooldown initialized at process start, not a real HTTP 400. The retry observed the original five-minute cooldown in the same MCP process.
+
+B0 passed 21/21; B1 passed 36/36 with no local attempts. B1-minus-B0 fixture-balanced mean median overhead was +99,410.5 cache-read tokens, -4,040.9 cache-write tokens, +547.8 output tokens and +13.094 seconds. B2 retry passed 15/15 final independent checks: 13 local successes and two local failures repaired by frontier. One earlier quota-interrupted attempt is archived and excluded, including after its key was rerun. Original B2 smoke/skip and the retry are separate cohorts.
+
+B2-retry-minus-B1 fixture-balanced mean median deltas were -67,376.1 cache-read, -1,186.8 cache-write and -129.3 output tokens, but +306.625 seconds including cooldown and +6.113 seconds after subtracting observed waits. There is no speed win and no promotion conclusion. Fixed CLI context (~25k cache-write and ~92-135k cache-read versus 250-500 task output tokens) can dominate apparent savings. Unweighted token arithmetic is not subscription quota weighting, billed spend or a causal estimate.
+
+E41 blind2 contains 288 saved attempts, separate from n01-n08, tuning, replay and frontier cohorts. Edge0 v5b is not blind; it and the gpt-oss recovery were tuned after earlier failures. The new tasks were held out from that observed tuning, which does not make the intervention blind. Cohorts are never pooled. v6 changes both the completion cap and read-tool policy; unequal budgets and cross-model quant/backend differences prevent a general harness ranking.
+
+Only curated aggregates, outcome/usage rows, configuration, source hashes and offline analysis are released. Private implementation, fixture source, reference solutions (including heldout2_references.json), prompts, patches, transcripts, raw test output and personal paths remain withheld. Counts can be recomputed; generated code cannot be independently rescored from this release. No model runs or API spend were performed for publication.
+
+Original-source hashes and historical transformations are retained. Report authorization banners and follow-up pointers were added; configuration publication labels were refreshed. No numerical results were changed. Source hashes do not certify run-time executable snapshots. Historical hash-drift statements are preparation records; the staged release is verified as a whole before commit.
+
+Selected text files were normalized to LF and trailing line whitespace removed. Original byte hashes remain in the provenance manifest; numerical results are unchanged.

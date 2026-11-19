@@ -1,0 +1,72 @@
+{
+  "B0": {
+    "arm": "B0",
+    "patchsmith_head": "0e4f1424de66e60ad0e9189a6bada789a081ba71",
+    "fixture_sha256": {
+      "bug1": "6ceb19a93d9442e26cd10b0c873e88020d6338fccc72eab70473b2df94a12167",
+      "bug2": "640c86f7374eae139ea2628e56ae1d90903119e1f655396bf14eb99d20310e69",
+      "feature": "f0ecf30cb53fb05f76691b7f218fb9bc07eca261b48651c3b50cd7746b92cfa5",
+      "multifile": "34a80ab278c6b3ed00546d8c9de2c37a0fbf9f81900c798e7735809980a2e91d",
+      "refactor": "e3e51ea6992fce43b53836d6a5b1ef5dded80de50e01ce06e71fd0d124b69137",
+      "offbyone": "1d5b6672799027ed921310f640ad471de5129d96c82f6dbc372a53bff7686779",
+      "javascript": "40c55d7fee82639e2cdec4fcfe695a8b3293fb8dea6ec5023a8fafe4d58e6fde"
+    },
+    "fixture_hash_method": "sorted relative paths and bytes, each length-prefixed uint64 big endian; cache/git excluded",
+    "cli_version": "2.1.328 (Claude Code)",
+    "runner_sha256": "6ea454887888470753f08f685a3a8e514194d409c1900a3d0628a7b1c28f546e",
+    "router_categories_sha256": "315ba20f0e3aaaaeabb87bf6b5af1f38f79a3358bea0b138f38e3fb34a3038c5",
+    "cli_timeout_seconds": 600,
+    "ram_floor_bytes": null,
+    "router_mode": null,
+    "local_model": null,
+    "prompt_sha256": "9a545c4667c41e1e09754d5b24df957dbee3ca9cc8f6082acb03838e5bd7f5f3",
+    "planned": 21,
+    "source_plan_sha256": "edbf34dde70d1d76d943b8fe07431537c5d5aa34dbc4e1c304c40a8fac80a180"
+  },
+  "B1": {
+    "arm": "B1",
+    "patchsmith_head": "0e4f1424de66e60ad0e9189a6bada789a081ba71",
+    "fixture_sha256": {
+      "bug1": "6ceb19a93d9442e26cd10b0c873e88020d6338fccc72eab70473b2df94a12167",
+      "bug2": "640c86f7374eae139ea2628e56ae1d90903119e1f655396bf14eb99d20310e69",
+      "feature": "f0ecf30cb53fb05f76691b7f218fb9bc07eca261b48651c3b50cd7746b92cfa5",
+      "multifile": "34a80ab278c6b3ed00546d8c9de2c37a0fbf9f81900c798e7735809980a2e91d",
+      "refactor": "e3e51ea6992fce43b53836d6a5b1ef5dded80de50e01ce06e71fd0d124b69137",
+      "offbyone": "1d5b6672799027ed921310f640ad471de5129d96c82f6dbc372a53bff7686779",
+      "javascript": "40c55d7fee82639e2cdec4fcfe695a8b3293fb8dea6ec5023a8fafe4d58e6fde"
+    },
+    "fixture_hash_method": "sorted relative paths and bytes, each length-prefixed uint64 big endian; cache/git excluded",
+    "cli_version": "2.1.328 (Claude Code)",
+    "runner_sha256": "a652d067d6b864de185033c1f060c2c68c0f331581c1ea5f23a90b6db8fb786f",
+    "router_categories_sha256": "315ba20f0e3aaaaeabb87bf6b5af1f38f79a3358bea0b138f38e3fb34a3038c5",
+    "cli_timeout_seconds": 600,
+    "ram_floor_bytes": 0,
+    "router_mode": "shadow",
+    "local_model": "edge0_120b",
+    "prompt_sha256": "1157cf702ad8760075598cdf8207c24b4105490abb7f44046b4b2800574c5681",
+    "planned": 36,
+    "source_plan_sha256": "dea690578d99b0912cb659b0363483747fd5a9ef1ee0c42b781bb7f6f71bb378"
+  },
+  "B2": {
+    "arm": "B2",
+    "patchsmith_head": "0e4f1424de66e60ad0e9189a6bada789a081ba71",
+    "fixture_sha256": {
+      "bug1": "6ceb19a93d9442e26cd10b0c873e88020d6338fccc72eab70473b2df94a12167",
+      "feature": "f0ecf30cb53fb05f76691b7f218fb9bc07eca261b48651c3b50cd7746b92cfa5",
+      "multifile": "34a80ab278c6b3ed00546d8c9de2c37a0fbf9f81900c798e7735809980a2e91d",
+      "offbyone": "1d5b6672799027ed921310f640ad471de5129d96c82f6dbc372a53bff7686779",
+      "javascript": "40c55d7fee82639e2cdec4fcfe695a8b3293fb8dea6ec5023a8fafe4d58e6fde"
+    },
+    "fixture_hash_method": "sorted relative paths and bytes, each length-prefixed uint64 big endian; cache/git excluded",
+    "cli_version": "2.1.328 (Claude Code)",
+    "runner_sha256": "a652d067d6b864de185033c1f060c2c68c0f331581c1ea5f23a90b6db8fb786f",
+    "router_categories_sha256": "315ba20f0e3aaaaeabb87bf6b5af1f38f79a3358bea0b138f38e3fb34a3038c5",
+    "cli_timeout_seconds": 600,
+    "ram_floor_bytes": 0,
+    "router_mode": "route",
+    "local_model": "edge0_120b",
+    "prompt_sha256": "1157cf702ad8760075598cdf8207c24b4105490abb7f44046b4b2800574c5681",
+    "planned": 15,
+    "source_plan_sha256": "54979514e66072baa9885f4549ab2754679b4bb65756a04aa55ab5befc97f8e4"
+  }
+}

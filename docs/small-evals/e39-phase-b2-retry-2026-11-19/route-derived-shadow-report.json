@@ -1,0 +1,14 @@
+{
+  "local_completed": 15,
+  "local_pending": 0,
+  "local_disagreements": 0,
+  "local_disagreement_rate": 0.0,
+  "frontier_completed": 0,
+  "frontier_easy": 0,
+  "frontier_easy_rate": null,
+  "orphan_outcomes": 0,
+  "promotion_bar": 0.1,
+  "struggle_turns": 10,
+  "below_bar": true,
+  "note": "Descriptive proxy only: frontier success does not establish local correctness. No automatic promotion."
+}
