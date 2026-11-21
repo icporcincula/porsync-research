@@ -1,0 +1,48 @@
+{
+  "revision": 1,
+  "scope": "E39 closeout pilot, separate from C1/C1b; C2b skipped",
+  "patchsmith_head": "2203eb0701265695511f2a4077d142b01aeee464",
+  "trials": 24,
+  "arms": [
+    "direct",
+    "shadow",
+    "route"
+  ],
+  "repeats": 1,
+  "cli_timeout_seconds": 600,
+  "deadline": "2026-12-10 Asia/Manila",
+  "harness_env": {
+    "PS_HARNESS": "v5",
+    "PS_MAX_TURNS": "30",
+    "PS_CTX_BUDGET": "30000",
+    "PS_BUDGET_MODE": "context"
+  },
+  "ram_floor_bytes": 0,
+  "cooldown_seconds": 300,
+  "clean_seconds": 120,
+  "context": 32768,
+  "health": {
+    "persistent_observation_seconds": 315,
+    "sample_every_seconds": 15,
+    "pressure_mib": [
+      0,
+      64,
+      128,
+      256
+    ],
+    "minimum_free_reserve_mib": 1024,
+    "long_prompt_words": [
+      4096,
+      16000,
+      28000,
+      31500
+    ],
+    "request_timeout_seconds": 420,
+    "max_backend_attempts_per_request": 2
+  },
+  "order": "All eight direct trials before server launch. Then per-task shadow/route with alternating arm order. Unknown category omitted. One repeat per arm.",
+  "analysis": "Per-task independent tests/protected integrity, genuine eligible shadow decisions/outcomes, local-only/final/repair, matched token and wall deltas vs direct, observed startup wait. No promotion; small pilot, not comprehensive routing validation.",
+  "quota": "Subscription CLI only; provider environment stripped. Actual quota weighting unavailable: no percentage claim. Stop and wait on any usage limit; no automatic resume.",
+  "recovery": "Observe real faults under bounded workloads using unchanged client. No fake errors, no deliberate OOM, no automatic server restart. No natural fault means natural recovery remains unverified.",
+  "publication": "Local selected draft only; no commit/push/publication."
+}

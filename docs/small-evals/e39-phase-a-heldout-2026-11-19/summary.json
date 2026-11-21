@@ -1,0 +1,1647 @@
+{
+  "summary": {
+    "status": "complete",
+    "updated_at": "2026-11-19T14:17:34.271725+00:00",
+    "planned": 96,
+    "completed": 96,
+    "groups": [
+      {
+        "cohort": "blind2",
+        "model": "sonnet",
+        "green": 24,
+        "completed": 24,
+        "planned": 24,
+        "median_seconds": 18.797,
+        "q1_seconds": 17.386499999999998,
+        "q3_seconds": 20.33625,
+        "iqr_seconds": 2.9497500000000016,
+        "timing_count": 24,
+        "mean_turns": 5.166666666666667,
+        "usage_totals": {
+          "input_tokens": 180,
+          "cache_creation_input_tokens": 640265,
+          "cache_read_input_tokens": 2304970,
+          "output_tokens": 23619
+        },
+        "missing_usage": 0,
+        "resolved_models": [
+          "claude-haiku-5-5",
+          "claude-sonnet-5-5"
+        ],
+        "timeouts": 0,
+        "cli_errors": 0,
+        "protected_violations": 0
+      },
+      {
+        "cohort": "blind2",
+        "model": "haiku",
+        "green": 24,
+        "completed": 24,
+        "planned": 24,
+        "median_seconds": 29.1565,
+        "q1_seconds": 26.1485,
+        "q3_seconds": 33.976749999999996,
+        "iqr_seconds": 7.828249999999997,
+        "timing_count": 24,
+        "mean_turns": 7.666666666666667,
+        "usage_totals": {
+          "input_tokens": 252,
+          "cache_creation_input_tokens": 762916,
+          "cache_read_input_tokens": 4680324,
+          "output_tokens": 71577
+        },
+        "missing_usage": 0,
+        "resolved_models": [
+          "claude-haiku-5-5"
+        ],
+        "timeouts": 0,
+        "cli_errors": 0,
+        "protected_violations": 0
+      },
+      {
+        "cohort": "heldout1",
+        "model": "sonnet",
+        "green": 24,
+        "completed": 24,
+        "planned": 24,
+        "median_seconds": 19.9765,
+        "q1_seconds": 15.835749999999999,
+        "q3_seconds": 21.707500000000003,
+        "iqr_seconds": 5.871750000000004,
+        "timing_count": 24,
+        "mean_turns": 4.916666666666667,
+        "usage_totals": {
+          "input_tokens": 198,
+          "cache_creation_input_tokens": 623245,
+          "cache_read_input_tokens": 2863241,
+          "output_tokens": 21723
+        },
+        "missing_usage": 0,
+        "resolved_models": [
+          "claude-haiku-5-5",
+          "claude-sonnet-5-5"
+        ],
+        "timeouts": 0,
+        "cli_errors": 0,
+        "protected_violations": 0
+      },
+      {
+        "cohort": "heldout1",
+        "model": "haiku",
+        "green": 24,
+        "completed": 24,
+        "planned": 24,
+        "median_seconds": 30.633000000000003,
+        "q1_seconds": 27.7145,
+        "q3_seconds": 35.2845,
+        "iqr_seconds": 7.57,
+        "timing_count": 24,
+        "mean_turns": 8.125,
+        "usage_totals": {
+          "input_tokens": 272,
+          "cache_creation_input_tokens": 760424,
+          "cache_read_input_tokens": 5123800,
+          "output_tokens": 80926
+        },
+        "missing_usage": 0,
+        "resolved_models": [
+          "claude-haiku-5-5"
+        ],
+        "timeouts": 0,
+        "cli_errors": 0,
+        "protected_violations": 0
+      }
+    ],
+    "missing": [],
+    "stops": [
+      {
+        "key": "heldout1-n02_semver-haiku-1",
+        "reason": "usage_limit"
+      }
+    ]
+  },
+  "local_sources": {
+    "blind2/edge0/v5": {
+      "source": "blind2/edge0/v5",
+      "sha256": "26c9bae3a19a6c76c9884db2ae3f9c76b23c4f44a74e02569644bf058051144c"
+    },
+    "blind2/edge0/v6": {
+      "source": "blind2/edge0/v6",
+      "sha256": "6a3d2a15e1d70ad5205604e3e19687a5c8a75637367c579f5dcf6c034c4897ab"
+    },
+    "blind2/edge0/aider": {
+      "source": "blind2/edge0/aider/results.jsonl",
+      "sha256": "254aec50834bd5c531e86f98b8cb19ae6858070d8292e6f4b1d82d4efa6adaa4"
+    },
+    "blind2/gptoss/v5": {
+      "source": "blind2/gptoss/v5",
+      "sha256": "f3ca4beb2830d640568893087a497e6d4048d8b1d6c7ddcfa9e35ac9ebd5be9e"
+    },
+    "blind2/gptoss/v6": {
+      "source": "blind2/gptoss/v6",
+      "sha256": "3fdfb18b66bb42f2d60bbe33c7748b1fd44d5ff52deb122e4a2fc65018f7e0d4"
+    },
+    "blind2/gptoss/aider": {
+      "source": "blind2/gptoss/aider/results.jsonl",
+      "sha256": "7e9bf004a5f04e62ea8f563772f6db664bc6c2e18f82142ce6351185c70cd3b7"
+    },
+    "blind2/qwen3coder/v5": {
+      "source": "blind2/qwen3coder/v5",
+      "sha256": "2baf564058ca81d3c3b9bbd52ae6ac7dcabd25cb33776b58358ad33f1feb142d"
+    },
+    "blind2/qwen3coder/v6": {
+      "source": "blind2/qwen3coder/v6",
+      "sha256": "79aab206cd0266facdfb68f2795c2899cd7b815d85ec2a2a316d4c4d71ed2a58"
+    },
+    "blind2/qwen3coder/aider": {
+      "source": "blind2/qwen3coder/aider/results.jsonl",
+      "sha256": "689d7012114f39df06ac3f5dbcc553df9f77dc1a726dcda7fbb41e54efd91196"
+    },
+    "blind2/qwen36/v5": {
+      "source": "blind2/qwen36/v5",
+      "sha256": "3892295f1a2f728c6f9ecaffa25aa576f0a0c562deeb075c7e6673ef288b5746"
+    },
+    "blind2/qwen36/v6": {
+      "source": "blind2/qwen36/v6",
+      "sha256": "d53a59f65bde55d71f1aa332e7be89d14c338ae5ed8854c153d9960a155604dd"
+    },
+    "blind2/qwen36/aider": {
+      "source": "blind2/qwen36/aider/results.jsonl",
+      "sha256": "c11770a24675e34fa85321ccdbd8d58b1df9f3b0bcd5ebe9bf6684bfe56a0ead"
+    },
+    "heldout1/edge0/v5": {
+      "source": "local-heldout/v5b",
+      "sha256": "785ac928c639271590c971b0ff696e2d341377327a1e3c6941d309baba888c54"
+    },
+    "heldout1/edge0/aider": {
+      "source": "local-heldout/aider/results.jsonl",
+      "sha256": "b2996d7263b03d6b096c706c9ffafbcf716715700a19190a2294a37f0c39c3eb"
+    },
+    "heldout1/gptoss/v5": {
+      "source": "other-gptoss/v5",
+      "sha256": "3ba2cdf37371ff49149d9b6713d45ee106b1c91e8ef1396b51854fd4d21c9420"
+    },
+    "heldout1/gptoss/aider": {
+      "source": "other-gptoss/aider/results.jsonl",
+      "sha256": "690fb1cd423b1dbf3a6a0d6e3404915871b118008275b9e510f61dc5b47aae28"
+    },
+    "heldout1/qwen3coder/v5": {
+      "source": "other-qwen3coder/v5",
+      "sha256": "dd81629828d0350464628f9f648e3bde12c5d86c7bf248f91d5c14513ba6e252"
+    },
+    "heldout1/qwen3coder/aider": {
+      "source": "other-qwen3coder/aider/results.jsonl",
+      "sha256": "18cae8fa65555e227d6fbd214b9376b7761c4e38b63bc77b1d9cfb4f4c0e27bc"
+    },
+    "heldout1/qwen36/v5": {
+      "source": "other-qwen36/v5",
+      "sha256": "472c0574442cf694384b9ff046067f731ec2a558008d13f7801a3570d258e6af"
+    },
+    "heldout1/qwen36/aider": {
+      "source": "other-qwen36/aider/results.jsonl",
+      "sha256": "e0000e09e70662167fdc1c11c69dfc08c30ebbc0b8258fe212db91b679ccd66e"
+    }
+  },
+  "paired": [
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 0,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "edge0",
+      "arm": "v6",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "edge0",
+      "arm": "v6",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "edge0",
+      "arm": "v6",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "edge0",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "edge0",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "edge0",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "edge0",
+      "arm": "v6",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "edge0",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 0,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 0,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "gptoss",
+      "arm": "v6",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "gptoss",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "gptoss",
+      "arm": "v6",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "gptoss",
+      "arm": "v6",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "gptoss",
+      "arm": "v6",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "gptoss",
+      "arm": "v6",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "gptoss",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "gptoss",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 0,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "qwen3coder",
+      "arm": "v6",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "qwen3coder",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "qwen3coder",
+      "arm": "v6",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "qwen3coder",
+      "arm": "v6",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "qwen3coder",
+      "arm": "v6",
+      "completed": 3,
+      "green": 0,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "qwen3coder",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "qwen3coder",
+      "arm": "v6",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "qwen3coder",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 0,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "qwen36",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "qwen36",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "qwen36",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "qwen36",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "qwen36",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "qwen36",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "qwen36",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "qwen36",
+      "arm": "v6",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n01_bucket",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n02_semver",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n03_wrap",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n04_ledger",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n05_bizdays",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n06_lru",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n07_template",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n08_topo",
+      "model": "edge0",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n01_bucket",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n02_semver",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n03_wrap",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n04_ledger",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n05_bizdays",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n06_lru",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n07_template",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n08_topo",
+      "model": "edge0",
+      "arm": "aider",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n01_bucket",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n02_semver",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n03_wrap",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n04_ledger",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n05_bizdays",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n06_lru",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n07_template",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n08_topo",
+      "model": "gptoss",
+      "arm": "v5",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n01_bucket",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n02_semver",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n03_wrap",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n04_ledger",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n05_bizdays",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n06_lru",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n07_template",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n08_topo",
+      "model": "gptoss",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n01_bucket",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n02_semver",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 1,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n03_wrap",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n04_ledger",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n05_bizdays",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n06_lru",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n07_template",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n08_topo",
+      "model": "qwen3coder",
+      "arm": "v5",
+      "completed": 3,
+      "green": 0,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n01_bucket",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n02_semver",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 0,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n03_wrap",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n04_ledger",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n05_bizdays",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n06_lru",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n07_template",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 0,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n08_topo",
+      "model": "qwen3coder",
+      "arm": "aider",
+      "completed": 3,
+      "green": 0,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n01_bucket",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n02_semver",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n03_wrap",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n04_ledger",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n05_bizdays",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n06_lru",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n07_template",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n08_topo",
+      "model": "qwen36",
+      "arm": "v5",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n01_bucket",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n02_semver",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n03_wrap",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n04_ledger",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n05_bizdays",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n06_lru",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 2,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n07_template",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n08_topo",
+      "model": "qwen36",
+      "arm": "aider",
+      "completed": 3,
+      "green": 3,
+      "complete": true
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "status": "complete",
+  "completed": 24,
+  "planned": 24,
+  "arms": [
+    {
+      "arm": "direct",
+      "completed": 8,
+      "planned": 8,
+      "final_passes": 8,
+      "local_passes": 0,
+      "frontier_repairs": 0,
+      "cli_seconds_median": 18.0235,
+      "adjusted_seconds_median": 18.0235,
+      "shadow_eligible": 0,
+      "shadow_matched": 0,
+      "shadow_proxy_bad": 0,
+      "tokens_median": {
+        "input_tokens": 10.0,
+        "cache_creation_input_tokens": 26769.5,
+        "cache_read_input_tokens": 133365.5,
+        "output_tokens": 698.5
+      }
+    },
+    {
+      "arm": "shadow",
+      "completed": 8,
+      "planned": 8,
+      "final_passes": 8,
+      "local_passes": 0,
+      "frontier_repairs": 0,
+      "cli_seconds_median": 335.4525,
+      "adjusted_seconds_median": 34.90230495452883,
+      "shadow_eligible": 7,
+      "shadow_matched": 7,
+      "shadow_proxy_bad": 0,
+      "tokens_median": {
+        "input_tokens": 18.0,
+        "cache_creation_input_tokens": 22444.0,
+        "cache_read_input_tokens": 222928.0,
+        "output_tokens": 1316.0
+      }
+    },
+    {
+      "arm": "route",
+      "completed": 8,
+      "planned": 8,
+      "final_passes": 8,
+      "local_passes": 3,
+      "frontier_repairs": 4,
+      "cli_seconds_median": 348.01599999999996,
+      "adjusted_seconds_median": 47.531695333480826,
+      "shadow_eligible": 0,
+      "shadow_matched": 0,
+      "shadow_proxy_bad": 0,
+      "tokens_median": {
+        "input_tokens": 14.0,
+        "cache_creation_input_tokens": 22468.5,
+        "cache_read_input_tokens": 189625.5,
+        "output_tokens": 1125.5
+      }
+    }
+  ],
+  "paired": [
+    {
+      "fixture": "f01_percent",
+      "category": "multifile",
+      "arms": {
+        "direct": {
+          "final": true,
+          "local": false,
+          "seconds": 18.235,
+          "adjusted_seconds": 18.235
+        },
+        "shadow": {
+          "final": true,
+          "local": false,
+          "seconds": 337.047,
+          "adjusted_seconds": 36.54491240692141
+        },
+        "route": {
+          "final": true,
+          "local": false,
+          "seconds": 350.047,
+          "adjusted_seconds": 49.21475321960452
+        }
+      },
+      "token_delta_vs_direct": {
+        "shadow": {
+          "input_tokens": 8,
+          "cache_creation_input_tokens": -4304,
+          "cache_read_input_tokens": 89157,
+          "output_tokens": 551
+        },
+        "route": {
+          "input_tokens": 4,
+          "cache_creation_input_tokens": -4271,
+          "cache_read_input_tokens": 58013,
+          "output_tokens": 423
+        }
+      }
+    },
+    {
+      "fixture": "f02_ttl",
+      "category": "multifile",
+      "arms": {
+        "direct": {
+          "final": true,
+          "local": false,
+          "seconds": 13.922,
+          "adjusted_seconds": 13.922
+        },
+        "route": {
+          "final": true,
+          "local": true,
+          "seconds": 331.204,
+          "adjusted_seconds": 30.284771446228035
+        },
+        "shadow": {
+          "final": true,
+          "local": false,
+          "seconds": 325.031,
+          "adjusted_seconds": 24.30292664146424
+        }
+      },
+      "token_delta_vs_direct": {
+        "route": {
+          "input_tokens": 4,
+          "cache_creation_input_tokens": -4097,
+          "cache_read_input_tokens": 23130,
+          "output_tokens": 439
+        },
+        "shadow": {
+          "input_tokens": 8,
+          "cache_creation_input_tokens": -4346,
+          "cache_read_input_tokens": 90826,
+          "output_tokens": 586
+        }
+      }
+    },
+    {
+      "fixture": "f03_dependencies",
+      "category": "multifile",
+      "arms": {
+        "direct": {
+          "final": true,
+          "local": false,
+          "seconds": 17.812,
+          "adjusted_seconds": 17.812
+        },
+        "shadow": {
+          "final": true,
+          "local": false,
+          "seconds": 336.937,
+          "adjusted_seconds": 36.84872552108766
+        },
+        "route": {
+          "final": true,
+          "local": false,
+          "seconds": 383.734,
+          "adjusted_seconds": 82.97098878288267
+        }
+      },
+      "token_delta_vs_direct": {
+        "shadow": {
+          "input_tokens": 8,
+          "cache_creation_input_tokens": -3596,
+          "cache_read_input_tokens": 90204,
+          "output_tokens": 1082
+        },
+        "route": {
+          "input_tokens": 6,
+          "cache_creation_input_tokens": 1650,
+          "cache_read_input_tokens": 72284,
+          "output_tokens": 1059
+        }
+      }
+    },
+    {
+      "fixture": "f04_routes",
+      "category": "multifile",
+      "arms": {
+        "direct": {
+          "final": true,
+          "local": false,
+          "seconds": 16.984,
+          "adjusted_seconds": 16.984
+        },
+        "route": {
+          "final": true,
+          "local": false,
+          "seconds": 346.157,
+          "adjusted_seconds": 46.15045040321348
+        },
+        "shadow": {
+          "final": true,
+          "local": false,
+          "seconds": 345.078,
+          "adjusted_seconds": 44.37236111450193
+        }
+      },
+      "token_delta_vs_direct": {
+        "route": {
+          "input_tokens": 4,
+          "cache_creation_input_tokens": -3933,
+          "cache_read_input_tokens": 59005,
+          "output_tokens": 507
+        },
+        "shadow": {
+          "input_tokens": 12,
+          "cache_creation_input_tokens": -3611,
+          "cache_read_input_tokens": 165779,
+          "output_tokens": 1033
+        }
+      }
+    },
+    {
+      "fixture": "f05_slug",
+      "category": "bug1",
+      "arms": {
+        "direct": {
+          "final": true,
+          "local": false,
+          "seconds": 19.25,
+          "adjusted_seconds": 19.25
+        },
+        "shadow": {
+          "final": true,
+          "local": false,
+          "seconds": 333.968,
+          "adjusted_seconds": 33.25969750213625
+        },
+        "route": {
+          "final": true,
+          "local": true,
+          "seconds": 330.141,
+          "adjusted_seconds": 29.947821584701558
+        }
+      },
+      "token_delta_vs_direct": {
+        "shadow": {
+          "input_tokens": 8,
+          "cache_creation_input_tokens": -4214,
+          "cache_read_input_tokens": 89201,
+          "output_tokens": 616
+        },
+        "route": {
+          "input_tokens": 0,
+          "cache_creation_input_tokens": -6545,
+          "cache_read_input_tokens": -20310,
+          "output_tokens": 188
+        }
+      }
+    },
+    {
+      "fixture": "f06_balance",
+      "category": "bug1",
+      "arms": {
+        "direct": {
+          "final": true,
+          "local": false,
+          "seconds": 19.657,
+          "adjusted_seconds": 19.657
+        },
+        "route": {
+          "final": true,
+          "local": true,
+          "seconds": 334.438,
+          "adjusted_seconds": 33.585191286087024
+        },
+        "shadow": {
+          "final": true,
+          "local": false,
+          "seconds": 332.39,
+          "adjusted_seconds": 31.693812503814684
+        }
+      },
+      "token_delta_vs_direct": {
+        "route": {
+          "input_tokens": -2,
+          "cache_creation_input_tokens": -6918,
+          "cache_read_input_tokens": -62062,
+          "output_tokens": 69
+        },
+        "shadow": {
+          "input_tokens": 4,
+          "cache_creation_input_tokens": -4695,
+          "cache_read_input_tokens": 10426,
+          "output_tokens": 447
+        }
+      }
+    },
+    {
+      "fixture": "f07_query",
+      "category": "feature",
+      "arms": {
+        "direct": {
+          "final": true,
+          "local": false,
+          "seconds": 13.593,
+          "adjusted_seconds": 13.593
+        },
+        "shadow": {
+          "final": true,
+          "local": false,
+          "seconds": 327.609,
+          "adjusted_seconds": 26.62347892189024
+        },
+        "route": {
+          "final": true,
+          "local": false,
+          "seconds": 364.203,
+          "adjusted_seconds": 63.88057868766782
+        }
+      },
+      "token_delta_vs_direct": {
+        "shadow": {
+          "input_tokens": 10,
+          "cache_creation_input_tokens": -1782,
+          "cache_read_input_tokens": 93493,
+          "output_tokens": 673
+        },
+        "route": {
+          "input_tokens": 12,
+          "cache_creation_input_tokens": 1161,
+          "cache_read_input_tokens": 143830,
+          "output_tokens": 950
+        }
+      }
+    },
+    {
+      "fixture": "f08_manifest",
+      "category": null,
+      "arms": {
+        "direct": {
+          "final": true,
+          "local": false,
+          "seconds": 22.297,
+          "adjusted_seconds": 22.297
+        },
+        "route": {
+          "final": true,
+          "local": false,
+          "seconds": 349.875,
+          "adjusted_seconds": 48.91294026374817
+        },
+        "shadow": {
+          "final": true,
+          "local": false,
+          "seconds": 346.797,
+          "adjusted_seconds": 45.86668712806704
+        }
+      },
+      "token_delta_vs_direct": {
+        "route": {
+          "input_tokens": 6,
+          "cache_creation_input_tokens": -4785,
+          "cache_read_input_tokens": 52326,
+          "output_tokens": 457
+        },
+        "shadow": {
+          "input_tokens": 8,
+          "cache_creation_input_tokens": -4688,
+          "cache_read_input_tokens": 89662,
+          "output_tokens": 644
+        }
+      }
+    }
+  ],
+  "health": {
+    "observations": 22,
+    "pressure_skips": [
+      {
+        "requested_mib": 64,
+        "available_bytes": 305709056,
+        "reason": "Cannot retain frozen 1 GiB free reserve"
+      },
+      {
+        "requested_mib": 128,
+        "available_bytes": 305770496,
+        "reason": "Cannot retain frozen 1 GiB free reserve"
+      },
+      {
+        "requested_mib": 256,
+        "available_bytes": 305786880,
+        "reason": "Cannot retain frozen 1 GiB free reserve"
+      }
+    ],
+    "requests": 5,
+    "correct": 5,
+    "natural_faults": 0,
+    "fresh_process": [
+      {
+        "health": {
+          "server_up": true,
+          "free_ram_bytes": 505802752,
+          "http400_age_seconds": 0.0,
+          "clean_seconds": 0.0
+        },
+        "decision": [
+          "frontier",
+          "recent_http400"
+        ]
+      }
+    ]
+  },
+  "stops": [
+    {
+      "kind": "stop",
+      "key": "E39F-shadow-f04_routes-sonnet-0",
+      "reason": "usage_limit",
+      "at": "2026-11-20T15:03:39.064318+00:00"
+    }
+  ],
+  "final": {
+    "at": "2026-11-20T23:10:29.565384+00:00",
+    "edge0_processes_remaining": 0,
+    "clean_shutdown": true,
+    "gpu_utilization_percent": 0,
+    "gpu_free_mib": 15356,
+    "gpu_used_mib": 695,
+    "natural_oom_log_mention": false,
+    "context": 32768,
+    "start_attempts": 1
+  },
+  "quota_savings_percent": null,
+  "limitations": [
+    "Eight authored synthetic tasks, one repeat per arm: exploratory broader coverage, not comprehensive real-repository validation.",
+    "Process startup cooldown and RAM-floor-0 deviation retained; default stays frontier-only.",
+    "No observed natural OOM/prefill stall means natural recovery remains unverified.",
+    "Bounded pressure cannot establish an optimal/safe RAM threshold without a controlled failure boundary.",
+    "Subscription weighting and directly measured quota impact unavailable; token deltas are relative accounting.",
+    "C2b skipped; categories fixed by task structure, not runtime-classifier validation.",
+    "Direct trials run before server load; shadow/route pair order alternates; no randomized session replication."
+  ],
+  "publication": "Local unpublished draft only"
+}

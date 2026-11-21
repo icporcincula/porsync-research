@@ -1274,11 +1274,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "707615eae9b2d9666d14780dd87aff640d29a99a4ae423c57cef4a4add44f630"
+      "sha256": "2c8d034f85949362ba8052767a5ac16f43add08b9ae93998bde231e7116de035"
     },
     {
       "path": "RELEASE.md",
-      "sha256": "82cd8b12b5b57e0bc9f2b4ebc6142c39389daafe9685030f3b90d3c94bf38c26"
+      "sha256": "a764490c2099d03d0932f53a6819198aed5cff1441de5bf090936e039165a9b0"
     },
     {
       "path": "docs/small-evals/e07-results.md",
@@ -1779,6 +1779,74 @@
     {
       "path": "docs/small-evals/e39-phase-b2-retry-2026-11-19/trials.json",
       "sha256": "df686fc2ab505c9747cee0cafa444448c73d0464b52daa1165ad51295de47e0e"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-a-heldout-2026-11-19/README.md",
+      "sha256": "f55a385811a94c418bdfd23164c339e584601227f8cd17e2d8d4e0902b86d659"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-a-heldout-2026-11-19/summary.json",
+      "sha256": "fca5a8ddf03cc13e86222a008b976b8a3e56bcdf2b406b28326b61ba0429151a"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-c-2026-11-19/analyze.py",
+      "sha256": "c569b5a7d0c72e14a883b126eb507bf720f0b68acbca6bb13921598bca93dbb8"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-c-2026-11-19/config.json",
+      "sha256": "2263c22369a1ef64aeb9826535762fc553e9606ae7a775173003a12ecd246812"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-c-2026-11-19/README.md",
+      "sha256": "6cdd5d26b69d4bb48d5d25a4991b3f9b1653199d8b1846c604cd983ec78fde73"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-c-2026-11-19/summary.json",
+      "sha256": "8ec7d07cdfdc49b6ffcb958a9c7e03e8405c9b865b9194aa418e0bb3b2db5a68"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-c-2026-11-19/trials.json",
+      "sha256": "b587191065c25b255fd353848a87b669301337d22f881acbba5fb0535e338328"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-c1b-2026-11-20/analyze.py",
+      "sha256": "55f691eb47d88dd7cbafacf0a25e9f00baa3aad41ae51fd66cd2804b7f87a4f0"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-c1b-2026-11-20/config.json",
+      "sha256": "0b9407ee288ced02f7cf4994180b9ea6b6f6b6958aa10ac1334adc2ed5ebaa2c"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-c1b-2026-11-20/README.md",
+      "sha256": "7c95f33c43323574d210b6706037b115455dc24826766b478d13f0acc9808f13"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-c1b-2026-11-20/summary.json",
+      "sha256": "fa02cd25473f4cae489d7f56fac7448a7ea586d79d6822c38c6d0808df865ab4"
+    },
+    {
+      "path": "docs/small-evals/e39-phase-c1b-2026-11-20/trials.json",
+      "sha256": "0f3efad27326258831941e513a6e352b14770014c863169136f567b0b2835e06"
+    },
+    {
+      "path": "docs/small-evals/e39-closeout-2026-11-20/analyze.py",
+      "sha256": "83a8c024d48f6280026528039545defd1f8f640e47c5e38287b3d5eafeef578d"
+    },
+    {
+      "path": "docs/small-evals/e39-closeout-2026-11-20/config.json",
+      "sha256": "1e44ab7c55a6c152e80732fc5e7f31d0b98f0522fb768b8187059cc3a32cde62"
+    },
+    {
+      "path": "docs/small-evals/e39-closeout-2026-11-20/README.md",
+      "sha256": "c48ae329d874e6c7e1c57f19e60798406ff51718d3772f54abef1f3e7425fd25"
+    },
+    {
+      "path": "docs/small-evals/e39-closeout-2026-11-20/summary.json",
+      "sha256": "11ab120b5b546e4bc914f56216d0242473b93da424431d559f53bdea4806dddd"
+    },
+    {
+      "path": "docs/small-evals/e39-closeout-2026-11-20/trials.json",
+      "sha256": "474c4c5b0901b1f6ed55795047e2ea1bc7381e7c9de4b0b029619110dad55cd1"
     }
   ],
   "updates": [
@@ -1926,6 +1994,40 @@
         "E39 frontier follow-up",
         "E39 Phase A heldout",
         "Sprocket diagnostic status"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "study": "E39 held-out frontier, C1, C1b route and closeout pilot selected release",
+      "publication": "authorized by the user on 2026-11-21",
+      "files": [
+        "docs/small-evals/e39-phase-a-heldout-2026-11-19/README.md",
+        "docs/small-evals/e39-phase-a-heldout-2026-11-19/summary.json",
+        "docs/small-evals/e39-phase-c-2026-11-19/analyze.py",
+        "docs/small-evals/e39-phase-c-2026-11-19/config.json",
+        "docs/small-evals/e39-phase-c-2026-11-19/README.md",
+        "docs/small-evals/e39-phase-c-2026-11-19/summary.json",
+        "docs/small-evals/e39-phase-c-2026-11-19/trials.json",
+        "docs/small-evals/e39-phase-c1b-2026-11-20/analyze.py",
+        "docs/small-evals/e39-phase-c1b-2026-11-20/config.json",
+        "docs/small-evals/e39-phase-c1b-2026-11-20/README.md",
+        "docs/small-evals/e39-phase-c1b-2026-11-20/summary.json",
+        "docs/small-evals/e39-phase-c1b-2026-11-20/trials.json",
+        "docs/small-evals/e39-closeout-2026-11-20/analyze.py",
+        "docs/small-evals/e39-closeout-2026-11-20/config.json",
+        "docs/small-evals/e39-closeout-2026-11-20/README.md",
+        "docs/small-evals/e39-closeout-2026-11-20/summary.json",
+        "docs/small-evals/e39-closeout-2026-11-20/trials.json",
+        "README.md",
+        "RELEASE.md"
+      ],
+      "limits": "Curated aggregates and outcome/usage rows only; private runners, prompts, patches, transcripts, fixtures and reference solutions withheld. Counts recompute; generated code cannot be rescored. Cohorts are never pooled; no routing promotion, quota percentage or natural-recovery claim.",
+      "excluded_local_drafts": [
+        "E39 frontier follow-up 124/124",
+        "E39 C2a label probe",
+        "E42",
+        "E43",
+        "Sprocket status"
       ]
     }
   ],

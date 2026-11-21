@@ -73,3 +73,12 @@ Run the three E39 package `analyze.py` scripts and the first-set E41 analyzer di
 python -B docs/patchsmith/blind2-2026-11-19/analyze.py --trials docs/patchsmith/blind2-2026-11-19/trials.json --out recomputed/blind2
 python -B verify.py
 ```
+
+## E39 held-out routing and closeout - November 21, 2026
+
+- [Phase A frontier held-out](docs/small-evals/e39-phase-a-heldout-2026-11-19/README.md): 96/96 frontier trials recorded (aggregate summary).
+- [Phase C / C1 held-out route](docs/small-evals/e39-phase-c-2026-11-19/README.md): 48/48 route trials; local baseline for the next item.
+- [Phase C1b revision 2](docs/small-evals/e39-phase-c1b-2026-11-20/README.md): 48/48 route trials. blind2 17/24 local-only passes (predicted 15), heldout1 19/24 (predicted 18); 24/24 final passes in each, 12 frontier repairs. n=3 per cell; set 1 informed tuning, so cohorts are not blind and never pooled.
+- [Operational closeout pilot](docs/small-evals/e39-closeout-2026-11-20/README.md): 24/24 trials, eight authored synthetic tasks, one repeat per arm. Direct, shadow and route each ended 8/8 on final passes; route had 3 local-only passes, 4 frontier repairs and 1 frontier-only decision. It was stopped once by a subscription usage limit and resumed in a fresh session, which adds startup and order confounding.
+
+No natural OOM or prefill stall occurred, so natural-fault recovery is unverified. Token deltas are relative accounting, not subscription quota; no percentage saving is claimed. C2b was not run, so the runtime classifier is not validated. The router default remains frontier-only and no promotion is supported. E39 items 1 and 2 stay open. Private runners, fixtures, reference solutions, prompts, patches and transcripts are withheld, so generated code cannot be rescored.

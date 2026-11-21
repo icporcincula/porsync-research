@@ -58,3 +58,7 @@ Only curated aggregates, outcome/usage rows, configuration, source hashes and of
 Original-source hashes and historical transformations are retained. Report authorization banners and follow-up pointers were added; configuration publication labels were refreshed. No numerical results were changed. Source hashes do not certify run-time executable snapshots. Historical hash-drift statements are preparation records; the staged release is verified as a whole before commit.
 
 Selected text files were normalized to LF and trailing line whitespace removed. Original byte hashes remain in the provenance manifest; numerical results are unchanged.
+
+## E39 held-out routing and closeout selected release - 2026-11-21
+
+User-authorized release of four E39 packages: Phase A held-out summary, Phase C (C1), Phase C1b revision 2 and the operational closeout pilot. Each contains curated outcome/usage rows or summaries, configuration where present, an offline `analyze.py` and a README with limits. Original-source hashes are in the working-tree record; released-file hashes are in MANIFEST.json. Withheld: private runners, fixtures, reference solutions, prompts, patches, transcripts, raw test output and machine paths. Not included: the E39 frontier follow-up, the C2a label probe, E42, E43 and Sprocket drafts. No model runs or API spend were performed for this publication.

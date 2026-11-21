@@ -1,0 +1,626 @@
+[
+  {
+    "key": "E39F-direct-f01_percent-sonnet-0",
+    "name": "f01_percent",
+    "arm": "direct",
+    "green": true,
+    "secs": 18.235,
+    "turns": 4,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": null,
+    "adjusted_seconds": 18.235,
+    "tokens": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 26759,
+      "cache_read_input_tokens": 133152,
+      "output_tokens": 737
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-direct-f02_ttl-sonnet-0",
+    "name": "f02_ttl",
+    "arm": "direct",
+    "green": true,
+    "secs": 13.922,
+    "turns": 3,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": null,
+    "adjusted_seconds": 13.922,
+    "tokens": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 23838,
+      "cache_read_input_tokens": 91968,
+      "output_tokens": 326
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-direct-f03_dependencies-sonnet-0",
+    "name": "f03_dependencies",
+    "arm": "direct",
+    "green": true,
+    "secs": 17.812,
+    "turns": 4,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": null,
+    "adjusted_seconds": 17.812,
+    "tokens": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 26944,
+      "cache_read_input_tokens": 133343,
+      "output_tokens": 702
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-direct-f04_routes-sonnet-0",
+    "name": "f04_routes",
+    "arm": "direct",
+    "green": true,
+    "secs": 16.984,
+    "turns": 4,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": null,
+    "adjusted_seconds": 16.984,
+    "tokens": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 26829,
+      "cache_read_input_tokens": 133388,
+      "output_tokens": 584
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-direct-f05_slug-sonnet-0",
+    "name": "f05_slug",
+    "arm": "direct",
+    "green": true,
+    "secs": 19.25,
+    "turns": 5,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": null,
+    "adjusted_seconds": 19.25,
+    "tokens": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 26647,
+      "cache_read_input_tokens": 135233,
+      "output_tokens": 728
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-direct-f06_balance-sonnet-0",
+    "name": "f06_balance",
+    "arm": "direct",
+    "green": true,
+    "secs": 19.657,
+    "turns": 6,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": null,
+    "adjusted_seconds": 19.657,
+    "tokens": {
+      "input_tokens": 12,
+      "cache_creation_input_tokens": 26780,
+      "cache_read_input_tokens": 177383,
+      "output_tokens": 695
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-direct-f07_query-sonnet-0",
+    "name": "f07_query",
+    "arm": "direct",
+    "green": true,
+    "secs": 13.593,
+    "turns": 3,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": null,
+    "adjusted_seconds": 13.593,
+    "tokens": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 23784,
+      "cache_read_input_tokens": 91971,
+      "output_tokens": 280
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-direct-f08_manifest-sonnet-0",
+    "name": "f08_manifest",
+    "arm": "direct",
+    "green": true,
+    "secs": 22.297,
+    "turns": 6,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": null,
+    "adjusted_seconds": 22.297,
+    "tokens": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 27234,
+      "cache_read_input_tokens": 135760,
+      "output_tokens": 1019
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-shadow-f01_percent-sonnet-0",
+    "name": "f01_percent",
+    "arm": "shadow",
+    "green": true,
+    "secs": 337.047,
+    "turns": 7,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": 300.5020875930786,
+    "adjusted_seconds": 36.54491240692141,
+    "tokens": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 22455,
+      "cache_read_input_tokens": 222309,
+      "output_tokens": 1288
+    },
+    "decisions": [
+      {
+        "category": "multifile",
+        "decision": "local",
+        "reason": "category_table"
+      }
+    ],
+    "shadow_eligible": 1,
+    "shadow_matched": 1,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-route-f01_percent-sonnet-0",
+    "name": "f01_percent",
+    "arm": "route",
+    "green": true,
+    "secs": 350.047,
+    "turns": 6,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": true,
+    "startup_wait": 300.8322467803955,
+    "adjusted_seconds": 49.21475321960452,
+    "tokens": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 22488,
+      "cache_read_input_tokens": 191165,
+      "output_tokens": 1160
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-route-f02_ttl-sonnet-0",
+    "name": "f02_ttl",
+    "arm": "route",
+    "green": true,
+    "secs": 331.204,
+    "turns": 4,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": true,
+    "frontier_repair": false,
+    "startup_wait": 300.919228553772,
+    "adjusted_seconds": 30.284771446228035,
+    "tokens": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 19741,
+      "cache_read_input_tokens": 115098,
+      "output_tokens": 765
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-shadow-f02_ttl-sonnet-0",
+    "name": "f02_ttl",
+    "arm": "shadow",
+    "green": true,
+    "secs": 325.031,
+    "turns": 6,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": 300.72807335853577,
+    "adjusted_seconds": 24.30292664146424,
+    "tokens": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 19492,
+      "cache_read_input_tokens": 182794,
+      "output_tokens": 912
+    },
+    "decisions": [
+      {
+        "category": "multifile",
+        "decision": "local",
+        "reason": "category_table"
+      }
+    ],
+    "shadow_eligible": 1,
+    "shadow_matched": 1,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-shadow-f03_dependencies-sonnet-0",
+    "name": "f03_dependencies",
+    "arm": "shadow",
+    "green": true,
+    "secs": 336.937,
+    "turns": 11,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": 300.08827447891235,
+    "adjusted_seconds": 36.84872552108766,
+    "tokens": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 23348,
+      "cache_read_input_tokens": 223547,
+      "output_tokens": 1784
+    },
+    "decisions": [
+      {
+        "category": "multifile",
+        "decision": "local",
+        "reason": "category_table"
+      }
+    ],
+    "shadow_eligible": 1,
+    "shadow_matched": 1,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-route-f03_dependencies-sonnet-0",
+    "name": "f03_dependencies",
+    "arm": "route",
+    "green": true,
+    "secs": 383.734,
+    "turns": 10,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": true,
+    "startup_wait": 300.7630112171173,
+    "adjusted_seconds": 82.97098878288267,
+    "tokens": {
+      "input_tokens": 16,
+      "cache_creation_input_tokens": 28594,
+      "cache_read_input_tokens": 205627,
+      "output_tokens": 1761
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-route-f04_routes-sonnet-0",
+    "name": "f04_routes",
+    "arm": "route",
+    "green": true,
+    "secs": 346.157,
+    "turns": 6,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": true,
+    "startup_wait": 300.0065495967865,
+    "adjusted_seconds": 46.15045040321348,
+    "tokens": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 22896,
+      "cache_read_input_tokens": 192393,
+      "output_tokens": 1091
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-shadow-f04_routes-sonnet-0",
+    "name": "f04_routes",
+    "arm": "shadow",
+    "green": true,
+    "secs": 345.078,
+    "turns": 12,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": 300.70563888549805,
+    "adjusted_seconds": 44.37236111450193,
+    "tokens": {
+      "input_tokens": 22,
+      "cache_creation_input_tokens": 23218,
+      "cache_read_input_tokens": 299167,
+      "output_tokens": 1617
+    },
+    "decisions": [
+      {
+        "category": "multifile",
+        "decision": "local",
+        "reason": "category_table"
+      }
+    ],
+    "shadow_eligible": 1,
+    "shadow_matched": 1,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-shadow-f05_slug-sonnet-0",
+    "name": "f05_slug",
+    "arm": "shadow",
+    "green": true,
+    "secs": 333.968,
+    "turns": 9,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": 300.70830249786377,
+    "adjusted_seconds": 33.25969750213625,
+    "tokens": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 22433,
+      "cache_read_input_tokens": 224434,
+      "output_tokens": 1344
+    },
+    "decisions": [
+      {
+        "category": "bug1",
+        "decision": "local",
+        "reason": "category_table"
+      }
+    ],
+    "shadow_eligible": 1,
+    "shadow_matched": 1,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-route-f05_slug-sonnet-0",
+    "name": "f05_slug",
+    "arm": "route",
+    "green": true,
+    "secs": 330.141,
+    "turns": 4,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": true,
+    "frontier_repair": false,
+    "startup_wait": 300.19317841529846,
+    "adjusted_seconds": 29.947821584701558,
+    "tokens": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 20102,
+      "cache_read_input_tokens": 114923,
+      "output_tokens": 916
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-route-f06_balance-sonnet-0",
+    "name": "f06_balance",
+    "arm": "route",
+    "green": true,
+    "secs": 334.438,
+    "turns": 4,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": true,
+    "frontier_repair": false,
+    "startup_wait": 300.85280871391296,
+    "adjusted_seconds": 33.585191286087024,
+    "tokens": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 19862,
+      "cache_read_input_tokens": 115321,
+      "output_tokens": 764
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-shadow-f06_balance-sonnet-0",
+    "name": "f06_balance",
+    "arm": "shadow",
+    "green": true,
+    "secs": 332.39,
+    "turns": 7,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": 300.6961874961853,
+    "adjusted_seconds": 31.693812503814684,
+    "tokens": {
+      "input_tokens": 16,
+      "cache_creation_input_tokens": 22085,
+      "cache_read_input_tokens": 187809,
+      "output_tokens": 1142
+    },
+    "decisions": [
+      {
+        "category": "bug1",
+        "decision": "local",
+        "reason": "category_table"
+      }
+    ],
+    "shadow_eligible": 1,
+    "shadow_matched": 1,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-shadow-f07_query-sonnet-0",
+    "name": "f07_query",
+    "arm": "shadow",
+    "green": true,
+    "secs": 327.609,
+    "turns": 7,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": 300.98552107810974,
+    "adjusted_seconds": 26.62347892189024,
+    "tokens": {
+      "input_tokens": 16,
+      "cache_creation_input_tokens": 22002,
+      "cache_read_input_tokens": 185464,
+      "output_tokens": 953
+    },
+    "decisions": [
+      {
+        "category": "feature",
+        "decision": "local_with_cap",
+        "reason": "category_table"
+      }
+    ],
+    "shadow_eligible": 1,
+    "shadow_matched": 1,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-route-f07_query-sonnet-0",
+    "name": "f07_query",
+    "arm": "route",
+    "green": true,
+    "secs": 364.203,
+    "turns": 8,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": true,
+    "startup_wait": 300.32242131233215,
+    "adjusted_seconds": 63.88057868766782,
+    "tokens": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 24945,
+      "cache_read_input_tokens": 235801,
+      "output_tokens": 1230
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-route-f08_manifest-sonnet-0",
+    "name": "f08_manifest",
+    "arm": "route",
+    "green": true,
+    "secs": 349.875,
+    "turns": 7,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": 300.96205973625183,
+    "adjusted_seconds": 48.91294026374817,
+    "tokens": {
+      "input_tokens": 16,
+      "cache_creation_input_tokens": 22449,
+      "cache_read_input_tokens": 188086,
+      "output_tokens": 1476
+    },
+    "decisions": [],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  },
+  {
+    "key": "E39F-shadow-f08_manifest-sonnet-0",
+    "name": "f08_manifest",
+    "arm": "shadow",
+    "green": true,
+    "secs": 346.797,
+    "turns": 8,
+    "timed_out": false,
+    "claude_rc": 0,
+    "local_pass": false,
+    "frontier_repair": false,
+    "startup_wait": 300.930312871933,
+    "adjusted_seconds": 45.86668712806704,
+    "tokens": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 22546,
+      "cache_read_input_tokens": 225422,
+      "output_tokens": 1663
+    },
+    "decisions": [
+      {
+        "category": "unknown",
+        "decision": "frontier",
+        "reason": "unknown_category"
+      }
+    ],
+    "shadow_eligible": 0,
+    "shadow_matched": 0,
+    "shadow_proxy_bad": 0
+  }
+]

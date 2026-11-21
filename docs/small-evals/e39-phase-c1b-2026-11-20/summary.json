@@ -1,0 +1,1587 @@
+{
+  "unavailable_local_outcomes": 0,
+  "stop_reasons": {
+    "repeated_test_failure": 12,
+    "done": 36
+  },
+  "prediction": {
+    "blind2": {
+      "predicted": 15,
+      "observed": 17,
+      "completed": 24,
+      "planned": 24
+    },
+    "heldout1": {
+      "predicted": 18,
+      "observed": 19,
+      "completed": 24,
+      "planned": 24
+    }
+  },
+  "status": "complete",
+  "completed": 48,
+  "planned": 48,
+  "cohorts": [
+    {
+      "cohort": "blind2",
+      "planned": 24,
+      "completed": 24,
+      "accepted": 24,
+      "local_done": 17,
+      "local_error": 7,
+      "local_only_passes": 17,
+      "frontier_repairs": 7,
+      "final_passes": 24,
+      "local_seconds": {
+        "n": 24,
+        "median": 28.05500000000029,
+        "q1": 24.300750000002154,
+        "q3": 33.05824999999095,
+        "iqr": 8.757499999988795
+      },
+      "cli_seconds": {
+        "n": 24,
+        "median": 351.14,
+        "q1": 343.57849999999996,
+        "q3": 362.7575,
+        "iqr": 19.17900000000003
+      },
+      "startup_wait": {
+        "n": 24,
+        "median": 300.3910118341446,
+        "q1": 300.19510012865067,
+        "q3": 300.6645093560219,
+        "iqr": 0.4694092273712158
+      },
+      "adjusted_cli_seconds": {
+        "n": 24,
+        "median": 51.065492286682144,
+        "q1": 43.16066106891631,
+        "q3": 62.40178246927259,
+        "iqr": 19.241121400356278
+      },
+      "tokens": {
+        "input_tokens": {
+          "n": 24,
+          "median": 10.0,
+          "q1": 10.0,
+          "q3": 14.5,
+          "iqr": 4.5
+        },
+        "cache_creation_input_tokens": {
+          "n": 24,
+          "median": 20764.5,
+          "q1": 20590.25,
+          "q3": 26541.5,
+          "iqr": 5951.25
+        },
+        "cache_read_input_tokens": {
+          "n": 24,
+          "median": 116526.0,
+          "q1": 116309.25,
+          "q3": 202868.5,
+          "iqr": 86559.25
+        },
+        "output_tokens": {
+          "n": 24,
+          "median": 954.5,
+          "q1": 916.25,
+          "q3": 1590.5,
+          "iqr": 674.25
+        }
+      },
+      "turns": {
+        "n": 24,
+        "median": 4.0,
+        "q1": 4.0,
+        "q3": 6.75,
+        "iqr": 2.75
+      },
+      "resolved_models": [
+        "claude-haiku-5-5",
+        "claude-sonnet-5-5"
+      ],
+      "timeouts": 0,
+      "protected_violations": 0,
+      "cli_errors": 0,
+      "missing_usage": 0,
+      "fixture_balanced_mean_deltas": {
+        "input_tokens": {
+          "n": 8,
+          "mean": 3.5
+        },
+        "cache_creation_input_tokens": {
+          "n": 8,
+          "mean": -4932
+        },
+        "cache_read_input_tokens": {
+          "n": 8,
+          "mean": 43324
+        },
+        "output_tokens": {
+          "n": 8,
+          "mean": 84.75
+        },
+        "secs": {
+          "n": 8,
+          "mean": 332.2655
+        },
+        "turns": {
+          "n": 8,
+          "mean": -0.75
+        },
+        "adjusted_seconds": {
+          "n": 8,
+          "mean": 31.923128506422042
+        }
+      }
+    },
+    {
+      "cohort": "heldout1",
+      "planned": 24,
+      "completed": 24,
+      "accepted": 24,
+      "local_done": 19,
+      "local_error": 5,
+      "local_only_passes": 19,
+      "frontier_repairs": 5,
+      "final_passes": 24,
+      "local_seconds": {
+        "n": 24,
+        "median": 30.476999999998952,
+        "q1": 23.097999999998137,
+        "q3": 46.346999999997934,
+        "iqr": 23.248999999999796
+      },
+      "cli_seconds": {
+        "n": 24,
+        "median": 363.4295,
+        "q1": 348.89050000000003,
+        "q3": 379.02725000000004,
+        "iqr": 30.136750000000006
+      },
+      "startup_wait": {
+        "n": 24,
+        "median": 300.638968706131,
+        "q1": 300.43178445100784,
+        "q3": 300.8185033798218,
+        "iqr": 0.3867189288139343
+      },
+      "adjusted_cli_seconds": {
+        "n": 24,
+        "median": 62.73660959434511,
+        "q1": 48.095976582050326,
+        "q3": 78.3265911421776,
+        "iqr": 30.23061456012728
+      },
+      "tokens": {
+        "input_tokens": {
+          "n": 24,
+          "median": 12.0,
+          "q1": 10.0,
+          "q3": 14.0,
+          "iqr": 4.0
+        },
+        "cache_creation_input_tokens": {
+          "n": 24,
+          "median": 20854.0,
+          "q1": 20318.0,
+          "q3": 22838.0,
+          "iqr": 2520.0
+        },
+        "cache_read_input_tokens": {
+          "n": 24,
+          "median": 150784.0,
+          "q1": 116401.25,
+          "q3": 188681.75,
+          "iqr": 72280.5
+        },
+        "output_tokens": {
+          "n": 24,
+          "median": 1035.0,
+          "q1": 906.25,
+          "q3": 1437.25,
+          "iqr": 531.0
+        }
+      },
+      "turns": {
+        "n": 24,
+        "median": 5.0,
+        "q1": 4.0,
+        "q3": 6.0,
+        "iqr": 2.0
+      },
+      "resolved_models": [
+        "claude-haiku-5-5",
+        "claude-sonnet-5-5"
+      ],
+      "timeouts": 0,
+      "protected_violations": 0,
+      "cli_errors": 0,
+      "missing_usage": 0,
+      "fixture_balanced_mean_deltas": {
+        "input_tokens": {
+          "n": 8,
+          "mean": 5
+        },
+        "cache_creation_input_tokens": {
+          "n": 8,
+          "mean": -3664.5
+        },
+        "cache_read_input_tokens": {
+          "n": 8,
+          "mean": 52730.375
+        },
+        "output_tokens": {
+          "n": 8,
+          "mean": 350.375
+        },
+        "secs": {
+          "n": 8,
+          "mean": 346.322125
+        },
+        "turns": {
+          "n": 8,
+          "mean": 1
+        },
+        "adjusted_seconds": {
+          "n": 8,
+          "mean": 45.643235308170325
+        }
+      }
+    }
+  ],
+  "paired": [
+    {
+      "cohort": "blind2",
+      "fixture": "n09_rle",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 3,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 2,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 1,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": -6960,
+        "cache_read_input_tokens": 21130,
+        "output_tokens": -80,
+        "secs": 331.48400000000004,
+        "turns": -2,
+        "adjusted_seconds": 31.450874837875382
+      },
+      "c1": {
+        "local": 2,
+        "final": 3,
+        "repairs": 1,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n10_ranges",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 1,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 0,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 3,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 10,
+        "cache_creation_input_tokens": 2994,
+        "cache_read_input_tokens": 110555,
+        "output_tokens": 1042,
+        "secs": 349.376,
+        "turns": 6,
+        "adjusted_seconds": 48.63585169410704
+      },
+      "c1": {
+        "local": 0,
+        "final": 3,
+        "repairs": 3,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n11_csv",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 0,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 0,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 3,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 6,
+        "cache_creation_input_tokens": -1012,
+        "cache_read_input_tokens": 108052,
+        "output_tokens": 263,
+        "secs": 333.015,
+        "turns": 0,
+        "adjusted_seconds": 32.5646470928192
+      },
+      "c1": {
+        "local": 0,
+        "final": 3,
+        "repairs": 3,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n12_pager",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 3,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 3,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": -6799,
+        "cache_read_input_tokens": 21475,
+        "output_tokens": -67,
+        "secs": 343.859,
+        "turns": -2,
+        "adjusted_seconds": 43.72747233772276
+      },
+      "c1": {
+        "local": 1,
+        "final": 3,
+        "repairs": 2,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n13_roman",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 3,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 3,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": -6850,
+        "cache_read_input_tokens": 21439,
+        "output_tokens": -165,
+        "secs": 320.75,
+        "turns": -2,
+        "adjusted_seconds": 20.3357834815979
+      },
+      "c1": {
+        "local": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n14_window",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 3,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 3,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": -6927,
+        "cache_read_input_tokens": 21186,
+        "output_tokens": -3,
+        "secs": 330.671,
+        "turns": -2,
+        "adjusted_seconds": 30.618879791259765
+      },
+      "c1": {
+        "local": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n15_suggest",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 2,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 3,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": -6825,
+        "cache_read_input_tokens": 21476,
+        "output_tokens": -83,
+        "secs": 329.06300000000005,
+        "turns": -2,
+        "adjusted_seconds": 28.66344312477114
+      },
+      "c1": {
+        "local": 2,
+        "final": 3,
+        "repairs": 1,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "blind2",
+      "fixture": "n16_dictdiff",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 3,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 3,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": -7077,
+        "cache_read_input_tokens": 21279,
+        "output_tokens": -229,
+        "secs": 319.906,
+        "turns": -2,
+        "adjusted_seconds": 19.38807569122315
+      },
+      "c1": {
+        "local": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n01_bucket",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 3,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 3,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": -7165,
+        "cache_read_input_tokens": 20656,
+        "output_tokens": -43,
+        "secs": 323.234,
+        "turns": -2,
+        "adjusted_seconds": 22.367626461029058
+      },
+      "c1": {
+        "local": 1,
+        "final": 3,
+        "repairs": 2,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n02_semver",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 3,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 3,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 0,
+        "cache_creation_input_tokens": -6229,
+        "cache_read_input_tokens": -19657,
+        "output_tokens": 62,
+        "secs": 374.172,
+        "turns": -1,
+        "adjusted_seconds": 73.76390320968629
+      },
+      "c1": {
+        "local": 2,
+        "final": 3,
+        "repairs": 1,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n03_wrap",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 3,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 3,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 6,
+        "cache_creation_input_tokens": -3994,
+        "cache_read_input_tokens": 58178,
+        "output_tokens": 341,
+        "secs": 324.625,
+        "turns": 2,
+        "adjusted_seconds": 23.996074914932226
+      },
+      "c1": {
+        "local": 1,
+        "final": 3,
+        "repairs": 2,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n04_ledger",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 1,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 2,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 1,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": -6526,
+        "cache_read_input_tokens": 21713,
+        "output_tokens": -273,
+        "secs": 327.203,
+        "turns": -2,
+        "adjusted_seconds": 26.29861204910278
+      },
+      "c1": {
+        "local": 1,
+        "final": 3,
+        "repairs": 2,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n05_bizdays",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 2,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 1,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 2,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 10,
+        "cache_creation_input_tokens": 2982,
+        "cache_read_input_tokens": 109970,
+        "output_tokens": 837,
+        "secs": 360.07800000000003,
+        "turns": 6,
+        "adjusted_seconds": 59.360214403152476
+      },
+      "c1": {
+        "local": 1,
+        "final": 3,
+        "repairs": 2,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n06_lru",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 2,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 3,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 4,
+        "cache_creation_input_tokens": -6507,
+        "cache_read_input_tokens": 19391,
+        "output_tokens": 243,
+        "secs": 358.90700000000004,
+        "turns": -1,
+        "adjusted_seconds": 57.985406333923365
+      },
+      "c1": {
+        "local": 0,
+        "final": 3,
+        "repairs": 3,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n07_template",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 3,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 1,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 2,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 10,
+        "cache_creation_input_tokens": 1458,
+        "cache_read_input_tokens": 154704,
+        "output_tokens": 653,
+        "secs": 359.593,
+        "turns": 4,
+        "adjusted_seconds": 59.555145566940325
+      },
+      "c1": {
+        "local": 1,
+        "final": 3,
+        "repairs": 2,
+        "completed": 3
+      }
+    },
+    {
+      "cohort": "heldout1",
+      "fixture": "n08_topo",
+      "phase_a": {
+        "green": 3,
+        "completed": 3
+      },
+      "e41": {
+        "green": 3,
+        "completed": 3
+      },
+      "c1b": {
+        "local": 3,
+        "local_observed": 3,
+        "final": 3,
+        "repairs": 0,
+        "completed": 3
+      },
+      "delta": {
+        "input_tokens": 6,
+        "cache_creation_input_tokens": -3335,
+        "cache_read_input_tokens": 56888,
+        "output_tokens": 983,
+        "secs": 342.76500000000004,
+        "turns": 2,
+        "adjusted_seconds": 41.8188995265961
+      },
+      "c1": {
+        "local": 1,
+        "final": 3,
+        "repairs": 2,
+        "completed": 3
+      }
+    }
+  ],
+  "excluded_usage_attempts": [
+    {
+      "key": "C1b-n02_semver-sonnet-2",
+      "excluded_from_completed": true,
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 27.09299999999348,
+          "turns": 6
+        }
+      ],
+      "final_acceptance": "unavailable: subscription usage stop before independent runner verification"
+    }
+  ],
+  "missing": [],
+  "details": {
+    "C1b-n09_rle-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 29.14100000000326,
+          "turns": 9,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.4588038921356,
+      "adjusted_seconds": 57.510196107864374
+    },
+    "C1b-n10_ranges-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 33.030999999988126,
+          "turns": 9,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.74014830589294,
+      "adjusted_seconds": 65.41685169410704
+    },
+    "C1b-n11_csv-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 28.640999999988708,
+          "turns": 8,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.4503529071808,
+      "adjusted_seconds": 53.6896470928192
+    },
+    "C1b-n12_pager-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 26.828999999997905,
+          "turns": 7,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.3331661224365,
+      "adjusted_seconds": 43.479833877563465
+    },
+    "C1b-n13_roman-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 20.265999999988708,
+          "turns": 5,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.3074674606323,
+      "adjusted_seconds": 37.176532539367656
+    },
+    "C1b-n14_window-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 24.625,
+          "turns": 6,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.09755086898804,
+      "adjusted_seconds": 59.24644913101196
+    },
+    "C1b-n15_suggest-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 68.26600000000326,
+          "turns": 25,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.17826104164124,
+      "adjusted_seconds": 92.39973895835874
+    },
+    "C1b-n16_dictdiff-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 20.328999999997905,
+          "turns": 5,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.2007131576538,
+      "adjusted_seconds": 37.31428684234618
+    },
+    "C1b-n09_rle-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 31.327999999994063,
+          "turns": 9,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.7047584056854,
+      "adjusted_seconds": 48.62324159431455
+    },
+    "C1b-n10_ranges-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 33.13999999999942,
+          "turns": 10,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.9858548641205,
+      "adjusted_seconds": 63.48314513587951
+    },
+    "C1b-n11_csv-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 23.219000000011874,
+          "turns": 6,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.1158902645111,
+      "adjusted_seconds": 51.1961097354889
+    },
+    "C1b-n12_pager-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 43.5,
+          "turns": 8,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.1315276622772,
+      "adjusted_seconds": 62.47747233772276
+    },
+    "C1b-n13_roman-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 25.921000000002095,
+          "turns": 6,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.67185735702515,
+      "adjusted_seconds": 42.20314264297485
+    },
+    "C1b-n14_window-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 27.969000000011874,
+          "turns": 5,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.05212020874023,
+      "adjusted_seconds": 49.697879791259766
+    },
+    "C1b-n15_suggest-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 28.140999999988708,
+          "turns": 8,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.3219664096832,
+      "adjusted_seconds": 44.6000335903168
+    },
+    "C1b-n16_dictdiff-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 40.687999999994645,
+          "turns": 6,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.82644748687744,
+      "adjusted_seconds": 62.37655251312253
+    },
+    "C1b-n09_rle-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 22.860000000000582,
+          "turns": 6,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.03312516212463,
+      "adjusted_seconds": 50.934874837875384
+    },
+    "C1b-n10_ranges-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 33.98399999999674,
+          "turns": 9,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.3824667930603,
+      "adjusted_seconds": 67.1175332069397
+    },
+    "C1b-n11_csv-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 25.077999999994063,
+          "turns": 7,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.88898730278015,
+      "adjusted_seconds": 55.704012697219866
+    },
+    "C1b-n12_pager-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 59.828000000008615,
+          "turns": 10,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.29940247535706,
+      "adjusted_seconds": 82.07559752464294
+    },
+    "C1b-n13_roman-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 21.60899999999674,
+          "turns": 5,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.4142165184021,
+      "adjusted_seconds": 39.5857834815979
+    },
+    "C1b-n14_window-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 24.812000000005355,
+          "turns": 5,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.6620600223541,
+      "adjusted_seconds": 42.1349399776459
+    },
+    "C1b-n15_suggest-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 30.562999999994645,
+          "turns": 9,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.3995568752289,
+      "adjusted_seconds": 47.36644312477114
+    },
+    "C1b-n16_dictdiff-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 23.328000000008615,
+          "turns": 6,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.51792430877686,
+      "adjusted_seconds": 41.26307569122315
+    },
+    "C1b-n01_bucket-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 11.843999999997322,
+          "turns": 4,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.6927592754364,
+      "adjusted_seconds": 64.16724072456361
+    },
+    "C1b-n02_semver-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 69.65600000000268,
+          "turns": 14,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.29743814468384,
+      "adjusted_seconds": 96.18656185531614
+    },
+    "C1b-n03_wrap-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 26.718999999997322,
+          "turns": 5,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.0792398452759,
+      "adjusted_seconds": 52.84276015472415
+    },
+    "C1b-n04_ledger-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 24.593999999997322,
+          "turns": 6,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.9043879508972,
+      "adjusted_seconds": 47.18961204910278
+    },
+    "C1b-n05_bizdays-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 25.485000000000582,
+          "turns": 6,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.71778559684753,
+      "adjusted_seconds": 74.46921440315248
+    },
+    "C1b-n06_lru-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 62.26599999998871,
+          "turns": 12,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.58923530578613,
+      "adjusted_seconds": 93.51976469421385
+    },
+    "C1b-n07_template-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 47.71799999999348,
+          "turns": 12,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.6643431186676,
+      "adjusted_seconds": 70.3356568813324
+    },
+    "C1b-n08_topo-sonnet-0": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 26.640999999988708,
+          "turns": 6,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.94610047340393,
+      "adjusted_seconds": 63.475899526596095
+    },
+    "C1b-n01_bucket-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 19.686999999990803,
+          "turns": 6,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.86637353897095,
+      "adjusted_seconds": 41.41462646102906
+    },
+    "C1b-n02_semver-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 53.46899999999732,
+          "turns": 11,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.4080967903137,
+      "adjusted_seconds": 94.40390320968629
+    },
+    "C1b-n03_wrap-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 18.89100000000326,
+          "turns": 4,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.62892508506775,
+      "adjusted_seconds": 38.949074914932226
+    },
+    "C1b-n04_ledger-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 34.23500000000058,
+          "turns": 7,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.83368468284607,
+      "adjusted_seconds": 56.41631531715393
+    },
+    "C1b-n05_bizdays-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 35.85899999999674,
+          "turns": 9,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.6490123271942,
+      "adjusted_seconds": 60.80398767280576
+    },
+    "C1b-n06_lru-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 38.54700000000594,
+          "turns": 8,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.4396803379059,
+      "adjusted_seconds": 61.99731966209413
+    },
+    "C1b-n07_template-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 42.54700000000594,
+          "turns": 9,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.9267899990082,
+      "adjusted_seconds": 81.87021000099185
+    },
+    "C1b-n08_topo-sonnet-1": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 56.85899999999674,
+          "turns": 8,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.81344294548035,
+      "adjusted_seconds": 92.18655705451965
+    },
+    "C1b-n01_bucket-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 16.389999999999418,
+          "turns": 5,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.11854338645935,
+      "adjusted_seconds": 33.97445661354067
+    },
+    "C1b-n02_semver-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 23.937999999994645,
+          "turns": 6,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.75790190696716,
+      "adjusted_seconds": 48.39809809303284
+    },
+    "C1b-n03_wrap-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 15.735000000000582,
+          "turns": 4,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.5940396785736,
+      "adjusted_seconds": 36.687960321426374
+    },
+    "C1b-n04_ledger-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 20.578000000008615,
+          "turns": 6,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.6091980934143,
+      "adjusted_seconds": 42.78080190658568
+    },
+    "C1b-n05_bizdays-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 45.88999999999942,
+          "turns": 7,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.2429926395416,
+      "adjusted_seconds": 75.85100736045837
+    },
+    "C1b-n06_lru-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 56.11000000000058,
+          "turns": 12,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.92159366607666,
+      "adjusted_seconds": 77.50040633392337
+    },
+    "C1b-n07_template-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "error",
+          "reason": "execution_error",
+          "seconds": 44.187999999994645,
+          "turns": 9,
+          "stop_reason": "repeated_test_failure"
+        }
+      ],
+      "local_pass": false,
+      "repair": true,
+      "startup_wait": 300.0378544330597,
+      "adjusted_seconds": 80.80514556694033
+    },
+    "C1b-n08_topo-sonnet-2": {
+      "local_runs": [
+        {
+          "status": "done",
+          "reason": "auto_finish",
+          "seconds": 25.375,
+          "turns": 6,
+          "stop_reason": "done"
+        }
+      ],
+      "local_pass": true,
+      "repair": false,
+      "startup_wait": 300.5469317436218,
+      "adjusted_seconds": 54.03106825637815
+    }
+  },
+  "route_derived_projection": {
+    "local_completed": 48,
+    "local_pending": 0,
+    "local_disagreements": 0,
+    "local_disagreement_rate": 0.0,
+    "frontier_completed": 0,
+    "frontier_easy": 0,
+    "frontier_easy_rate": null,
+    "orphan_outcomes": 0,
+    "promotion_bar": 0.1,
+    "struggle_turns": 10,
+    "below_bar": true,
+    "note": "Descriptive proxy only: frontier success does not establish local correctness. No automatic promotion."
+  },
+  "smoke_verification": {
+    "header_verified": true,
+    "v5_preload_verified": true,
+    "local_attempt_verified": true,
+    "reason": "user_approved_smoke_gate_resolution",
+    "batch_authorized_by_smoke": true,
+    "verification_method": "User-approved offline saved-files turn-1 context_est check",
+    "user_approved": true,
+    "resume_at": "2026-11-20T06:41:34.109996+00:00"
+  },
+  "plan_revision": 2,
+  "patchsmith_head": "2203eb0701265695511f2a4077d142b01aeee464",
+  "excluded_pre_fix_revision_1": true,
+  "stops": [
+    {
+      "kind": "stop",
+      "key": "C1b-n09_rle-sonnet-0",
+      "reason": "smoke_preload_unverified"
+    },
+    {
+      "kind": "stop",
+      "key": "C1b-n02_semver-sonnet-2",
+      "reason": "usage_limit"
+    }
+  ],
+  "sources": {
+    "blind2": {
+      "sha256": "26c9bae3a19a6c76c9884db2ae3f9c76b23c4f44a74e02569644bf058051144c",
+      "source": "E41 saved rows; private source withheld"
+    },
+    "heldout1": {
+      "sha256": "785ac928c639271590c971b0ff696e2d341377327a1e3c6941d309baba888c54",
+      "source": "E41 saved rows; private source withheld"
+    }
+  }
+}

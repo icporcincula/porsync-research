@@ -1,0 +1,121 @@
+{
+  "label_rule": "Every task names exactly two distinct Python source files: one non-service module and service.py. Assign every fixture the existing measured category multifile; no per-fixture relabeling.",
+  "labels": {
+    "n09_rle": "multifile",
+    "n10_ranges": "multifile",
+    "n11_csv": "multifile",
+    "n12_pager": "multifile",
+    "n13_roman": "multifile",
+    "n14_window": "multifile",
+    "n15_suggest": "multifile",
+    "n16_dictdiff": "multifile",
+    "n01_bucket": "multifile",
+    "n02_semver": "multifile",
+    "n03_wrap": "multifile",
+    "n04_ledger": "multifile",
+    "n05_bizdays": "multifile",
+    "n06_lru": "multifile",
+    "n07_template": "multifile",
+    "n08_topo": "multifile"
+  },
+  "label_source_files": {
+    "n09_rle": [
+      "rle.py",
+      "service.py"
+    ],
+    "n10_ranges": [
+      "ranges.py",
+      "service.py"
+    ],
+    "n11_csv": [
+      "csvline.py",
+      "service.py"
+    ],
+    "n12_pager": [
+      "pager.py",
+      "service.py"
+    ],
+    "n13_roman": [
+      "roman.py",
+      "service.py"
+    ],
+    "n14_window": [
+      "counter.py",
+      "service.py"
+    ],
+    "n15_suggest": [
+      "service.py",
+      "suggest.py"
+    ],
+    "n16_dictdiff": [
+      "dictdiff.py",
+      "service.py"
+    ],
+    "n01_bucket": [
+      "bucket.py",
+      "service.py"
+    ],
+    "n02_semver": [
+      "semver.py",
+      "service.py"
+    ],
+    "n03_wrap": [
+      "service.py",
+      "wrap.py"
+    ],
+    "n04_ledger": [
+      "ledger.py",
+      "service.py"
+    ],
+    "n05_bizdays": [
+      "bizdays.py",
+      "service.py"
+    ],
+    "n06_lru": [
+      "lru.py",
+      "service.py"
+    ],
+    "n07_template": [
+      "service.py",
+      "template.py"
+    ],
+    "n08_topo": [
+      "service.py",
+      "topo.py"
+    ]
+  },
+  "patchsmith_head": "0e4f1424de66e60ad0e9189a6bada789a081ba71",
+  "fixture_sha256": {
+    "n09_rle": "a6ae846e900b2134d05f3786a1bb895cec7ca3d1532ccbd9e44706fb574f34d6",
+    "n10_ranges": "71c953598495134c8cdfbb0656045840e2504e41401c1022ef37c48c72646897",
+    "n11_csv": "040aa9698113ecc38aa94a4d9083503d6698ec26b0823e7bd409a8972ef1ef0b",
+    "n12_pager": "3abe2371812c02962d9e4ddff9dae3c11cf1b40d134f718f3375d51e01e49d92",
+    "n13_roman": "b8f7b7c69efdc08d96236489046ce0158478e5fa202dbeedfb51bc99cdebc798",
+    "n14_window": "9065b86d70be3ae97cf2786dc1ac250d9c8d778999ca796888418a3092fbf869",
+    "n15_suggest": "cd6ff25a3dd2227f15a9f9d8cf8da67c154de7e4264ce07dadccf6570722b781",
+    "n16_dictdiff": "b92bdd5630de353e97afa44a5ab6569e7b6bf2bd7f7472b9b61fef46c5dbe76f",
+    "n01_bucket": "c9951933c447e898ac65eb266fe951f266384c4c470353bf0b2015777e540b3c",
+    "n02_semver": "cf7875db04ae00319fdae17e8ef830efc04645f0883ad107a7b5b6df81e22d17",
+    "n03_wrap": "9a9b851a10348897d47223823613b3929936ebb47f3c72931a6092320c8bad38",
+    "n04_ledger": "bd75db7b75b4b7e9332c300c47dbc7308f9c162cb9663a9d69a709ed6332d542",
+    "n05_bizdays": "b7ca5a0194f214d6fe18106862c56ebbeaa32f31980fc1b4534378956c8cb0cd",
+    "n06_lru": "0bbd4cb4f3cf1897f120a853a80b6d9d76b4cd30167e6beae4eaf0cfcc35878a",
+    "n07_template": "1d2a40fa7f76193dda63f730a57d92810dd864440dcd2e525de500ab2f801e42",
+    "n08_topo": "60684fdac557738330d6e8b63d1d81375046a8fc58fb2f03e002b9006e5b8245"
+  },
+  "cli_version": "2.1.328 (Claude Code)",
+  "runner_sha256": "ef639ae047ebd83cb00f8ddbdd026673cccccc1f19b77d919607f0035777f777",
+  "warmup_launcher_sha256": "2085d932b4b8189e73db1d53e6da35622e35a420454130788b90f176f3daa793",
+  "router_categories_sha256": "315ba20f0e3aaaaeabb87bf6b5af1f38f79a3358bea0b138f38e3fb34a3038c5",
+  "cli_timeout_seconds": 600,
+  "ram_floor_bytes": 0,
+  "router_mode": "route",
+  "local_model": "edge0_120b",
+  "cooldown_method": "Observe original 300 s cooldown and 120 s clean window in the actual per-trial MCP process; no gate overrides",
+  "source_plan_sha256": "a1f828d87b9a3c146023871a500746ec2847a955fd22a2ba0d692cb5d3455402",
+  "source_results_sha256": "0a6eb1674131c09924166b2a3c06cb4b67d81918bcd860c10a17009181f14158",
+  "phase_a_results_sha256": "b871d54cd6e1af1a07ad12a7d0d3fe2db23d86a3d1a505eca0872b5e7a08217c",
+  "context": 32768,
+  "prompt_sha256": "1157cf702ad8760075598cdf8207c24b4105490abb7f44046b4b2800574c5681",
+  "publication": "local unpublished draft"
+}
