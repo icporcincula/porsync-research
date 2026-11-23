@@ -1,4 +1,4 @@
-# Public evidence release â€” 2026-11-16
+# Public evidence release - 2026-11-16
 
 ## Included
 
@@ -26,11 +26,11 @@ This release does not grant rights to excluded datasets, third-party implementat
 
 Reviewed and approved for publication on 2026-11-16. Five curated files add a report, 159 source-hashed trial rows, summary, retrospective configuration and offline analyzer. These summarize completed runs; no new inference occurred. The duplicate Aider result is excluded. Original result hashes are retained per row; patches, prompts, private paths, full logs and task sources are withheld. Counts can be recomputed, but code cannot be independently re-scored from this package. Exact model/server identities and run-time Patchsmith revision are incomplete. This is not B2 or daily-use validation and does not close E39 follow-up. The initial source_revision remains provenance for the original release; new entries explicitly identify uncommitted local sources. Publication includes only these selected artifacts; private logs and code remain excluded.
 
-## E41 Patchsmith v5b vs Aider cross-model comparison â€” 2026-11-19
+## E41 Patchsmith v5b vs Aider cross-model comparison - 2026-11-19
 
 Five curated files in `docs/patchsmith/harness-comparison-2026-11-19/`: report, 216 trial rows (Patchsmith v5b and Aider, four local models, 8 held-out fixtures x 3 runs), summary, retrospective configuration and an offline analyzer. Completed runs only; no new inference. Not blind: v5b and the gpt-oss harmony-finish fix were written after seeing failures on these fixtures. Quant and serving flags differ per model. The opencode arm is excluded as a launcher fault. Transcripts, server logs, patches, fixture sources, reference solutions and the private Patchsmith source stay withheld; counts are recomputable, runs are not re-scorable. A blind follow-up on new fixtures (n09-n16) is running and is not part of this release.
 
-## CPU-only eval evidence â€” November 17 release
+## CPU-only eval evidence - November 17 release
 
 User-authorized release of selected CPU-only follow-ups:
 
@@ -69,6 +69,6 @@ User-authorized release of four E39 packages: Phase A held-out summary, Phase C 
 
 Selected publication authorized November 23. The package releases transformed scoring/timing observations, numerical resource series without absolute timestamps, fixed probe observations, saved summaries, window sidecars, curated configuration, provenance and an offline NumPy analyzer. It recomputes aggregates from saved labels, not answer correctness or inference. Prompts, references, full replies, raw logs/telemetry, operational paths, private implementation, weights, binaries and cache files remain withheld. Sidecar row hashes identify withheld originals; MANIFEST hashes identify released files. No upstream assets or blanket third-party license are supplied. No E39/E43 draft is included by this authorization; E39's outstanding follow-ups remain open.
 
-## E43 incomplete compatibility pilot â€” November 23, 2026
+## E43 incomplete compatibility pilot - November 23, 2026
 
 [Selected compatibility record and offline accounting](docs/small-evals/e43-compatibility-2026-11-23/README.md): smaller bases and separate adapters served 32K, but full Stage A remains incomplete. Original Qwen paging stop, all 16 launched smaller-model attempts and the missing final cell are retained. Runtime repairs passed scripted CPU checks; a new 32-probe development design and conditional two-candidate Stage B scope are recorded. No new model trials, scored study, adapter-benefit claim or routing promotion. Withheld private tasks/code/graders/traces prevent independent rescoring. This selected E43 publication supersedes earlier E43 publication holds only for this package; unrelated drafts remain excluded. E39 follow-ups remain open.

@@ -1434,11 +1434,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "af360fb4d378b765cd908d7da93704d8d2b3c51e0c59c2d840d3ffcf5d4a96d5"
+      "sha256": "05cb1e261e06d4859c8a9688272bb6e8be9843260c8e381d732672676c21dcdf"
     },
     {
       "path": "RELEASE.md",
-      "sha256": "8b5c9f33940a05dfecd47c412c0b034c2dd84453c1e7891b81a8811ac3f05ed2"
+      "sha256": "54499041f5c7478748f64d360366fbb38700e97cba171299b5e94d42f10cfd9c"
     },
     {
       "path": "docs/small-evals/e07-results.md",
@@ -2110,7 +2110,7 @@
     },
     {
       "path": "docs/small-evals/e43-compatibility-2026-11-23/README.md",
-      "sha256": "1ad9519fbca2edf7f418ac3cd7d9ff98b82327d3b9bd2fc52ac0d407dccab154"
+      "sha256": "63793d36386d4044d7a05b7e1164cd53ec3bc082c71d48e7265054bc3598cf50"
     },
     {
       "path": "docs/small-evals/e43-compatibility-2026-11-23/sources.json",

@@ -8,7 +8,7 @@ Development covered only two of the four intended tasks. Missing ripgrep caused 
 
 Revision 3 fixes the isolated ripgrep dependency, disables automatic compaction for bounded trials, and records one exact inert CPython cache file symmetrically while grading only source in a clean namespace. Real OpenCode grep/glob/shell passed scripted CPU checks, including simulated high usage without compaction. This verifies plumbing, not real context exhaustion or model behavior. No new model trials ran. A fresh symmetric 32-attempt development matrix is designed, with 300-second caps and a four-hour operational budget; complete guarded execution/budget validation is still required at the next collection session.
 
-Stage B is amended to separate conditional studies for both candidates: 24 fresh tasks Ã— 3 repeats Ã— 4 arms = 288 trials per candidate, maximum 576. Neither candidate is selected from development pass rate. The holdout and final execution/budget freeze remain incomplete; no scored launch or training has run. E39 follow-ups remain open and routing remains frontier-only.
+Stage B is amended to separate conditional studies for both candidates: 24 fresh tasks × 3 repeats × 4 arms = 288 trials per candidate, maximum 576. Neither candidate is selected from development pass rate. The holdout and final execution/budget freeze remain incomplete; no scored launch or training has run. E39 follow-ups remain open and routing remains frontier-only.
 
 ## Evidence and reproduction
 
