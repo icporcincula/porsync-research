@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-23",
+  "authorization": "User requested completion of the enumerated fixes, handoff and evidence sync; collection remains held for next session.",
+  "original_sources": [
+    {
+      "role": "private final development result",
+      "sha256": "b53d33a604c15d2602dd478df087f07c30fc8976ef7cce4512d46d738951b866"
+    },
+    {
+      "role": "private source/runtime record",
+      "sha256": "bb14a1b6a41e16874b2c0a2636217c114daa6bc6c5b7cdc682a60ca9f3d840fc"
+    },
+    {
+      "role": "private protected-development manifest",
+      "sha256": "ef0b9bf8ba0a06c9ecf920e54fb50231e4ac7fe01fde0f589c82e90ef78eba52"
+    },
+    {
+      "role": "private current handoff",
+      "sha256": "c69a786cc17b30e3388e54de5c288efbcc81b9e87942595ccfeeceff8358d517"
+    },
+    {
+      "role": "private next design",
+      "sha256": "5c326014e79070a6045c50cfd784a642bd55ccb9c4f37060a6782881c0c89b87"
+    },
+    {
+      "role": "private CPU validation summary",
+      "sha256": "c081f6719907fcb3168ba647fb4b4ba76af86f00db7dad370ec0712f697ac66b"
+    }
+  ],
+  "transformations": [
+    "Selected scalar dispositions/configuration; synthetic task IDs replaced by ordinal IDs.",
+    "Initial interrupted and missing final cell explicitly retained; no retroactive grade changes.",
+    "No raw prompts, responses, traces, code, tasks, references/graders, operational paths, telemetry series, weights or binaries.",
+    "UTF-8/LF; private source hashes retained as withheld-original identities, public hashes in MANIFEST."
+  ],
+  "reproducibility": "Analyzer recomputes saved accounting only; withheld code and grading sources prevent independent rescoring/inference reproduction.",
+  "upstream_licenses": "LFM1.0 and webAI non-commercial; no upstream weights/assets redistributed; no blanket license supplied."
+}

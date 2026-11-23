@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-23",
+  "revision": 3,
+  "status": "design frozen; no new model collection",
+  "new_development_attempts": 32,
+  "previous_attempts_retained": 16,
+  "tasks_per_candidate": 4,
+  "harnesses": 2,
+  "configurations": 2,
+  "candidates": 2,
+  "attempt_cap_seconds": 300,
+  "development_operational_cap_seconds": 14400,
+  "policy": {
+    "compaction_auto": false,
+    "incidental_regular_files": [
+      "__pycache__/task.cpython-312.pyc"
+    ],
+    "candidate_source_only_to_clean_grader": true,
+    "symlinks_forbidden": true,
+    "retrospective_rescoring": false
+  },
+  "ripgrep_version": "14.1.0-1",
+  "ripgrep_sha256": "be2fbcdd985161603bfa268c7647eec670b9e94374f0e972da708d7de670a8fb",
+  "cpu_checks": {
+    "passed": true,
+    "scripted_requests": 5,
+    "model_calls": 0,
+    "real_tools": [
+      "grep",
+      "glob",
+      "shell"
+    ],
+    "simulated_high_usage_without_compaction": true,
+    "artifact_policy_passed": true,
+    "limits": "Scripted plumbing evidence; real context exhaustion and model behavior untested."
+  },
+  "saved_functional_failure": "Protected CPU replay reproduced candidate arithmetic TypeError; disposable syntax-preserving endpoint correction passed four checks; original result remains failed.",
+  "stage_b": {
+    "candidates": [
+      "lfm3",
+      "twil"
+    ],
+    "qualification": "complete revised Stage A independently per candidate",
+    "tasks": 24,
+    "repeats": 3,
+    "arms": 4,
+    "trials_per_candidate": 288,
+    "maximum_trials": 576,
+    "operational_cap_hours_per_candidate": 28,
+    "operational_cap_hours_total": 56,
+    "collection_authorized": false,
+    "holdout_package_frozen": false
+  },
+  "prerequisites": [
+    "new guarded owner/ready/heartbeat/stop configuration and execution hashes",
+    "fresh idle-resource observation",
+    "common turn/input budget enforcement validation",
+    "explicit next-session collection resume"
+  ],
+  "stage_b_analysis": "Separate per-candidate four-arm studies; same 24 fresh tasks, 3 repeats, no development-task reuse; task-cluster bootstrap. No cross-model pooling or candidate selection from development pass rates.",
+  "limits": "Conditional Stage B design; task/source/tool/prompt/budget execution freeze incomplete. No inference, training or routing promotion."
+}

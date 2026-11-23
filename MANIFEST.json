@@ -1434,11 +1434,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "2d95a096793e717f5039962779b3290892ca19bbcd9dfcfb5357f5880f0940e1"
+      "sha256": "af360fb4d378b765cd908d7da93704d8d2b3c51e0c59c2d840d3ffcf5d4a96d5"
     },
     {
       "path": "RELEASE.md",
-      "sha256": "8d73ccbb9132648045988c9cc58426a7a8ec57cda0f7ac82fe751039f8c3b361"
+      "sha256": "8b5c9f33940a05dfecd47c412c0b034c2dd84453c1e7891b81a8811ac3f05ed2"
     },
     {
       "path": "docs/small-evals/e07-results.md",
@@ -2087,6 +2087,34 @@
     {
       "path": "docs/small-evals/e42-results-2026-11-23/score.rep1.json",
       "sha256": "257ef56dc79fb68fc3e8bdfb93441da736fb4a8cec2f424cecbff3cb8f11decf"
+    },
+    {
+      "path": "docs/small-evals/e43-compatibility-2026-11-23/analyze.py",
+      "sha256": "24f6fd487f3533fbc66e40796ff654e54608ee1d0aaa1c0a28e560b7d756fa13"
+    },
+    {
+      "path": "docs/small-evals/e43-compatibility-2026-11-23/configuration.json",
+      "sha256": "75fa0ebe0d8085a03caba051cf48d242be62501db3edd0a2b7de2ef0b9087d80"
+    },
+    {
+      "path": "docs/small-evals/e43-compatibility-2026-11-23/development-dispositions.json",
+      "sha256": "c4f89d0ab58f21a7ba6a068085df57461d5df99fba1e4340e407189234c92e09"
+    },
+    {
+      "path": "docs/small-evals/e43-compatibility-2026-11-23/next-design.json",
+      "sha256": "64cdad053c28688ac899fd69bae472bdfe7290af3c5b8ed65f357c3b7596d8ff"
+    },
+    {
+      "path": "docs/small-evals/e43-compatibility-2026-11-23/PROVENANCE.json",
+      "sha256": "0b01c9997c4f7cb641f8fbc3f84a75e4e9ab9760fae37e416fa26b59591e4e59"
+    },
+    {
+      "path": "docs/small-evals/e43-compatibility-2026-11-23/README.md",
+      "sha256": "1ad9519fbca2edf7f418ac3cd7d9ff98b82327d3b9bd2fc52ac0d407dccab154"
+    },
+    {
+      "path": "docs/small-evals/e43-compatibility-2026-11-23/sources.json",
+      "sha256": "83a81a4d04e5f4e107d4a47eeca942518af284c67b17b63b9b9754e1838763af"
     }
   ],
   "updates": [
@@ -2321,7 +2349,7 @@
     "publication": "local only"
   },
   "e42_comparative_release_2026_11_23": {
-    "authorization": "User requested steps 1â€“4, commit and push",
+    "authorization": "User requested steps 1\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u01534, commit and push",
     "status": "completed primary plus supplementary repeat; scoped publication",
     "files": [
       "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.metrics.jsonl",
@@ -2355,5 +2383,22 @@
       "run-to-run variance"
     ],
     "unrelated_drafts": "E39/E43 and other working-tree drafts excluded; original source hashes retained"
+  },
+  "e43_compatibility_release_2026_11_23": {
+    "status": "selected incomplete development record; prospective runtime/design amendment",
+    "selected_files": [
+      "docs/small-evals/e43-compatibility-2026-11-23/PROVENANCE.json",
+      "docs/small-evals/e43-compatibility-2026-11-23/README.md",
+      "docs/small-evals/e43-compatibility-2026-11-23/analyze.py",
+      "docs/small-evals/e43-compatibility-2026-11-23/configuration.json",
+      "docs/small-evals/e43-compatibility-2026-11-23/development-dispositions.json",
+      "docs/small-evals/e43-compatibility-2026-11-23/next-design.json",
+      "docs/small-evals/e43-compatibility-2026-11-23/sources.json"
+    ],
+    "provenance": "docs/small-evals/e43-compatibility-2026-11-23/PROVENANCE.json",
+    "authorization": "User requested all enumerated work, including evidence sync; model collection remains held.",
+    "private_report_sha256": "a49160bebf094594c3164a39fb3f1b613dff5491ce2d68bf640b09df9a5db551",
+    "original_sources": "Original source hashes and disclosed transformations retained in selected PROVENANCE.json",
+    "unrelated": "E39 follow-ups remain open; unrelated drafts excluded. Earlier local-only historical records preserved."
   }
 }

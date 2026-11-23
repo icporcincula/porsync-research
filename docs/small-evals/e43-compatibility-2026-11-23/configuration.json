@@ -1,0 +1,56 @@
+{
+  "stage": "incomplete development compatibility",
+  "runtime": "llama.cpp b12600 / commit 29b52d398b294509746ec0a3f28948a3107c0213 / CUDA12.8",
+  "runtime_binary_sha256": "8ed087c7cb9838952a9db4d98eb4ae0a1c24de5359e1ab7d96efe27a37579a92",
+  "original_qwen_runtime": "b11753; different from smaller candidates; original startup stopped for paging before readiness",
+  "context": 32768,
+  "requested_gpu_layers": 99,
+  "kv_types": [
+    "q8_0",
+    "q8_0"
+  ],
+  "threads": 10,
+  "base_quant": "Q8_0",
+  "adapter": "separate F16 GGUF LoRA off/on on identical base per candidate",
+  "opencode_version": "@opencode/cli 2.2.7",
+  "opencode_sha256": "589253d36810f21217edd51545cd435b328cdc3cf4f451fbe0cce6f88afcf5e1",
+  "patchsmith_commit": "2203eb0701265695511f2a4077d142b01aeee464",
+  "patchsmith_harness": "v5",
+  "samplers": {
+    "temperature": 0.8,
+    "top_p": 1,
+    "top_k": 40,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "seed": 43
+  },
+  "max_output_tokens": 4096,
+  "thinking": false,
+  "cache_prompt": false,
+  "attempt_cap_seconds": 300,
+  "original_qwen": {
+    "loads": 1,
+    "task_probes": 0,
+    "model_requests": 0,
+    "outcome": "sustained WSL paging stop before readiness"
+  },
+  "compatibility": {
+    "lfm3": {
+      "offloaded_layers": 25,
+      "lora_tensors": 306,
+      "peak_total_vram_mib": 3061,
+      "minimum_host_available_bytes": 21624307712,
+      "minimum_vm_available_bytes": 11041697792,
+      "peak_vm_swap_bytes": 0
+    },
+    "twil": {
+      "offloaded_layers": 41,
+      "lora_tensors": 560,
+      "peak_total_vram_mib": 12531,
+      "minimum_host_available_bytes": 14844162048,
+      "minimum_vm_available_bytes": 11102863360,
+      "peak_vm_swap_bytes": 0
+    }
+  },
+  "limits": "Device-wide sampled VRAM, not server VRAM; WDDM server value unavailable. No throughput or transfer conclusion."
+}

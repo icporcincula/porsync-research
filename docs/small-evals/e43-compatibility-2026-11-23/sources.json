@@ -1,0 +1,83 @@
+{
+  "status": "Archived upstream identities; selected artifact hashes were verified privately before prior loading. Nonselected publisher alternatives are not measured arms.",
+  "repositories": [
+    {
+      "repo": "harness-hub/LFM3-1.7B-opencode",
+      "revision": "9a96d7923f26d88686444b552fdfbf8c328c8b4a",
+      "license": "lfm1.0",
+      "artifacts": []
+    },
+    {
+      "repo": "harness-hub/LFM3-1.7B-opencode-GGUF",
+      "revision": "3c68312d0bfa007ad59ab7c6ee32e19b86788948",
+      "license": "lfm1.0",
+      "artifacts": [
+        {
+          "file": "LFM3-1.7B-harbor-opencode-lora-F16.gguf",
+          "bytes": 65897760,
+          "sha256": "5bd0ad64448be4eb52b8bd328955af5ae000903a39284f36927d9a6fc89ab517"
+        }
+      ]
+    },
+    {
+      "repo": "LiquidAI/LFM3-1.7B",
+      "revision": "1da06bec6a819da10b54c67e5c90972b46d81871",
+      "license": "lfm1.0",
+      "artifacts": []
+    },
+    {
+      "repo": "LiquidAI/LFM3-1.7B-GGUF",
+      "revision": "cd0c74c575b5c416f3011b5b4c298077f26ca8c2",
+      "license": "lfm1.0",
+      "artifacts": [
+        {
+          "file": "LFM3-1.7B-Q8_0.gguf",
+          "bytes": 1846238496,
+          "sha256": "8f6b24182258205e9e01e21f1f24a1f208c1e8115578825d202ce39976af20b6"
+        }
+      ]
+    },
+    {
+      "repo": "harness-hub/TwIL-8B-opencode",
+      "revision": "496d865f1b165098aab0a9c1082f794b60144b99",
+      "license": "webai-non-commercial-license-ver.-1.0",
+      "artifacts": []
+    },
+    {
+      "repo": "harness-hub/TwIL-8B-opencode-GGUF",
+      "revision": "478df25908a156a0e8abbd1f471ae5a547ae1bf1",
+      "license": "webai-non-commercial-license-ver.-1.0",
+      "artifacts": [
+        {
+          "file": "TwIL-8B-harbor-opencode-lora-F16.gguf",
+          "bytes": 197958112,
+          "sha256": "c73f4224d61942046fbb82758c8885384ea6b2fa5c6b1abbed5d4b240b7cf1ab"
+        }
+      ]
+    },
+    {
+      "repo": "webAI-Official/TwIL-8B",
+      "revision": "9563ba7dfb70eeca4a26654b195011cbf818e7d9",
+      "license": "webai-non-commercial-license-ver.-1.0",
+      "artifacts": [
+        {
+          "file": "TwIL-8B-Q8_0-verbose.gguf",
+          "bytes": 9345613248,
+          "sha256": "6242f84e5d9854ca54a9f39dd14dadbd9eaad5b3d2bc6195d408cae69e8f85d6"
+        }
+      ]
+    },
+    {
+      "repo": "mradermacher/TwIL-8B-GGUF",
+      "revision": "00e9ccad554b6bb1308ca1c068a70d040b84f052",
+      "license": "webai-non-commercial-license-ver.-1.0",
+      "artifacts": [
+        {
+          "file": "TwIL-8B.Q8_0.gguf",
+          "bytes": 9345614528,
+          "sha256": "b93841be6a22fcb944fc8276c796213c8fc7ea9972291bdfe789a21ce0db0ee1"
+        }
+      ]
+    }
+  ]
+}
