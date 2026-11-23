@@ -1,0 +1,10 @@
+{
+  "arm": "9b_surogate_wsl",
+  "hours": 0.5,
+  "limit": 0,
+  "tag": "rep1",
+  "completed": true,
+  "elapsed_s": 1803.106369303,
+  "pool_sha256": "831188c92bc126cca2f1c477fedd2af2ced4590295d1a31177e9ecf4a6be2bcf",
+  "rows_sha256": "ce33d371fb7d0a54791476f260fa6f0138c35dd2b41f5a52a15f16cef6381f06"
+}

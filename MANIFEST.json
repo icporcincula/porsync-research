@@ -1261,6 +1261,166 @@
       "transformations": [
         "UTF-8 text normalized to LF; trailing line whitespace removed; result values unchanged"
       ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_llama_wsl.jsonl",
+      "source_sha256": "76358172f0536a5d1f481a0e1246e3ee4c94a5655d6a3f6c68481d1490b2df07",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.metrics.jsonl",
+      "transformations": [
+        "Explicit numeric/scoring-field allowlist; replies, token counts, start and inflight omitted; reply reduced to nonempty boolean; correctness labels retained without rejudging"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_llama_wsl.window.json",
+      "source_sha256": "6ac4c8ecefe046923aa656211781855bcca4a665ffc6f79dbf16987cce4054e4",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.window.json",
+      "transformations": [
+        "UTF-8/LF only; rows_sha256 identifies the withheld original rows, not transformed metrics"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_llama_wsl.res.jsonl",
+      "source_sha256": "53cce3aff42157c2274088efa3c05092b4fd747cb6de6c1aea9c3ec61907eb2b",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.resources.json",
+      "transformations": [
+        "Numerical memory samples only; absolute timestamps omitted; original order retained; raw telemetry withheld"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_surogate_wsl.jsonl",
+      "source_sha256": "ca0bea9dc4497ddd7aa666dfe27828ba6aa01ee2568ae8a448b8f37a8f04ce9e",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.metrics.jsonl",
+      "transformations": [
+        "Explicit numeric/scoring-field allowlist; replies, token counts, start and inflight omitted; reply reduced to nonempty boolean; correctness labels retained without rejudging"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_surogate_wsl.window.json",
+      "source_sha256": "0aed697849f1be611fed9b638ad945bd55e218a7d3c2da34303ce2602a0a33d5",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.window.json",
+      "transformations": [
+        "UTF-8/LF only; rows_sha256 identifies the withheld original rows, not transformed metrics"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_surogate_wsl.res.jsonl",
+      "source_sha256": "b1b869e83e95cde6e32ee6d5fc6065c2993727f0810fa62108330d8a559365e9",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.resources.json",
+      "transformations": [
+        "Numerical memory samples only; absolute timestamps omitted; original order retained; raw telemetry withheld"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/score.json",
+      "source_sha256": "a975e613f7eae96d86b80cae36e97f0cb0a4e196b9976327d052c5766e09e5a8",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/score.json",
+      "transformations": [
+        "JSON reformatting; numerical results unchanged"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_llama_wsl.rep1.jsonl",
+      "source_sha256": "de64f7b8893cab7cd52144f6b279977ea4191c01d44b9739bd204c069abbab6a",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.rep1.metrics.jsonl",
+      "transformations": [
+        "Explicit numeric/scoring-field allowlist; replies, token counts, start and inflight omitted; reply reduced to nonempty boolean; correctness labels retained without rejudging"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_llama_wsl.rep1.window.json",
+      "source_sha256": "046de02c4fd93723c8271f02a0296999bad4a3fc1565f5a2ef2168422a2198db",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.rep1.window.json",
+      "transformations": [
+        "UTF-8/LF only; rows_sha256 identifies the withheld original rows, not transformed metrics"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_llama_wsl.rep1.res.jsonl",
+      "source_sha256": "019fb97b586b1043350dba04e085d90ea093b448fa059e366c741e9de55da8f0",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.rep1.resources.json",
+      "transformations": [
+        "Numerical memory samples only; absolute timestamps omitted; original order retained; raw telemetry withheld"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_surogate_wsl.rep1.jsonl",
+      "source_sha256": "ce33d371fb7d0a54791476f260fa6f0138c35dd2b41f5a52a15f16cef6381f06",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.rep1.metrics.jsonl",
+      "transformations": [
+        "Explicit numeric/scoring-field allowlist; replies, token counts, start and inflight omitted; reply reduced to nonempty boolean; correctness labels retained without rejudging"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_surogate_wsl.rep1.window.json",
+      "source_sha256": "507808963caba7394e291a4013b66e2f3ba21acf150342f22b43f4e95819d97d",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.rep1.window.json",
+      "transformations": [
+        "UTF-8/LF only; rows_sha256 identifies the withheld original rows, not transformed metrics"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/9b_surogate_wsl.rep1.res.jsonl",
+      "source_sha256": "8e4844cca41a36cfd36d482f1367694a2fd723698df7419423859e3c673c165f",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.rep1.resources.json",
+      "transformations": [
+        "Numerical memory samples only; absolute timestamps omitted; original order retained; raw telemetry withheld"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/score.rep1.json",
+      "source_sha256": "bc7671c940e1c82c5147c60d03a6c4d218f8dd4cea2c43e80197fe07b145fdac",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/score.rep1.json",
+      "transformations": [
+        "JSON reformatting; repeat note qualifies VM-identity claim"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/probe.9b_llama_wsl.cold.jsonl",
+      "source_sha256": "91c224b7606c8fa80326f7601778e4785e3bc9eceeeba8fd09d9c724b95a4429",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/probe.9b_llama_wsl.cold.jsonl",
+      "transformations": [
+        "UTF-8/LF; existing numeric probe observations only; no prompts or reply content"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/results/e42/probe.9b_surogate_wsl.cold.jsonl",
+      "source_sha256": "23e9e29a8d647cf900433a1709ed90895935e6e58766b9d3cc6c6e1539862df9",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/probe.9b_surogate_wsl.cold.jsonl",
+      "transformations": [
+        "UTF-8/LF; existing numeric probe observations only; no prompts or reply content"
+      ]
+    },
+    {
+      "released_path": "docs/small-evals/e42-results-2026-11-23/configuration.json",
+      "source_path": "docs/small-evals/e42-surogate-engine-arm-16gb.md",
+      "source_sha256": "3de1c48da66a3fdc3611fc6d5f50196a81ecfddae0efc520309ccdf5a951a9eb",
+      "transformations": [
+        "Curated configuration from frozen plan and dated execution/repeat records; no machine paths or operational identifiers; prior preparation draft preserved"
+      ]
+    },
+    {
+      "source_path": "docs/small-evals/e42-results.md",
+      "source_sha256": "e9d61c6267e29a64e05de5a0b4c93cf1e0e52cb866bbeeb6990b0c779d3dcd86",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/README.md",
+      "transformations": [
+        "UTF-8/LF; final author report copied without private operational paths"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/e28_batch/score.py",
+      "source_sha256": "8be5e8ea7fbc58472195dd7568cb68aa689772c97ce924fdfb0233670323d57d",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/analyze.py",
+      "transformations": [
+        "Selected author-owned pure metric/probe functions; private imports/paths/entrypoints removed; reply-nonempty check adapted to boolean; standalone validation added"
+      ]
+    },
+    {
+      "source_path": "portfolio/small-evals/e42_surogate/score.py",
+      "source_sha256": "a3e811608246e8fe7e4352ced2f6b96e611a0a3539b0755f3b7c375ef399c94f",
+      "released_path": "docs/small-evals/e42-results-2026-11-23/analyze.py",
+      "transformations": [
+        "Selected author-owned pure metric/probe functions; private imports/paths/entrypoints removed; reply-nonempty check adapted to boolean; standalone validation added"
+      ]
     }
   ],
   "files": [
@@ -1274,11 +1434,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "2c8d034f85949362ba8052767a5ac16f43add08b9ae93998bde231e7116de035"
+      "sha256": "2d95a096793e717f5039962779b3290892ca19bbcd9dfcfb5357f5880f0940e1"
     },
     {
       "path": "RELEASE.md",
-      "sha256": "a764490c2099d03d0932f53a6819198aed5cff1441de5bf090936e039165a9b0"
+      "sha256": "8d73ccbb9132648045988c9cc58426a7a8ec57cda0f7ac82fe751039f8c3b361"
     },
     {
       "path": "docs/small-evals/e07-results.md",
@@ -1847,6 +2007,86 @@
     {
       "path": "docs/small-evals/e39-closeout-2026-11-20/trials.json",
       "sha256": "474c4c5b0901b1f6ed55795047e2ea1bc7381e7c9de4b0b029619110dad55cd1"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.metrics.jsonl",
+      "sha256": "aa39b807acc37056d14732a0e340db0ee263db51c994616c0a677cca2e613db9"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.rep1.metrics.jsonl",
+      "sha256": "3aa649b34a5d48cb3d7aafc58c73c38037914cbdd144b86652c41c832de5981f"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.rep1.resources.json",
+      "sha256": "5e41196284b4a68608f191c2e73444ddad56b146f4b073ad1289c640a8d1ff2e"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.rep1.window.json",
+      "sha256": "046de02c4fd93723c8271f02a0296999bad4a3fc1565f5a2ef2168422a2198db"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.resources.json",
+      "sha256": "a999cfeee517f42e57d427256bea03635d43c0303b8540fbdae9d213b1856d06"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.window.json",
+      "sha256": "6ac4c8ecefe046923aa656211781855bcca4a665ffc6f79dbf16987cce4054e4"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.metrics.jsonl",
+      "sha256": "e0fe997ee33dc654233e9ced025e45ec6a0a8b2409a5e046fa26fd89f9ebc319"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.rep1.metrics.jsonl",
+      "sha256": "7023c5da5d92baa47f845511197f1c9e36fbb7313d247ecefc17c2d9f62675fb"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.rep1.resources.json",
+      "sha256": "abe7736e4942459ddc62bd09da53a0e1b8c698edce66fbe0cfd050a68cef70c1"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.rep1.window.json",
+      "sha256": "507808963caba7394e291a4013b66e2f3ba21acf150342f22b43f4e95819d97d"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.resources.json",
+      "sha256": "f0a866a34d23abcbf752cff600a4b684da8860624c51b7b2032a485c6243fae5"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.window.json",
+      "sha256": "0aed697849f1be611fed9b638ad945bd55e218a7d3c2da34303ce2602a0a33d5"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/analyze.py",
+      "sha256": "92460d6e748440b10202bb127bbb549018898f30ff683e3d8cfc845a7856937e"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/configuration.json",
+      "sha256": "ffcf5d98779c0f0bb6f036d7e315766210b0298df6fcbd222d0c6bcad9963040"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/probe.9b_llama_wsl.cold.jsonl",
+      "sha256": "91c224b7606c8fa80326f7601778e4785e3bc9eceeeba8fd09d9c724b95a4429"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/probe.9b_surogate_wsl.cold.jsonl",
+      "sha256": "23e9e29a8d647cf900433a1709ed90895935e6e58766b9d3cc6c6e1539862df9"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/PROVENANCE.json",
+      "sha256": "5ac1b0b8507241b465faac9182afcf37598d0b02d361831e4876d17d1fdbb0d6"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/README.md",
+      "sha256": "e9d61c6267e29a64e05de5a0b4c93cf1e0e52cb866bbeeb6990b0c779d3dcd86"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/score.json",
+      "sha256": "9e003b705c137f8e33eb757e0438d2c6f41f2543244033be60deaf203bc2107e"
+    },
+    {
+      "path": "docs/small-evals/e42-results-2026-11-23/score.rep1.json",
+      "sha256": "257ef56dc79fb68fc3e8bdfb93441da736fb4a8cec2f424cecbff3cb8f11decf"
     }
   ],
   "updates": [
@@ -2079,5 +2319,41 @@
     "before_cleanup_file_sha256": "9077ed9d1c546611151e406df64922466257bd068751e81b251ef0ee3a6b2a61",
     "reason": "Stale hash entry for generated first-set README; updated completion pointer only. Original source hashes retained; no numerical first-set changes or model runs.",
     "publication": "local only"
+  },
+  "e42_comparative_release_2026_11_23": {
+    "authorization": "User requested steps 1â€“4, commit and push",
+    "status": "completed primary plus supplementary repeat; scoped publication",
+    "files": [
+      "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.metrics.jsonl",
+      "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.rep1.metrics.jsonl",
+      "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.rep1.resources.json",
+      "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.rep1.window.json",
+      "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.resources.json",
+      "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.window.json",
+      "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.metrics.jsonl",
+      "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.rep1.metrics.jsonl",
+      "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.rep1.resources.json",
+      "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.rep1.window.json",
+      "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.resources.json",
+      "docs/small-evals/e42-results-2026-11-23/9b_surogate_wsl.window.json",
+      "docs/small-evals/e42-results-2026-11-23/PROVENANCE.json",
+      "docs/small-evals/e42-results-2026-11-23/README.md",
+      "docs/small-evals/e42-results-2026-11-23/analyze.py",
+      "docs/small-evals/e42-results-2026-11-23/configuration.json",
+      "docs/small-evals/e42-results-2026-11-23/probe.9b_llama_wsl.cold.jsonl",
+      "docs/small-evals/e42-results-2026-11-23/probe.9b_surogate_wsl.cold.jsonl",
+      "docs/small-evals/e42-results-2026-11-23/score.json",
+      "docs/small-evals/e42-results-2026-11-23/score.rep1.json"
+    ],
+    "source_state": "Explicitly selected working-tree E42 results; original source hashes retained; no private history mirrored",
+    "source_revision_before_release": "e6dfa2a04c4f86e456628159381a4a7f4415e2d6",
+    "reproduction": "Saved correctness labels/timings; no independent regrading/inference or public raw-log H1 review",
+    "unresolved": [
+      "primary VM continuity and boot-epoch discrepancy",
+      "memory-state effects",
+      "cause of latency gap",
+      "run-to-run variance"
+    ],
+    "unrelated_drafts": "E39/E43 and other working-tree drafts excluded; original source hashes retained"
   }
 }

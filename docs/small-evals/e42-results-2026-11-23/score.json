@@ -1,0 +1,174 @@
+{
+  "items_finished": {
+    "9b_llama_wsl": 5800,
+    "9b_surogate_wsl": 4520
+  },
+  "headline": {
+    "K": 4520,
+    "a": "9b_llama_wsl",
+    "b": "9b_surogate_wsl",
+    "wall_a_s": 5605.4,
+    "wall_b_s": 7200.7,
+    "headline": {
+      "n": 4520,
+      "cph_a": 2414.8,
+      "cph_b": 1883.8,
+      "acc_a": 0.8319,
+      "acc_b": 0.8336,
+      "ratio_b_over_a": [
+        0.7801,
+        0.7772,
+        0.783
+      ],
+      "acc_gap_points_b_minus_a": [
+        0.177,
+        -0.1327,
+        0.4867
+      ]
+    },
+    "by_type": {
+      "extract": {
+        "n": 1501,
+        "cph_a": 2351.7,
+        "cph_b": 1851.8,
+        "acc_a": 0.8101,
+        "acc_b": 0.8195,
+        "ratio_b_over_a": [
+          0.7874,
+          0.7823,
+          0.7932
+        ],
+        "acc_gap_points_b_minus_a": [
+          0.9327,
+          0.3997,
+          1.5323
+        ]
+      },
+      "intent": {
+        "n": 1504,
+        "cph_a": 1986.1,
+        "cph_b": 1537.1,
+        "acc_a": 0.6842,
+        "acc_b": 0.6802,
+        "ratio_b_over_a": [
+          0.774,
+          0.7657,
+          0.7823
+        ],
+        "acc_gap_points_b_minus_a": [
+          -0.3989,
+          -1.1303,
+          0.3324
+        ]
+      },
+      "triage": {
+        "n": 1515,
+        "cph_a": 2902.9,
+        "cph_b": 2259.8,
+        "acc_a": 1.0,
+        "acc_b": 1.0,
+        "ratio_b_over_a": [
+          0.7785,
+          0.7785,
+          0.7785
+        ],
+        "acc_gap_points_b_minus_a": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "note": "ratio_b_over_a = Invergent's Surogate correct/h over stock llama.cpp correct/h, first K common items, both arms inside WSL2 on the same RTX 5060 Ti"
+  },
+  "latency": {
+    "9b_llama_wsl": {
+      "n": 5800,
+      "median_s": 1.42,
+      "p95_s": 2.286,
+      "max_s": 2.6,
+      "error_share": 0.0,
+      "empty_share": 0.0,
+      "cap_hit_share": 0.0,
+      "length_cut_share": 0.0
+    },
+    "9b_surogate_wsl": {
+      "n": 4520,
+      "median_s": 1.701,
+      "p95_s": 3.21,
+      "max_s": 3.6,
+      "error_share": 0.0,
+      "empty_share": 0.0,
+      "cap_hit_share": 0.0,
+      "length_cut_share": 0.0
+    }
+  },
+  "resources": {
+    "9b_llama_wsl": {
+      "peak_vram_mib": 6785,
+      "min_ram_free_mib": 2369,
+      "max_swap_used_mib": 187
+    },
+    "9b_surogate_wsl": {
+      "peak_vram_mib": 7139,
+      "min_ram_free_mib": 9207,
+      "max_swap_used_mib": 0
+    }
+  },
+  "probe": {
+    "9b_llama_wsl": {
+      "n": 20,
+      "ttft_p50_s": 0.335,
+      "ttft_p95_s": 2.183,
+      "decode_tps_median": 67.75,
+      "reasoning_leak_rows": 0
+    },
+    "9b_surogate_wsl": {
+      "n": 20,
+      "ttft_p50_s": 0.296,
+      "ttft_p95_s": 3.087,
+      "decode_tps_median": 39.77,
+      "reasoning_leak_rows": 0
+    }
+  },
+  "full_run": {
+    "9b_llama_wsl": {
+      "items": 5800,
+      "correct": 4849,
+      "wall_s": 7200.4,
+      "correct_per_hour": 2424.3
+    },
+    "9b_surogate_wsl": {
+      "items": 4520,
+      "correct": 3768,
+      "wall_s": 7200.7,
+      "correct_per_hour": 1883.8
+    }
+  },
+  "reasoning_leak_share": {
+    "9b_llama_wsl": 0.0,
+    "9b_surogate_wsl": 0.0
+  },
+  "hypotheses": {
+    "H1_loads_at_32k_under_15.5gb": {
+      "supported": null,
+      "note": "Stage A / freeze record"
+    },
+    "H2_surogate_ge_1.2x_correct_per_hour": {
+      "ratio": 0.7801,
+      "supported": false
+    },
+    "H3_surogate_ge_1.5x_decode_tps": {
+      "ratio": 0.587,
+      "supported": false
+    },
+    "H4_accuracy_within_2_points": {
+      "gap_points": 0.177,
+      "supported": true
+    },
+    "H5_ttft_ratio_under_2x": {
+      "ratio": 0.884,
+      "supported": true
+    }
+  }
+}

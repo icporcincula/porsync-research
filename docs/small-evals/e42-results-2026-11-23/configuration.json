@@ -1,0 +1,79 @@
+{
+  "status": "Completed primary comparison and supplementary repeat; selected publication authorized 2026-11-23",
+  "date": "2026-11-23",
+  "engines": {
+    "llama.cpp": "b11753 / d8d92973c / Linux CUDA 13.4 release",
+    "Invergent Surogate": "1.5.15+cu130"
+  },
+  "model_sha256": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8",
+  "surogate_internal_cache_sha256": "b2c58f801cc0b0fa4e7bd27353707b42f073d37c1b251293a80eab706aa1e35c",
+  "pool_sha256": "831188c92bc126cca2f1c477fedd2af2ced4590295d1a31177e9ecf4a6be2bcf",
+  "pool_items": 30000,
+  "hardware": "RTX 5060 Ti, 16 GB",
+  "os": "WSL2 Ubuntu 24.04; 6.6.87.2-microsoft-standard-WSL2",
+  "vm": {
+    "memory": "12GB",
+    "swap": "8GB",
+    "processors": 10
+  },
+  "client": {
+    "httpx": "0.28.1",
+    "numpy": "2.5.5",
+    "psutil": "7.2.2"
+  },
+  "python": "3.12.3",
+  "design": {
+    "hours_per_arm": 2,
+    "concurrency": 1,
+    "temperature": 0,
+    "thinking": false,
+    "context": 32768,
+    "total_request_cap_seconds": 300,
+    "sequence": [
+      "9b_llama_wsl",
+      "9b_surogate_wsl"
+    ],
+    "secondary_probes": "existing paired 20-prompt cold-process Stage A files; visible before freeze"
+  },
+  "hypotheses": {
+    "H1": "Configured 32K load under 15872 MiB, no offload/OOM/spill; not refuted within sparse samples and archived log review; not a full-context stress test",
+    "H2": "Surogate / llama.cpp correct per hour >=1.2",
+    "H3": "median decode tokens/s ratio >=1.5",
+    "H4": "absolute paired accuracy gap <2 percentage points",
+    "H5": "median TTFT ratio <2"
+  },
+  "method_deviations": [
+    "Stage A pilot correctness and probe timings were inspected before primary freeze; not blind",
+    "Invergent Surogate automatically transforms the source GGUF into its internal cached representation",
+    "Explicit total deadlines, truncation failures, parity validation and persistent client correct the original runner",
+    "Original Stage A VM restart was not contemporaneously archived; memory samples are sparse",
+    "Original E26 Windows flag equivalence not independently reconstructed; no bare-metal generalization"
+  ],
+  "repeat": {
+    "hours_per_arm": 0.5,
+    "tag": "rep1",
+    "order": [
+      "9b_surogate_wsl",
+      "9b_llama_wsl"
+    ],
+    "role": "supplementary, not primary; same task prefix; no pooled estimate"
+  },
+  "flags": {
+    "llama.cpp": "-ngl 99 -c 32768 --parallel 1 --jinja --reasoning off --alias qwen --host 127.0.0.1 --port 8081",
+    "Invergent Surogate": "serve <pinned-GGUF-on-ext4> --served-model-name qwen --host 127.0.0.1 --port 8080 --max-model-len 32768 --max-num-seqs 1 --kv-capacity auto"
+  },
+  "deviations": [
+    "Primary VM continuity unverified: boot-time epochs differ by 14898 s; repeat btime drifted 315 s without restart",
+    "Memory states not matched; llama.cpp prompt cache and swap pressure",
+    "Engine feature parity uncontrolled; no causal latency isolation",
+    "Secondary probes predate primary and were visible before freeze",
+    "Original scoring draft destination redirected by wrapper; frozen scorer unchanged"
+  ],
+  "analysis": {
+    "draws": 10000,
+    "seed": 0,
+    "interval": "paired item bootstrap; fixed per-item wall; excludes run-to-run/timing uncertainty",
+    "primary_client_numpy": "2.5.5",
+    "offline_recheck_numpy": "1.26.4"
+  }
+}

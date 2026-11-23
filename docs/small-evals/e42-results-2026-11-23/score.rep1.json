@@ -1,0 +1,132 @@
+{
+  "note": "rep1: 0.5 h windows in one uninterrupted WSL invocation, Invergent's Surogate engine first. Supplementary deviation check; btime drifted within the session; primary continuity remains unverified.",
+  "headline": {
+    "K": 1132,
+    "a": "9b_llama_wsl",
+    "b": "9b_surogate_wsl",
+    "wall_a_s": 1411.8,
+    "wall_b_s": 1803.1,
+    "headline": {
+      "n": 1132,
+      "cph_a": 2391.9,
+      "cph_b": 1866.8,
+      "acc_a": 0.8286,
+      "acc_b": 0.826,
+      "ratio_b_over_a": [
+        0.7805,
+        0.7754,
+        0.7855
+      ],
+      "acc_gap_points_b_minus_a": [
+        -0.265,
+        -0.7951,
+        0.265
+      ]
+    },
+    "by_type": {
+      "extract": {
+        "n": 366,
+        "cph_a": 2318.8,
+        "cph_b": 1821.7,
+        "acc_a": 0.8033,
+        "acc_b": 0.806,
+        "ratio_b_over_a": [
+          0.7856,
+          0.783,
+          0.7913
+        ],
+        "acc_gap_points_b_minus_a": [
+          0.2732,
+          0.0,
+          0.8197
+        ]
+      },
+      "intent": {
+        "n": 360,
+        "cph_a": 1908.4,
+        "cph_b": 1469.1,
+        "acc_a": 0.6611,
+        "acc_b": 0.65,
+        "ratio_b_over_a": [
+          0.7699,
+          0.7507,
+          0.7865
+        ],
+        "acc_gap_points_b_minus_a": [
+          -1.1111,
+          -2.7778,
+          0.2778
+        ]
+      },
+      "triage": {
+        "n": 406,
+        "cph_a": 2886.6,
+        "cph_b": 2260.1,
+        "acc_a": 1.0,
+        "acc_b": 1.0,
+        "ratio_b_over_a": [
+          0.783,
+          0.783,
+          0.783
+        ],
+        "acc_gap_points_b_minus_a": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "latency": {
+    "9b_llama_wsl": {
+      "n": 1457,
+      "median_s": 1.384,
+      "p95_s": 2.234,
+      "max_s": 2.6,
+      "error_share": 0.0,
+      "empty_share": 0.0,
+      "cap_hit_share": 0.0,
+      "length_cut_share": 0.0
+    },
+    "9b_surogate_wsl": {
+      "n": 1132,
+      "median_s": 1.654,
+      "p95_s": 3.105,
+      "max_s": 3.5,
+      "error_share": 0.0,
+      "empty_share": 0.0,
+      "cap_hit_share": 0.0,
+      "length_cut_share": 0.0
+    }
+  },
+  "resources": {
+    "9b_llama_wsl": {
+      "peak_vram_mib": 7122,
+      "min_ram_free_mib": 2356,
+      "max_swap_used_mib": 30
+    },
+    "9b_surogate_wsl": {
+      "peak_vram_mib": 7106,
+      "min_ram_free_mib": 9228,
+      "max_swap_used_mib": 0
+    }
+  },
+  "full_run": {
+    "9b_llama_wsl": {
+      "items": 1457,
+      "correct": 1209,
+      "wall_s": 1800.1,
+      "correct_per_hour": 2417.9,
+      "errors": 0,
+      "reasoning_leak_rows": 0
+    },
+    "9b_surogate_wsl": {
+      "items": 1132,
+      "correct": 935,
+      "wall_s": 1803.1,
+      "correct_per_hour": 1866.8,
+      "errors": 0,
+      "reasoning_leak_rows": 0
+    }
+  }
+}

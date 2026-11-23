@@ -1,0 +1,10 @@
+{
+  "arm": "9b_llama_wsl",
+  "hours": 0.5,
+  "limit": 0,
+  "tag": "rep1",
+  "completed": true,
+  "elapsed_s": 1800.103698364,
+  "pool_sha256": "831188c92bc126cca2f1c477fedd2af2ced4590295d1a31177e9ecf4a6be2bcf",
+  "rows_sha256": "de64f7b8893cab7cd52144f6b279977ea4191c01d44b9739bd204c069abbab6a"
+}
