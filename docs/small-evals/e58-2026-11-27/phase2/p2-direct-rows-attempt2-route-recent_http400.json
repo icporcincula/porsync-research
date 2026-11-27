@@ -1,0 +1,102 @@
+[
+ {
+  "task_id": "x58-perfumery-pure-formula-normalization",
+  "tool_status": "frontier_required",
+  "tool_reason": null,
+  "turns": 0,
+  "routing": {
+   "task_id": "1f657f2d5f1b42edb8c037a303b930c3",
+   "mode": "route",
+   "category": "multifile",
+   "prompt_tokens": 2727,
+   "decision": "frontier",
+   "reason": "recent_http400"
+  },
+  "patch_path": false,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 0.0,
+  "note": ""
+ },
+ {
+  "task_id": "x58-meteorite-record-prototype-merge",
+  "tool_status": "frontier_required",
+  "tool_reason": null,
+  "turns": 0,
+  "routing": {
+   "task_id": "305de4adbd3b455fa4bc64ef0f7d04e2",
+   "mode": "route",
+   "category": "multifile",
+   "prompt_tokens": 2636,
+   "decision": "frontier",
+   "reason": "recent_http400"
+  },
+  "patch_path": false,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 0.0,
+  "note": ""
+ },
+ {
+  "task_id": "x58-mushroom-culture-pair-identity",
+  "tool_status": "frontier_required",
+  "tool_reason": null,
+  "turns": 0,
+  "routing": {
+   "task_id": "f44360bafbe540b890fe79ede81a01c1",
+   "mode": "route",
+   "category": "multifile",
+   "prompt_tokens": 2623,
+   "decision": "frontier",
+   "reason": "recent_http400"
+  },
+  "patch_path": false,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 0.0,
+  "note": ""
+ },
+ {
+  "task_id": "x58-gravure-registration-record",
+  "tool_status": "frontier_required",
+  "tool_reason": null,
+  "turns": 0,
+  "routing": {
+   "task_id": "0a499f44513742cfb99654c824a8a0c8",
+   "mode": "route",
+   "category": "multifile",
+   "prompt_tokens": 2621,
+   "decision": "frontier",
+   "reason": "recent_http400"
+  },
+  "patch_path": false,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 0.0,
+  "note": ""
+ },
+ {
+  "task_id": "x58-climbing-anchor-verdict",
+  "tool_status": "frontier_required",
+  "tool_reason": null,
+  "turns": 0,
+  "routing": {
+   "task_id": "c074bb21eb37414da4d0a3d38af3b6ff",
+   "mode": "route",
+   "category": "multifile",
+   "prompt_tokens": 2637,
+   "decision": "frontier",
+   "reason": "recent_http400"
+  },
+  "patch_path": false,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 0.0,
+  "note": ""
+ }
+]

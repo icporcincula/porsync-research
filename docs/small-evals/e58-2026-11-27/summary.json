@@ -1,0 +1,208 @@
+{
+  "contrasts": {
+    "P1_vs_A": {
+      "n_tasks": 20,
+      "mean_a": 0.9,
+      "mean_b": 0.95,
+      "diff": 0.05,
+      "ci95": [
+        0.0,
+        0.125
+      ],
+      "label": "no_detectable_effect",
+      "b_better": 2,
+      "a_better": 0,
+      "tied": 18,
+      "discordant_tasks": {
+        "x58-antibiotic-exact-viability-fractions": [
+          0.5,
+          1.0
+        ],
+        "x58-meteorite-record-prototype-merge": [
+          0.5,
+          1.0
+        ]
+      }
+    },
+    "P2_vs_A": {
+      "n_tasks": 32,
+      "mean_a": 0.8125,
+      "mean_b": 0.890625,
+      "diff": 0.078125,
+      "ci95": [
+        -0.0156,
+        0.1875
+      ],
+      "label": "no_detectable_effect",
+      "b_better": 5,
+      "a_better": 2,
+      "tied": 25,
+      "discordant_tasks": {
+        "x58-antibiotic-exact-viability-fractions": [
+          0.5,
+          1.0
+        ],
+        "x58-aquarium-quarantine-transfers": [
+          0.0,
+          1.0
+        ],
+        "x58-meteorite-record-prototype-merge": [
+          0.5,
+          0.0
+        ],
+        "x58-origami-reservation-preview": [
+          0.5,
+          1.0
+        ],
+        "x58-planetarium-periodic-cue-timeline": [
+          0.5,
+          1.0
+        ],
+        "x58-racquet-stringing-batch-continuity": [
+          0.0,
+          1.0
+        ],
+        "x58-taxidermy-absent-default-unification": [
+          1.0,
+          0.5
+        ]
+      }
+    },
+    "P2_vs_P1_intersection": {
+      "n_tasks": 20,
+      "mean_a": 0.95,
+      "mean_b": 0.875,
+      "diff": -0.075,
+      "ci95": [
+        -0.2,
+        0.0
+      ],
+      "label": "no_detectable_effect",
+      "b_better": 0,
+      "a_better": 2,
+      "tied": 18,
+      "discordant_tasks": {
+        "x58-meteorite-record-prototype-merge": [
+          1.0,
+          0.0
+        ],
+        "x58-taxidermy-absent-default-unification": [
+          1.0,
+          0.5
+        ]
+      }
+    },
+    "P1_vs_A_intersection": {
+      "n_tasks": 20,
+      "mean_a": 0.9,
+      "mean_b": 0.95,
+      "diff": 0.05,
+      "ci95": [
+        0.0,
+        0.125
+      ],
+      "label": "no_detectable_effect",
+      "b_better": 2,
+      "a_better": 0,
+      "tied": 18,
+      "discordant_tasks": {
+        "x58-antibiotic-exact-viability-fractions": [
+          0.5,
+          1.0
+        ],
+        "x58-meteorite-record-prototype-merge": [
+          0.5,
+          1.0
+        ]
+      }
+    },
+    "P2_vs_A_intersection": {
+      "n_tasks": 20,
+      "mean_a": 0.9,
+      "mean_b": 0.875,
+      "diff": -0.025,
+      "ci95": [
+        -0.1,
+        0.05
+      ],
+      "label": "no_detectable_effect",
+      "b_better": 1,
+      "a_better": 2,
+      "tied": 17,
+      "discordant_tasks": {
+        "x58-antibiotic-exact-viability-fractions": [
+          0.5,
+          1.0
+        ],
+        "x58-meteorite-record-prototype-merge": [
+          0.5,
+          0.0
+        ],
+        "x58-taxidermy-absent-default-unification": [
+          1.0,
+          0.5
+        ]
+      }
+    }
+  },
+  "cost": {
+    "A": {
+      "attempts": 64,
+      "successes": 52,
+      "bonsai_seconds": 5036.3,
+      "planner_seconds_once": 0.0,
+      "sec_per_verified": 96.9
+    },
+    "P1": {
+      "attempts": 40,
+      "successes": 38,
+      "bonsai_seconds": 1682.7,
+      "planner_seconds_once": 231.1,
+      "sec_per_verified": 50.4
+    },
+    "P2": {
+      "attempts": 64,
+      "successes": 57,
+      "bonsai_seconds": 3368.4,
+      "planner_seconds_once": 619.7,
+      "sec_per_verified": 70.0
+    }
+  },
+  "validity": {
+    "expected_attempts": {
+      "A": 64,
+      "P1": 40,
+      "P2": 64
+    },
+    "got_attempts": {
+      "A": 64,
+      "P1": 40,
+      "P2": 64
+    },
+    "all_complete": true,
+    "boundary_violations": 0,
+    "server_error_rate": {
+      "A": 0.0,
+      "P1": 0.0,
+      "P2": 0.0
+    },
+    "server_errors_le_10pct": true,
+    "failure_codes": {
+      "A": {
+        "success": 52,
+        "wrong_patch": 6,
+        "loop": 6
+      },
+      "P1": {
+        "success": 38,
+        "wrong_patch": 1,
+        "loop": 1
+      },
+      "P2": {
+        "success": 57,
+        "wrong_patch": 4,
+        "loop": 3
+      }
+    }
+  }
+}

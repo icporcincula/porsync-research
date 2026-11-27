@@ -1,0 +1,119 @@
+[
+ {
+  "task_id": "x58-perfumery-pure-formula-normalization",
+  "tool_status": "done",
+  "tool_reason": "auto_finish",
+  "turns": 4,
+  "routing": {
+   "task_id": "092cb24c502446de910e4852d8b56b2e",
+   "mode": "route",
+   "category": "multifile",
+   "prompt_tokens": 2727,
+   "decision": "local",
+   "reason": "category_table"
+  },
+  "patch_path": true,
+  "apply_patch": {
+   "status": "done",
+   "reason": null,
+   "note": "Applied the reviewed proposal.",
+   "applied": true
+  },
+  "boundary_violations": [],
+  "hidden_passed": true,
+  "tool_seconds": 27.3,
+  "note": "Tests passed after the final edit."
+ },
+ {
+  "task_id": "x58-meteorite-record-prototype-merge",
+  "tool_status": "frontier_required",
+  "tool_reason": "loop_detected",
+  "turns": 3,
+  "routing": {
+   "task_id": "b13508f240e04f7ea8ac0dbabe056c08",
+   "mode": "route",
+   "category": "multifile",
+   "prompt_tokens": 2636,
+   "decision": "local",
+   "reason": "category_table",
+   "escalation_reason": "blocked",
+   "escalated": true
+  },
+  "patch_path": false,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 22.5,
+  "note": "The model repeated the same tool call three times."
+ },
+ {
+  "task_id": "x58-mushroom-culture-pair-identity",
+  "tool_status": "done",
+  "tool_reason": "auto_finish",
+  "turns": 5,
+  "routing": {
+   "task_id": "df84c279c3874fcea9927e723bfdab6f",
+   "mode": "route",
+   "category": "multifile",
+   "prompt_tokens": 2623,
+   "decision": "local",
+   "reason": "category_table"
+  },
+  "patch_path": true,
+  "apply_patch": {
+   "status": "done",
+   "reason": null,
+   "note": "Applied the reviewed proposal.",
+   "applied": true
+  },
+  "boundary_violations": [],
+  "hidden_passed": true,
+  "tool_seconds": 28.2,
+  "note": "Tests passed after the final edit."
+ },
+ {
+  "task_id": "x58-gravure-registration-record",
+  "tool_status": "done",
+  "tool_reason": "auto_finish",
+  "turns": 4,
+  "routing": {
+   "task_id": "d9db8a2d9552479eb5f9d134acfb32bf",
+   "mode": "route",
+   "category": "multifile",
+   "prompt_tokens": 2621,
+   "decision": "local",
+   "reason": "category_table"
+  },
+  "patch_path": true,
+  "apply_patch": {
+   "status": "done",
+   "reason": null,
+   "note": "Applied the reviewed proposal.",
+   "applied": true
+  },
+  "boundary_violations": [],
+  "hidden_passed": true,
+  "tool_seconds": 32.8,
+  "note": "Tests passed after the final edit."
+ },
+ {
+  "task_id": "x58-climbing-anchor-verdict",
+  "tool_status": "frontier_required",
+  "tool_reason": null,
+  "turns": 0,
+  "routing": {
+   "task_id": "853009663add4a87930171e9133fb4fa",
+   "mode": "route",
+   "category": "multifile",
+   "prompt_tokens": 2637,
+   "decision": "frontier",
+   "reason": "low_ram"
+  },
+  "patch_path": false,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 0.0,
+  "note": ""
+ }
+]

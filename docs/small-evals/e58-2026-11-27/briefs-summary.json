@@ -1,0 +1,1170 @@
+{
+  "P1": {
+    "planner_model": "claude-sonnet-5-5",
+    "planner_backend": "claude",
+    "prompt_sha256": "1da9722349dce5de6a5cd5f436bf0575c7689d60b44e89a611307785b3f09aa0",
+    "limits": {
+      "words": 550,
+      "blocks": 2,
+      "block_lines": 6
+    },
+    "tasks": {
+      "x58-tea-tasting-record-stream": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.9,
+            "words": 586,
+            "violations": [
+              "words 586 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 11.9,
+            "words": 561,
+            "violations": [
+              "words 561 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 11.4,
+            "words": 572,
+            "violations": [
+              "words 572 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-sailcloth-seam-strip-coverage": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 12.4,
+            "words": 575,
+            "violations": [
+              "words 575 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 12.6,
+            "words": 586,
+            "violations": [
+              "words 586 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 13.0,
+            "words": 580,
+            "violations": [
+              "words 580 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-hedge-maze-simple-route-search": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 13.2,
+            "words": 622,
+            "violations": [
+              "words 622 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 13.5,
+            "words": 626,
+            "violations": [
+              "words 626 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 13.6,
+            "words": 592,
+            "violations": [
+              "words 592 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-origami-reservation-preview": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 12.9,
+            "words": 618,
+            "violations": [
+              "words 618 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 12.3,
+            "words": 572,
+            "violations": [
+              "words 572 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 13.2,
+            "words": 621,
+            "violations": [
+              "words 621 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-perfumery-pure-formula-normalization": {
+        "accepted": {
+          "sha256": "2e2a8539da3ee2d54250d052eb99996963367842180b379b0c1b8ebdc646c908",
+          "words": 550,
+          "seconds": 11.7
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.7,
+            "words": 550,
+            "violations": []
+          }
+        ]
+      },
+      "x58-aquarium-quarantine-transfers": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 13.6,
+            "words": 650,
+            "violations": [
+              "words 650 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 12.8,
+            "words": 704,
+            "violations": [
+              "words 704 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 12.7,
+            "words": 623,
+            "violations": [
+              "words 623 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-cheesemaking-traceability-recall": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 13.9,
+            "words": 697,
+            "violations": [
+              "words 697 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 12.5,
+            "words": 658,
+            "violations": [
+              "words 658 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 14.2,
+            "words": 699,
+            "violations": [
+              "words 699 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-meteorite-record-prototype-merge": {
+        "accepted": {
+          "sha256": "ffcc729c5f5bdd7ddebd2d2b9cbf950093ba325b12b207ee3ff82211dfba2f23",
+          "words": 525,
+          "seconds": 11.3
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.3,
+            "words": 525,
+            "violations": []
+          }
+        ]
+      },
+      "x58-mushroom-culture-pair-identity": {
+        "accepted": {
+          "sha256": "145c59328e93897e3315c5009a4869b60564ea5ca46021cdbfb9abfa931da6a2",
+          "words": 414,
+          "seconds": 10.0
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 10.0,
+            "words": 414,
+            "violations": []
+          }
+        ]
+      },
+      "x58-beekeeping-frame-iterator-extraction": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.8,
+            "words": 583,
+            "violations": [
+              "words 583 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 11.2,
+            "words": 559,
+            "violations": [
+              "words 559 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 10.8,
+            "words": 570,
+            "violations": [
+              "words 570 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-planetarium-periodic-cue-timeline": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 12.2,
+            "words": 585,
+            "violations": [
+              "words 585 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 11.9,
+            "words": 592,
+            "violations": [
+              "words 592 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 13.1,
+            "words": 660,
+            "violations": [
+              "words 660 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-gravure-registration-record": {
+        "accepted": {
+          "sha256": "5ded6065b9522ac6190801145687a5ac251e1d29405cfead22f9bf9e22e54f75",
+          "words": 506,
+          "seconds": 11.2
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.2,
+            "words": 506,
+            "violations": []
+          }
+        ]
+      },
+      "x58-climbing-anchor-verdict": {
+        "accepted": {
+          "sha256": "3b6970935b13605e7da94ba9ea3ff4418aa30d737c502f9687ba325acf931175",
+          "words": 527,
+          "seconds": 10.8
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 10.8,
+            "words": 527,
+            "violations": []
+          }
+        ]
+      },
+      "x58-cassette-destination-splice-map": {
+        "accepted": {
+          "sha256": "f9d984d02658341f8a9161b973cd9cbcb7904eca21690bf0eb15a585e293c3b1",
+          "words": 547,
+          "seconds": 11.1
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.1,
+            "words": 547,
+            "violations": []
+          }
+        ]
+      },
+      "x58-taxidermy-absent-default-unification": {
+        "accepted": {
+          "sha256": "7c442c20d2bd151f4b12489e900ac26c8cfec594b6ebe6baab082113da987bfd",
+          "words": 511,
+          "seconds": 10.6
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 10.6,
+            "words": 511,
+            "violations": []
+          }
+        ]
+      },
+      "x58-ventriloquism-subtitle-byte-stream": {
+        "accepted": {
+          "sha256": "a4c6580e5d50cbc19be4d2385df023589b98fc9f1f67a446b12951798ea3668c",
+          "words": 539,
+          "seconds": 12.6
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 12.6,
+            "words": 539,
+            "violations": []
+          }
+        ]
+      },
+      "x58-bookbinding-half-open-spans": {
+        "accepted": {
+          "sha256": "75ec6a67307c282920d3570700efa0f548e71d8203da22c05b211c824701b60a",
+          "words": 478,
+          "seconds": 10.3
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 10.3,
+            "words": 478,
+            "violations": []
+          }
+        ]
+      },
+      "x58-chocolate-temper-fault-owner": {
+        "accepted": {
+          "sha256": "99a676b0a29fc0c05a978a8348d302835f0d1680fd4d5cfba26debfef1608764",
+          "words": 524,
+          "seconds": 11.6
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.6,
+            "words": 524,
+            "violations": []
+          }
+        ]
+      },
+      "x58-lifeboat-dispatch-nearest-rank-latency": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.8,
+            "words": 558,
+            "violations": [
+              "words 558 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 12.3,
+            "words": 625,
+            "violations": [
+              "words 625 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 12.2,
+            "words": 594,
+            "violations": [
+              "words 594 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-falconry-band-error": {
+        "accepted": {
+          "sha256": "f441e4cc94808a108a883503aedb490898571c6200cfa3c2db1f6cb3dff8499e",
+          "words": 494,
+          "seconds": 10.6
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 10.6,
+            "words": 494,
+            "violations": []
+          }
+        ]
+      },
+      "x58-calligraphy-stroke-undo-journal": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 12.4,
+            "words": 575,
+            "violations": [
+              "words 575 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 11.8,
+            "words": 584,
+            "violations": [
+              "words 584 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 12.4,
+            "words": 604,
+            "violations": [
+              "words 604 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-rowing-split-callable-extraction": {
+        "accepted": {
+          "sha256": "899b533608cb06e3a65f1b642700a0113bda1fc2b0a521d46b7810fa88c2dcba",
+          "words": 458,
+          "seconds": 11.3
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.3,
+            "words": 458,
+            "violations": []
+          }
+        ]
+      },
+      "x58-antibiotic-exact-viability-fractions": {
+        "accepted": {
+          "sha256": "3ff91ff8b15bc469585d6f88213ffbda223b7cdf4eee942794cef2d814ed3332",
+          "words": 536,
+          "seconds": 12.3
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 12.3,
+            "words": 536,
+            "violations": []
+          }
+        ]
+      },
+      "x58-archery-inner-ring-boundaries": {
+        "accepted": {
+          "sha256": "85050607e711e39d8f48cb9f959b56318969ea5ca6fe4c166ad00ce6eddd623d",
+          "words": 482,
+          "seconds": 19.2
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.2,
+            "words": 482,
+            "violations": []
+          }
+        ]
+      },
+      "x58-snowpack-tagged-observation": {
+        "accepted": {
+          "sha256": "dea58ce4994eff8d6ec2b463d7653cf69ed1fd22d6b8f9bb596ebb321ee1ef45",
+          "words": 440,
+          "seconds": 10.1
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 10.1,
+            "words": 440,
+            "violations": []
+          }
+        ]
+      },
+      "x58-marionette-actor-cursors": {
+        "accepted": {
+          "sha256": "25651a80f5e519d6fa62f64c886e124888abcee94129dc2337f98a7a6d05fa01",
+          "words": 542,
+          "seconds": 11.5
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.5,
+            "words": 542,
+            "violations": []
+          }
+        ]
+      },
+      "x58-ballet-cue-context-unwinding": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.8,
+            "words": 563,
+            "violations": [
+              "words 563 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 12.4,
+            "words": 620,
+            "violations": [
+              "words 620 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 12.3,
+            "words": 604,
+            "violations": [
+              "words 604 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-racquet-stringing-batch-continuity": {
+        "accepted": null,
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 13.0,
+            "words": 601,
+            "violations": [
+              "words 601 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 13.8,
+            "words": 650,
+            "violations": [
+              "words 650 > 550"
+            ]
+          },
+          {
+            "n": 3,
+            "secs": 13.3,
+            "words": 621,
+            "violations": [
+              "words 621 > 550"
+            ]
+          }
+        ]
+      },
+      "x58-fencing-live-processor-extraction": {
+        "accepted": {
+          "sha256": "a69cae3845e1f5796d1b2a6bddc31246b32b0b5524bd5879607ac7e2e3766f39",
+          "words": 549,
+          "seconds": 11.7
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 12.1,
+            "words": 595,
+            "violations": [
+              "words 595 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 11.7,
+            "words": 549,
+            "violations": []
+          }
+        ]
+      },
+      "x58-diving-pressure-reference": {
+        "accepted": {
+          "sha256": "b19d5c61bc937b1c0b3e7d5e7b016bcc0289f6a4b8c3a43945b745d710b2ab54",
+          "words": 519,
+          "seconds": 11.3
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.3,
+            "words": 519,
+            "violations": []
+          }
+        ]
+      },
+      "x58-rugby-simultaneous-substitutions": {
+        "accepted": {
+          "sha256": "04d23fc2789690fcd7d802143144157eab71688e8a3e61d00b801322c97ae6f4",
+          "words": 538,
+          "seconds": 11.4
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 11.6,
+            "words": 563,
+            "violations": [
+              "words 563 > 550"
+            ]
+          },
+          {
+            "n": 2,
+            "secs": 11.4,
+            "words": 538,
+            "violations": []
+          }
+        ]
+      },
+      "x58-lacquer-weathering-cohort-survival": {
+        "accepted": {
+          "sha256": "b387418b988d98bc3d72172ba1bde026ee268dad75b91ede6dda38f5d545aa9c",
+          "words": 514,
+          "seconds": 10.5
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 10.5,
+            "words": 514,
+            "violations": []
+          }
+        ]
+      }
+    }
+  },
+  "P2": {
+    "planner_model": "gpt-6.1-sol",
+    "planner_backend": "codex",
+    "prompt_sha256": "1da9722349dce5de6a5cd5f436bf0575c7689d60b44e89a611307785b3f09aa0",
+    "limits": {
+      "words": 550,
+      "blocks": 2,
+      "block_lines": 6
+    },
+    "tasks": {
+      "x58-tea-tasting-record-stream": {
+        "accepted": {
+          "sha256": "86571522e47ad4473d21bb68ed1b4de39e8f0bdbaf99072105892314c5995ce9",
+          "words": 513,
+          "seconds": 19.5
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.5,
+            "words": 513,
+            "violations": []
+          }
+        ]
+      },
+      "x58-sailcloth-seam-strip-coverage": {
+        "accepted": {
+          "sha256": "34ad03c472c38948fd1fd7aa7a17d2dfe14f68222929bc7f2b1b9c7ad8ed0d5d",
+          "words": 497,
+          "seconds": 20.7
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 20.7,
+            "words": 497,
+            "violations": []
+          }
+        ]
+      },
+      "x58-hedge-maze-simple-route-search": {
+        "accepted": {
+          "sha256": "189261bcf347a32b4aa0fea8d7bbac93cc194e93b8870471259f277ef217b9aa",
+          "words": 535,
+          "seconds": 19.2
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.2,
+            "words": 535,
+            "violations": []
+          }
+        ]
+      },
+      "x58-origami-reservation-preview": {
+        "accepted": {
+          "sha256": "ca133f876c5ff9aae65eece33285f5b841133eb78a18930d8bc1d236577f5224",
+          "words": 530,
+          "seconds": 19.1
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.1,
+            "words": 530,
+            "violations": []
+          }
+        ]
+      },
+      "x58-perfumery-pure-formula-normalization": {
+        "accepted": {
+          "sha256": "e4bfeeef9cb23d963d9390edffff83a7885290645bcb8511cf533b1ef409580c",
+          "words": 502,
+          "seconds": 19.5
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.5,
+            "words": 502,
+            "violations": []
+          }
+        ]
+      },
+      "x58-aquarium-quarantine-transfers": {
+        "accepted": {
+          "sha256": "9d8e4f4769bc7d38ef43dc736da1a1645a46991471eb900cf8b2fc6b27e4d2ba",
+          "words": 518,
+          "seconds": 19.6
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.6,
+            "words": 518,
+            "violations": []
+          }
+        ]
+      },
+      "x58-cheesemaking-traceability-recall": {
+        "accepted": {
+          "sha256": "7b326fb3e7da04346ea6139611663be3270f61d924083810673db3882c1377eb",
+          "words": 501,
+          "seconds": 18.9
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 18.9,
+            "words": 501,
+            "violations": []
+          }
+        ]
+      },
+      "x58-meteorite-record-prototype-merge": {
+        "accepted": {
+          "sha256": "8ca3c920b8713e5ae8ba1bcb3c3a7d9f74f34cec4a9f5bb1000a3505cb2ab1e9",
+          "words": 465,
+          "seconds": 19.0
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.0,
+            "words": 465,
+            "violations": []
+          }
+        ]
+      },
+      "x58-mushroom-culture-pair-identity": {
+        "accepted": {
+          "sha256": "3dba848dc4d8735d379d492ea6e3cbeff4e75e215e9f7bd1bd188376b2eb340c",
+          "words": 460,
+          "seconds": 17.9
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 17.9,
+            "words": 460,
+            "violations": []
+          }
+        ]
+      },
+      "x58-beekeeping-frame-iterator-extraction": {
+        "accepted": {
+          "sha256": "0af59eaecf2a90c996e98218aa50927446bdfe933f856d689438bc1348646712",
+          "words": 501,
+          "seconds": 21.3
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 21.3,
+            "words": 501,
+            "violations": []
+          }
+        ]
+      },
+      "x58-planetarium-periodic-cue-timeline": {
+        "accepted": {
+          "sha256": "f2a245ae1d6ad956eb5da889d0a0b1e9de6970c81d5a7db0a529339039e877dc",
+          "words": 531,
+          "seconds": 18.9
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 18.9,
+            "words": 531,
+            "violations": []
+          }
+        ]
+      },
+      "x58-gravure-registration-record": {
+        "accepted": {
+          "sha256": "07eddcc3a238ea45a468a571ff2e94cda3c40f9c7eac9e4322f898f6ec44ff65",
+          "words": 485,
+          "seconds": 19.4
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.4,
+            "words": 485,
+            "violations": []
+          }
+        ]
+      },
+      "x58-climbing-anchor-verdict": {
+        "accepted": {
+          "sha256": "8037b06814f6e13b787aac795b6b30dcc73a34384d8f30cffcd5dab36803155f",
+          "words": 503,
+          "seconds": 19.5
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.5,
+            "words": 503,
+            "violations": []
+          }
+        ]
+      },
+      "x58-cassette-destination-splice-map": {
+        "accepted": {
+          "sha256": "98d52d95420895fb132ff89125571d972ab0f3ac6f58147a8c98c067b77aed6d",
+          "words": 517,
+          "seconds": 19.0
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.0,
+            "words": 517,
+            "violations": []
+          }
+        ]
+      },
+      "x58-taxidermy-absent-default-unification": {
+        "accepted": {
+          "sha256": "54c163e2183451a5c3b0d6f605840d67afa53b7735679f8bd6b6662a6f5c1042",
+          "words": 481,
+          "seconds": 18.7
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 18.7,
+            "words": 481,
+            "violations": []
+          }
+        ]
+      },
+      "x58-ventriloquism-subtitle-byte-stream": {
+        "accepted": {
+          "sha256": "6bd9e4831d8c2ee97896bdebcdaa3e9b4eb9fd0545f75afc3d804508b9b35592",
+          "words": 496,
+          "seconds": 20.1
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 20.1,
+            "words": 496,
+            "violations": []
+          }
+        ]
+      },
+      "x58-bookbinding-half-open-spans": {
+        "accepted": {
+          "sha256": "78cf1e50e880d64ec920b95c3197b6fe2c11edeaae939d237458ef739355e9cb",
+          "words": 476,
+          "seconds": 18.3
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 18.3,
+            "words": 476,
+            "violations": []
+          }
+        ]
+      },
+      "x58-chocolate-temper-fault-owner": {
+        "accepted": {
+          "sha256": "906866f19564362d2a920e4e030e8e0849f228fb5ca65c66e59adee2970e6ace",
+          "words": 479,
+          "seconds": 20.1
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 20.1,
+            "words": 479,
+            "violations": []
+          }
+        ]
+      },
+      "x58-lifeboat-dispatch-nearest-rank-latency": {
+        "accepted": {
+          "sha256": "a1c2f77ad13508a1b2b4df792139e988e79fd0861e60e6beba9935e0ec535bf6",
+          "words": 492,
+          "seconds": 19.7
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.7,
+            "words": 492,
+            "violations": []
+          }
+        ]
+      },
+      "x58-falconry-band-error": {
+        "accepted": {
+          "sha256": "b8e097f010031b3d231c4f2c1941d4f283c6dccb9037db64796b74e16d5aab09",
+          "words": 453,
+          "seconds": 19.8
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.8,
+            "words": 453,
+            "violations": []
+          }
+        ]
+      },
+      "x58-calligraphy-stroke-undo-journal": {
+        "accepted": {
+          "sha256": "9ad0ccbd5f16b091dcd83de524e8bfcfb197dce2bfa4cb734b5a2ca77763200f",
+          "words": 505,
+          "seconds": 19.1
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.1,
+            "words": 505,
+            "violations": []
+          }
+        ]
+      },
+      "x58-rowing-split-callable-extraction": {
+        "accepted": {
+          "sha256": "fd44561be1232adebec9c1616606006171ff883616837a25c8de50622971a09f",
+          "words": 462,
+          "seconds": 19.4
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.4,
+            "words": 462,
+            "violations": []
+          }
+        ]
+      },
+      "x58-antibiotic-exact-viability-fractions": {
+        "accepted": {
+          "sha256": "f5daed3d24c4a081344c29bfa23bc304816d4545ce3153ed1906d66536ce44c1",
+          "words": 449,
+          "seconds": 20.1
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 20.1,
+            "words": 449,
+            "violations": []
+          }
+        ]
+      },
+      "x58-archery-inner-ring-boundaries": {
+        "accepted": {
+          "sha256": "fc462b3ce90c57d54152cb3d968a7f0173c053ad538cbc302b4ba2b6054a8072",
+          "words": 486,
+          "seconds": 19.1
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.1,
+            "words": 486,
+            "violations": []
+          }
+        ]
+      },
+      "x58-snowpack-tagged-observation": {
+        "accepted": {
+          "sha256": "bb53f41ed52968a330e3519de277594316fcfa4bc5a895005aa71d0ca650084f",
+          "words": 458,
+          "seconds": 19.5
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.5,
+            "words": 458,
+            "violations": []
+          }
+        ]
+      },
+      "x58-marionette-actor-cursors": {
+        "accepted": {
+          "sha256": "37c90ad603216b6855be38a53bc66724ee673faf58bbb8d4ff241c81ccd3f273",
+          "words": 502,
+          "seconds": 18.6
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 18.6,
+            "words": 502,
+            "violations": []
+          }
+        ]
+      },
+      "x58-ballet-cue-context-unwinding": {
+        "accepted": {
+          "sha256": "25bb28d58b60f80fbdebca129cf3f8b501a30125a8705aa1adc39df267e382e9",
+          "words": 482,
+          "seconds": 19.9
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.9,
+            "words": 482,
+            "violations": []
+          }
+        ]
+      },
+      "x58-racquet-stringing-batch-continuity": {
+        "accepted": {
+          "sha256": "9c27b30a1b690c2c533d0534d273979843475d2807d3a494d126c3693b22d227",
+          "words": 527,
+          "seconds": 19.8
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.8,
+            "words": 527,
+            "violations": []
+          }
+        ]
+      },
+      "x58-fencing-live-processor-extraction": {
+        "accepted": {
+          "sha256": "5749645a7add24d83bb545c3ee7dffaa7da56f0efe1edb8e03858f90d5f8193d",
+          "words": 513,
+          "seconds": 19.0
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.0,
+            "words": 513,
+            "violations": []
+          }
+        ]
+      },
+      "x58-diving-pressure-reference": {
+        "accepted": {
+          "sha256": "0a85bd5d23598c1ef35e0d20cfe1a187236e31b77d67d5a27125eb16864d12ee",
+          "words": 454,
+          "seconds": 19.1
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.1,
+            "words": 454,
+            "violations": []
+          }
+        ]
+      },
+      "x58-rugby-simultaneous-substitutions": {
+        "accepted": {
+          "sha256": "43fe262145c6edf6ef72ee9fe4e632a1ce0a599f5c999787efaa15a4434fac1c",
+          "words": 508,
+          "seconds": 18.8
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 18.8,
+            "words": 508,
+            "violations": []
+          }
+        ]
+      },
+      "x58-lacquer-weathering-cohort-survival": {
+        "accepted": {
+          "sha256": "3ca02114efd8a3a29dfe577453b9075b7597df4a4b62e01197acac6e5e680111",
+          "words": 495,
+          "seconds": 19.1
+        },
+        "attempts": [
+          {
+            "n": 1,
+            "secs": 19.1,
+            "words": 495,
+            "violations": []
+          }
+        ]
+      }
+    }
+  }
+}

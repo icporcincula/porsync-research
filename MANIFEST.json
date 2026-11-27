@@ -1434,11 +1434,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "f043663e2c9e60c5098ffe7b9a31274ff79b26c2997585db5ee3106f8affa98a"
+      "sha256": "05b835eddad621f389e9b62fa2598de923a969a98cd5f5ab50f094338d458fdc"
     },
     {
       "path": "RELEASE.md",
-      "sha256": "01ee6ee33d7eed7a91014733b1790376ec40fe39111b8dd43946bfc5fea1b024"
+      "sha256": "22cfe76883b1015bb02916de03fb41da42ce1374d9a16cd0d77da4a54ce9caaa"
     },
     {
       "path": "docs/small-evals/e07-results.md",
@@ -2471,6 +2471,102 @@
     {
       "path": "docs/small-evals/publication-2026-11-27/e57/administrative-restarts.json",
       "sha256": "a2415fec678cb5ed69fc6256e55ad9d19d17ca253f5d61a7c8d96700d51834e3"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/analyze.py",
+      "sha256": "6165ef0ee0981b87c03c919f37221b374d1b3fa5d7c27fa208bfdba7395b50ab"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/briefs-summary.json",
+      "sha256": "eb4aca7e012473c455a77a49491126b144c79b024cf2323b9dec2f7ea97506b0"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/configuration.json",
+      "sha256": "369f8e0a035c4f5ad3c63af03a5dc570aac2f90f548c0788b6bb8f95febbd499"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/e58x_p2.py",
+      "sha256": "6e4afa8cd51bd7b3936593abc0f084ccac3e7133cb391f3bf2ffe23095617c33"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/p2-default-mode.json",
+      "sha256": "1a6d8b1c965f5e3ff0b91aa99740a52f242788d72d0c3123d69283d998952b6f"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows-attempt0-router-off-rejected.json",
+      "sha256": "f8b19739a916a605552d71b1e091f1a00b73755edbac2bfd26021b9d965b5e5f"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows-attempt1-route-health_recovering.json",
+      "sha256": "95e777f509c49b2c839cfaf05a32fcba58780a20fd20df74812c47adf52f76b9"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows-attempt2-route-recent_http400.json",
+      "sha256": "cb285ee33026a20b2e30c775876b29385bbd65630cc2000b00a0bc53e7aca087"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows.json",
+      "sha256": "dfa533612e7f1776ff76183e164a06608078255a371576f960fcfa7b4014059f"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/provenance.json",
+      "sha256": "0798cfd2bdba165293b5ca874196a2eea77431bf95d03245f18f5212b4d98b45"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/report.md",
+      "sha256": "91c3380119710996ea058d64c9e3c46af07c7157aa52c82d0a3bf3e74a968310"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/rows-b1-A.jsonl",
+      "sha256": "b33d8715caefa39ba66042d49a6946e1aca2a354a709e642b53c5adef3d2e546"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/rows-b2-P1.jsonl",
+      "sha256": "a5915fb726cade1b2dca44b99f22fe08d48fcb8932de54f4486bee03da7d26e2"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/rows-b3-P2.jsonl",
+      "sha256": "acf8dd887ed2c0c70b3c218710fe795b7baebb667159bf56d6eedf33cd3443e8"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/rows-b4-P2.jsonl",
+      "sha256": "52daedf9ec2bed7aa87800b6b09fad688a04de707f9616cbf9a7760a95aed727"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/rows-b5-P1.jsonl",
+      "sha256": "8a4c32b6b5464272cf82ba1c9db0966a2137fddc362fcd35092392d932c1cb4d"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/rows-b6-A.jsonl",
+      "sha256": "4022b78c1434466cbc52f4c1268c2a2f34d434afdd648db10434df0bdb4e6c44"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/stop-b1.json",
+      "sha256": "0b6c0f20bbc1c9d67c488ff813e749e6285f80a65eedd917a33e83ba1b245530"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/stop-b2.json",
+      "sha256": "0ccaabfb3f8481462cf70a6af42dafc958573fa5afcc2b1fef17c9e1354107cf"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/stop-b3.json",
+      "sha256": "0b6c0f20bbc1c9d67c488ff813e749e6285f80a65eedd917a33e83ba1b245530"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/stop-b4.json",
+      "sha256": "0b6c0f20bbc1c9d67c488ff813e749e6285f80a65eedd917a33e83ba1b245530"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/stop-b5.json",
+      "sha256": "0ccaabfb3f8481462cf70a6af42dafc958573fa5afcc2b1fef17c9e1354107cf"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/stop-b6.json",
+      "sha256": "0b6c0f20bbc1c9d67c488ff813e749e6285f80a65eedd917a33e83ba1b245530"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/summary.json",
+      "sha256": "dbe874cedc03f55fd0674d71dbe08fa14c9e838675526e03cb5c5b647525e6d9"
     }
   ],
   "updates": [
@@ -2652,6 +2748,39 @@
         "E42",
         "E43",
         "Sprocket status"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "study": "E58 planner-brief evaluation and Hermes delivery check",
+      "publication": "selected package authorized by the user 2026-11-27",
+      "files": [
+        "docs/small-evals/e58-2026-11-27/analyze.py",
+        "docs/small-evals/e58-2026-11-27/briefs-summary.json",
+        "docs/small-evals/e58-2026-11-27/configuration.json",
+        "docs/small-evals/e58-2026-11-27/phase2/e58x_p2.py",
+        "docs/small-evals/e58-2026-11-27/phase2/p2-default-mode.json",
+        "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows-attempt0-router-off-rejected.json",
+        "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows-attempt1-route-health_recovering.json",
+        "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows-attempt2-route-recent_http400.json",
+        "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows.json",
+        "docs/small-evals/e58-2026-11-27/provenance.json",
+        "docs/small-evals/e58-2026-11-27/report.md",
+        "docs/small-evals/e58-2026-11-27/rows-b1-A.jsonl",
+        "docs/small-evals/e58-2026-11-27/rows-b2-P1.jsonl",
+        "docs/small-evals/e58-2026-11-27/rows-b3-P2.jsonl",
+        "docs/small-evals/e58-2026-11-27/rows-b4-P2.jsonl",
+        "docs/small-evals/e58-2026-11-27/rows-b5-P1.jsonl",
+        "docs/small-evals/e58-2026-11-27/rows-b6-A.jsonl",
+        "docs/small-evals/e58-2026-11-27/stop-b1.json",
+        "docs/small-evals/e58-2026-11-27/stop-b2.json",
+        "docs/small-evals/e58-2026-11-27/stop-b3.json",
+        "docs/small-evals/e58-2026-11-27/stop-b4.json",
+        "docs/small-evals/e58-2026-11-27/stop-b5.json",
+        "docs/small-evals/e58-2026-11-27/stop-b6.json",
+        "docs/small-evals/e58-2026-11-27/summary.json",
+        "README.md",
+        "RELEASE.md"
       ]
     }
   ],
@@ -2858,5 +2987,35 @@
     "E39": "Outstanding follow-ups remain unresolved",
     "unrelated": "Original dirty checkout and unrelated drafts preserved",
     "correction": "E44 publication correction: the historical prose total Aider 9/24 was an arithmetic error. Its table and saved green rows agree on **10/24 (41.7%; exact descriptive 95% interval 22.1â€“63.4%)**, with 14 misses. Original text/rows remain intact; the appended report erratum and public analyzer disclose/reproduce the correction. No patch rescoring or model rerun; five fixture wins, zero losses and three ties, p=0.0625, are unchanged."
+  },
+  "e58_release_2026_11_27": {
+    "selected_files": [
+      "docs/small-evals/e58-2026-11-27/analyze.py",
+      "docs/small-evals/e58-2026-11-27/briefs-summary.json",
+      "docs/small-evals/e58-2026-11-27/configuration.json",
+      "docs/small-evals/e58-2026-11-27/phase2/e58x_p2.py",
+      "docs/small-evals/e58-2026-11-27/phase2/p2-default-mode.json",
+      "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows-attempt0-router-off-rejected.json",
+      "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows-attempt1-route-health_recovering.json",
+      "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows-attempt2-route-recent_http400.json",
+      "docs/small-evals/e58-2026-11-27/phase2/p2-direct-rows.json",
+      "docs/small-evals/e58-2026-11-27/provenance.json",
+      "docs/small-evals/e58-2026-11-27/report.md",
+      "docs/small-evals/e58-2026-11-27/rows-b1-A.jsonl",
+      "docs/small-evals/e58-2026-11-27/rows-b2-P1.jsonl",
+      "docs/small-evals/e58-2026-11-27/rows-b3-P2.jsonl",
+      "docs/small-evals/e58-2026-11-27/rows-b4-P2.jsonl",
+      "docs/small-evals/e58-2026-11-27/rows-b5-P1.jsonl",
+      "docs/small-evals/e58-2026-11-27/rows-b6-A.jsonl",
+      "docs/small-evals/e58-2026-11-27/stop-b1.json",
+      "docs/small-evals/e58-2026-11-27/stop-b2.json",
+      "docs/small-evals/e58-2026-11-27/stop-b3.json",
+      "docs/small-evals/e58-2026-11-27/stop-b4.json",
+      "docs/small-evals/e58-2026-11-27/stop-b5.json",
+      "docs/small-evals/e58-2026-11-27/stop-b6.json",
+      "docs/small-evals/e58-2026-11-27/summary.json"
+    ],
+    "addendum_open": "A1: Hermes 64K context requirement; Hermes-driven check not run",
+    "withheld": "tasks, hidden tests, references, planner brief text, replies, patches, transcripts, logs, weights, private implementation"
   }
 }

@@ -1,0 +1,253 @@
+{
+  "arms": {
+    "A": "task text only",
+    "P1": "claude-sonnet-5-5 brief + task",
+    "P2": "gpt-6.1-sol brief + task"
+  },
+  "blocks": [
+    [
+      "A",
+      1
+    ],
+    [
+      "P1",
+      1
+    ],
+    [
+      "P2",
+      1
+    ],
+    [
+      "P2",
+      2
+    ],
+    [
+      "P1",
+      2
+    ],
+    [
+      "A",
+      2
+    ]
+  ],
+  "bonsai_arm": {
+    "alias": "e52-bonsai25-27b-ptq1",
+    "body": {
+      "chat_template_kwargs": {
+        "reasoning_effort": "medium"
+      },
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "temperature": 1.0,
+      "top_k": 20,
+      "top_p": 0.95
+    },
+    "server": "bonsai"
+  },
+  "brief_limits": {
+    "P1": {
+      "block_lines": 6,
+      "blocks": 2,
+      "words": 550
+    },
+    "P2": {
+      "block_lines": 6,
+      "blocks": 2,
+      "words": 550
+    }
+  },
+  "brief_sha256": {
+    "P1": {
+      "x58-antibiotic-exact-viability-fractions": "95b99fb1b99d2dcc852829b0618999d0e002d0e4fba7edae3bfab04be93e53f6",
+      "x58-archery-inner-ring-boundaries": "474b3fb43666bee5dd21aea923893b0b4496af8c9fb13cbf05f8b0b7ffb29e85",
+      "x58-bookbinding-half-open-spans": "0d02a8c92f0d089e8472e050072c37bd384e7dc35b4295d1033cc0b71d81aff3",
+      "x58-cassette-destination-splice-map": "cd9115c4c76be826fc15e498fbede27e82e745a82b31cf479b37af969690bc69",
+      "x58-chocolate-temper-fault-owner": "5811c94d74d8315e6a07de09f421c9d9e39de33d6043b6e3d7984e6d6154f2c6",
+      "x58-climbing-anchor-verdict": "a89d5933470ca9f4a4ec20418e9585ab3f0385e89947629c87a494461e49e44e",
+      "x58-diving-pressure-reference": "19d36ddb1f9a5d8c512c9a47bd2d3b27138f6f1623a868a6e12961addba266cc",
+      "x58-falconry-band-error": "d1917319b7deacd656df40ff372a84c0ae43c7a7374563dd344e174e5357429e",
+      "x58-fencing-live-processor-extraction": "df3ccf139e09c04efa6e4e5b1d811f499961522b9ca6f8457cf72affdc2852f4",
+      "x58-gravure-registration-record": "65afda75d46a91ea24adf6efb2f1ad5f3d8685aefc3499ae61895ccd0d9d38b9",
+      "x58-lacquer-weathering-cohort-survival": "721b8b7cc8660ee82152d3e7458e269c4734a7c3c9da0cfb1d357092863fa554",
+      "x58-marionette-actor-cursors": "2cd81b599f03104926e7cbb3bbd143e163df2ab7b5e694eb0479d1c14442b910",
+      "x58-meteorite-record-prototype-merge": "ee964d4354d9bbfcfd7d69d11e56b8d9272883dd4fb7593a04a7583cab4b109f",
+      "x58-mushroom-culture-pair-identity": "5e64e5f805916c61a9334a7b93b22e4893cc19d6b840763377f8ecd5b8b35062",
+      "x58-perfumery-pure-formula-normalization": "c212143b6d4312dea93865f71039140765949f31b955e876c8a28fe6ec6e55f2",
+      "x58-rowing-split-callable-extraction": "15b3218242d8a41d5fb539c71105bb1f875d28cdfbdd9c6e5176910138fae4e7",
+      "x58-rugby-simultaneous-substitutions": "1061d7d99bb46217fd64f663cc1e831e101d6cebcfabf73392e56265f0848cbf",
+      "x58-snowpack-tagged-observation": "99ba57fa79560a0fa05e82c41161fa76f59f61c092e60018af8fc45cdcd90d3b",
+      "x58-taxidermy-absent-default-unification": "0af294be4ba4b83bb2712a04f6dc5f4eae600a5f26547a46aa6ece46d46fe047",
+      "x58-ventriloquism-subtitle-byte-stream": "6b13147d506c0a1329662167e8790550d5c7d164e9c1d4447ed7f7e0808b8805"
+    },
+    "P2": {
+      "x58-antibiotic-exact-viability-fractions": "a2e1bb8382be1337073fa4a9c959f195e7e321afa77be287bc8b60f5a14aa57a",
+      "x58-aquarium-quarantine-transfers": "1955eef2c7417531217c543fb86d8cca6c4a9453751398c01428344ed0fcaa1b",
+      "x58-archery-inner-ring-boundaries": "19251d0af6e683da287c7d9c67ce8b13e0f348cef0bbbab846206b673d5e78e0",
+      "x58-ballet-cue-context-unwinding": "59d65ef9efde3d68cb3b4be3e1f2c900d763ef397cb74844f6da2e7962a1294e",
+      "x58-beekeeping-frame-iterator-extraction": "97265f8df8b5d5cb1dcd04dfe110e78ec500326c5e6eaef984b4574fc610959a",
+      "x58-bookbinding-half-open-spans": "8a1ea5aaa0aeb6158d0a2121a9a1681e4483583c494f417270f900ffb486cc01",
+      "x58-calligraphy-stroke-undo-journal": "09d2db968d46b57cb7c0b181a6cddfc95320db8746289db348b209c4d6c6bf35",
+      "x58-cassette-destination-splice-map": "64006eb2bbeab70d72544d79ed2741dfe1657c7115ddab0deb2a36e8b5446323",
+      "x58-cheesemaking-traceability-recall": "5a8cc0af0b703f8fa975b95f11148d34334690c13779e774081d7589630b870b",
+      "x58-chocolate-temper-fault-owner": "11f0f6dc75d63229e9ae2830edecd241a081024db2a80ce1bffe8d73b14ff47e",
+      "x58-climbing-anchor-verdict": "60c3c3cf4ebfd4b74a20c9bf212b4f97155a08bf4088f058750f3ec24c4c1f49",
+      "x58-diving-pressure-reference": "8d7e35749b466fb9929576b64c7f2383b45c55f485e65b8407e05940e618b6cd",
+      "x58-falconry-band-error": "eb1e5b16bbf7ec58d95d102c1b7158f2109cfe48eabe3c12c53032584163f9ee",
+      "x58-fencing-live-processor-extraction": "fee7587bbd05eb6a15ec8011fb21a3d9915e6437e1833e125a6583525c8deab7",
+      "x58-gravure-registration-record": "7860b4512083537e55156327a5cb73380ec2c06864981947ae00ab4a13435f5e",
+      "x58-hedge-maze-simple-route-search": "56659d77789dae0aa82c948ace3a7b0d2801cd2b153ab96a21cc8c1583ab93d6",
+      "x58-lacquer-weathering-cohort-survival": "b6ba5964d49ecd932faf4f1fc1c308a23ab4c5b9b5be413156211a906f13fbfd",
+      "x58-lifeboat-dispatch-nearest-rank-latency": "0d9b167bd8dec67b9b540f80e76e7b6d82f1ee7a65f600b9173e88f74b0345bf",
+      "x58-marionette-actor-cursors": "88cda758932d50c8e765356a89303419735586ebf515f410bf1e458247b217fd",
+      "x58-meteorite-record-prototype-merge": "b9b933029a55020f0ad975a8bb7158da798bd85bbcfdb742c0b61f0cc6025447",
+      "x58-mushroom-culture-pair-identity": "77e1368efaedcd2b761cb22f71d7c2bef18992f6bff99593b398832b5be8fcbc",
+      "x58-origami-reservation-preview": "f0fde8b97d21479b5478529aea393b17735adcb45b5f8470c627b9305effef76",
+      "x58-perfumery-pure-formula-normalization": "417af989af0aea69bae629ad9b84201d4f9741eb32b0f08ec75c5475b35000c7",
+      "x58-planetarium-periodic-cue-timeline": "203922c0af0aba1afa136825356dfd01cd489b4fad44df0d2d834f7a3ccbfbb6",
+      "x58-racquet-stringing-batch-continuity": "e618a4706529407a5ea4cebb50dd0efccce9c06e95ba2cece059a762f89a7e97",
+      "x58-rowing-split-callable-extraction": "3b66f67523e8269d2e73e6274682ce0abceb355ca8e2d0e7d174fb0e253b082d",
+      "x58-rugby-simultaneous-substitutions": "3d01f0358bdb68b1a1cbb18661f998eeec497751ea8c8124b7585192398b50f9",
+      "x58-sailcloth-seam-strip-coverage": "bc83c2015e4b7ee2a98d46abc565b086481d19d052da09d07803d6849516545f",
+      "x58-snowpack-tagged-observation": "4e4577b233a1020f7ed8dadac8eb7c522b6a1e5ebc168b4a9aa69116c6ce47de",
+      "x58-taxidermy-absent-default-unification": "686fa95d18f2ef6ba4f6990d4f3aa02e20a0c3a944845b1e08da3d0231bd5274",
+      "x58-tea-tasting-record-stream": "4dbcdf4b13c6580b82f34b997beccee00f9c8d40db936c5dd4badbb486c03d77",
+      "x58-ventriloquism-subtitle-byte-stream": "9e8a94cf2d06e464969d80610f90a9e447f2efac291f0ffee46e83206f68ca6b"
+    }
+  },
+  "excluded_screened": [
+    "x58-auction-proxy-increment-ladder",
+    "x58-brass-pitch-class-take-summary",
+    "x58-choral-desk-roster-consolidation",
+    "x58-geocaching-ordered-checkpoint-routes",
+    "x58-lace-course-repeat-expansion",
+    "x58-lacrosse-goal-penalty-release",
+    "x58-luthier-pickup-binary-frame",
+    "x58-paleography-witness-clauses"
+  ],
+  "experiment": "E58x",
+  "limits": {
+    "context": 32768,
+    "cumulative_output_tokens": 49152,
+    "harness": "v5",
+    "harness_input_budget": 24000,
+    "max_turns": 25,
+    "request_max_tokens": 8192,
+    "slots": 1,
+    "task_seconds": 900
+  },
+  "planner_prompt_sha256": {
+    "P1": "1da9722349dce5de6a5cd5f436bf0575c7689d60b44e89a611307785b3f09aa0",
+    "P2": "1da9722349dce5de6a5cd5f436bf0575c7689d60b44e89a611307785b3f09aa0"
+  },
+  "rejected_briefs": {
+    "P1": [
+      "x58-aquarium-quarantine-transfers",
+      "x58-ballet-cue-context-unwinding",
+      "x58-beekeeping-frame-iterator-extraction",
+      "x58-calligraphy-stroke-undo-journal",
+      "x58-cheesemaking-traceability-recall",
+      "x58-hedge-maze-simple-route-search",
+      "x58-lifeboat-dispatch-nearest-rank-latency",
+      "x58-origami-reservation-preview",
+      "x58-planetarium-periodic-cue-timeline",
+      "x58-racquet-stringing-batch-continuity",
+      "x58-sailcloth-seam-strip-coverage",
+      "x58-tea-tasting-record-stream"
+    ],
+    "P2": []
+  },
+  "rules": "accepted briefs never regenerated; no reruns; stop on boundary violation / setup error / 2 consecutive server errors",
+  "task_sets": {
+    "A": [
+      "x58-tea-tasting-record-stream",
+      "x58-sailcloth-seam-strip-coverage",
+      "x58-hedge-maze-simple-route-search",
+      "x58-origami-reservation-preview",
+      "x58-perfumery-pure-formula-normalization",
+      "x58-aquarium-quarantine-transfers",
+      "x58-cheesemaking-traceability-recall",
+      "x58-meteorite-record-prototype-merge",
+      "x58-mushroom-culture-pair-identity",
+      "x58-beekeeping-frame-iterator-extraction",
+      "x58-planetarium-periodic-cue-timeline",
+      "x58-gravure-registration-record",
+      "x58-climbing-anchor-verdict",
+      "x58-cassette-destination-splice-map",
+      "x58-taxidermy-absent-default-unification",
+      "x58-ventriloquism-subtitle-byte-stream",
+      "x58-bookbinding-half-open-spans",
+      "x58-chocolate-temper-fault-owner",
+      "x58-lifeboat-dispatch-nearest-rank-latency",
+      "x58-falconry-band-error",
+      "x58-calligraphy-stroke-undo-journal",
+      "x58-rowing-split-callable-extraction",
+      "x58-antibiotic-exact-viability-fractions",
+      "x58-archery-inner-ring-boundaries",
+      "x58-snowpack-tagged-observation",
+      "x58-marionette-actor-cursors",
+      "x58-ballet-cue-context-unwinding",
+      "x58-racquet-stringing-batch-continuity",
+      "x58-fencing-live-processor-extraction",
+      "x58-diving-pressure-reference",
+      "x58-rugby-simultaneous-substitutions",
+      "x58-lacquer-weathering-cohort-survival"
+    ],
+    "P1": [
+      "x58-perfumery-pure-formula-normalization",
+      "x58-meteorite-record-prototype-merge",
+      "x58-mushroom-culture-pair-identity",
+      "x58-gravure-registration-record",
+      "x58-climbing-anchor-verdict",
+      "x58-cassette-destination-splice-map",
+      "x58-taxidermy-absent-default-unification",
+      "x58-ventriloquism-subtitle-byte-stream",
+      "x58-bookbinding-half-open-spans",
+      "x58-chocolate-temper-fault-owner",
+      "x58-falconry-band-error",
+      "x58-rowing-split-callable-extraction",
+      "x58-antibiotic-exact-viability-fractions",
+      "x58-archery-inner-ring-boundaries",
+      "x58-snowpack-tagged-observation",
+      "x58-marionette-actor-cursors",
+      "x58-fencing-live-processor-extraction",
+      "x58-diving-pressure-reference",
+      "x58-rugby-simultaneous-substitutions",
+      "x58-lacquer-weathering-cohort-survival"
+    ],
+    "P2": [
+      "x58-tea-tasting-record-stream",
+      "x58-sailcloth-seam-strip-coverage",
+      "x58-hedge-maze-simple-route-search",
+      "x58-origami-reservation-preview",
+      "x58-perfumery-pure-formula-normalization",
+      "x58-aquarium-quarantine-transfers",
+      "x58-cheesemaking-traceability-recall",
+      "x58-meteorite-record-prototype-merge",
+      "x58-mushroom-culture-pair-identity",
+      "x58-beekeeping-frame-iterator-extraction",
+      "x58-planetarium-periodic-cue-timeline",
+      "x58-gravure-registration-record",
+      "x58-climbing-anchor-verdict",
+      "x58-cassette-destination-splice-map",
+      "x58-taxidermy-absent-default-unification",
+      "x58-ventriloquism-subtitle-byte-stream",
+      "x58-bookbinding-half-open-spans",
+      "x58-chocolate-temper-fault-owner",
+      "x58-lifeboat-dispatch-nearest-rank-latency",
+      "x58-falconry-band-error",
+      "x58-calligraphy-stroke-undo-journal",
+      "x58-rowing-split-callable-extraction",
+      "x58-antibiotic-exact-viability-fractions",
+      "x58-archery-inner-ring-boundaries",
+      "x58-snowpack-tagged-observation",
+      "x58-marionette-actor-cursors",
+      "x58-ballet-cue-context-unwinding",
+      "x58-racquet-stringing-batch-continuity",
+      "x58-fencing-live-processor-extraction",
+      "x58-diving-pressure-reference",
+      "x58-rugby-simultaneous-substitutions",
+      "x58-lacquer-weathering-cohort-survival"
+    ]
+  },
+  "wrapper": "Planning notes from a separate planning model. They may be wrong; the task statement and the tests decide.\n\n{brief}\n\n---\n\nTask:\n\n{base}"
+}

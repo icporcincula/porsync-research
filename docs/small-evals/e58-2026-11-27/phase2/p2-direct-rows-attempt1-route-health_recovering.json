@@ -1,0 +1,67 @@
+[
+ {
+  "task_id": "x58-perfumery-pure-formula-normalization",
+  "tool_status": "frontier_required",
+  "tool_reason": null,
+  "turns": 0,
+  "routing": null,
+  "patch_path": null,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 0.0,
+  "note": ""
+ },
+ {
+  "task_id": "x58-meteorite-record-prototype-merge",
+  "tool_status": "frontier_required",
+  "tool_reason": null,
+  "turns": 0,
+  "routing": null,
+  "patch_path": null,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 0.0,
+  "note": ""
+ },
+ {
+  "task_id": "x58-mushroom-culture-pair-identity",
+  "tool_status": "frontier_required",
+  "tool_reason": null,
+  "turns": 0,
+  "routing": null,
+  "patch_path": null,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 0.0,
+  "note": ""
+ },
+ {
+  "task_id": "x58-gravure-registration-record",
+  "tool_status": "frontier_required",
+  "tool_reason": null,
+  "turns": 0,
+  "routing": null,
+  "patch_path": null,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 0.0,
+  "note": ""
+ },
+ {
+  "task_id": "x58-climbing-anchor-verdict",
+  "tool_status": "frontier_required",
+  "tool_reason": null,
+  "turns": 0,
+  "routing": null,
+  "patch_path": null,
+  "apply_patch": null,
+  "boundary_violations": [],
+  "hidden_passed": false,
+  "tool_seconds": 0.0,
+  "note": ""
+ }
+]
