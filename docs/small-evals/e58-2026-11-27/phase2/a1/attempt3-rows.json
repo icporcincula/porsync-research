@@ -1,0 +1,47 @@
+[
+ {
+  "task_id": "x58-perfumery-pure-formula-normalization",
+  "hermes_rc": 0,
+  "hermes_seconds": 107.6,
+  "boundary_violations": 0,
+  "hidden_passed": false,
+  "diff_nonempty": false,
+  "tool_reply": "done"
+ },
+ {
+  "task_id": "x58-meteorite-record-prototype-merge",
+  "hermes_rc": 0,
+  "hermes_seconds": 116.5,
+  "boundary_violations": 0,
+  "hidden_passed": false,
+  "diff_nonempty": false,
+  "tool_reply": "frontier_required"
+ },
+ {
+  "task_id": "x58-mushroom-culture-pair-identity",
+  "hermes_rc": 0,
+  "hermes_seconds": 90.8,
+  "boundary_violations": 0,
+  "hidden_passed": false,
+  "diff_nonempty": false,
+  "tool_reply": "done"
+ },
+ {
+  "task_id": "x58-gravure-registration-record",
+  "hermes_rc": 0,
+  "hermes_seconds": 95.4,
+  "boundary_violations": 0,
+  "hidden_passed": false,
+  "diff_nonempty": false,
+  "tool_reply": "done"
+ },
+ {
+  "task_id": "x58-climbing-anchor-verdict",
+  "hermes_rc": 0,
+  "hermes_seconds": 109.1,
+  "boundary_violations": 0,
+  "hidden_passed": false,
+  "diff_nonempty": false,
+  "tool_reply": "done"
+ }
+]

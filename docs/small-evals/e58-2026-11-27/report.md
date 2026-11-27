@@ -43,9 +43,23 @@ Findings:
 - All five tasks were given category `multifile`, a local category in the router table; the label was chosen for the check, not measured.
 - Final attempt: 3 of 5 delivered through route plus `apply_patch` and passed the hidden suite; one (meteorite, which P2 also failed in the scored run) escalated with `loop_detected`; one escalated before any model call because free RAM was under the router's 2 GiB default floor. 0 boundary violations. The stock plugin client does not send the Bonsai sampler settings used in E58, so these outcomes and the 22 to 33 s timings are not comparable to the scored blocks.
 
-## Addendum A1: Hermes 64K context requirement (open, nothing run)
+## Addendum A1: Hermes 64K context requirement (opened 2026-11-27; Hermes-driven check run 2026-11-28)
 
-Hermes v0.23.0 rejects any model with a context window under 64,000 tokens. The pinned Bonsai server serves 32,768 and its 24,000-token input budget is part of the frozen protocol, so the pinned server cannot drive Hermes; the attempt failed in 14 s before any task. Consequently the claim that the path works through Hermes is **not established**; only plugin-to-Bonsai delivery is. A Hermes-driven check needs a driver with at least 64K context. Options, none run: Bonsai restarted at 65,536 context for the check only (a deviation from the pinned server with untested VRAM fit), a hosted driver (sends task text off the machine), or a second process (does not fit the single 16 GB GPU alongside the pinned server). Any such run needs its own freeze and addendum, must record the server flags and driver, must not be pooled with the scored blocks, and makes no performance claim.
+Hermes v0.23.0 rejects any model with a context window under 64,000 tokens. The pinned Bonsai server serves 32,768 and its 24,000-token input budget is part of the frozen protocol, so the pinned server cannot drive Hermes; the first attempt failed in 14 s before any task. Phase 2 above therefore called the plugin handlers directly.
+
+**Hermes-driven check (2026-11-28, delivery only, no performance claim).** Same pinned weights and sampler flags, started by hand with only `-c 65536` (an unfrozen deviation; 10.8 of 16.3 GB VRAM). Hermes, driven by that server, was asked to call `implement_task` (workdir, mode, task text with the saved Sol brief) on the first five tasks that both planners briefed, in route mode with the Phase 2 router overrides, scored by the frozen hidden suite. The plugin's own budget stayed at the frozen 24,000 input. Five attempts, all kept (`phase2/a1/attempt1-rows.json` to `attempt5-rows.json`; driver `phase2/a1/e58x_a1.py`):
+
+| Attempt | Change | Outcome |
+|---|---|---|
+| 1 | No category passed | 5 of 5 tool calls correct; 0 delivered (`frontier_required`) |
+| 2 | Instruction names `category: "multifile"` | 0 delivered; plugin still in `frontier-only` mode |
+| 3 | `PS_*` settings written to Hermes' own `.env` | 4 of 5 ran locally, meteorite `loop_detected`; nothing applied (route mode is propose-only) |
+| 4 | Instruction also asks for `apply_patch` | gravure and climbing delivered and passed; the three JS tasks did not |
+| 5 | The three JS tasks rerun with `.env` values single-quoted | perfumery and mushroom delivered and passed; meteorite `loop_detected` |
+
+Findings: (1) Hermes choosing and calling the tool is established for this plugin with a Bonsai driver at 64K: the correct tool and arguments on every attempt. (2) Hermes does not forward its process environment to plugins, so `PS_*` settings must be in Hermes' own `.env` (backed up and restored byte for byte each attempt). (3) Attempt 4's two JS failures were a configuration fault on my side, not the model: the double-quoted Windows test command was evidently mangled and the plugin ran `pytest` on JS tasks ("no tests ran"); single quoting fixed it. This cause is inferred from transcripts; the parsing step was not inspected. (4) Best configuration, composed from attempts 4 (two Python tasks) and 5 (three JS tasks): **4 of 5 delivered through Hermes and passed the hidden suite, 0 boundary violations**; meteorite looped in attempts 3 to 5, as in Phase 2 and the scored P2 run. Hermes time was 76 to 117 s per task with one 271 s outlier.
+
+Not comparable to the scored blocks: the router, propose-then-apply path and stock client (no E58 sampler settings sent) differ from the measured loop, the server context differs, and five tasks with repeated attempts support only the statement that the path works, not a rate. The earlier sentence that Hermes driving the tool was not tested no longer applies; the A1 status is **run, delivery established, no performance claim**.
 
 ## Limits and what is not claimed
 

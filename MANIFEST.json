@@ -1434,11 +1434,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "05b835eddad621f389e9b62fa2598de923a969a98cd5f5ab50f094338d458fdc"
+      "sha256": "6593ae9fbb482255ab6bf3e9fcf93c01f4da6d7af6ca41ae9881826f93fa6c2a"
     },
     {
       "path": "RELEASE.md",
-      "sha256": "22cfe76883b1015bb02916de03fb41da42ce1374d9a16cd0d77da4a54ce9caaa"
+      "sha256": "588872dc23e2b616737890e0778be5a3415295b22e490105881e5ef2063c6fa5"
     },
     {
       "path": "docs/small-evals/e07-results.md",
@@ -2510,11 +2510,11 @@
     },
     {
       "path": "docs/small-evals/e58-2026-11-27/provenance.json",
-      "sha256": "0798cfd2bdba165293b5ca874196a2eea77431bf95d03245f18f5212b4d98b45"
+      "sha256": "896d329fdd7bfbd8a41f14f7e7b3af4746d967905f67b871bd972440670de4a0"
     },
     {
       "path": "docs/small-evals/e58-2026-11-27/report.md",
-      "sha256": "91c3380119710996ea058d64c9e3c46af07c7157aa52c82d0a3bf3e74a968310"
+      "sha256": "0de608facd8dcb39caa959935857dee254e20026c2bc84074dfa68aaa42e2e64"
     },
     {
       "path": "docs/small-evals/e58-2026-11-27/rows-b1-A.jsonl",
@@ -2567,6 +2567,30 @@
     {
       "path": "docs/small-evals/e58-2026-11-27/summary.json",
       "sha256": "dbe874cedc03f55fd0674d71dbe08fa14c9e838675526e03cb5c5b647525e6d9"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/a1/attempt1-rows.json",
+      "sha256": "cb5775aff22e8c9f330a97eb17569bdc0bc37a8f3cdafa0a4e624c5aadf2e282"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/a1/attempt2-rows.json",
+      "sha256": "3312b6de2924b93c8905fc8aa2af5367a1955e9b4f3d2d65582bc5397d11b4ff"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/a1/attempt3-rows.json",
+      "sha256": "6328e7c44ab7ab25d502607b98f6bf62ddef77e5f81bf5a200f78099652767e9"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/a1/attempt4-rows.json",
+      "sha256": "24364b0e87a65f5f841a8745c250ac640ca2e5119a7580f3855ed90445b234cb"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/a1/attempt5-rows.json",
+      "sha256": "9cc1d30a6b5e2be21dddb461ff304a32ee9c3c0193282a5630d59c6d1e8f887a"
+    },
+    {
+      "path": "docs/small-evals/e58-2026-11-27/phase2/a1/e58x_a1.py",
+      "sha256": "3e17ee6873bb318708bac4949f4c12a0fa81336a9938a858648e8071e9bd5f2a"
     }
   ],
   "updates": [
@@ -2779,6 +2803,23 @@
         "docs/small-evals/e58-2026-11-27/stop-b5.json",
         "docs/small-evals/e58-2026-11-27/stop-b6.json",
         "docs/small-evals/e58-2026-11-27/summary.json",
+        "README.md",
+        "RELEASE.md"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "study": "E58 Addendum A1: Hermes-driven delivery check at 64K context",
+      "publication": "selected files; delivery check only, no performance claim",
+      "files": [
+        "docs/small-evals/e58-2026-11-27/phase2/a1/attempt1-rows.json",
+        "docs/small-evals/e58-2026-11-27/phase2/a1/attempt2-rows.json",
+        "docs/small-evals/e58-2026-11-27/phase2/a1/attempt3-rows.json",
+        "docs/small-evals/e58-2026-11-27/phase2/a1/attempt4-rows.json",
+        "docs/small-evals/e58-2026-11-27/phase2/a1/attempt5-rows.json",
+        "docs/small-evals/e58-2026-11-27/phase2/a1/e58x_a1.py",
+        "docs/small-evals/e58-2026-11-27/provenance.json",
+        "docs/small-evals/e58-2026-11-27/report.md",
         "README.md",
         "RELEASE.md"
       ]
@@ -3015,7 +3056,7 @@
       "docs/small-evals/e58-2026-11-27/stop-b6.json",
       "docs/small-evals/e58-2026-11-27/summary.json"
     ],
-    "addendum_open": "A1: Hermes 64K context requirement; Hermes-driven check not run",
+    "addendum_open": "A1 run 2026-11-28: Hermes-driven delivery established (4 of 5, five attempts kept); no performance claim",
     "withheld": "tasks, hidden tests, references, planner brief text, replies, patches, transcripts, logs, weights, private implementation"
   }
 }

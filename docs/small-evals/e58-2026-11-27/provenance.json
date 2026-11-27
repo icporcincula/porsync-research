@@ -5,6 +5,7 @@
     "LF line endings",
     "phase 2 rows drop changed-file lists",
     "phase2/e58x_p2.py: two absolute machine paths replaced by placeholders",
+    "phase2/a1/: attempt rows keep only task id, return code, seconds, violation count, hidden-suite pass, diff-nonempty flag and the first word of the tool reply; e58x_a1.py has two machine paths replaced",
     "analyze.py reads files in its own directory; logic otherwise identical, output verified byte-identical to summary.json"
   ],
   "files": {
@@ -140,6 +141,42 @@
       "sha256": "6e4afa8cd51bd7b3936593abc0f084ccac3e7133cb391f3bf2ffe23095617c33",
       "original_sources": {
         "scripts/e58x_p2.py": "c43a973b14a62ef38036ad60c94eaad8b1742a88d2e28f6a3932b1f434f662e2"
+      }
+    },
+    "phase2/a1/attempt1-rows.json": {
+      "sha256": "cb5775aff22e8c9f330a97eb17569bdc0bc37a8f3cdafa0a4e624c5aadf2e282",
+      "original_sources": {
+        "tmp/e58x/a1/p2-rows.json": "633952bad29a9f39c9d7227936eb6ad0c95ca947c6576ebe238d3d682a7ac9b6"
+      }
+    },
+    "phase2/a1/attempt2-rows.json": {
+      "sha256": "3312b6de2924b93c8905fc8aa2af5367a1955e9b4f3d2d65582bc5397d11b4ff",
+      "original_sources": {
+        "tmp/e58x/a1-attempt2/p2-rows.json": "c9fb97bb2f4263725c14fbcfd8d053a483ecbf1b4128c1ff86ba6e12ab977c04"
+      }
+    },
+    "phase2/a1/attempt3-rows.json": {
+      "sha256": "6328e7c44ab7ab25d502607b98f6bf62ddef77e5f81bf5a200f78099652767e9",
+      "original_sources": {
+        "tmp/e58x/a1-attempt3/p2-rows.json": "d1815a52ff98ab69c036cf9253e942c1fc711f97ae93b8c9c65736577b7498bb"
+      }
+    },
+    "phase2/a1/attempt4-rows.json": {
+      "sha256": "24364b0e87a65f5f841a8745c250ac640ca2e5119a7580f3855ed90445b234cb",
+      "original_sources": {
+        "tmp/e58x/a1-attempt4/p2-rows.json": "fcb80952f59f8ff4c938b645add2bbbf943d94710bf8835a8221fd61c0c5d13b"
+      }
+    },
+    "phase2/a1/attempt5-rows.json": {
+      "sha256": "9cc1d30a6b5e2be21dddb461ff304a32ee9c3c0193282a5630d59c6d1e8f887a",
+      "original_sources": {
+        "tmp/e58x/a1-attempt5/p2-rows.json": "f49470ffe91f26568d2c98737fd22d0ab7bf79c41fa56029dd9f7de259a94570"
+      }
+    },
+    "phase2/a1/e58x_a1.py": {
+      "sha256": "3e17ee6873bb318708bac4949f4c12a0fa81336a9938a858648e8071e9bd5f2a",
+      "original_sources": {
+        "scripts/e58x_a1.py": "cc25cef1d99005e9f774bd8dd479af3df1f70f61ced3d95b81132ff854d78ee4"
       }
     }
   }
