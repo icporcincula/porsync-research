@@ -1,0 +1,21 @@
+{
+  "arm_passes": {
+    "v5b": 21,
+    "aider": 10,
+    "sonnet": 24,
+    "haiku": 24
+  },
+  "attempts_per_arm": 24,
+  "original_aider_reported": 9,
+  "correction": "Table sum and ten unchanged saved green rows agree; prose total 9 was an arithmetic error; 14 misses rather than 15; no rescoring",
+  "aider_clopper_pearson_95": [
+    0.22109690534667853,
+    0.6335693543436376
+  ],
+  "paired_v5b_vs_aider": {
+    "wins": 5,
+    "losses": 0,
+    "ties": 3,
+    "p": 0.0625
+  }
+}

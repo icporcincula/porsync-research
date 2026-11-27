@@ -1,0 +1,27 @@
+{
+  "source": "report.md, Methods and deviations; no raw administrative artifacts released",
+  "restarts": [
+    {
+      "completed_attempts_before_interruption": 176,
+      "block": 2,
+      "task_id": "f57-ns-csv2md",
+      "cause": "user pause",
+      "replacement": "restart from pristine fixtures after authorization"
+    },
+    {
+      "completed_attempts_before_interruption": 351,
+      "block": 4,
+      "task_id": "f57-ns-sortlines",
+      "cause": "unexpected process disappearance; cause unknown",
+      "replacement": "restart from pristine fixtures after authorization"
+    }
+  ],
+  "completed_results_rerun_or_discarded": 0,
+  "primary_throughput_excludes": [
+    "partial compute of both interrupted attempts",
+    "server loading",
+    "warmup",
+    "downtime"
+  ],
+  "limitation": "No total campaign cost or uninterrupted-reliability claim"
+}

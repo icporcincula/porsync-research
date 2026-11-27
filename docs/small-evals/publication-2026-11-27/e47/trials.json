@@ -1,0 +1,362 @@
+[
+  {
+    "arm": "llama-iq3",
+    "id": "inventory-1",
+    "family": "inventory",
+    "correct": true,
+    "seconds": 5.295588200009661,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 258
+  },
+  {
+    "arm": "llama-iq3",
+    "id": "inventory-2",
+    "family": "inventory",
+    "correct": true,
+    "seconds": 7.621740400005365,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 393
+  },
+  {
+    "arm": "llama-iq3",
+    "id": "aggregate-0",
+    "family": "aggregate",
+    "correct": true,
+    "seconds": 11.113088000012795,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 556
+  },
+  {
+    "arm": "llama-iq3",
+    "id": "dedup-0",
+    "family": "dedup",
+    "correct": true,
+    "seconds": 13.25901330000488,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 661
+  },
+  {
+    "arm": "llama-iq3",
+    "id": "aggregate-1",
+    "family": "aggregate",
+    "correct": true,
+    "seconds": 12.127031200012425,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 612
+  },
+  {
+    "arm": "llama-iq3",
+    "id": "schedule-0",
+    "family": "schedule",
+    "correct": true,
+    "seconds": 10.657909300003666,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 541
+  },
+  {
+    "arm": "llama-iq3",
+    "id": "schedule-2",
+    "family": "schedule",
+    "correct": false,
+    "seconds": 19.95969319998403,
+    "error": false,
+    "finish_reason": "length",
+    "completion_tokens": 1024
+  },
+  {
+    "arm": "llama-iq3",
+    "id": "schedule-1",
+    "family": "schedule",
+    "correct": true,
+    "seconds": 19.085476100008236,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 979
+  },
+  {
+    "arm": "llama-iq3",
+    "id": "aggregate-2",
+    "family": "aggregate",
+    "correct": true,
+    "seconds": 8.890567800001008,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 440
+  },
+  {
+    "arm": "llama-iq3",
+    "id": "dedup-2",
+    "family": "dedup",
+    "correct": true,
+    "seconds": 13.007981800008565,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 655
+  },
+  {
+    "arm": "llama-iq3",
+    "id": "dedup-1",
+    "family": "dedup",
+    "correct": true,
+    "seconds": 9.8002298999927,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 490
+  },
+  {
+    "arm": "llama-iq3",
+    "id": "inventory-0",
+    "family": "inventory",
+    "correct": true,
+    "seconds": 5.368158600002062,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 269
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "inventory-1",
+    "family": "inventory",
+    "correct": false,
+    "seconds": 0.5765406000136863,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 17
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "inventory-2",
+    "family": "inventory",
+    "correct": false,
+    "seconds": 0.5633124000160024,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 17
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "aggregate-0",
+    "family": "aggregate",
+    "correct": true,
+    "seconds": 0.7635204000107478,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 24
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "dedup-0",
+    "family": "dedup",
+    "correct": false,
+    "seconds": 0.8813556999957655,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 29
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "aggregate-1",
+    "family": "aggregate",
+    "correct": true,
+    "seconds": 0.7842160000000149,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 24
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "schedule-0",
+    "family": "schedule",
+    "correct": false,
+    "seconds": 0.8862665999913588,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 34
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "schedule-2",
+    "family": "schedule",
+    "correct": false,
+    "seconds": 1.0228309000085574,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 34
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "schedule-1",
+    "family": "schedule",
+    "correct": false,
+    "seconds": 0.8991765999817289,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 34
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "aggregate-2",
+    "family": "aggregate",
+    "correct": true,
+    "seconds": 0.7008637000108138,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 24
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "dedup-2",
+    "family": "dedup",
+    "correct": false,
+    "seconds": 0.937829700007569,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 34
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "dedup-1",
+    "family": "dedup",
+    "correct": false,
+    "seconds": 0.7367462999827694,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 19
+  },
+  {
+    "arm": "strata-sq15",
+    "id": "inventory-0",
+    "family": "inventory",
+    "correct": true,
+    "seconds": 0.5967150999931619,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 17
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "inventory-1",
+    "family": "inventory",
+    "correct": true,
+    "seconds": 3.5004494999884628,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 202
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "inventory-2",
+    "family": "inventory",
+    "correct": true,
+    "seconds": 3.875805499992566,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 225
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "aggregate-0",
+    "family": "aggregate",
+    "correct": true,
+    "seconds": 4.257636200025445,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 231
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "dedup-0",
+    "family": "dedup",
+    "correct": true,
+    "seconds": 8.140663700003643,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 453
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "aggregate-1",
+    "family": "aggregate",
+    "correct": true,
+    "seconds": 5.3137578000023495,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 271
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "schedule-0",
+    "family": "schedule",
+    "correct": true,
+    "seconds": 11.425998100021388,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 617
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "schedule-2",
+    "family": "schedule",
+    "correct": true,
+    "seconds": 11.170975699991686,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 588
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "schedule-1",
+    "family": "schedule",
+    "correct": true,
+    "seconds": 12.550264999998035,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 651
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "aggregate-2",
+    "family": "aggregate",
+    "correct": true,
+    "seconds": 4.491156200005207,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 244
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "dedup-2",
+    "family": "dedup",
+    "correct": true,
+    "seconds": 12.831907200015849,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 637
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "dedup-1",
+    "family": "dedup",
+    "correct": true,
+    "seconds": 7.7917404000181705,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 451
+  },
+  {
+    "arm": "strata-sq15-thinking",
+    "id": "inventory-0",
+    "family": "inventory",
+    "correct": true,
+    "seconds": 3.078873599995859,
+    "error": false,
+    "finish_reason": "stop",
+    "completion_tokens": 172
+  }
+]

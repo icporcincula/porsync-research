@@ -1434,11 +1434,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "05cb1e261e06d4859c8a9688272bb6e8be9843260c8e381d732672676c21dcdf"
+      "sha256": "f043663e2c9e60c5098ffe7b9a31274ff79b26c2997585db5ee3106f8affa98a"
     },
     {
       "path": "RELEASE.md",
-      "sha256": "54499041f5c7478748f64d360366fbb38700e97cba171299b5e94d42f10cfd9c"
+      "sha256": "01ee6ee33d7eed7a91014733b1790376ec40fe39111b8dd43946bfc5fea1b024"
     },
     {
       "path": "docs/small-evals/e07-results.md",
@@ -2115,6 +2115,362 @@
     {
       "path": "docs/small-evals/e43-compatibility-2026-11-23/sources.json",
       "sha256": "83a81a4d04e5f4e107d4a47eeca942518af284c67b17b63b9b9754e1838763af"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/PROVENANCE.json",
+      "sha256": "59ee2ce2ebe9137e26611fe87f80445fd240005c9932dae0212edf3498e06dac"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/README.md",
+      "sha256": "5485e46850be55461a0f27a31219941777f3f7ab8b7d8cef09443a4ec69fc566"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e44/analyze.py",
+      "sha256": "60b4be1ee5c3a225c26f454842099e0d837d6e22ac15d7d5953bd88ddd44c362"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e44/configuration.json",
+      "sha256": "5166ec340ef9e1ae832f4cda8e1c8b11db7c2210a617e90ffe9077ecbed6d3e5"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e44/frontier-report.md",
+      "sha256": "01c848a07400db2d84bd76d2f5a377c7d891a0d1a33aae46c84af40e9122e195"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e44/report.md",
+      "sha256": "c4e047a2c9c787e6d0c155e2cdcc0ac4982df9c91a0752050aed35d8fe6fbade"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e44/trials.json",
+      "sha256": "2f8d3dfbe69614cfb3f942ea3c1e9eabd1a9eda7dd705ddef6aeb9f640a9c6e9"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e47/analyze.py",
+      "sha256": "ad67471d6b5bdf68510bd0bcfab28e43afe1e931567bf1d89b6e01e50635807f"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e47/configuration.json",
+      "sha256": "0b73049546bb641f02b9c7e790a409f05a0bf65e66e627f9b06ec14d70e62312"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e47/report.md",
+      "sha256": "f7b3876cfbcacafa4fc114cfc55b0c3a41e4245ed22be95343ffa74f51a36185"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e47/summary.json",
+      "sha256": "48dd277b66ff22aad85c19c965c418aa97f2d259d63061afcc52f38bf2e21f4a"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e47/trials.json",
+      "sha256": "83e5d77bd62930b5f3bc3be500a71916e7c0faafde22a5cc523d6ff94b2892cf"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e49/analyze.py",
+      "sha256": "59c1fb3c6735e8eb06b87669c6449c210d45a2538e28acfc0c94439228a3981e"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e49/configuration.json",
+      "sha256": "d628452161e2a79525877493c566a6fc6a0dafe7cf2e7d1cb388a812e6494e05"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e49/report.md",
+      "sha256": "b3e27f9dfbee1a17d23eafbea9d878937c248379bcd6d01c1f29e9ea9aaaa3d8"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e49/summary.json",
+      "sha256": "71334a7585b27f3493d59adc515cfb8927bc6ff38716a8f70ce2a1068ee97128"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e49/trials.json",
+      "sha256": "d23f8618f5a49d0e0c1a97af5da47b110a4076900fc6039c8a33af35a2561b8f"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e50/analyze.py",
+      "sha256": "166b75a6479ccc8ad887e6fd2682be2337b446e8d43472a196c5a721a14ab4f5"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e50/calibration-summary.json",
+      "sha256": "0bc804852c56a0bb9b43fdf24dac2e47ece5c65aa4ede771170ce9da8309e1ca"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e50/configuration.json",
+      "sha256": "6d10fe7de7f7c71fbb792cd6f10a9ec8183d25e6022b5cd6f3a150f1b02988b3"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e50/report.md",
+      "sha256": "cc02abd942591dc3fa1af9ab2e27e11a2e56b511a2091f4c5d6a4802447657ca"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e50/selection.json",
+      "sha256": "a7f46df611676f4817214395db13d2cf5fdf4b52e44687984de015e18a97fb24"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e50/summary.json",
+      "sha256": "72894c2c5c18afd42efc178e05b7307f25fd3274c291670db8e34e5e2f26d76f"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e50/trials.json",
+      "sha256": "4b483a674b9eb18ffcdfd1b6b65b3775dfe19da54aa0b763692c94c2d7a8bc9c"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e51/analyze.py",
+      "sha256": "c08147648fd0ab03eaac10537658296e1b5edd74c78f60c57ad3e17b57949237"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e51/closeout.md",
+      "sha256": "7dd0a13ee443fcf0067a5aa44247948358a0e128d858b58d8f2031791685fb4a"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e51/configuration.json",
+      "sha256": "be8a6687c1951de3cb28ff244ff7a8fce696c20a0db8ce917e755b810c0bfea0"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e51/report.md",
+      "sha256": "7f8f56fe1b883d94d04be3b3ce68b67596b81c82a2a6688714927f04cb789cb5"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e51/summary.json",
+      "sha256": "4a65bc7011980d918703b5e8033b60a70312f89a65f11ba0e580092f8f833dfb"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e51/trials.json",
+      "sha256": "0e2ad24618cb6573dc987d801ccec4afbe1610afb8af362e83c2dd721b93357d"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/analyze.py",
+      "sha256": "663a51b8bbd91ee8b27de961a42544b0241eb76fd258ca44a89bc5dd66b53895"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/configuration.json",
+      "sha256": "416e37cec7001267e64c37c1fe7f4c526bc1cfe7ff799f3d2cc99bd37e58d91b"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/report.md",
+      "sha256": "6fccfcd42f31629b7692e5d4cbbaba54f76b7ebb36e908aaf681bdded08d41bf"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/rows-b1-A.jsonl",
+      "sha256": "ab23f548741cec6dd6035f851fc3330c51434daf7e2cc0233fa1147230fce554"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/rows-b2-B.jsonl",
+      "sha256": "5ff711e01d9af8687ae4e0cfcfb10f9c8b0eddcd6763f341468b13c31ed32c4e"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/rows-b3-B.jsonl",
+      "sha256": "c24feb5d7c527fde830995abfa19de210f9f76da454cf941f293906a7e6b978b"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/rows-b4-A.jsonl",
+      "sha256": "e6a3f4293c6372657b74e4ffb418dd0c7d3cd2ed168e3be51b538a4a44a4559a"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/stop-b1.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/stop-b2.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/stop-b3.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/stop-b4.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e52/summary.json",
+      "sha256": "e91fa7b53131fb6cf173ff44d257a622a373a3f7c83858ec8d99b435fbefc924"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e53/analyze.py",
+      "sha256": "adcda6f64736b1d46bfdcb9e49b8ce5ac7eab9b12447c0a5d69b06625985d365"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e53/configuration.json",
+      "sha256": "a73813b52fdf1f86887305d3dcd813b45d4cdf7974585d131bc7446c2c22fdd3"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e53/report.md",
+      "sha256": "fd2dae3c20b0d0d557dc2e4ae4fa523d865dfe89bbdd0a9cbdfbaea935c4ad01"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e53/summary.json",
+      "sha256": "71454b3d48ecbb9513a620a1e82401e399b1e49c3b8649cf7bb6899a06301f36"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/analyze.py",
+      "sha256": "dfac9a2f1c609aedf2be24e4d4d816eeb1f84bda8ae9ed8c9d1fda8dbef66537"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/configuration.json",
+      "sha256": "18bdfd39baa845457ccd0217f13a9056c99be001f6553ebba5621bad13659e89"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/report.md",
+      "sha256": "4973b9fdb91a81029742e384a3721f43775f8f5137285e0ab16c750e69089f18"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/rows-b1-C.jsonl",
+      "sha256": "36b3702f9614e28cdccd059d6a2b97404567da5ba902b1558e4465cab0dd400d"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/rows-b2-B.jsonl",
+      "sha256": "cbeaf8604068e3f7d0b4b95e2dbcb89848339e8f9304c3a00f00996c0a31d396"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/rows-b3-CB.jsonl",
+      "sha256": "0a9d213859032a6d4e7a96c8aa096ee1f2c81897a577f9157054084425375b67"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/rows-b4-CB.jsonl",
+      "sha256": "de2608965eea6bf732509bd8b2a8831296f263208b3932ce7b5066d6c2433649"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/rows-b5-B.jsonl",
+      "sha256": "448c99ac63e7e5d9cd2c7ec381bc505ddb3f9013fb1ebd838c92dde3e6c4186d"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/rows-b6-C.jsonl",
+      "sha256": "f36620fff5599f570d41c11e041c0aab198e3de4bf4e22467e807bde0817e5be"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/stop-b1.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/stop-b2.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/stop-b3.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/stop-b4.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/stop-b5.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/stop-b6.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e54/summary.json",
+      "sha256": "2c03902a3252fc5a8308cf45be2ca88668b17e21ac6d733c3caf23553535b6ce"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e55/ATTRIBUTION.md",
+      "sha256": "8c3ef6732cfa5448c6e31b74a43c4509cec03fe4c9e284000722a1cede19b4c7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e55/OCRia-nano-1-LICENSE.txt",
+      "sha256": "f1cee1fc810a9ba0553df347ca1238eb43efb4c9c87f590a8b17a06af6dcfd46"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e55/configuration.md",
+      "sha256": "1e0d27fb42a4e28db7edc354be441b901e303bc3b71b5d512ba129e99dd544a3"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e55/report.md",
+      "sha256": "cb51cd3ef764f4c327455eec0acff9974a948a319b7e8a0e507459e320b37805"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e55/scoring-method.py",
+      "sha256": "92f46ef8d40bad0eb0fb13c2d085adacc93be3fb8629329024609befd7565f61"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e55/summary.json",
+      "sha256": "2ad9bf4c7b852e4bdb8399fa862e60fb040460cd654dce20be594cf04c876f6d"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e55/throughput.json",
+      "sha256": "bff2dceeac296d0121b6d6332c9b7433089a4214696a874ab4d7f1d952d94b87"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e56/configuration.md",
+      "sha256": "8901b855865d7bfaf4aeb57feb59b3b5ca35ed88239e989704008e2835b7b478"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e56/report.md",
+      "sha256": "401e8194fe603cbe1b6e7eb24bcc80ad1bfb483f2826b1a7e06fb5315f09166f"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e56/scoring-method.py",
+      "sha256": "92f46ef8d40bad0eb0fb13c2d085adacc93be3fb8629329024609befd7565f61"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e56/summary150.json",
+      "sha256": "02cadd7a6ea49136d2a7b757c92e3c0081e76853f2c3c23e2390b525faece0de"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e56/summary250.json",
+      "sha256": "5d3eb27ecca48c11312ac81331aa25acc6cd65cf7fdb62e95783183d6675e8e0"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e56/verdict.json",
+      "sha256": "6568fe16c8b5dbda859a316fd2732538060734fde94703e52fc99258a1ce10a2"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/analyze.py",
+      "sha256": "6a2dbbe2c378f71604992561cce9e30a93d10fc643f2fb8ca2869c9d0716fd4e"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/configuration.json",
+      "sha256": "eba657fd13c40a5fbea0bf1e25aaf1b81173eca5ef4128c530a7c4d46326c472"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/report.md",
+      "sha256": "2220d869c0d68a8369001ed24f3421c0850a8729a779e0bee17446ae24415788"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/rows-b1-C.jsonl",
+      "sha256": "df6b1116166d03050ea7c4bfc0a775ac8e26a9a8d5ed96993b8e80ffcdb2f8f5"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/rows-b2-B.jsonl",
+      "sha256": "363ef86824be30b6f3586a456d485b71fa0be503b6fb00879bea84ce6185247d"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/rows-b3-B.jsonl",
+      "sha256": "cf2358e89d122ebf9c39f34799a98b788dbcd3d3aa3ac5e771e2d40f7e7963da"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/rows-b4-C.jsonl",
+      "sha256": "516f62f5d53139c2dfee19d7b8812e1516e46037dc0e6defae708808e4c032fc"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/stop-b1.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/stop-b2.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/stop-b3.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/stop-b4.json",
+      "sha256": "7db104c1d958cb4c0e1478445b08892cf837f2a5048fd9641b9eb37101019ad7"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/summary.json",
+      "sha256": "5ef5b8c178c79dd8663f0f32674ad5637067253c929bdeeaa6dc066541b32271"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e44/summary.json",
+      "sha256": "a5c930229efc686d2b4b06f3c2e1c4a424877e189cf805d2d9f6eaa9bb4c0493"
+    },
+    {
+      "path": "docs/small-evals/publication-2026-11-27/e57/administrative-restarts.json",
+      "sha256": "a2415fec678cb5ed69fc6256e55ad9d19d17ca253f5d61a7c8d96700d51834e3"
     }
   ],
   "updates": [
@@ -2349,7 +2705,7 @@
     "publication": "local only"
   },
   "e42_comparative_release_2026_11_23": {
-    "authorization": "User requested steps 1\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u01534, commit and push",
+    "authorization": "User requested steps 1ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“4, commit and push",
     "status": "completed primary plus supplementary repeat; scoped publication",
     "files": [
       "docs/small-evals/e42-results-2026-11-23/9b_llama_wsl.metrics.jsonl",
@@ -2400,5 +2756,107 @@
     "private_report_sha256": "a49160bebf094594c3164a39fb3f1b613dff5491ce2d68bf640b09df9a5db551",
     "original_sources": "Original source hashes and disclosed transformations retained in selected PROVENANCE.json",
     "unrelated": "E39 follow-ups remain open; unrelated drafts excluded. Earlier local-only historical records preserved."
+  },
+  "publication_2026_11_27": {
+    "selected_files": [
+      "docs/small-evals/publication-2026-11-27/PROVENANCE.json",
+      "docs/small-evals/publication-2026-11-27/README.md",
+      "docs/small-evals/publication-2026-11-27/e44/analyze.py",
+      "docs/small-evals/publication-2026-11-27/e44/configuration.json",
+      "docs/small-evals/publication-2026-11-27/e44/frontier-report.md",
+      "docs/small-evals/publication-2026-11-27/e44/report.md",
+      "docs/small-evals/publication-2026-11-27/e44/summary.json",
+      "docs/small-evals/publication-2026-11-27/e44/trials.json",
+      "docs/small-evals/publication-2026-11-27/e47/analyze.py",
+      "docs/small-evals/publication-2026-11-27/e47/configuration.json",
+      "docs/small-evals/publication-2026-11-27/e47/report.md",
+      "docs/small-evals/publication-2026-11-27/e47/summary.json",
+      "docs/small-evals/publication-2026-11-27/e47/trials.json",
+      "docs/small-evals/publication-2026-11-27/e49/analyze.py",
+      "docs/small-evals/publication-2026-11-27/e49/configuration.json",
+      "docs/small-evals/publication-2026-11-27/e49/report.md",
+      "docs/small-evals/publication-2026-11-27/e49/summary.json",
+      "docs/small-evals/publication-2026-11-27/e49/trials.json",
+      "docs/small-evals/publication-2026-11-27/e50/analyze.py",
+      "docs/small-evals/publication-2026-11-27/e50/calibration-summary.json",
+      "docs/small-evals/publication-2026-11-27/e50/configuration.json",
+      "docs/small-evals/publication-2026-11-27/e50/report.md",
+      "docs/small-evals/publication-2026-11-27/e50/selection.json",
+      "docs/small-evals/publication-2026-11-27/e50/summary.json",
+      "docs/small-evals/publication-2026-11-27/e50/trials.json",
+      "docs/small-evals/publication-2026-11-27/e51/analyze.py",
+      "docs/small-evals/publication-2026-11-27/e51/closeout.md",
+      "docs/small-evals/publication-2026-11-27/e51/configuration.json",
+      "docs/small-evals/publication-2026-11-27/e51/report.md",
+      "docs/small-evals/publication-2026-11-27/e51/summary.json",
+      "docs/small-evals/publication-2026-11-27/e51/trials.json",
+      "docs/small-evals/publication-2026-11-27/e52/analyze.py",
+      "docs/small-evals/publication-2026-11-27/e52/configuration.json",
+      "docs/small-evals/publication-2026-11-27/e52/report.md",
+      "docs/small-evals/publication-2026-11-27/e52/rows-b1-A.jsonl",
+      "docs/small-evals/publication-2026-11-27/e52/rows-b2-B.jsonl",
+      "docs/small-evals/publication-2026-11-27/e52/rows-b3-B.jsonl",
+      "docs/small-evals/publication-2026-11-27/e52/rows-b4-A.jsonl",
+      "docs/small-evals/publication-2026-11-27/e52/stop-b1.json",
+      "docs/small-evals/publication-2026-11-27/e52/stop-b2.json",
+      "docs/small-evals/publication-2026-11-27/e52/stop-b3.json",
+      "docs/small-evals/publication-2026-11-27/e52/stop-b4.json",
+      "docs/small-evals/publication-2026-11-27/e52/summary.json",
+      "docs/small-evals/publication-2026-11-27/e53/analyze.py",
+      "docs/small-evals/publication-2026-11-27/e53/configuration.json",
+      "docs/small-evals/publication-2026-11-27/e53/report.md",
+      "docs/small-evals/publication-2026-11-27/e53/summary.json",
+      "docs/small-evals/publication-2026-11-27/e54/analyze.py",
+      "docs/small-evals/publication-2026-11-27/e54/configuration.json",
+      "docs/small-evals/publication-2026-11-27/e54/report.md",
+      "docs/small-evals/publication-2026-11-27/e54/rows-b1-C.jsonl",
+      "docs/small-evals/publication-2026-11-27/e54/rows-b2-B.jsonl",
+      "docs/small-evals/publication-2026-11-27/e54/rows-b3-CB.jsonl",
+      "docs/small-evals/publication-2026-11-27/e54/rows-b4-CB.jsonl",
+      "docs/small-evals/publication-2026-11-27/e54/rows-b5-B.jsonl",
+      "docs/small-evals/publication-2026-11-27/e54/rows-b6-C.jsonl",
+      "docs/small-evals/publication-2026-11-27/e54/stop-b1.json",
+      "docs/small-evals/publication-2026-11-27/e54/stop-b2.json",
+      "docs/small-evals/publication-2026-11-27/e54/stop-b3.json",
+      "docs/small-evals/publication-2026-11-27/e54/stop-b4.json",
+      "docs/small-evals/publication-2026-11-27/e54/stop-b5.json",
+      "docs/small-evals/publication-2026-11-27/e54/stop-b6.json",
+      "docs/small-evals/publication-2026-11-27/e54/summary.json",
+      "docs/small-evals/publication-2026-11-27/e55/ATTRIBUTION.md",
+      "docs/small-evals/publication-2026-11-27/e55/configuration.md",
+      "docs/small-evals/publication-2026-11-27/e55/OCRia-nano-1-LICENSE.txt",
+      "docs/small-evals/publication-2026-11-27/e55/report.md",
+      "docs/small-evals/publication-2026-11-27/e55/scoring-method.py",
+      "docs/small-evals/publication-2026-11-27/e55/summary.json",
+      "docs/small-evals/publication-2026-11-27/e55/throughput.json",
+      "docs/small-evals/publication-2026-11-27/e56/configuration.md",
+      "docs/small-evals/publication-2026-11-27/e56/report.md",
+      "docs/small-evals/publication-2026-11-27/e56/scoring-method.py",
+      "docs/small-evals/publication-2026-11-27/e56/summary150.json",
+      "docs/small-evals/publication-2026-11-27/e56/summary250.json",
+      "docs/small-evals/publication-2026-11-27/e56/verdict.json",
+      "docs/small-evals/publication-2026-11-27/e57/administrative-restarts.json",
+      "docs/small-evals/publication-2026-11-27/e57/analyze.py",
+      "docs/small-evals/publication-2026-11-27/e57/configuration.json",
+      "docs/small-evals/publication-2026-11-27/e57/report.md",
+      "docs/small-evals/publication-2026-11-27/e57/rows-b1-C.jsonl",
+      "docs/small-evals/publication-2026-11-27/e57/rows-b2-B.jsonl",
+      "docs/small-evals/publication-2026-11-27/e57/rows-b3-B.jsonl",
+      "docs/small-evals/publication-2026-11-27/e57/rows-b4-C.jsonl",
+      "docs/small-evals/publication-2026-11-27/e57/stop-b1.json",
+      "docs/small-evals/publication-2026-11-27/e57/stop-b2.json",
+      "docs/small-evals/publication-2026-11-27/e57/stop-b3.json",
+      "docs/small-evals/publication-2026-11-27/e57/stop-b4.json",
+      "docs/small-evals/publication-2026-11-27/e57/summary.json",
+      "README.md",
+      "RELEASE.md"
+    ],
+    "provenance": "docs/small-evals/publication-2026-11-27/PROVENANCE.json",
+    "authorization": "Codex prompt 27; publish selected eval evidence before site links",
+    "original_sources": "Package provenance retains original hashes; historical source_revision/sources unchanged",
+    "reproduction": "Saved labels and timings only; OCR aggregate-only; E43 existing package retained",
+    "E39": "Outstanding follow-ups remain unresolved",
+    "unrelated": "Original dirty checkout and unrelated drafts preserved",
+    "correction": "E44 publication correction: the historical prose total Aider 9/24 was an arithmetic error. Its table and saved green rows agree on **10/24 (41.7%; exact descriptive 95% interval 22.1â€“63.4%)**, with 14 misses. Original text/rows remain intact; the appended report erratum and public analyzer disclose/reproduce the correction. No patch rescoring or model rerun; five fixture wins, zero losses and three ties, p=0.0625, are unchanged."
   }
 }

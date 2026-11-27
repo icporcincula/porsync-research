@@ -1,0 +1,707 @@
+{
+  "date": "2026-11-27",
+  "sources": [
+    {
+      "path": "docs/small-evals/e47-results.md",
+      "source_sha256": "2302d7dc84acaa8f85be9b2b09cf41a7bcd8a0b3b529c5ae716cf5c38680bb0d",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e49-results.md",
+      "source_sha256": "ed56000dabe1195799d3540fe5e3e07383c031fe936645f1fc4993e0f138f053",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e50-results.md",
+      "source_sha256": "ebe2053521775d0d50dd0a9c5aaa95210e4dfa7cbf56e0777d80083bd704fdc5",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e51-results.md",
+      "source_sha256": "954fc8ea13c8512567f2d22a7771909fb708d776a7b54cf3a55f116aa496ff3b",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e52-results.md",
+      "source_sha256": "93de557488204921535ff2b649d6ab491de201a0db3290ddb007dc01564fd9f2",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e53-results.md",
+      "source_sha256": "b6fcd083386eef5c2815f2924dabaf8e0a93c7a04bf219131772f88c0b3c2d0d",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e54-results.md",
+      "source_sha256": "ae5eb2e1763bd6a46ca2569542150b8e52b64e6e7c77066aabd92a0e5f6b9ed6",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e55-results.md",
+      "source_sha256": "d03a96fb8f1b5854a3f99677999e09851fdd3f0b6abad278a26c5e342387d7d1",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e56-results.md",
+      "source_sha256": "2ee965c7252ed01ecca3b48f82eed0d9dc506b7f02fef597677c11b265cdcf27",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e57-results.md",
+      "source_sha256": "05945959879776456ead0432aee239f1d64684838c0dd37f44f8b0456ed3a62b",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e47-e51-closeout.md",
+      "source_sha256": "ac65f7a55ae2cb5172b51fd8bb4bf373cb86f9dfec7b09d2cbcd143fed9a4948",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e44-writeup.md",
+      "source_sha256": "979a0372d37cc75d5773196a1fdabb11895eeb15bec290fe24a25378f4e7e397",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ],
+      "prior_selected_source_sha256": "2ad1eb1d9895fff4eed115b97db679118b4d900005f5bfdd16585a71c2254209",
+      "pre_correction_committed_sha256": "f702a41abca638b4a4d29d2579d7d5ac9ee27f7e240f4a9606a38f2cb7bf6503"
+    },
+    {
+      "path": "docs/small-evals/e44-frontier-heldout3-results.md",
+      "source_sha256": "8c1b144a07acbea1c432abd9cdd8023fc4212f8b1ee8dc259a3a2bbb55c4a4d9",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e47-data/trials.json",
+      "source_sha256": "83e5d77bd62930b5f3bc3be500a71916e7c0faafde22a5cc523d6ff94b2892cf",
+      "transformations": [
+        "selected E47 accounting only; no task text/replies"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e47-data/summary.json",
+      "source_sha256": "48dd277b66ff22aad85c19c965c418aa97f2d259d63061afcc52f38bf2e21f4a",
+      "transformations": [
+        "selected E47 accounting only; no task text/replies"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e47-data/configuration.json",
+      "source_sha256": "0b73049546bb641f02b9c7e790a409f05a0bf65e66e627f9b06ec14d70e62312",
+      "transformations": [
+        "selected E47 accounting only; no task text/replies"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e47-data/analyze.py",
+      "source_sha256": "ad67471d6b5bdf68510bd0bcfab28e43afe1e931567bf1d89b6e01e50635807f",
+      "transformations": [
+        "selected E47 accounting only; no task text/replies"
+      ]
+    },
+    {
+      "path": "scripts/e49_pilot.py",
+      "source_sha256": "e568186b0fa0308dc361172aa16e519f5f66a37fdb902ef514c4068ba48dc234",
+      "transformations": [
+        "AST selection of analysis constants/functions only; portable file-relative CLI; runner, tasks and scoring references excluded"
+      ]
+    },
+    {
+      "path": "tmp/e49/llama-iq3-b1.jsonl",
+      "source_sha256": "9d691b21a8a6407f882da22406e90200a7218c455dc9a147cc91fe64dfdffb78",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e49/llama-iq3-b2.jsonl",
+      "source_sha256": "09f2b95d5c5dbbae5d309bc3226dd15ae0d4ac47f35235df91352099da9fea16",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e49/strata-sq15-pristine-b1.jsonl",
+      "source_sha256": "91cc08176f3c4f6bbfee0c2c3e93254224d7dc2376129561fc87c60dc6462129",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e49/strata-sq15-pristine-b2.jsonl",
+      "source_sha256": "49772aa58b6049c79d4d9e5951527e0c49ef3278d778ddad10db58a0414bbb02",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e49/strata-sq15-thinking-b1.jsonl",
+      "source_sha256": "569ecd978f38794b40da0d998cae0d27f96b4875c906f72469202f2b634aff66",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e49/strata-sq15-thinking-b2.jsonl",
+      "source_sha256": "8d5f23f12f7a4aaea5b6365ff53f65246ef5ab3bf96d70646729bb37ebe62003",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e49/summary.json",
+      "source_sha256": "a356a2bde0fb3d82bae85322072b61083c2d07b870a38804a2a2ceca21b362cf",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "tmp/e49/protocol.json",
+      "source_sha256": "b20a5811362473b10cf1513c52cd06ec2768445b9d7279e272c381778e6c93ee",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "scripts/e50_pilot.py",
+      "source_sha256": "40886177aa4426765da844bfde8675f9b5baefeddff17ee858c09453d744b9b5",
+      "transformations": [
+        "AST selection of analysis constants/functions only; portable file-relative CLI; runner, tasks and scoring references excluded"
+      ]
+    },
+    {
+      "path": "tmp/e50/conf-llama-iq3-b1.jsonl",
+      "source_sha256": "410bf407817469e9d88a7cdb827e565bf287fc699f01aa8f4389a9a377043661",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e50/conf-llama-iq3-b2.jsonl",
+      "source_sha256": "95d9197e2acb67ec08431eaf69c636850021cf6327a8fd10aa79fa1950ce887c",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e50/conf-strata-sq15-thinking-b1.jsonl",
+      "source_sha256": "0518f8ad76f0507cf96955e59f8bac7d39554318187eda06736c48cfb3e98c12",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e50/conf-strata-sq15-thinking-b2.jsonl",
+      "source_sha256": "d8a66fa3693b7e99ce41350b763aa422de76914e41848e2b7fdf8296171f9355",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e50/summary-conf.json",
+      "source_sha256": "07a7dbf88f4e841afd767b16b336a8b91518e3e4836437b853a0cbba3208c564",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "tmp/e50/protocol.json",
+      "source_sha256": "18edd80c923145442436ce47542cd624967739f66a9c948fdf7f767c61aa4736",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "tmp/e50/summary-cal.json",
+      "source_sha256": "09cef9c6ca2b117fab3ab7393beb3e11aa4a9d1474cc01e2a5eb86b3a9211d48",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "tmp/e50/selection.json",
+      "source_sha256": "a2600d1a2df827a4f2371acc6da509436208434288154a3446ddaf2044fe64a6",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "scripts/e51_pilot.py",
+      "source_sha256": "b174bc562c7ca8a49982dd17eccda1160ffaacb49da59664f2b8a5624f2d081b",
+      "transformations": [
+        "AST selection of analysis constants/functions only; portable file-relative CLI; runner, tasks and scoring references excluded"
+      ]
+    },
+    {
+      "path": "tmp/e51/conf-llama-iq3-b1.jsonl",
+      "source_sha256": "44c6480388daeb384b58c00b0ea1db6e0348f03698e244d2f5777c6deabb008a",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e51/conf-llama-iq3-b2.jsonl",
+      "source_sha256": "2dd2eb3a122beb3edac18da264fdbb909a1dfc8eace629b8365d81909d6f57dc",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e51/conf-strata-sq15-thinking-b1.jsonl",
+      "source_sha256": "10f30b58422c05e7e8115fa8788aeb943a6bc343a1870500227f5076c4300273",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e51/conf-strata-sq15-thinking-b2.jsonl",
+      "source_sha256": "4f09b4bb34a01a4c0200971445b6bbfb33424be6aad88e42c7144bac0d9cbf98",
+      "transformations": [
+        "only item/arm/block/family identifiers, saved correctness, elapsed seconds, error boolean, finish reason and token counts selected; all other fields withheld"
+      ]
+    },
+    {
+      "path": "tmp/e51/summary-conf.json",
+      "source_sha256": "bb7fb66e79d2f22a3a1f87eec4dbfced468fecb913938feb3817436b3bcb9a33",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "tmp/e51/protocol.json",
+      "source_sha256": "bca370f4872e5c2ea8fc53809c5d6a5dba834a815a8eb4965b9e43514fbf2a73",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "scripts/e52_analyze.py",
+      "source_sha256": "c1663e26cd9ee3b95387fad5f31b3fc6bfdd2fb35c40639ec13d1a2a0077fc9c",
+      "transformations": [
+        "analysis only; default rows directory made file-relative"
+      ]
+    },
+    {
+      "path": "tmp/e52/rows-b1-A.jsonl",
+      "source_sha256": "985b11e2b205fa0b9f6cc2df604eff5ab67bd891f72cbafe319bbf625ee9f797",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e52/rows-b2-B.jsonl",
+      "source_sha256": "c04c37a5c735815d60f5fe93d0a8ecc9821253c2033369fd6591455e0bcb94f9",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e52/rows-b3-B.jsonl",
+      "source_sha256": "782190a85e9b4c4e26042c47ac62b0ecfe1291939f885876d84e2d8403f5bcf7",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e52/rows-b4-A.jsonl",
+      "source_sha256": "89f6dc046fab9644e48d1c72e248081af5f23fd51a387b16eda437d63ec87112",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e52/stop-b1.json",
+      "source_sha256": "f9e91d08cde1649598d7dfcdba6953150dba3fa839431365809a1dae3af54d3a",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e52/stop-b2.json",
+      "source_sha256": "f9e91d08cde1649598d7dfcdba6953150dba3fa839431365809a1dae3af54d3a",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e52/stop-b3.json",
+      "source_sha256": "f9e91d08cde1649598d7dfcdba6953150dba3fa839431365809a1dae3af54d3a",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e52/stop-b4.json",
+      "source_sha256": "f9e91d08cde1649598d7dfcdba6953150dba3fa839431365809a1dae3af54d3a",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e52/summary.json",
+      "source_sha256": "2cf0b0bd48874d945061b35d6c5bfa2afb237dcb420a1d2bbfa0185eadb809c9",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "tmp/e52/protocol.json",
+      "source_sha256": "04f87627d5f68f299f8c6c67a9c3420d52ba5548415ab8931260aab11f2aee46",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "scripts/e54_analyze.py",
+      "source_sha256": "2aec64b8982496c1ea672f77ad15df6d4d8b7c42a5418d8fb368d29be20d2b53",
+      "transformations": [
+        "analysis only; default rows directory made file-relative"
+      ]
+    },
+    {
+      "path": "tmp/e54/rows-b1-C.jsonl",
+      "source_sha256": "61b4be5b4751227e204c4a7c06d695a3fa63c1eb005db95b9f0b931c811c7859",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/rows-b2-B.jsonl",
+      "source_sha256": "baeadd1a252c038f1a9431b41d3069d27c8147f277739d5c8657f156a8cc9b00",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/rows-b3-CB.jsonl",
+      "source_sha256": "5cd2b2e80c739ee4e14b737b68fda046a06ee31168f910142b4055c80e76c299",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/rows-b4-CB.jsonl",
+      "source_sha256": "1d98def1f626d1cf90e267fcf1af9922073c782c5bb506459a3e0c0dedee21d0",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/rows-b5-B.jsonl",
+      "source_sha256": "a74aa8463146b944cedc5fce61a1f1210f01c940851a0e5ac53045e49fbfb997",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/rows-b6-C.jsonl",
+      "source_sha256": "20d3efe91ef3b275558a38500705a3aa8b06f35ca44f47cd97e11251066983ce",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/stop-b1.json",
+      "source_sha256": "f9e91d08cde1649598d7dfcdba6953150dba3fa839431365809a1dae3af54d3a",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/stop-b2.json",
+      "source_sha256": "f9e91d08cde1649598d7dfcdba6953150dba3fa839431365809a1dae3af54d3a",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/stop-b3.json",
+      "source_sha256": "f9e91d08cde1649598d7dfcdba6953150dba3fa839431365809a1dae3af54d3a",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/stop-b4.json",
+      "source_sha256": "f9e91d08cde1649598d7dfcdba6953150dba3fa839431365809a1dae3af54d3a",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/stop-b5.json",
+      "source_sha256": "f9e91d08cde1649598d7dfcdba6953150dba3fa839431365809a1dae3af54d3a",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/stop-b6.json",
+      "source_sha256": "f9e91d08cde1649598d7dfcdba6953150dba3fa839431365809a1dae3af54d3a",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e54/summary.json",
+      "source_sha256": "598ac2332c7e34ea0d4468faf1dbdaec894301aadf95dbbf49e317e426fb76d5",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "tmp/e54/protocol.json",
+      "source_sha256": "f1b2cbf5466d14843e11c3de12ac5e184aca0864e189c410c934f18e2f0d50ac",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "scripts/e57_analyze.py",
+      "source_sha256": "430e68b2428736b7084bd21816ceac4f0de5ccb8e0bf421a9123b36958cdadac",
+      "transformations": [
+        "analysis only; default rows directory made file-relative; private task-pool import replaced with released configuration task IDs"
+      ]
+    },
+    {
+      "path": "tmp/e57/rows-b1-C.jsonl",
+      "source_sha256": "c89c1e49fb55b015c247164e194c18b2147a97a617df369109e9f19be92bf542",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e57/rows-b2-B.jsonl",
+      "source_sha256": "961496ae819874d802cb86bb5288e71a4408bab2b4de8fec40437064313036b2",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e57/rows-b3-B.jsonl",
+      "source_sha256": "b29faca0a2d4f55c2d4a5d475f7ceca5377d6596337dac952867b938eec6b6da",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e57/rows-b4-C.jsonl",
+      "source_sha256": "5df5db5c232e48afb3c03b9b1d83ce5f160b1c67bcc8eddb9988df007ba47810",
+      "transformations": [
+        "explicit analysis-field selection; all generated code, test output, paths, event timestamps and free-text messages withheld"
+      ]
+    },
+    {
+      "path": "tmp/e57/stop-b1.json",
+      "source_sha256": "c305286c4f74512f6699123f0308307656d8168e2be698f47f1d292e492cd8cf",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e57/stop-b2.json",
+      "source_sha256": "4991ab8406f988c5924c2de16dbba16ea11f971a54e7dcef5fb8e2886b0666e4",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e57/stop-b3.json",
+      "source_sha256": "c305286c4f74512f6699123f0308307656d8168e2be698f47f1d292e492cd8cf",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e57/stop-b4.json",
+      "source_sha256": "8b27cb1bf4156377337e2955d4cc044f26ce05d1a5f529dc8dc3d825084bb292",
+      "transformations": [
+        "reason only; operational details withheld"
+      ]
+    },
+    {
+      "path": "tmp/e57/summary.json",
+      "source_sha256": "be15438599b7f7ce961a3d3e4fa5527a338e66966b303c914c31ac2a02003e3d",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "tmp/e57/protocol.json",
+      "source_sha256": "cd2084708cb5081992606b19ad1b315db49f0bc1042b881c685696f40fbc2680",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "tmp/e53/summary.json",
+      "source_sha256": "d19117879dd1440384d9dc903cbff9484abf747d02e1035829028228e8de7b0c",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "tmp/e53/protocol.json",
+      "source_sha256": "544c036865d4ba629d2adc4bf1e71c2ca68783bb59cceee9890084f097bfef84",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e55-data/summary.json",
+      "source_sha256": "ec9e0c49f47c13e68374703f9b14d575ad42e899c2adbe8aa952013e062743f9",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e55-data/throughput.json",
+      "source_sha256": "518ef9e53520d562d3385ed136cf3c4bc162e3c92e525d0a0b36e63ec8fd0bbb",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e55-ocria-nano-protocol.md",
+      "source_sha256": "685b3d14e7dad6fb7728609feb6de309d381e3f57e7f90e6cd69fa457735ab8a",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "scripts/e55_analyze.py",
+      "source_sha256": "92f46ef8d40bad0eb0fb13c2d085adacc93be3fb8629329024609befd7565f61",
+      "transformations": [
+        "scoring/analysis method reference only; private third-party pages, labels and text outputs not released"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e56-data/summary150.json",
+      "source_sha256": "f268d4fd048269c8f73cef6ecbd6db9b8b5f4953951bf3e532d4ae59f176e7aa",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e56-data/summary250.json",
+      "source_sha256": "604630a5374ea9aa5172130e6ae7aa643314cbf345a9284ac2d8bbc5274e51cc",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e56-data/verdict.json",
+      "source_sha256": "daa088e91a8659830cdc30f295c8a28ac9116f2844eed37369b9812312b2197c",
+      "transformations": [
+        "selected structured data; UTF-8/LF; absolute local paths redacted if present"
+      ]
+    },
+    {
+      "path": "docs/small-evals/e56-dpi-matched-protocol.md",
+      "source_sha256": "4ab4b3639cddbab624a8999cdbca79093da24afbc643ec28a1614075806ede12",
+      "transformations": [
+        "UTF-8/LF",
+        "local absolute paths redacted; unavailable relative links rendered as private source notes",
+        "dated publication banner supersedes historical holds only for selected artifacts"
+      ]
+    },
+    {
+      "path": "scripts/e55_analyze.py",
+      "source_sha256": "92f46ef8d40bad0eb0fb13c2d085adacc93be3fb8629329024609befd7565f61",
+      "transformations": [
+        "scoring/analysis method reference only; private third-party pages, labels and text outputs not released"
+      ]
+    },
+    {
+      "path": "withheld-local-source/e44-v5b",
+      "source_sha256": "4c1cd4d38607981cdefe5d4e221249cdd08c4d743e284559a7507f2d44b14c12",
+      "transformations": [
+        "only fixture/arm/repeat, green boolean and elapsed seconds selected; patches, test output, transcripts, paths and usage details withheld; local repeat IDs normalized to 1-based"
+      ]
+    },
+    {
+      "path": "withheld-local-source/e44-aider",
+      "source_sha256": "7719b981f1f20023f62e171329ca2339bb9c7e7a5dc8ac15b6efd21608720a7c",
+      "transformations": [
+        "only fixture/arm/repeat, green boolean and elapsed seconds selected; patches, test output, transcripts, paths and usage details withheld; local repeat IDs normalized to 1-based"
+      ]
+    },
+    {
+      "path": "tmp/e44-frontier-heldout3-2026-11/results.jsonl",
+      "source_sha256": "a5cc732fdfe9b4bc8598f8ac1228b74d57c8a7b3b24687b20fd49e422d147da5",
+      "transformations": [
+        "only fixture/arm/repeat, green boolean and elapsed seconds selected; patches, test output, transcripts, paths and usage details withheld; local repeat IDs normalized to 1-based"
+      ]
+    }
+  ],
+  "selection": "Explicit reviewed selection; E43 package already published and retained unchanged",
+  "excluded": [
+    "private tasks/reference solutions/hidden suites",
+    "raw prompts/replies/transcripts/logs",
+    "patches and private implementation",
+    "dataset pages/labels/OCR text",
+    "weights/binaries",
+    "unrelated local drafts"
+  ],
+  "limitations": "Saved-label accounting only; no independent code or OCR rescoring; no new model requests.",
+  "e44_correction": "E44 publication correction: the historical prose total Aider 9/24 was an arithmetic error. Its table and saved green rows agree on **10/24 (41.7%; exact descriptive 95% interval 22.1–63.4%)**, with 14 misses. Original text/rows remain intact; the appended report erratum and public analyzer disclose/reproduce the correction. No patch rescoring or model rerun; five fixture wins, zero losses and three ties, p=0.0625, are unchanged.",
+  "e54_analyzer_transformation": "Pinned E52 helper loader points at adjacent released E52 analyzer; numeric analysis unchanged.",
+  "offline_validation": "All selected saved-label analyzers reproduce; E55/E56 scoring was rerun privately with outputs outside tmp/e* and exactly matches saved summaries; public OCR evidence remains aggregate-only.",
+  "ocr_license": {
+    "source": "https://huggingface.co/llamaindex/OCRia-nano-1/resolve/main/LICENSE",
+    "retrieved": "2026-11-27",
+    "released_sha256": "f1cee1fc810a9ba0553df347ca1238eb43efb4c9c87f590a8b17a06af6dcfd46",
+    "transformation": "verbatim license bytes, model unmodified; no weights distributed"
+  }
+}

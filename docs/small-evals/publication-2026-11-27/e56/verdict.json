@@ -1,0 +1,7 @@
+{
+  "labels": {
+    "150": "credible_first_pass",
+    "250": "credible_first_pass"
+  },
+  "verdict": "dpi_robust"
+}

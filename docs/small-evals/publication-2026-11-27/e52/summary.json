@@ -1,0 +1,149 @@
+{
+  "arms": {
+    "A": {
+      "n": 72,
+      "success": 51,
+      "rate": 0.7083,
+      "wilson95": [
+        0.5949,
+        0.8006
+      ],
+      "task_seconds_total": 5573.806,
+      "verified_per_hour": 32.93979015416037,
+      "failure_codes": {
+        "success": 51,
+        "wrong_patch": 18,
+        "empty_turn": 1,
+        "server_error": 1,
+        "loop": 1
+      },
+      "per_family": {
+        "scorer_summary_repair": {
+          "n": 12,
+          "success": 9
+        },
+        "single_file_repair": {
+          "n": 12,
+          "success": 12
+        },
+        "feature_edge_cases": {
+          "n": 12,
+          "success": 5
+        },
+        "multi_file_change": {
+          "n": 12,
+          "success": 10
+        },
+        "new_script": {
+          "n": 12,
+          "success": 7
+        },
+        "test_driven_recovery": {
+          "n": 12,
+          "success": 8
+        }
+      },
+      "latency_all_median": 42.281000000000006,
+      "latency_success_median": 41.453,
+      "output_tokens_total": 159851,
+      "tool_calls_total": 408,
+      "visible_test_runs_total": 88,
+      "recovered_after_red": 7,
+      "malformed_calls": 1,
+      "empty_turns": 11,
+      "length_stops": 8,
+      "blocked_edit_attempts": 1,
+      "min_ram_available_bytes": 538796032,
+      "max_swap_used_bytes": 6960054272,
+      "max_gpu_mib": 13881.0,
+      "boundary_violations": 0
+    },
+    "B": {
+      "n": 72,
+      "success": 57,
+      "rate": 0.7917,
+      "wilson95": [
+        0.6843,
+        0.8695
+      ],
+      "task_seconds_total": 1989.787,
+      "verified_per_hour": 103.12661606493559,
+      "failure_codes": {
+        "success": 57,
+        "wrong_patch": 11,
+        "server_error": 2,
+        "loop": 1,
+        "truncation": 1
+      },
+      "per_family": {
+        "scorer_summary_repair": {
+          "n": 12,
+          "success": 10
+        },
+        "single_file_repair": {
+          "n": 12,
+          "success": 12
+        },
+        "feature_edge_cases": {
+          "n": 12,
+          "success": 6
+        },
+        "multi_file_change": {
+          "n": 12,
+          "success": 12
+        },
+        "new_script": {
+          "n": 12,
+          "success": 5
+        },
+        "test_driven_recovery": {
+          "n": 12,
+          "success": 12
+        }
+      },
+      "latency_all_median": 20.1325,
+      "latency_success_median": 17.281,
+      "output_tokens_total": 92697,
+      "tool_calls_total": 563,
+      "visible_test_runs_total": 102,
+      "recovered_after_red": 5,
+      "malformed_calls": 2,
+      "empty_turns": 0,
+      "length_stops": 3,
+      "blocked_edit_attempts": 0,
+      "min_ram_available_bytes": 1361809408,
+      "max_swap_used_bytes": 2736267264,
+      "max_gpu_mib": 8422.0,
+      "boundary_violations": 0
+    }
+  },
+  "complete": true,
+  "stopped_blocks": [],
+  "comparison_B_vs_A": {
+    "accuracy_diff": 0.0834,
+    "throughput_ratio": 3.130761173106941,
+    "ratio_defined": true,
+    "bootstrap": {
+      "accuracy_diff_ci95": [
+        -0.05555555555555547,
+        0.2222222222222222
+      ],
+      "ratio_ci95": [
+        2.0594504283352526,
+        4.731874863237566
+      ],
+      "resamples": 10000,
+      "undefined_ratio_resamples": 0,
+      "seed": 5252
+    }
+  },
+  "decision": "not_advance",
+  "checks": {
+    "B_rate_at_least_0.80": false,
+    "accuracy_diff_lower_above_minus_0.10": true,
+    "ratio_lower_above_1": true,
+    "no_boundary_violation": true,
+    "serving_error_attempts": 3,
+    "B_budget_failure_share": 0.0667
+  }
+}

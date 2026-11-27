@@ -1,0 +1,32 @@
+{
+  "enforce_factor": 1.25,
+  "enforce_slack": 64,
+  "id": "E53",
+  "max_tokens": 8192,
+  "min_reproduced": 2,
+  "per_request_budgets": [
+    0,
+    1024,
+    2048,
+    4096
+  ],
+  "seed": 45,
+  "startup_budget": 2048,
+  "task_cap_seconds": 1200,
+  "tasks": [
+    [
+      "v7h-passk",
+      3
+    ],
+    [
+      "v8g-spiral",
+      3
+    ],
+    [
+      "v9g-flaky",
+      2
+    ]
+  ],
+  "temperature": 0,
+  "works_min_converted": 2
+}

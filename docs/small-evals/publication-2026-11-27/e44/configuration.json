@@ -1,0 +1,22 @@
+{
+  "cohort": "n17-n24 heldout3",
+  "fixtures": 8,
+  "repeats": 3,
+  "local_model": "Thinking Machines Lab Inkling 2 Mini UD-IQ3_XXS by Unsloth",
+  "local_runtime": "llama.cpp b50-8d60873",
+  "local_context": 32768,
+  "local_completion_cap": 8192,
+  "local_thinking": "always on",
+  "local_harnesses": [
+    "Patchsmith v5b",
+    "Aider whole-file auto-test"
+  ],
+  "frontier": "Sonnet and Haiku subscription direct CLI; provider settings and user configuration",
+  "pilot": "n01-n16 tuning data excluded",
+  "caveats": [
+    "different prompts/tools and runtime budgets",
+    "three repeats cluster within each of eight fixtures",
+    "nested HEAD advanced during companion; frozen artifact hashes retained",
+    "Sonnet usage includes background Haiku calls"
+  ]
+}

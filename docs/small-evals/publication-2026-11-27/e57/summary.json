@@ -1,0 +1,526 @@
+{
+  "complete": true,
+  "decision": "advance",
+  "arms": {
+    "C": {
+      "n": 180,
+      "success": 163,
+      "rate": 0.9055555555555556,
+      "task_seconds": 21712.507,
+      "verified_per_hour": 27.02589802273869,
+      "failure_codes": {
+        "truncation": 10,
+        "success": 163,
+        "wrong_patch": 4,
+        "timeout": 2,
+        "server_error": 1
+      },
+      "boundary_violations": 0
+    },
+    "B": {
+      "n": 180,
+      "success": 168,
+      "rate": 0.9333333333333333,
+      "task_seconds": 5363.626,
+      "verified_per_hour": 112.75953990826355,
+      "failure_codes": {
+        "success": 168,
+        "wrong_patch": 10,
+        "blocked_refusal": 2
+      },
+      "boundary_violations": 0
+    }
+  },
+  "stops": {
+    "b1": "completed",
+    "b2": "completed",
+    "b3": "completed",
+    "b4": "completed"
+  },
+  "invalid_rows": [],
+  "duplicate_attempts": 0,
+  "missing_attempts": 0,
+  "comparison_B_vs_C": {
+    "accuracy_diff": 0.02777777777777779,
+    "throughput_ratio": 4.172277265805985,
+    "bootstrap": {
+      "accuracy_diff_ci95": [
+        -0.03333333333333333,
+        0.08888888888888889
+      ],
+      "ratio_ci95": [
+        2.957106882196908,
+        5.6433986109635885
+      ],
+      "undefined_ratio_resamples": 0,
+      "resamples": 10000,
+      "seed": 5757
+    }
+  },
+  "discordant_task_counts": {
+    "equal": 71,
+    "C_more": 9,
+    "B_more": 10
+  },
+  "task_table": [
+    {
+      "task_id": "f57-fe-bizdays",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-brackets",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-chunk",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-columns",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-compact",
+      "B_successes": 1,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-cronfield",
+      "B_successes": 2,
+      "C_successes": 1
+    },
+    {
+      "task_id": "f57-fe-flatten",
+      "B_successes": 2,
+      "C_successes": 1
+    },
+    {
+      "task_id": "f57-fe-glob",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-halfeven",
+      "B_successes": 2,
+      "C_successes": 0
+    },
+    {
+      "task_id": "f57-fe-histogram",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-monthdays",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-natsort",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-ranges",
+      "B_successes": 1,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-rle",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-roman",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-slugify",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-spiral",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-sumdigits",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-time12",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-fe-titlecase",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-camelkeys",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-displayname",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-falsydefaults",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-headers",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-isodates",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-linenumbers",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-linktitles",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-maxitems",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-mstimeouts",
+      "B_successes": 2,
+      "C_successes": 1
+    },
+    {
+      "task_id": "f57-mf-priority",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-promises",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-regiontax",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-reservations",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-roleinherit",
+      "B_successes": 0,
+      "C_successes": 1
+    },
+    {
+      "task_id": "f57-mf-subscribe",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-tags",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-tiers",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-uniqueslugs",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-validation",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-mf-weights",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-bars",
+      "B_successes": 2,
+      "C_successes": 0
+    },
+    {
+      "task_id": "f57-ns-baseconv",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-convert",
+      "B_successes": 1,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-csv2md",
+      "B_successes": 2,
+      "C_successes": 1
+    },
+    {
+      "task_id": "f57-ns-daysbetween",
+      "B_successes": 2,
+      "C_successes": 1
+    },
+    {
+      "task_id": "f57-ns-envdiff",
+      "B_successes": 1,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-epoch",
+      "B_successes": 2,
+      "C_successes": 0
+    },
+    {
+      "task_id": "f57-ns-hexdump",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-ini2json",
+      "B_successes": 2,
+      "C_successes": 0
+    },
+    {
+      "task_id": "f57-ns-jsonlstats",
+      "B_successes": 0,
+      "C_successes": 1
+    },
+    {
+      "task_id": "f57-ns-jsonpaths",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-linefilter",
+      "B_successes": 1,
+      "C_successes": 0
+    },
+    {
+      "task_id": "f57-ns-numlines",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-revwords",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-rot",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-rpn",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-setdiff",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-sortlines",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-sumcol",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-ns-tsv2json",
+      "B_successes": 1,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sf-hexcolor",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sf-intersect",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sf-lowerbound",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sf-palindrome",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sf-windows",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-bestattempt",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-brier",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-budget",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-calibration",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-catshare",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-costper",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-elo",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-fbeta",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-grades",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-macrof1",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-mode",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-mrr",
+      "B_successes": 1,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-opprates",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-retention",
+      "B_successes": 1,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-runbest",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-sessions",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-slorate",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-streaks",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-topk",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-sr-weightedmean",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-td-dotproduct",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-td-mean",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-td-newest",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-td-orders",
+      "B_successes": 2,
+      "C_successes": 2
+    },
+    {
+      "task_id": "f57-td-roundto",
+      "B_successes": 2,
+      "C_successes": 2
+    }
+  ],
+  "checks": {
+    "accuracy_noninferior": true,
+    "throughput_superior": true,
+    "serving_errors": 1,
+    "boundary_violations": 0,
+    "ceiling_or_floor": false,
+    "B_budget_failure_share": 0.0
+  },
+  "clearly_worse_accuracy_check": false
+}

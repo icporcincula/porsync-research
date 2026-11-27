@@ -1,0 +1,239 @@
+{
+  "arms": {
+    "C": {
+      "n": 72,
+      "success": 61,
+      "rate": 0.8472,
+      "wilson95": [
+        0.7468,
+        0.9125
+      ],
+      "task_seconds_total": 8052.095,
+      "verified_per_hour": 27.272405504405995,
+      "failure_codes": {
+        "success": 61,
+        "truncation": 7,
+        "wrong_patch": 4
+      },
+      "per_family": {
+        "scorer_summary_repair": {
+          "n": 12,
+          "success": 9
+        },
+        "single_file_repair": {
+          "n": 12,
+          "success": 12
+        },
+        "feature_edge_cases": {
+          "n": 12,
+          "success": 8
+        },
+        "multi_file_change": {
+          "n": 12,
+          "success": 12
+        },
+        "new_script": {
+          "n": 12,
+          "success": 8
+        },
+        "test_driven_recovery": {
+          "n": 12,
+          "success": 12
+        }
+      },
+      "latency_all_median": 45.7965,
+      "latency_success_median": 34.969,
+      "output_tokens_total": 355768,
+      "tool_calls_total": 407,
+      "visible_test_runs_total": 67,
+      "recovered_after_red": 2,
+      "malformed_calls": 0,
+      "empty_turns": 27,
+      "length_stops": 27,
+      "blocked_edit_attempts": 0,
+      "min_ram_available_bytes": 154689536,
+      "max_swap_used_bytes": 3755683840,
+      "max_gpu_mib": 15911.0,
+      "boundary_violations": 0
+    },
+    "CB": {
+      "n": 72,
+      "success": 58,
+      "rate": 0.8056,
+      "wilson95": [
+        0.6997,
+        0.8805
+      ],
+      "task_seconds_total": 9065.255,
+      "verified_per_hour": 23.032997968617543,
+      "failure_codes": {
+        "success": 58,
+        "truncation": 3,
+        "wrong_patch": 8,
+        "timeout": 3
+      },
+      "per_family": {
+        "scorer_summary_repair": {
+          "n": 12,
+          "success": 10
+        },
+        "single_file_repair": {
+          "n": 12,
+          "success": 12
+        },
+        "feature_edge_cases": {
+          "n": 12,
+          "success": 5
+        },
+        "multi_file_change": {
+          "n": 12,
+          "success": 11
+        },
+        "new_script": {
+          "n": 12,
+          "success": 8
+        },
+        "test_driven_recovery": {
+          "n": 12,
+          "success": 12
+        }
+      },
+      "latency_all_median": 49.093500000000006,
+      "latency_success_median": 40.343999999999994,
+      "output_tokens_total": 366514,
+      "tool_calls_total": 481,
+      "visible_test_runs_total": 73,
+      "recovered_after_red": 5,
+      "malformed_calls": 0,
+      "empty_turns": 22,
+      "length_stops": 22,
+      "blocked_edit_attempts": 3,
+      "min_ram_available_bytes": 238133248,
+      "max_swap_used_bytes": 4070670336,
+      "max_gpu_mib": 15911.0,
+      "boundary_violations": 0
+    },
+    "B": {
+      "n": 72,
+      "success": 61,
+      "rate": 0.8472,
+      "wilson95": [
+        0.7468,
+        0.9125
+      ],
+      "task_seconds_total": 2366.849,
+      "verified_per_hour": 92.78158429202708,
+      "failure_codes": {
+        "success": 61,
+        "wrong_patch": 10,
+        "loop": 1
+      },
+      "per_family": {
+        "scorer_summary_repair": {
+          "n": 12,
+          "success": 10
+        },
+        "single_file_repair": {
+          "n": 12,
+          "success": 12
+        },
+        "feature_edge_cases": {
+          "n": 12,
+          "success": 7
+        },
+        "multi_file_change": {
+          "n": 12,
+          "success": 10
+        },
+        "new_script": {
+          "n": 12,
+          "success": 10
+        },
+        "test_driven_recovery": {
+          "n": 12,
+          "success": 12
+        }
+      },
+      "latency_all_median": 21.5465,
+      "latency_success_median": 20.094,
+      "output_tokens_total": 112126,
+      "tool_calls_total": 430,
+      "visible_test_runs_total": 106,
+      "recovered_after_red": 8,
+      "malformed_calls": 0,
+      "empty_turns": 0,
+      "length_stops": 0,
+      "blocked_edit_attempts": 1,
+      "min_ram_available_bytes": 599597056,
+      "max_swap_used_bytes": 4709662720,
+      "max_gpu_mib": 8430.0,
+      "boundary_violations": 0
+    }
+  },
+  "complete": true,
+  "budget_arm_complete": true,
+  "stopped_blocks": [],
+  "comparison_B_vs_C": {
+    "accuracy_diff": 0.0,
+    "throughput_ratio": 3.4020315617937604,
+    "ratio_defined": true,
+    "bootstrap": {
+      "accuracy_diff_ci95": [
+        -0.11111111111111116,
+        0.11111111111111116
+      ],
+      "ratio_ci95": [
+        2.079108940536339,
+        5.263014321659052
+      ],
+      "resamples": 10000,
+      "undefined_ratio_resamples": 0,
+      "seed": 5252
+    }
+  },
+  "supplement_CB_vs_C": {
+    "accuracy_diff": -0.0416,
+    "throughput_ratio": 0.8445532230333128,
+    "ratio_defined": true,
+    "bootstrap": {
+      "accuracy_diff_ci95": [
+        -0.125,
+        0.01388888888888895
+      ],
+      "ratio_ci95": [
+        0.6028269994849695,
+        1.2625161808223817
+      ],
+      "resamples": 10000,
+      "undefined_ratio_resamples": 0,
+      "seed": 5252
+    }
+  },
+  "supplement_B_vs_CB": {
+    "accuracy_diff": 0.0416,
+    "throughput_ratio": 4.028202686356416,
+    "ratio_defined": true,
+    "bootstrap": {
+      "accuracy_diff_ci95": [
+        -0.04166666666666663,
+        0.13888888888888884
+      ],
+      "ratio_ci95": [
+        2.134197748066982,
+        7.00227196311254
+      ],
+      "resamples": 10000,
+      "undefined_ratio_resamples": 0,
+      "seed": 5252
+    }
+  },
+  "decision": "not_advance",
+  "checks": {
+    "accuracy_diff_lower_above_minus_0.10": false,
+    "ratio_lower_above_1": true,
+    "no_boundary_violation": true,
+    "serving_error_attempts": 0,
+    "both_at_ceiling_or_floor": false,
+    "B_budget_failure_share": 0.0
+  }
+}

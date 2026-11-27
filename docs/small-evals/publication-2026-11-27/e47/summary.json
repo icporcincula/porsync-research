@@ -1,0 +1,38 @@
+{
+  "llama-iq3": {
+    "n": 12,
+    "correct": 11,
+    "seconds": 136.1864778000454,
+    "correct_per_hour": 290.77776765871243,
+    "wilson95": [
+      0.646120088858883,
+      0.9851349055950829
+    ],
+    "errors": 0,
+    "length_stops": 1
+  },
+  "strata-sq15": {
+    "n": 12,
+    "correct": 4,
+    "seconds": 9.349374000012176,
+    "correct_per_hour": 1540.2100718167062,
+    "wilson95": [
+      0.13812009109121315,
+      0.6093779111272004
+    ],
+    "errors": 0,
+    "length_stops": 0
+  },
+  "strata-sq15-thinking": {
+    "n": 12,
+    "correct": 12,
+    "seconds": 88.42922890005866,
+    "correct_per_hour": 488.5262546937277,
+    "wilson95": [
+      0.7575059933447592,
+      1.0
+    ],
+    "errors": 0,
+    "length_stops": 0
+  }
+}

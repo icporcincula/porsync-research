@@ -1,0 +1,158 @@
+{
+  "arms": {
+    "llama-iq3": {
+      "n": 72,
+      "correct": 58,
+      "accuracy": 0.8055555555555556,
+      "wilson95": [
+        0.6996724105411147,
+        0.8804852062054944
+      ],
+      "seconds": 7974.555199700058,
+      "correct_per_hour": 26.183278536695493,
+      "errors": 0,
+      "length_stops": 1,
+      "length_stop_rate": 0.013888888888888888,
+      "non_length_n": 71,
+      "non_length_correct": 58,
+      "non_length_accuracy": 0.8169014084507042,
+      "median_completion_tokens": 4913.0,
+      "p90_completion_tokens": 9400,
+      "max_completion_tokens": 12288,
+      "max_prompt_tokens": 1205,
+      "context_overflow_possible": false,
+      "per_family": {
+        "aggregate": {
+          "n": 12,
+          "correct": 12,
+          "length_stops": 0
+        },
+        "intervals": {
+          "n": 12,
+          "correct": 10,
+          "length_stops": 1
+        },
+        "schedule": {
+          "n": 12,
+          "correct": 0,
+          "length_stops": 0
+        },
+        "machine": {
+          "n": 12,
+          "correct": 12,
+          "length_stops": 0
+        },
+        "inventory": {
+          "n": 12,
+          "correct": 12,
+          "length_stops": 0
+        },
+        "dedup": {
+          "n": 12,
+          "correct": 12,
+          "length_stops": 0
+        }
+      },
+      "per_block": {
+        "1": {
+          "n": 36,
+          "correct": 28,
+          "seconds": 3860.3198926999175
+        },
+        "2": {
+          "n": 36,
+          "correct": 30,
+          "seconds": 4114.235307000141
+        }
+      },
+      "complete": true
+    },
+    "strata-sq15-thinking": {
+      "n": 72,
+      "correct": 60,
+      "accuracy": 0.8333333333333334,
+      "wilson95": [
+        0.7308929306946451,
+        0.9020062875743832
+      ],
+      "seconds": 9648.055068900052,
+      "correct_per_hour": 22.387931915548815,
+      "errors": 0,
+      "length_stops": 0,
+      "length_stop_rate": 0.0,
+      "non_length_n": 72,
+      "non_length_correct": 60,
+      "non_length_accuracy": 0.8333333333333334,
+      "median_completion_tokens": 3669.5,
+      "p90_completion_tokens": 9047,
+      "max_completion_tokens": 11812,
+      "max_prompt_tokens": 1205,
+      "context_overflow_possible": false,
+      "per_family": {
+        "aggregate": {
+          "n": 12,
+          "correct": 12,
+          "length_stops": 0
+        },
+        "intervals": {
+          "n": 12,
+          "correct": 12,
+          "length_stops": 0
+        },
+        "schedule": {
+          "n": 12,
+          "correct": 0,
+          "length_stops": 0
+        },
+        "machine": {
+          "n": 12,
+          "correct": 12,
+          "length_stops": 0
+        },
+        "inventory": {
+          "n": 12,
+          "correct": 12,
+          "length_stops": 0
+        },
+        "dedup": {
+          "n": 12,
+          "correct": 12,
+          "length_stops": 0
+        }
+      },
+      "per_block": {
+        "1": {
+          "n": 36,
+          "correct": 30,
+          "seconds": 4848.913082100014
+        },
+        "2": {
+          "n": 36,
+          "correct": 30,
+          "seconds": 4799.141986800038
+        }
+      },
+      "complete": true
+    }
+  },
+  "comparison_B_vs_A": {
+    "speed_ratio": 0.8550469294428674,
+    "accuracy_diff": 0.02777777777777779,
+    "bootstrap": {
+      "ratio_ci95": [
+        0.7171749009434315,
+        1.061580272716848
+      ],
+      "accuracy_diff_ci95": [
+        0.0,
+        0.06944444444444453
+      ],
+      "skipped_resamples": 0
+    },
+    "H1": false,
+    "H2": true,
+    "ratio_lower_bound_above_1": false,
+    "ceiling_again": false,
+    "promising_again": false
+  }
+}

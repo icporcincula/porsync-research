@@ -1,0 +1,3 @@
+OCRia-nano-1 by LlamaIndex, Inc. Original model: https://huggingface.co/llamaindex/OCRia-nano-1
+
+License copy: [OCRia-nano-1-LICENSE.txt](OCRia-nano-1-LICENSE.txt), retrieved 2026-11-27. Research Purposes expressly includes publishing evaluation results. No model modifications, weights or derivatives are distributed. No endorsement is implied. LiteParse is Apache-2.0; ONNX Runtime retains its own license. Tesseract, Naver CLOVA/CORD, FUNSD authors and Francisco-Cruz et al. are credited in the reports. FUNSD redistribution terms remain unconfirmed; no pages, labels, OCR text or dataset assets are released.

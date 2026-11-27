@@ -1,0 +1,189 @@
+{
+  "experiment": "E52",
+  "frozen_utc": 1795566417.5309532,
+  "seed": 5252,
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 5252,
+    "unit": "task (both repeats and both arms kept together)"
+  },
+  "limits": {
+    "context": 32768,
+    "harness_input_budget": 24000,
+    "max_turns": 25,
+    "request_max_tokens": 4096,
+    "cumulative_output_tokens": 24576,
+    "task_seconds": 600,
+    "slots": 1,
+    "harness": "v5"
+  },
+  "sampler": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "presence_penalty": 0.0
+  },
+  "arms": {
+    "A": {
+      "alias": "e52-qwen36-27b-iq3",
+      "extra": {
+        "chat_template_kwargs": {
+          "enable_thinking": true
+        }
+      }
+    },
+    "B": {
+      "alias": "e52-bonsai25-27b-ptq1",
+      "extra": {
+        "chat_template_kwargs": {
+          "reasoning_effort": "medium"
+        }
+      }
+    }
+  },
+  "server_flags": [
+    "-c",
+    "32768",
+    "-np",
+    "1",
+    "-ngl",
+    "99",
+    "-fa",
+    "on",
+    "--jinja",
+    "--temp",
+    "1.0",
+    "--top-p",
+    "0.95",
+    "--top-k",
+    "20",
+    "--min-p",
+    "0.0",
+    "--presence-penalty",
+    "0.0",
+    "--no-webui",
+    "--spec-type",
+    "none",
+    "--chat-template-kwargs",
+    "<per arm>"
+  ],
+  "block_plan": [
+    [
+      "A",
+      1
+    ],
+    [
+      "B",
+      1
+    ],
+    [
+      "B",
+      2
+    ],
+    [
+      "A",
+      2
+    ]
+  ],
+  "order_repeat1": [
+    "e6-leaderboard",
+    "a6-format-bytes",
+    "c4-wrap-text",
+    "e5-wilson-interval",
+    "a4-median",
+    "b3-currency-format",
+    "b4-event-rename",
+    "c6-token-bucket",
+    "b1-money-cents",
+    "a3-dedupe-first",
+    "d6-semver-bump",
+    "e3-percentiles",
+    "d5-env-to-json",
+    "d4-wc-tool",
+    "e1-pass-rate",
+    "f1-month-schedule",
+    "c5-parse-query",
+    "d3-uniq-lines",
+    "b6-cache-keys",
+    "e2-throughput",
+    "c3-lru-cache",
+    "b2-users-by-id",
+    "f2-word-counts",
+    "f4-retry-backoff",
+    "c2-merge-intervals",
+    "c1-parse-size",
+    "f5-job-queue",
+    "a5-group-by",
+    "a1-rolling-mean",
+    "f6-config-merge",
+    "d2-todo-cli",
+    "f3-calculator",
+    "d1-csv-stats",
+    "b5-one-based-pages",
+    "a2-parse-duration",
+    "e4-family-accuracy"
+  ],
+  "order_repeat2": [
+    "e4-family-accuracy",
+    "a2-parse-duration",
+    "b5-one-based-pages",
+    "d1-csv-stats",
+    "f3-calculator",
+    "d2-todo-cli",
+    "f6-config-merge",
+    "a1-rolling-mean",
+    "a5-group-by",
+    "f5-job-queue",
+    "c1-parse-size",
+    "c2-merge-intervals",
+    "f4-retry-backoff",
+    "f2-word-counts",
+    "b2-users-by-id",
+    "c3-lru-cache",
+    "e2-throughput",
+    "b6-cache-keys",
+    "d3-uniq-lines",
+    "c5-parse-query",
+    "f1-month-schedule",
+    "e1-pass-rate",
+    "d4-wc-tool",
+    "d5-env-to-json",
+    "e3-percentiles",
+    "d6-semver-bump",
+    "a3-dedupe-first",
+    "b1-money-cents",
+    "c6-token-bucket",
+    "b4-event-rename",
+    "b3-currency-format",
+    "a4-median",
+    "e5-wilson-interval",
+    "c4-wrap-text",
+    "a6-format-bytes",
+    "e6-leaderboard"
+  ],
+  "pool": {
+    "tasks": 36,
+    "per_family": 6,
+    "python": 18,
+    "javascript": 18,
+    "families": [
+      "single_file_repair",
+      "multi_file_change",
+      "feature_edge_cases",
+      "new_script",
+      "scorer_summary_repair",
+      "test_driven_recovery"
+    ],
+    "dev_tasks": [
+      "dev-a-clamp",
+      "dev-b-fullname",
+      "dev-c-ordinal",
+      "dev-d-upper",
+      "dev-e-mean",
+      "dev-f-lastindex"
+    ]
+  },
+  "reading_rule": "advance iff both arms complete 72 attempts, B success >= 0.80, B-A accuracy 95% task-cluster lower bound > -0.10, B/A verified-throughput 95% lower bound > 1.0, and no boundary violation; inconclusive when accuracy criteria hold but the ratio lower bound <= 1.0; budget_failed when not advanced and >= half of B failures are truncation/output-budget/timeout; serving_failure when > 10% of attempts are server_error/oom; incomplete (no decision) otherwise",
+  "success_definition": "Patchsmith status done, hidden suite passed on a copy of the final workspace, no protected/test file changed, no forbidden construct, no timeout or output-budget stop, context_budget not hit"
+}

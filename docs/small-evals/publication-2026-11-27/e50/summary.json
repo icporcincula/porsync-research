@@ -1,0 +1,138 @@
+{
+  "arms": {
+    "llama-iq3": {
+      "n": 48,
+      "correct": 25,
+      "accuracy": 0.5208333333333334,
+      "wilson95": [
+        0.3832923230334281,
+        0.6552868382304838
+      ],
+      "seconds": 4756.017658500001,
+      "correct_per_hour": 18.92339483625573,
+      "errors": 0,
+      "length_stops": 23,
+      "median_completion_tokens": 5944.0,
+      "p90_completion_tokens": 6144,
+      "max_completion_tokens": 6144,
+      "max_prompt_tokens": 1205,
+      "context_overflow_possible": false,
+      "per_family": {
+        "inventory": {
+          "n": 8,
+          "correct": 7
+        },
+        "dedup": {
+          "n": 8,
+          "correct": 4
+        },
+        "intervals": {
+          "n": 8,
+          "correct": 1
+        },
+        "schedule": {
+          "n": 8,
+          "correct": 0
+        },
+        "machine": {
+          "n": 8,
+          "correct": 8
+        },
+        "aggregate": {
+          "n": 8,
+          "correct": 5
+        }
+      },
+      "per_block": {
+        "1": {
+          "n": 24,
+          "correct": 11,
+          "seconds": 2401.6685758999956
+        },
+        "2": {
+          "n": 24,
+          "correct": 14,
+          "seconds": 2354.349082600005
+        }
+      },
+      "complete": true
+    },
+    "strata-sq15-thinking": {
+      "n": 48,
+      "correct": 38,
+      "accuracy": 0.7916666666666666,
+      "wilson95": [
+        0.6574109872738206,
+        0.882697270420944
+      ],
+      "seconds": 5368.6438835999,
+      "correct_per_hour": 25.4812952704678,
+      "errors": 0,
+      "length_stops": 10,
+      "median_completion_tokens": 3991.0,
+      "p90_completion_tokens": 6144,
+      "max_completion_tokens": 6144,
+      "max_prompt_tokens": 1205,
+      "context_overflow_possible": false,
+      "per_family": {
+        "inventory": {
+          "n": 8,
+          "correct": 8
+        },
+        "dedup": {
+          "n": 8,
+          "correct": 7
+        },
+        "intervals": {
+          "n": 8,
+          "correct": 8
+        },
+        "schedule": {
+          "n": 8,
+          "correct": 0
+        },
+        "machine": {
+          "n": 8,
+          "correct": 8
+        },
+        "aggregate": {
+          "n": 8,
+          "correct": 7
+        }
+      },
+      "per_block": {
+        "1": {
+          "n": 24,
+          "correct": 19,
+          "seconds": 2554.0385460999387
+        },
+        "2": {
+          "n": 24,
+          "correct": 19,
+          "seconds": 2814.605337499961
+        }
+      },
+      "complete": true
+    }
+  },
+  "comparison_B_vs_A": {
+    "speed_ratio": 1.3465498918644159,
+    "accuracy_diff": 0.27083333333333326,
+    "bootstrap": {
+      "ratio_ci95": [
+        0.9765241667121909,
+        1.9928803036600016
+      ],
+      "accuracy_diff_ci95": [
+        0.10416666666666674,
+        0.4375
+      ],
+      "skipped_resamples": 0
+    },
+    "H1": true,
+    "H2": true,
+    "ratio_lower_bound_above_1": false,
+    "ceiling_again": false,
+    "promising_again": false
+  }
+}

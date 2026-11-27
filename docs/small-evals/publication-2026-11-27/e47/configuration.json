@@ -1,0 +1,129 @@
+{
+  "protocol": {
+    "study": "E47",
+    "status": "frozen exploratory synthetic pilot",
+    "frozen_utc": "2026-11-24T05:35:54Z",
+    "seed": 47,
+    "n": 12,
+    "repeats": 1,
+    "arm_order": [
+      "llama-iq3",
+      "strata-sq15"
+    ],
+    "system": "Solve the supplied synthetic task. Return only the requested JSON object in your final answer. Do not use tools.",
+    "context": 8192,
+    "parallel": 1,
+    "max_tokens": 1024,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "request_timeout_s": 120,
+    "arm_budget_s": 900,
+    "stop_after_consecutive_errors": 2,
+    "dspark": "on for SQ-15; absent on llama.cpp",
+    "warmup": "one unscored arithmetic request per arm",
+    "scoring": "Exact JSON object equality on final content after optional single enclosing Markdown JSON fence; reasoning excluded; errors, timeouts and length stops fail.",
+    "primary": "correct / sum measured request seconds * 3600; excludes acquisition/load/warmup",
+    "limits": [
+      "12 easy synthetic items; no coding/tool or harness conclusion",
+      "one sequential order, no repeat; stochastic sampling; Wilson accuracy intervals descriptive",
+      "whole-stack comparison; context reduced from E44 to 8192 on both arms",
+      "no headline comparison unless both arms finish all 12 items",
+      "spent E44/E45 fixtures excluded; fixtures authored before all model requests"
+    ],
+    "fixtures_sha256": "cf0482a797cf7cc3040073cc35c860fecef4471232cb85a0300f602ad6113919"
+  },
+  "diagnostic": {
+    "frozen_utc": "2026-11-24T05:46:39Z",
+    "arm": "strata-sq15-thinking",
+    "role": "post-outcome mechanism diagnostic on spent pool; no original replacement",
+    "changes": [
+      "template effort .9; enable_thinking true",
+      "no forced answer opener",
+      "answer_room false"
+    ],
+    "original_rows_sha256": {
+      "llama-iq3.jsonl": "5e24a16b7abdd6da43942ac01ce354d6ee6ec4a7770c1c8609d2d36fa5d2f996",
+      "strata-sq15.jsonl": "8da02d00aa7441bc006c2669f97e09a623338f954bb0be4b22c1e22032f78073"
+    },
+    "adapter_sha256": "b8bad2406b77522a31ed98ca04d39dc02ead26551950256165a4f6f1aee5a326",
+    "protocol_sha256": "56b3e15ceedffe25666715b0f8a022d83df377d620b95e830af0766676bb0138"
+  },
+  "thinking_policy_check": {
+    "original_kwargs": {
+      "reasoning_effort": "none",
+      "enable_thinking": false
+    },
+    "original_suffix": "X<|end_message|><|message_model|><|content_text|>",
+    "diagnostic_kwargs": {
+      "reasoning_effort": 0.9,
+      "enable_thinking": true
+    },
+    "diagnostic_suffix": "X<|end_message|>"
+  },
+  "matched_thinking_gate": "failed for original release; adapted diagnostic separate",
+  "arm_pins": {
+    "llama-iq3": {
+      "exe_sha256": "27bdbbefdd69f5a269648f91f1e74587cc217bf7d0ccf92af3d625400394dda0",
+      "model_sha256": "fd9ccedae17c1bb89744612fbb46730b5275f2a342133d0419776bd1ae311657",
+      "driver": "610.88"
+    },
+    "strata-sq15": {
+      "exe_sha256": "0fbe343590148ac8a6e0c5f4da79eeef68e08888c3cc97c70a0f79457d6a7475",
+      "model_sha256": "2ea32eed533afba257e2cbee7b073dc2c3da80fe55d1d2d794779b5498e30737",
+      "driver": "610.88"
+    },
+    "strata-sq15-thinking": {
+      "exe_sha256": "0fbe343590148ac8a6e0c5f4da79eeef68e08888c3cc97c70a0f79457d6a7475",
+      "model_sha256": "2ea32eed533afba257e2cbee7b073dc2c3da80fe55d1d2d794779b5498e30737",
+      "driver": "610.88"
+    }
+  },
+  "resources": {
+    "llama-iq3": {
+      "sample_count": 73,
+      "peak_gpu_used_mib": 12948.0,
+      "minimum_ram_available_gib": 0.6783790588378906,
+      "peak_swap_used_gib": 0.8929862976074219
+    },
+    "strata-sq15": {
+      "sample_count": 10,
+      "peak_gpu_used_mib": 15032.0,
+      "minimum_ram_available_gib": 10.679546356201172,
+      "peak_swap_used_gib": 0.8496971130371094
+    },
+    "strata-sq15-thinking": {
+      "sample_count": 55,
+      "peak_gpu_used_mib": 15032.0,
+      "minimum_ram_available_gib": 10.55722427368164,
+      "peak_swap_used_gib": 0.8425865173339844
+    }
+  },
+  "acquisition": {
+    "control_archive_sha256": "2130761067a1c83a6066027866d1dde087402a820859e4008b113a3e5f758122",
+    "control_source_commit": "2e87c08db18aa4577c22fd623d6ba53252719d63",
+    "python_runtime": "existing Python 3.12.7, not release-bundled Python 3.12.15",
+    "upstream_main": "6a6db7ff58c283cf28d2b913404b5fa31a767eaa",
+    "hf_revision": "04996a1e2c45009b6a04f2af126cb6bdb2ba3587",
+    "engine_archive_sha256": "16d9370e8622da0b5779b31c4477fe8e13bde89bef199a299e590436fb310882",
+    "engine_build": {
+      "version": "0.1.66",
+      "shape": "inkling2",
+      "source": "release 0.2.20 2e87c08db18a",
+      "commit": "2e87c08db18a",
+      "archs": "75;80;86;89;120",
+      "cuda": "13.0",
+      "ep_dual_gpu": true,
+      "hybrid_doorbell": true,
+      "portable": true
+    },
+    "control_runtime_packages": {
+      "numpy": "1.26.4",
+      "jinja2": "3.1.6",
+      "regex": "2026.4.4",
+      "requests": "2.33.1",
+      "psutil": "7.2.2"
+    }
+  },
+  "publication": "held; local draft only",
+  "complete": true
+}

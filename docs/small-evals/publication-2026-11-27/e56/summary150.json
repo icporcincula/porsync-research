@@ -1,0 +1,232 @@
+{
+  "missing_pages": [],
+  "arms": {
+    "A": {
+      "pages": 170,
+      "errors": 0,
+      "empty": 18,
+      "error_rate": 0.0
+    },
+    "B": {
+      "pages": 170,
+      "errors": 0,
+      "empty": 0,
+      "error_rate": 0.0
+    }
+  },
+  "classes": {
+    "receipt": {
+      "n": 50,
+      "per_arm": {
+        "A": {
+          "primary_mean": 0.30141843971631205,
+          "word_f1_mean": 0.36146076198367616,
+          "triple_recovered": 0,
+          "triple_eligible": 15,
+          "ms_median": 128.1862,
+          "ms_mean": 200.17153399999998,
+          "ms_p90": 363.4581,
+          "signature_rate": 0.66,
+          "primary_fail_count": 35,
+          "signature_sensitivity": 0.7428571428571429,
+          "signature_on_ok_pages": 0.3333333333333333
+        },
+        "B": {
+          "primary_mean": 0.7836879432624114,
+          "word_f1_mean": 0.7253560124474173,
+          "triple_recovered": 8,
+          "triple_eligible": 15,
+          "ms_median": 129.66174999999998,
+          "ms_mean": 173.302138,
+          "ms_p90": 343.1347,
+          "signature_rate": 0.06,
+          "primary_fail_count": 16,
+          "signature_sensitivity": 0.0,
+          "signature_on_ok_pages": 0.0967741935483871
+        }
+      },
+      "diff": {
+        "b_minus_a": 0.4822695035460993,
+        "lo": 0.32978723404255317,
+        "hi": 0.624113475177305
+      },
+      "time": {
+        "ratio_b_over_a": 0.8657681466336768,
+        "lo": 0.7137253427221351,
+        "hi": 1.0675294091688972
+      },
+      "subclass_n": {
+        "receipt": 50
+      },
+      "n_scored": 47,
+      "ceiling_floor": false
+    },
+    "form": {
+      "n": 50,
+      "per_arm": {
+        "A": {
+          "primary_mean": 0.5928253813688127,
+          "word_f1_mean": 0.5928253813688127,
+          "triple_recovered": 0,
+          "triple_eligible": 0,
+          "ms_median": 480.77504999999996,
+          "ms_mean": 551.834564,
+          "ms_p90": 956.846,
+          "signature_rate": 0.0,
+          "primary_fail_count": 12,
+          "signature_sensitivity": 0.0,
+          "signature_on_ok_pages": 0.0
+        },
+        "B": {
+          "primary_mean": 0.7730898705455115,
+          "word_f1_mean": 0.7730898705455115,
+          "triple_recovered": 0,
+          "triple_eligible": 0,
+          "ms_median": 130.84265,
+          "ms_mean": 139.714098,
+          "ms_p90": 201.7941,
+          "signature_rate": 0.0,
+          "primary_fail_count": 1,
+          "signature_sensitivity": 0.0,
+          "signature_on_ok_pages": 0.0
+        }
+      },
+      "diff": {
+        "b_minus_a": 0.18026448917669888,
+        "lo": 0.1402887859184151,
+        "hi": 0.22225896373578294
+      },
+      "time": {
+        "ratio_b_over_a": 0.2531811291182551,
+        "lo": 0.22780978601336757,
+        "hi": 0.2834396121612691
+      },
+      "subclass_n": {
+        "form": 50
+      },
+      "n_scored": 50,
+      "ceiling_floor": false
+    },
+    "invoice": {
+      "n": 50,
+      "per_arm": {
+        "A": {
+          "primary_mean": 0.24,
+          "word_f1_mean": null,
+          "triple_recovered": 0,
+          "triple_eligible": 0,
+          "ms_median": 938.4603500000001,
+          "ms_mean": 902.270848,
+          "ms_p90": 1429.8861,
+          "signature_rate": 0.48,
+          "primary_fail_count": 46,
+          "signature_sensitivity": 0.5217391304347826,
+          "signature_on_ok_pages": 0.0
+        },
+        "B": {
+          "primary_mean": 0.86,
+          "word_f1_mean": null,
+          "triple_recovered": 0,
+          "triple_eligible": 0,
+          "ms_median": 481.10245,
+          "ms_mean": 491.795048,
+          "ms_p90": 571.327,
+          "signature_rate": 0.02,
+          "primary_fail_count": 14,
+          "signature_sensitivity": 0.0,
+          "signature_on_ok_pages": 0.027777777777777776
+        }
+      },
+      "diff": {
+        "b_minus_a": 0.62,
+        "lo": 0.53,
+        "hi": 0.71
+      },
+      "time": {
+        "ratio_b_over_a": 0.545063656982964,
+        "lo": 0.48035752252225167,
+        "hi": 0.626170468700407
+      },
+      "subclass_n": {
+        "invoice": 50
+      },
+      "n_scored": 50,
+      "ceiling_floor": false
+    },
+    "degraded": {
+      "n": 20,
+      "per_arm": {
+        "A": {
+          "primary_mean": 0.20859777681647157,
+          "word_f1_mean": 0.26235468838139514,
+          "triple_recovered": 0,
+          "triple_eligible": 2,
+          "ms_median": 342.8646,
+          "ms_mean": 481.58485,
+          "ms_p90": 1200.0068,
+          "signature_rate": 0.45,
+          "primary_fail_count": 18,
+          "signature_sensitivity": 0.4444444444444444,
+          "signature_on_ok_pages": 0.5
+        },
+        "B": {
+          "primary_mean": 0.6503293254476378,
+          "word_f1_mean": 0.4872571082335794,
+          "triple_recovered": 2,
+          "triple_eligible": 2,
+          "ms_median": 189.0727,
+          "ms_mean": 269.968615,
+          "ms_p90": 540.7986,
+          "signature_rate": 0.0,
+          "primary_fail_count": 9,
+          "signature_sensitivity": 0.0,
+          "signature_on_ok_pages": 0.0
+        }
+      },
+      "diff": {
+        "b_minus_a": 0.4417315486311663,
+        "lo": 0.27644024507701004,
+        "hi": 0.6164174093447088
+      },
+      "time": {
+        "ratio_b_over_a": 0.5605836956872708,
+        "lo": 0.4312246928012625,
+        "hi": 0.7914396001990478
+      },
+      "subclass_n": {
+        "form": 10,
+        "invoice": 6,
+        "receipt": 4
+      },
+      "n_scored": 20,
+      "ceiling_floor": false
+    }
+  },
+  "time_clean": {
+    "ratio_b_over_a": 0.4865033548016331,
+    "lo": 0.4407500455552544,
+    "hi": 0.5403998318184345
+  },
+  "decision": {
+    "label": "credible_first_pass",
+    "checks": {
+      "complete_and_error_rate_ok": true,
+      "b_faster_upper_bound_below_1": true,
+      "accuracy": {
+        "receipt": {
+          "noninferior": true,
+          "clearly_worse": false
+        },
+        "form": {
+          "noninferior": true,
+          "clearly_worse": false
+        },
+        "invoice": {
+          "noninferior": true,
+          "clearly_worse": false
+        }
+      }
+    },
+    "margin": -0.1
+  }
+}
